@@ -1,5 +1,5 @@
 import { Worker, type Job } from 'bullmq'
-import { connection } from '@/lib/queue'
+import { connection, INDEXING_QUEUE_NAME } from '@/lib/queue'
 import { db } from '@/lib/db'
 import { embedText, chunkText } from '@/lib/embeddings'
 import type { IndexingJob } from '@/lib/queue'
@@ -67,7 +67,7 @@ async function processIndexingJob(job: Job<IndexingJob>): Promise<void> {
   console.log(`Completed indexing document ${documentId}: ${chunks.length} chunks stored`)
 }
 
-const worker = new Worker<IndexingJob>('index-document', processIndexingJob, {
+const worker = new Worker<IndexingJob>(INDEXING_QUEUE_NAME, processIndexingJob, {
   connection,
   concurrency: 1,
 })

@@ -9,8 +9,8 @@ const registerSchema = z.object({
   name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres').max(100),
   email: z.string().email('Correo electrónico inválido').min(1, 'El correo es requerido'),
   password: z.string().min(8, 'La contraseña debe tener al menos 8 caracteres'),
-  role: z.enum(['TEACHER', 'STUDENT'], {
-    errorMap: () => ({ message: 'Selecciona un rol válido' }),
+  role: z.enum(['TEACHER', 'STUDENT'] as const, {
+    error: 'Selecciona un rol válido',
   }),
 })
 

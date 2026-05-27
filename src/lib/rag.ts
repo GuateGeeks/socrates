@@ -1,5 +1,6 @@
 import { db } from './db'
 import { embedText } from './embeddings'
+import { toClientEducationLevel, toDbEducationLevel } from './curriculumLevels'
 import type { CnbSource, EducationLevel } from '@/types/curriculum'
 
 interface RagResult {
@@ -30,7 +31,7 @@ export async function retrieveContext(
 
   // Parameterized filter values — null means "no filter" for that column.
   // PostgreSQL: (${level}::text IS NULL OR d.level = ${level}) allows safe optional filtering.
-  const levelParam = filter?.level ?? null
+  const levelParam = toDbEducationLevel(filter?.level) ?? null
   const gradeParam = filter?.grade ?? null
   const areaParam = filter?.area ?? null
 
@@ -64,7 +65,7 @@ export async function retrieveContext(
       documentId: row.documentId,
       chunkId: row.id,
       title: row.title,
-      level: (row.level ?? 'primary') as EducationLevel,
+      level: (toClientEducationLevel(row.level) ?? 'primary') as EducationLevel,
       grade: row.grade ?? undefined,
       area: row.area ?? undefined,
       excerpt: row.content.slice(0, 300),

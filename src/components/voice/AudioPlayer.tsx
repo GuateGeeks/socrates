@@ -138,14 +138,13 @@ export function AudioPlayer({ audioUrl, onStateChange }: AudioPlayerProps) {
     }
 
     audio.src = audioUrl
-    audio.playbackRate = speed
     setHasAudio(true)
     setProgress(0)
 
     audio.play().catch(() => {
       notifyStateChange(false)
     })
-  }, [audioUrl])
+  }, [audioUrl, notifyStateChange])
 
   useEffect(() => {
     const audio = audioRef.current

@@ -234,7 +234,7 @@ export default function ExplorePage() {
               <div className="text-center py-10">
                 <p className="text-gray-500 text-sm">
                   No se encontraron documentos para{' '}
-                  <span className="font-medium">"{searchQuery}"</span>.
+                  <span className="font-medium">&quot;{searchQuery}&quot;</span>.
                 </p>
                 <p className="text-gray-400 text-xs mt-1">
                   Intenta con otros términos o cambia el nivel seleccionado.

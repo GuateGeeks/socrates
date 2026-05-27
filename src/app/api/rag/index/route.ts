@@ -9,7 +9,7 @@ const indexBodySchema = z.object({
   documentId: z.string().min(1),
   content: z.string().min(1),
   chunkIndex: z.number().int().min(0),
-  metadata: z.record(z.unknown()).default({}),
+  metadata: z.record(z.string(), z.unknown()).default({}),
 })
 
 export async function POST(req: NextRequest) {

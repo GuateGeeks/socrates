@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback, useReducer } from 'react'
+import { useEffect, useRef, useCallback, useReducer } from 'react'
 import type { VoiceState } from '@/types/voice'
 
 interface UseVoiceReturn {
@@ -70,14 +70,6 @@ export function useVoice(onTranscript: (text: string) => void): UseVoiceReturn {
   const chunksRef = useRef<Blob[]>([])
   const isMountedRef = useRef(true)
 
-  useEffect(() => {
-    isMountedRef.current = true
-    return () => {
-      isMountedRef.current = false
-      stopMediaTracks()
-    }
-  }, [])
-
   const stopMediaTracks = useCallback(() => {
     if (mediaRecorderRef.current) {
       const recorder = mediaRecorderRef.current
@@ -91,6 +83,14 @@ export function useVoice(onTranscript: (text: string) => void): UseVoiceReturn {
       streamRef.current = null
     }
   }, [])
+
+  useEffect(() => {
+    isMountedRef.current = true
+    return () => {
+      isMountedRef.current = false
+      stopMediaTracks()
+    }
+  }, [stopMediaTracks])
 
   const startListening = useCallback(async () => {
     if (!isMountedRef.current) return

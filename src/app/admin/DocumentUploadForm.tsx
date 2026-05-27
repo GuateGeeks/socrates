@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react'
 import { CNB_AREAS, EDUCATION_LEVELS } from '@/types/curriculum'
+import { toDbEducationLevel } from '@/lib/curriculumLevels'
 import type { EducationLevel } from '@/types/curriculum'
 
 interface DocumentUploadFormProps {
@@ -11,14 +12,6 @@ interface DocumentUploadFormProps {
 type UploadStatus = 'idle' | 'uploading' | 'success' | 'error'
 
 const EDUCATION_LEVEL_KEYS = Object.keys(EDUCATION_LEVELS) as EducationLevel[]
-
-const PRISMA_LEVEL_MAP: Record<EducationLevel, string> = {
-  initial: 'INITIAL',
-  preschool: 'PRESCHOOL',
-  primary: 'PRIMARY',
-  middle_school: 'MIDDLE_SCHOOL',
-  high_school: 'HIGH_SCHOOL',
-}
 
 export function DocumentUploadForm({ onSuccess }: DocumentUploadFormProps) {
   const formRef = useRef<HTMLFormElement>(null)
@@ -103,7 +96,7 @@ export function DocumentUploadForm({ onSuccess }: DocumentUploadFormProps) {
         >
           <option value="">— Sin especificar —</option>
           {EDUCATION_LEVEL_KEYS.map((key) => (
-            <option key={key} value={PRISMA_LEVEL_MAP[key]}>
+            <option key={key} value={toDbEducationLevel(key)}>
               {EDUCATION_LEVELS[key]}
             </option>
           ))}

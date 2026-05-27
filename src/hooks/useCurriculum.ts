@@ -17,7 +17,7 @@ interface UseCurriculumReturn {
   setGrade: (grade: string) => void
   setArea: (area: string) => void
   updateContext: (ctx: Partial<CurriculumContext>) => void
-  saveToServer: () => Promise<void>
+  saveToServer: (nextContext?: CurriculumContext) => Promise<void>
 }
 
 function loadFromStorage(): CurriculumContext {
@@ -88,11 +88,11 @@ export function useCurriculum(
     setContext((prev) => ({ ...prev, ...ctx }))
   }, [])
 
-  const saveToServer = useCallback(async (): Promise<void> => {
+  const saveToServer = useCallback(async (nextContext = context): Promise<void> => {
     const response = await fetch('/api/user/context', {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(context),
+      body: JSON.stringify(nextContext),
     })
 
     if (!response.ok) {
