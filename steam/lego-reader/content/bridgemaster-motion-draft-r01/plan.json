@@ -1,0 +1,2064 @@
+{
+  "schema_version": "gglego.insertion-plan/v1",
+  "revision": "735771fad473923cc4ee73fa0c3d7b677afd82d430ad20155fdfe1ccfb7d4b30",
+  "sequence_sha256": "ef2ae9e308b1eccacc83148b3254ca631726b863984c24abe3777552ccf8f288",
+  "geometry_manifest_sha256": "c46feef1ab6608d2990fb5f9e7aeee5bf48676e0a344ed1790f8d9c773892bf8",
+  "steps": [
+    {
+      "step": 1,
+      "routes": [
+        {
+          "ids": [
+            "BM001"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM002"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM003"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM004"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM005"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM006"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM007"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "routes": [
+        {
+          "ids": [
+            "BM008"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM009"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM010"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM011"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "routes": [
+        {
+          "ids": [
+            "BM012"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM013"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM014"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM015"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM016"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM017"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM018"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM019"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM020"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM021"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "routes": []
+    },
+    {
+      "step": 5,
+      "routes": [
+        {
+          "ids": [
+            "BM022"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM023"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM024"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM025"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "routes": [
+        {
+          "ids": [
+            "BM026"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM027"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM028"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM029"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "routes": []
+    },
+    {
+      "step": 8,
+      "routes": [
+        {
+          "ids": [
+            "BM030"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM031"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM032"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM033"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM034"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "routes": [
+        {
+          "ids": [
+            "BM035"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM036"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM037"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM038"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM039"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM040"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "routes": [
+        {
+          "ids": [
+            "BM041"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM042"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM043"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "routes": []
+    },
+    {
+      "step": 12,
+      "routes": [
+        {
+          "ids": [
+            "BM044"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM045"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM046"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM047"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM048"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM049"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "routes": [
+        {
+          "ids": [
+            "BM050"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM051"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM052"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM053"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM054"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM055"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM056"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM057"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM058"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "routes": []
+    },
+    {
+      "step": 15,
+      "routes": []
+    },
+    {
+      "step": 16,
+      "routes": []
+    },
+    {
+      "step": 17,
+      "routes": [
+        {
+          "ids": [
+            "BM059"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM060"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM061"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM062"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "routes": [
+        {
+          "ids": [
+            "BM063"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM064"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM065"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM066"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM067"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM068"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "routes": []
+    },
+    {
+      "step": 20,
+      "routes": []
+    },
+    {
+      "step": 21,
+      "routes": []
+    },
+    {
+      "step": 22,
+      "routes": []
+    },
+    {
+      "step": 23,
+      "routes": [
+        {
+          "ids": [
+            "BM069"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM070"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM071"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM072"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM073"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM074"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "routes": [
+        {
+          "ids": [
+            "BM075"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM076"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM077"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "routes": []
+    },
+    {
+      "step": 26,
+      "routes": [
+        {
+          "ids": [
+            "BM078"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM079"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM080"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM081"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "routes": [
+        {
+          "ids": [
+            "BM082"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM083"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM084"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "routes": [
+        {
+          "ids": [
+            "BM085"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM086"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM087"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "routes": [
+        {
+          "ids": [
+            "BM088"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM089"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM090"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "routes": [
+        {
+          "ids": [
+            "BM091"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM092"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM093"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM094"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "routes": [
+        {
+          "ids": [
+            "BM095"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM096"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM097"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM098"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM099"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "routes": [
+        {
+          "ids": [
+            "BM100"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM101"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM102"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 33,
+      "routes": [
+        {
+          "ids": [
+            "BM103"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM104"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM105"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM106"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM107"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 34,
+      "routes": [
+        {
+          "ids": [
+            "BM108"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM109"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM110"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM111"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM112"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "routes": [
+        {
+          "ids": [
+            "BM113"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM114"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM115"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 36,
+      "routes": []
+    },
+    {
+      "step": 37,
+      "routes": []
+    },
+    {
+      "step": 38,
+      "routes": [
+        {
+          "ids": [
+            "BM116"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM117"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM118"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 39,
+      "routes": [
+        {
+          "ids": [
+            "BM119"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM120"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM121"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 40,
+      "routes": [
+        {
+          "ids": [
+            "BM122"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM123"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM124"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM125"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 41,
+      "routes": [
+        {
+          "ids": [
+            "BM126"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM127"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM128"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM129"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 42,
+      "routes": []
+    },
+    {
+      "step": 43,
+      "routes": [
+        {
+          "ids": [
+            "BM130"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM131"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM132"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM133"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM134"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM135"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM136"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM137"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM138"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM139"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM140"
+          ],
+          "order": 10,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM141"
+          ],
+          "order": 11,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM142"
+          ],
+          "order": 12,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM143"
+          ],
+          "order": 13,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM144"
+          ],
+          "order": 14,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM145"
+          ],
+          "order": 15,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM146"
+          ],
+          "order": 16,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 44,
+      "routes": [
+        {
+          "ids": [
+            "BM147"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM148"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 45,
+      "routes": []
+    },
+    {
+      "step": 46,
+      "routes": []
+    },
+    {
+      "step": 47,
+      "routes": [
+        {
+          "ids": [
+            "BM149"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM150"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM151"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM152"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM153"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM154"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM155"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM156"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM157"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM158"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM159"
+          ],
+          "order": 10,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM160"
+          ],
+          "order": 11,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM161"
+          ],
+          "order": 12,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM162"
+          ],
+          "order": 13,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM163"
+          ],
+          "order": 14,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM164"
+          ],
+          "order": 15,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM165"
+          ],
+          "order": 16,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 48,
+      "routes": [
+        {
+          "ids": [
+            "BM166"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM167"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM168"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM169"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM170"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM171"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM172"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM173"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM174"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM175"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM176"
+          ],
+          "order": 10,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM177"
+          ],
+          "order": 11,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM178"
+          ],
+          "order": 12,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM179"
+          ],
+          "order": 13,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 49,
+      "routes": []
+    },
+    {
+      "step": 50,
+      "routes": [
+        {
+          "ids": [
+            "BM180"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM181"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 51,
+      "routes": [
+        {
+          "ids": [
+            "BM182"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM183"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM184"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM185"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM186"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM187"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 52,
+      "routes": [
+        {
+          "ids": [
+            "BM188"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM189"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM190"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM191"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM192"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM193"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM194"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM195"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM196"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM197"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 53,
+      "routes": [
+        {
+          "ids": [
+            "BM198"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM199"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BM200"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 54,
+      "routes": []
+    }
+  ],
+  "scope": "editorial_only",
+  "axial_review": "not_run",
+  "collision_sweep": "not_run",
+  "release_ready": false
+}

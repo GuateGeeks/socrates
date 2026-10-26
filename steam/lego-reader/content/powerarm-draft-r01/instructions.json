@@ -1,0 +1,4010 @@
+{
+  "schema_version": "gglego.web-instructions/v1",
+  "id": "POWERARM-2078-R01-E01-DRAFT",
+  "title": "PowerArm 2078: candidato R01 por retícula; revisión pendiente",
+  "revision": "POWERARM-2078-R01-E01 · BORRADOR",
+  "revision_key": "90903754d9c1e9f9a5b11aeea76c70e0042d630d221af94c7dc4202e1a24d72f",
+  "language": "es",
+  "scenes": [
+    {
+      "id": 10,
+      "kind": "scene",
+      "title": "Prepara marco y dos motores medianos",
+      "actions": [
+        "Consulta la incorporación candidata de BI01: Prepara marco y dos motores medianos. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA001",
+        "PA002",
+        "PA003",
+        "PA004",
+        "PA005",
+        "PA006",
+        "PA007",
+        "PA008"
+      ],
+      "parts": [
+        {
+          "key": "bl-39794-c71",
+          "quantity": 1,
+          "icon": "K39794_c71",
+          "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+          "color": "Magenta",
+          "bricklink_item_id": "39794",
+          "ldraw_file": "39794.dat"
+        },
+        {
+          "key": "bl-54696c01-c156",
+          "quantity": 2,
+          "icon": "K54696c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54696c01",
+          "ldraw_file": "54696.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 2,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-10",
+      "details": []
+    },
+    {
+      "id": 20,
+      "kind": "scene",
+      "title": "Prepara hub y seis pines",
+      "actions": [
+        "Consulta la incorporación candidata de BI02: Prepara hub y seis pines. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA009",
+        "PA010",
+        "PA011",
+        "PA012",
+        "PA013",
+        "PA014",
+        "PA015"
+      ],
+      "parts": [
+        {
+          "key": "bl-53444c01-c3",
+          "quantity": 1,
+          "icon": "K53444c01_c3",
+          "name": "Yellow Electric, Hub Large - SPIKE Prime",
+          "color": "Yellow",
+          "bricklink_item_id": "53444c01",
+          "ldraw_file": "bb1142c01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 6,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-20",
+      "details": []
+    },
+    {
+      "id": 30,
+      "kind": "connection",
+      "title": "Conecta motor mediano a E",
+      "actions": [
+        "Consulta la incorporación candidata de BI03: Conecta motor mediano a E. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-30",
+      "details": []
+    },
+    {
+      "id": 40,
+      "kind": "scene",
+      "title": "Cierra la base del hub",
+      "actions": [
+        "Consulta la incorporación candidata de BI04: Cierra la base del hub. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-40",
+      "details": []
+    },
+    {
+      "id": 50,
+      "kind": "scene",
+      "title": "Prepara marco negro y biscuit",
+      "actions": [
+        "Consulta la incorporación candidata de BI05: Prepara marco negro y biscuit. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA016",
+        "PA017",
+        "PA018",
+        "PA019",
+        "PA020",
+        "PA021"
+      ],
+      "parts": [
+        {
+          "key": "bl-64179-c11",
+          "quantity": 1,
+          "icon": "K64179_c11",
+          "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+          "color": "Black",
+          "bricklink_item_id": "64179",
+          "ldraw_file": "64179.dat"
+        },
+        {
+          "key": "bl-39793-c11",
+          "quantity": 1,
+          "icon": "K39793_c11",
+          "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-50",
+      "details": []
+    },
+    {
+      "id": 60,
+      "kind": "scene",
+      "title": "Añade biscuit magenta y conectores grises",
+      "actions": [
+        "Consulta la incorporación candidata de BI06: Añade biscuit magenta y conectores grises. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA022",
+        "PA023",
+        "PA024"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c71",
+          "quantity": 1,
+          "icon": "K39793_c71",
+          "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Magenta",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 2,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-60",
+      "details": []
+    },
+    {
+      "id": 70,
+      "kind": "scene",
+      "title": "Monta sensor de color",
+      "actions": [
+        "Consulta la incorporación candidata de BI07: Monta sensor de color. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA025",
+        "PA026",
+        "PA027"
+      ],
+      "parts": [
+        {
+          "key": "bl-37308c01-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Electric Sensor, Color - SPIKE Prime",
+          "color": "Black",
+          "bricklink_item_id": "37308c01",
+          "ldraw_file": "37308c01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-70",
+      "details": []
+    },
+    {
+      "id": 80,
+      "kind": "turn",
+      "title": "Orienta el soporte del sensor",
+      "actions": [
+        "Consulta la incorporación candidata de BI08: Orienta el soporte del sensor. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-80",
+      "details": []
+    },
+    {
+      "id": 90,
+      "kind": "union",
+      "title": "Une soporte y conjunto del hub",
+      "actions": [
+        "Consulta la incorporación candidata de BI09: Une soporte y conjunto del hub. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-90",
+      "details": []
+    },
+    {
+      "id": 100,
+      "kind": "connection",
+      "title": "Conecta sensor a F",
+      "actions": [
+        "Consulta la incorporación candidata de BI10: Conecta sensor a F. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-100",
+      "details": []
+    },
+    {
+      "id": 110,
+      "kind": "scene",
+      "title": "Añade soporte lateral azul",
+      "actions": [
+        "Consulta la incorporación candidata de BI11: Añade soporte lateral azul. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA028"
+      ],
+      "parts": [
+        {
+          "key": "bl-32526-c156",
+          "quantity": 1,
+          "icon": "K32526_c156",
+          "name": "Medium Azure Technic, Liftarm, Modified Bent Thick L-Shape 3 x 5",
+          "color": "Medium Azure",
+          "bricklink_item_id": "32526",
+          "ldraw_file": "32526.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-110",
+      "details": []
+    },
+    {
+      "id": 120,
+      "kind": "scene",
+      "title": "Prepara eje y biela del motor",
+      "actions": [
+        "Consulta la incorporación candidata de BI12: Prepara eje y biela del motor. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA029",
+        "PA030",
+        "PA031",
+        "PA032",
+        "PA033",
+        "PA034",
+        "PA035"
+      ],
+      "parts": [
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 1,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 1,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-32184-c1",
+          "quantity": 1,
+          "icon": "K32184_c1",
+          "name": "White Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole",
+          "color": "White",
+          "bricklink_item_id": "32184",
+          "ldraw_file": "32184.dat"
+        },
+        {
+          "key": "bl-87082-c86",
+          "quantity": 2,
+          "icon": "",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "87082",
+          "ldraw_file": "87082.dat"
+        },
+        {
+          "key": "bl-32062-c5",
+          "quantity": 1,
+          "icon": "K32062_c5",
+          "name": "Red Technic, Axle 2L Notched",
+          "color": "Red",
+          "bricklink_item_id": "32062",
+          "ldraw_file": "32062.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-120",
+      "details": []
+    },
+    {
+      "id": 130,
+      "kind": "scene",
+      "title": "Construye guía de eje y topes blancos",
+      "actions": [
+        "Consulta la incorporación candidata de BI13: Construye guía de eje y topes blancos. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA036",
+        "PA037",
+        "PA038",
+        "PA039",
+        "PA040",
+        "PA041",
+        "PA042",
+        "PA043",
+        "PA044",
+        "PA045"
+      ],
+      "parts": [
+        {
+          "key": "bl-14720-c86",
+          "quantity": 1,
+          "icon": "K14720_c86",
+          "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "14720",
+          "ldraw_file": "14720.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-3707-c11",
+          "quantity": 1,
+          "icon": "K3707_c11",
+          "name": "Black Technic, Axle 8L",
+          "color": "Black",
+          "bricklink_item_id": "3707",
+          "ldraw_file": "3707.dat"
+        },
+        {
+          "key": "bl-3713-c86",
+          "quantity": 4,
+          "icon": "K3713_c86",
+          "name": "Light Bluish Gray Technic Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "3713",
+          "ldraw_file": "3713.dat"
+        },
+        {
+          "key": "bl-3941-c1",
+          "quantity": 2,
+          "icon": "K3941_c1",
+          "name": "White Brick, Round 2 x 2 with Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "3941",
+          "ldraw_file": "3941.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-130",
+      "details": []
+    },
+    {
+      "id": 140,
+      "kind": "scene",
+      "title": "Monta la guía del eje",
+      "actions": [
+        "Consulta la incorporación candidata de BI14: Monta la guía del eje. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-140",
+      "details": []
+    },
+    {
+      "id": 150,
+      "kind": "scene",
+      "title": "Añade primer par de vigas largas",
+      "actions": [
+        "Consulta la incorporación candidata de BI15: Añade primer par de vigas largas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA046",
+        "PA047"
+      ],
+      "parts": [
+        {
+          "key": "bl-32278-c11",
+          "quantity": 2,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-150",
+      "details": []
+    },
+    {
+      "id": 160,
+      "kind": "scene",
+      "title": "Prepara el motor grande",
+      "actions": [
+        "Consulta la incorporación candidata de BI16: Prepara el motor grande. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA048",
+        "PA049",
+        "PA050"
+      ],
+      "parts": [
+        {
+          "key": "bl-54675c01-c156",
+          "quantity": 1,
+          "icon": "K54675c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Large Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54675c01",
+          "ldraw_file": "54675.dat"
+        },
+        {
+          "key": "bl-14720-c86",
+          "quantity": 1,
+          "icon": "K14720_c86",
+          "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "14720",
+          "ldraw_file": "14720.dat"
+        },
+        {
+          "key": "bl-39793-c11",
+          "quantity": 1,
+          "icon": "K39793_c11",
+          "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-160",
+      "details": []
+    },
+    {
+      "id": 170,
+      "kind": "scene",
+      "title": "Añade conectores del motor grande",
+      "actions": [
+        "Consulta la incorporación candidata de BI17: Añade conectores del motor grande. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA051",
+        "PA052"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 2,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-170",
+      "details": []
+    },
+    {
+      "id": 180,
+      "kind": "scene",
+      "title": "Prepara cuatro pines",
+      "actions": [
+        "Consulta la incorporación candidata de BI18: Prepara cuatro pines. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA053",
+        "PA054",
+        "PA055",
+        "PA056"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-180",
+      "details": []
+    },
+    {
+      "id": 190,
+      "kind": "scene",
+      "title": "Monta biscuits y ejes beige",
+      "actions": [
+        "Consulta la incorporación candidata de BI19: Monta biscuits y ejes beige. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA057",
+        "PA058",
+        "PA059",
+        "PA060"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c71",
+          "quantity": 2,
+          "icon": "K39793_c71",
+          "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Magenta",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 2,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-190",
+      "details": []
+    },
+    {
+      "id": 200,
+      "kind": "scene",
+      "title": "Construye las dos mordazas",
+      "actions": [
+        "Consulta la incorporación candidata de BI20: Construye las dos mordazas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA061",
+        "PA062",
+        "PA063",
+        "PA064",
+        "PA065",
+        "PA066",
+        "PA067",
+        "PA068"
+      ],
+      "parts": [
+        {
+          "key": "bl-32271-c3",
+          "quantity": 2,
+          "icon": "K32271_c3",
+          "name": "Yellow Technic, Liftarm, Modified Bent Thick 1 x 9 (7 - 3)",
+          "color": "Yellow",
+          "bricklink_item_id": "32271",
+          "ldraw_file": "32271.dat"
+        },
+        {
+          "key": "bl-4519-c3",
+          "quantity": 2,
+          "icon": "K4519_c3",
+          "name": "Yellow Technic, Axle 3L",
+          "color": "Yellow",
+          "bricklink_item_id": "4519",
+          "ldraw_file": "4519.dat"
+        },
+        {
+          "key": "bl-45590-c11",
+          "quantity": 4,
+          "icon": "K45590_c11",
+          "name": "Black Technic, Axle Connector Double - Flexible Rubber",
+          "color": "Black",
+          "bricklink_item_id": "45590",
+          "ldraw_file": "45590.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-200",
+      "details": []
+    },
+    {
+      "id": 210,
+      "kind": "scene",
+      "title": "Prepara bielas de las mordazas",
+      "actions": [
+        "Consulta la incorporación candidata de BI21: Prepara bielas de las mordazas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA069",
+        "PA070",
+        "PA071",
+        "PA072",
+        "PA073",
+        "PA074",
+        "PA075"
+      ],
+      "parts": [
+        {
+          "key": "bl-32140-c3",
+          "quantity": 2,
+          "icon": "K32140_c3",
+          "name": "Yellow Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4",
+          "color": "Yellow",
+          "bricklink_item_id": "32140",
+          "ldraw_file": "32140.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 2,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 2,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        },
+        {
+          "key": "bl-4519-c3",
+          "quantity": 1,
+          "icon": "K4519_c3",
+          "name": "Yellow Technic, Axle 3L",
+          "color": "Yellow",
+          "bricklink_item_id": "4519",
+          "ldraw_file": "4519.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-210",
+      "details": []
+    },
+    {
+      "id": 220,
+      "kind": "scene",
+      "title": "Comprueba orientación de la pinza",
+      "actions": [
+        "Consulta la incorporación candidata de BI22: Comprueba orientación de la pinza. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-220",
+      "details": []
+    },
+    {
+      "id": 230,
+      "kind": "scene",
+      "title": "Añade engranaje de 36 dientes",
+      "actions": [
+        "Consulta la incorporación candidata de BI23: Añade engranaje de 36 dientes. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA076"
+      ],
+      "parts": [
+        {
+          "key": "bl-32498-c11",
+          "quantity": 1,
+          "icon": "K32498_c11",
+          "name": "Black Technic, Gear 36 Tooth Double Bevel",
+          "color": "Black",
+          "bricklink_item_id": "32498",
+          "ldraw_file": "32498.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-230",
+      "details": []
+    },
+    {
+      "id": 240,
+      "kind": "union",
+      "title": "Une pinza y primer par de vigas",
+      "actions": [
+        "Consulta la incorporación candidata de BI24: Une pinza y primer par de vigas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-240",
+      "details": []
+    },
+    {
+      "id": 250,
+      "kind": "scene",
+      "title": "Monta segundo par de vigas",
+      "actions": [
+        "Consulta la incorporación candidata de BI25: Monta segundo par de vigas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA077",
+        "PA078"
+      ],
+      "parts": [
+        {
+          "key": "bl-32278-c11",
+          "quantity": 2,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-250",
+      "details": []
+    },
+    {
+      "id": 260,
+      "kind": "connection",
+      "title": "Conecta motor grande a A",
+      "actions": [
+        "Consulta la incorporación candidata de BI26: Conecta motor grande a A. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-260",
+      "details": []
+    },
+    {
+      "id": 270,
+      "kind": "scene",
+      "title": "Prepara tope magenta",
+      "actions": [
+        "Consulta la incorporación candidata de BI27: Prepara tope magenta. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA079",
+        "PA080"
+      ],
+      "parts": [
+        {
+          "key": "bl-3749-c2",
+          "quantity": 1,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        },
+        {
+          "key": "bl-49283-c71",
+          "quantity": 1,
+          "icon": "",
+          "name": "Magenta Technic, Axle and Wire Connector",
+          "color": "Magenta",
+          "bricklink_item_id": "49283",
+          "ldraw_file": "49283.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-270",
+      "details": []
+    },
+    {
+      "id": 280,
+      "kind": "scene",
+      "title": "Monta el tope",
+      "actions": [
+        "Consulta la incorporación candidata de BI28: Monta el tope. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-280",
+      "details": []
+    },
+    {
+      "id": 290,
+      "kind": "scene",
+      "title": "Añade biscuit de apoyo",
+      "actions": [
+        "Consulta la incorporación candidata de BI29: Añade biscuit de apoyo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA081"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c11",
+          "quantity": 1,
+          "icon": "K39793_c11",
+          "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-290",
+      "details": []
+    },
+    {
+      "id": 300,
+      "kind": "turn",
+      "title": "Recupera orientación del brazo",
+      "actions": [
+        "Consulta la incorporación candidata de BI30: Recupera orientación del brazo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-300",
+      "details": []
+    },
+    {
+      "id": 310,
+      "kind": "scene",
+      "title": "Prepara dos paneles con apoyos",
+      "actions": [
+        "Consulta la incorporación candidata de BI31: Prepara dos paneles con apoyos. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA082",
+        "PA083",
+        "PA084",
+        "PA085",
+        "PA086",
+        "PA087",
+        "PA088",
+        "PA089",
+        "PA090",
+        "PA091",
+        "PA092",
+        "PA093",
+        "PA094",
+        "PA095",
+        "PA096",
+        "PA097",
+        "PA098",
+        "PA099"
+      ],
+      "parts": [
+        {
+          "key": "bl-39369-c3",
+          "quantity": 2,
+          "icon": "K39369_c3",
+          "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+          "color": "Yellow",
+          "bricklink_item_id": "39369",
+          "ldraw_file": "39369.dat"
+        },
+        {
+          "key": "bl-32316-c71",
+          "quantity": 4,
+          "icon": "K32316_c71",
+          "name": "Magenta Technic, Liftarm Thick 1 x 5",
+          "color": "Magenta",
+          "bricklink_item_id": "32316",
+          "ldraw_file": "32316.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 4,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-32054-c86",
+          "quantity": 4,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-310",
+      "details": []
+    },
+    {
+      "id": 320,
+      "kind": "scene",
+      "title": "Comprueba paneles",
+      "actions": [
+        "Consulta la incorporación candidata de BI32: Comprueba paneles. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-320",
+      "details": []
+    },
+    {
+      "id": 330,
+      "kind": "scene",
+      "title": "Añade dos vigas magenta transversales",
+      "actions": [
+        "Consulta la incorporación candidata de BI33: Añade dos vigas magenta transversales. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA100",
+        "PA101",
+        "PA102",
+        "PA103",
+        "PA104",
+        "PA105",
+        "PA106",
+        "PA107",
+        "PA108",
+        "PA109"
+      ],
+      "parts": [
+        {
+          "key": "bl-32525-c71",
+          "quantity": 2,
+          "icon": "K32525_c71",
+          "name": "Magenta Technic, Liftarm Thick 1 x 11",
+          "color": "Magenta",
+          "bricklink_item_id": "32525",
+          "ldraw_file": "32525.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 8,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-330",
+      "details": []
+    },
+    {
+      "id": 340,
+      "kind": "scene",
+      "title": "Une los dos paneles",
+      "actions": [
+        "Consulta la incorporación candidata de BI34: Une los dos paneles. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA110",
+        "PA111"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 2,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-340",
+      "details": []
+    },
+    {
+      "id": 350,
+      "kind": "scene",
+      "title": "Prepara pines de la unión",
+      "actions": [
+        "Consulta la incorporación candidata de BI35: Prepara pines de la unión. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA112",
+        "PA113"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-350",
+      "details": []
+    },
+    {
+      "id": 360,
+      "kind": "scene",
+      "title": "Añade marco lateral y apoyo amarillo",
+      "actions": [
+        "Consulta la incorporación candidata de BI36: Añade marco lateral y apoyo amarillo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA114",
+        "PA115",
+        "PA116"
+      ],
+      "parts": [
+        {
+          "key": "bl-32140-c3",
+          "quantity": 1,
+          "icon": "K32140_c3",
+          "name": "Yellow Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4",
+          "color": "Yellow",
+          "bricklink_item_id": "32140",
+          "ldraw_file": "32140.dat"
+        },
+        {
+          "key": "bl-39790-c156",
+          "quantity": 2,
+          "icon": "K39790_c156",
+          "name": "Medium Azure Technic, Liftarm, Modified Frame Thick 11 x 15 Open Center",
+          "color": "Medium Azure",
+          "bricklink_item_id": "39790",
+          "ldraw_file": "39790.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-360",
+      "details": []
+    },
+    {
+      "id": 370,
+      "kind": "scene",
+      "title": "Comprueba base completa",
+      "actions": [
+        "Consulta la incorporación candidata de BI37: Comprueba base completa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-370",
+      "details": []
+    },
+    {
+      "id": 380,
+      "kind": "union",
+      "title": "Une mecanismo y base",
+      "actions": [
+        "Consulta la incorporación candidata de BI38: Une mecanismo y base. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-380",
+      "details": []
+    },
+    {
+      "id": 390,
+      "kind": "scene",
+      "title": "Comprueba brazo sobre mesa",
+      "actions": [
+        "Consulta la incorporación candidata de BI39: Comprueba brazo sobre mesa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-390",
+      "details": []
+    },
+    {
+      "id": 400,
+      "kind": "scene",
+      "title": "Prepara ocho bloques de prueba",
+      "actions": [
+        "Consulta la incorporación candidata de BI40: Prepara ocho bloques de prueba. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA117",
+        "PA118",
+        "PA119",
+        "PA120",
+        "PA121",
+        "PA122",
+        "PA123",
+        "PA124"
+      ],
+      "parts": [
+        {
+          "key": "bl-39789-c7",
+          "quantity": 2,
+          "icon": "",
+          "name": "Blue Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Blue",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c3",
+          "quantity": 2,
+          "icon": "",
+          "name": "Yellow Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Yellow",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c5",
+          "quantity": 2,
+          "icon": "",
+          "name": "Red Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Red",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c6",
+          "quantity": 2,
+          "icon": "",
+          "name": "Green Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Green",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-400",
+      "details": []
+    },
+    {
+      "id": 410,
+      "kind": "scene",
+      "title": "Prepara cuatro ruedas sueltas de prueba",
+      "actions": [
+        "Consulta la incorporación candidata de BI41: Prepara cuatro ruedas sueltas de prueba. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA125",
+        "PA126",
+        "PA127",
+        "PA128"
+      ],
+      "parts": [
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 4,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-410",
+      "details": []
+    },
+    {
+      "id": 420,
+      "kind": "scene",
+      "title": "Muestra poses del mismo brazo",
+      "actions": [
+        "Consulta la incorporación candidata de BI42: Muestra poses del mismo brazo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-420",
+      "details": []
+    },
+    {
+      "id": 430,
+      "kind": "scene",
+      "title": "Empieza la rampa",
+      "actions": [
+        "Consulta la incorporación candidata de BI43: Empieza la rampa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA129",
+        "PA130",
+        "PA131",
+        "PA132",
+        "PA133",
+        "PA134",
+        "PA135"
+      ],
+      "parts": [
+        {
+          "key": "bl-40490-c11",
+          "quantity": 2,
+          "icon": "K40490_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 9",
+          "color": "Black",
+          "bricklink_item_id": "40490",
+          "ldraw_file": "40490.dat"
+        },
+        {
+          "key": "bl-32278-c11",
+          "quantity": 1,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 4,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-430",
+      "details": []
+    },
+    {
+      "id": 440,
+      "kind": "scene",
+      "title": "Cierra vigas de la rampa",
+      "actions": [
+        "Consulta la incorporación candidata de BI44: Cierra vigas de la rampa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA136",
+        "PA137",
+        "PA138",
+        "PA139",
+        "PA140"
+      ],
+      "parts": [
+        {
+          "key": "bl-32278-c11",
+          "quantity": 1,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-440",
+      "details": []
+    },
+    {
+      "id": 450,
+      "kind": "scene",
+      "title": "Monta vigas azules y conectores",
+      "actions": [
+        "Consulta la incorporación candidata de BI45: Monta vigas azules y conectores. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA141",
+        "PA142",
+        "PA143",
+        "PA144",
+        "PA145",
+        "PA146"
+      ],
+      "parts": [
+        {
+          "key": "bl-41239-c156",
+          "quantity": 2,
+          "icon": "K41239_c156",
+          "name": "Medium Azure Technic, Liftarm Thick 1 x 13",
+          "color": "Medium Azure",
+          "bricklink_item_id": "41239",
+          "ldraw_file": "41239.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 4,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-450",
+      "details": []
+    },
+    {
+      "id": 460,
+      "kind": "scene",
+      "title": "Añade marco de apoyo",
+      "actions": [
+        "Consulta la incorporación candidata de BI46: Añade marco de apoyo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA147"
+      ],
+      "parts": [
+        {
+          "key": "bl-64179-c11",
+          "quantity": 1,
+          "icon": "K64179_c11",
+          "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+          "color": "Black",
+          "bricklink_item_id": "64179",
+          "ldraw_file": "64179.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-460",
+      "details": []
+    },
+    {
+      "id": 470,
+      "kind": "scene",
+      "title": "Comprueba rampa",
+      "actions": [
+        "Consulta la incorporación candidata de BI47: Comprueba rampa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-470",
+      "details": []
+    },
+    {
+      "id": 480,
+      "kind": "scene",
+      "title": "Prepara H, bielas y pasadores",
+      "actions": [
+        "Consulta la incorporación candidata de BI48: Prepara H, bielas y pasadores. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA148",
+        "PA149",
+        "PA150",
+        "PA151",
+        "PA152",
+        "PA153",
+        "PA154",
+        "PA155",
+        "PA156"
+      ],
+      "parts": [
+        {
+          "key": "bl-14720-c86",
+          "quantity": 1,
+          "icon": "K14720_c86",
+          "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "14720",
+          "ldraw_file": "14720.dat"
+        },
+        {
+          "key": "bl-32184-c1",
+          "quantity": 2,
+          "icon": "K32184_c1",
+          "name": "White Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole",
+          "color": "White",
+          "bricklink_item_id": "32184",
+          "ldraw_file": "32184.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 2,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 2,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        },
+        {
+          "key": "bl-32054-c86",
+          "quantity": 2,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-480",
+      "details": []
+    },
+    {
+      "id": 490,
+      "kind": "scene",
+      "title": "Monta dos pasadores grises",
+      "actions": [
+        "Consulta la incorporación candidata de BI49: Monta dos pasadores grises. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [
+        "PA157",
+        "PA158"
+      ],
+      "parts": [
+        {
+          "key": "bl-32054-c86",
+          "quantity": 2,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-490",
+      "details": []
+    },
+    {
+      "id": 500,
+      "kind": "scene",
+      "title": "Comprueba herraje de rampa",
+      "actions": [
+        "Consulta la incorporación candidata de BI50: Comprueba herraje de rampa. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-500",
+      "details": []
+    },
+    {
+      "id": 510,
+      "kind": "union",
+      "title": "Acerca rampa al brazo",
+      "actions": [
+        "Consulta la incorporación candidata de BI51: Acerca rampa al brazo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-510",
+      "details": []
+    },
+    {
+      "id": 520,
+      "kind": "scene",
+      "title": "Comprueba recogida de bloques",
+      "actions": [
+        "Consulta la incorporación candidata de BI52: Comprueba recogida de bloques. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-520",
+      "details": []
+    },
+    {
+      "id": 530,
+      "kind": "scene",
+      "title": "Comprueba tope",
+      "actions": [
+        "Consulta la incorporación candidata de BI53: Comprueba tope. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-530",
+      "details": []
+    },
+    {
+      "id": 540,
+      "kind": "scene",
+      "title": "Comprueba pose de reposo",
+      "actions": [
+        "Consulta la incorporación candidata de BI54: Comprueba pose de reposo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-540",
+      "details": []
+    },
+    {
+      "id": 550,
+      "kind": "scene",
+      "title": "Consulta resultado completo",
+      "actions": [
+        "Consulta la incorporación candidata de BI55: Consulta resultado completo. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-550",
+      "details": []
+    },
+    {
+      "id": 560,
+      "kind": "scene",
+      "title": "Consulta tres poses sin duplicar piezas",
+      "actions": [
+        "Consulta la incorporación candidata de BI56: Consulta tres poses sin duplicar piezas. Contrasta sus poses e inserciones antes de construir."
+      ],
+      "check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "source_check": "Pose candidata por retícula y geometría DAT. Conectividad, inserción y revisión Studio pendientes.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-560",
+      "details": []
+    }
+  ],
+  "pages": {
+    "scene-10": {
+      "id": "scene-10",
+      "title": "Prepara marco y dos motores medianos",
+      "kind": "scene",
+      "scene": 10,
+      "texts": [],
+      "view_ids": [
+        "V01"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-20": {
+      "id": "scene-20",
+      "title": "Prepara hub y seis pines",
+      "kind": "scene",
+      "scene": 20,
+      "texts": [],
+      "view_ids": [
+        "V02"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-30": {
+      "id": "scene-30",
+      "title": "Conecta motor mediano a E",
+      "kind": "connection",
+      "scene": 30,
+      "texts": [],
+      "view_ids": [
+        "V03"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-40": {
+      "id": "scene-40",
+      "title": "Cierra la base del hub",
+      "kind": "scene",
+      "scene": 40,
+      "texts": [],
+      "view_ids": [
+        "V04"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-50": {
+      "id": "scene-50",
+      "title": "Prepara marco negro y biscuit",
+      "kind": "scene",
+      "scene": 50,
+      "texts": [],
+      "view_ids": [
+        "V05"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-60": {
+      "id": "scene-60",
+      "title": "Añade biscuit magenta y conectores grises",
+      "kind": "scene",
+      "scene": 60,
+      "texts": [],
+      "view_ids": [
+        "V06"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-70": {
+      "id": "scene-70",
+      "title": "Monta sensor de color",
+      "kind": "scene",
+      "scene": 70,
+      "texts": [],
+      "view_ids": [
+        "V07"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-80": {
+      "id": "scene-80",
+      "title": "Orienta el soporte del sensor",
+      "kind": "turn",
+      "scene": 80,
+      "texts": [],
+      "view_ids": [
+        "V08"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-90": {
+      "id": "scene-90",
+      "title": "Une soporte y conjunto del hub",
+      "kind": "union",
+      "scene": 90,
+      "texts": [],
+      "view_ids": [
+        "V09"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-100": {
+      "id": "scene-100",
+      "title": "Conecta sensor a F",
+      "kind": "connection",
+      "scene": 100,
+      "texts": [],
+      "view_ids": [
+        "V10"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-110": {
+      "id": "scene-110",
+      "title": "Añade soporte lateral azul",
+      "kind": "scene",
+      "scene": 110,
+      "texts": [],
+      "view_ids": [
+        "V11"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-120": {
+      "id": "scene-120",
+      "title": "Prepara eje y biela del motor",
+      "kind": "scene",
+      "scene": 120,
+      "texts": [],
+      "view_ids": [
+        "V12"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-130": {
+      "id": "scene-130",
+      "title": "Construye guía de eje y topes blancos",
+      "kind": "scene",
+      "scene": 130,
+      "texts": [],
+      "view_ids": [
+        "V13"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-140": {
+      "id": "scene-140",
+      "title": "Monta la guía del eje",
+      "kind": "scene",
+      "scene": 140,
+      "texts": [],
+      "view_ids": [
+        "V14"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-150": {
+      "id": "scene-150",
+      "title": "Añade primer par de vigas largas",
+      "kind": "scene",
+      "scene": 150,
+      "texts": [],
+      "view_ids": [
+        "V15"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-160": {
+      "id": "scene-160",
+      "title": "Prepara el motor grande",
+      "kind": "scene",
+      "scene": 160,
+      "texts": [],
+      "view_ids": [
+        "V16"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-170": {
+      "id": "scene-170",
+      "title": "Añade conectores del motor grande",
+      "kind": "scene",
+      "scene": 170,
+      "texts": [],
+      "view_ids": [
+        "V17"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-180": {
+      "id": "scene-180",
+      "title": "Prepara cuatro pines",
+      "kind": "scene",
+      "scene": 180,
+      "texts": [],
+      "view_ids": [
+        "V18"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-190": {
+      "id": "scene-190",
+      "title": "Monta biscuits y ejes beige",
+      "kind": "scene",
+      "scene": 190,
+      "texts": [],
+      "view_ids": [
+        "V19"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-200": {
+      "id": "scene-200",
+      "title": "Construye las dos mordazas",
+      "kind": "scene",
+      "scene": 200,
+      "texts": [],
+      "view_ids": [
+        "V20"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-210": {
+      "id": "scene-210",
+      "title": "Prepara bielas de las mordazas",
+      "kind": "scene",
+      "scene": 210,
+      "texts": [],
+      "view_ids": [
+        "V21"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-220": {
+      "id": "scene-220",
+      "title": "Comprueba orientación de la pinza",
+      "kind": "scene",
+      "scene": 220,
+      "texts": [],
+      "view_ids": [
+        "V22"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-230": {
+      "id": "scene-230",
+      "title": "Añade engranaje de 36 dientes",
+      "kind": "scene",
+      "scene": 230,
+      "texts": [],
+      "view_ids": [
+        "V23"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-240": {
+      "id": "scene-240",
+      "title": "Une pinza y primer par de vigas",
+      "kind": "union",
+      "scene": 240,
+      "texts": [],
+      "view_ids": [
+        "V24"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-250": {
+      "id": "scene-250",
+      "title": "Monta segundo par de vigas",
+      "kind": "scene",
+      "scene": 250,
+      "texts": [],
+      "view_ids": [
+        "V25"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-260": {
+      "id": "scene-260",
+      "title": "Conecta motor grande a A",
+      "kind": "connection",
+      "scene": 260,
+      "texts": [],
+      "view_ids": [
+        "V26"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-270": {
+      "id": "scene-270",
+      "title": "Prepara tope magenta",
+      "kind": "scene",
+      "scene": 270,
+      "texts": [],
+      "view_ids": [
+        "V27"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-280": {
+      "id": "scene-280",
+      "title": "Monta el tope",
+      "kind": "scene",
+      "scene": 280,
+      "texts": [],
+      "view_ids": [
+        "V28"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-290": {
+      "id": "scene-290",
+      "title": "Añade biscuit de apoyo",
+      "kind": "scene",
+      "scene": 290,
+      "texts": [],
+      "view_ids": [
+        "V29"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-300": {
+      "id": "scene-300",
+      "title": "Recupera orientación del brazo",
+      "kind": "turn",
+      "scene": 300,
+      "texts": [],
+      "view_ids": [
+        "V30"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-310": {
+      "id": "scene-310",
+      "title": "Prepara dos paneles con apoyos",
+      "kind": "scene",
+      "scene": 310,
+      "texts": [],
+      "view_ids": [
+        "V31"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-320": {
+      "id": "scene-320",
+      "title": "Comprueba paneles",
+      "kind": "scene",
+      "scene": 320,
+      "texts": [],
+      "view_ids": [
+        "V32"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-330": {
+      "id": "scene-330",
+      "title": "Añade dos vigas magenta transversales",
+      "kind": "scene",
+      "scene": 330,
+      "texts": [],
+      "view_ids": [
+        "V33"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-340": {
+      "id": "scene-340",
+      "title": "Une los dos paneles",
+      "kind": "scene",
+      "scene": 340,
+      "texts": [],
+      "view_ids": [
+        "V34"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-350": {
+      "id": "scene-350",
+      "title": "Prepara pines de la unión",
+      "kind": "scene",
+      "scene": 350,
+      "texts": [],
+      "view_ids": [
+        "V35"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-360": {
+      "id": "scene-360",
+      "title": "Añade marco lateral y apoyo amarillo",
+      "kind": "scene",
+      "scene": 360,
+      "texts": [],
+      "view_ids": [
+        "V36"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-370": {
+      "id": "scene-370",
+      "title": "Comprueba base completa",
+      "kind": "scene",
+      "scene": 370,
+      "texts": [],
+      "view_ids": [
+        "V37"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-380": {
+      "id": "scene-380",
+      "title": "Une mecanismo y base",
+      "kind": "union",
+      "scene": 380,
+      "texts": [],
+      "view_ids": [
+        "V38"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-390": {
+      "id": "scene-390",
+      "title": "Comprueba brazo sobre mesa",
+      "kind": "scene",
+      "scene": 390,
+      "texts": [],
+      "view_ids": [
+        "V39"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-400": {
+      "id": "scene-400",
+      "title": "Prepara ocho bloques de prueba",
+      "kind": "scene",
+      "scene": 400,
+      "texts": [],
+      "view_ids": [
+        "V40"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-410": {
+      "id": "scene-410",
+      "title": "Prepara cuatro ruedas sueltas de prueba",
+      "kind": "scene",
+      "scene": 410,
+      "texts": [],
+      "view_ids": [
+        "V41"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-420": {
+      "id": "scene-420",
+      "title": "Muestra poses del mismo brazo",
+      "kind": "scene",
+      "scene": 420,
+      "texts": [],
+      "view_ids": [
+        "V42"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-430": {
+      "id": "scene-430",
+      "title": "Empieza la rampa",
+      "kind": "scene",
+      "scene": 430,
+      "texts": [],
+      "view_ids": [
+        "V43"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-440": {
+      "id": "scene-440",
+      "title": "Cierra vigas de la rampa",
+      "kind": "scene",
+      "scene": 440,
+      "texts": [],
+      "view_ids": [
+        "V44"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-450": {
+      "id": "scene-450",
+      "title": "Monta vigas azules y conectores",
+      "kind": "scene",
+      "scene": 450,
+      "texts": [],
+      "view_ids": [
+        "V45"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-460": {
+      "id": "scene-460",
+      "title": "Añade marco de apoyo",
+      "kind": "scene",
+      "scene": 460,
+      "texts": [],
+      "view_ids": [
+        "V46"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-470": {
+      "id": "scene-470",
+      "title": "Comprueba rampa",
+      "kind": "scene",
+      "scene": 470,
+      "texts": [],
+      "view_ids": [
+        "V47"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-480": {
+      "id": "scene-480",
+      "title": "Prepara H, bielas y pasadores",
+      "kind": "scene",
+      "scene": 480,
+      "texts": [],
+      "view_ids": [
+        "V48"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-490": {
+      "id": "scene-490",
+      "title": "Monta dos pasadores grises",
+      "kind": "scene",
+      "scene": 490,
+      "texts": [],
+      "view_ids": [
+        "V49"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-500": {
+      "id": "scene-500",
+      "title": "Comprueba herraje de rampa",
+      "kind": "scene",
+      "scene": 500,
+      "texts": [],
+      "view_ids": [
+        "V50"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-510": {
+      "id": "scene-510",
+      "title": "Acerca rampa al brazo",
+      "kind": "union",
+      "scene": 510,
+      "texts": [],
+      "view_ids": [
+        "V51"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-520": {
+      "id": "scene-520",
+      "title": "Comprueba recogida de bloques",
+      "kind": "scene",
+      "scene": 520,
+      "texts": [],
+      "view_ids": [
+        "V52"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-530": {
+      "id": "scene-530",
+      "title": "Comprueba tope",
+      "kind": "scene",
+      "scene": 530,
+      "texts": [],
+      "view_ids": [
+        "V53"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-540": {
+      "id": "scene-540",
+      "title": "Comprueba pose de reposo",
+      "kind": "scene",
+      "scene": 540,
+      "texts": [],
+      "view_ids": [
+        "V54"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-550": {
+      "id": "scene-550",
+      "title": "Consulta resultado completo",
+      "kind": "scene",
+      "scene": 550,
+      "texts": [],
+      "view_ids": [
+        "V55"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-560": {
+      "id": "scene-560",
+      "title": "Consulta tres poses sin duplicar piezas",
+      "kind": "scene",
+      "scene": 560,
+      "texts": [],
+      "view_ids": [
+        "V56"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "cover": {
+      "id": "cover",
+      "title": "PowerArm 2078: candidato R01 por retícula; revisión pendiente",
+      "kind": "cover",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "guide": {
+      "id": "guide",
+      "title": "Antes de empezar",
+      "kind": "guide",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado. Usa cada modelo por separado dentro del catálogo del kit. Las llegadas son ilustrativas, sin barrido de colisiones comprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "inventory": {
+      "id": "inventory",
+      "title": "Inventario",
+      "kind": "inventory",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Sólo las piezas del modelo digital; disponibilidad física pendiente de recuento.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "checklist": {
+      "id": "checklist",
+      "title": "Comprobación final",
+      "kind": "checklist",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Candidato digital: poses, conectividad, inserciones y mecanismos pendientes. Revisión Studio diferida; animación ilustrativa sin barrido comprobado. Consultar las exclusiones e incidencias en el expediente del modelo.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    }
+  },
+  "inventory": [
+    {
+      "key": "bl-14720-c86",
+      "quantity": 3,
+      "icon": "K14720_c86",
+      "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "14720",
+      "ldraw_file": "14720.dat"
+    },
+    {
+      "key": "bl-18651-c11",
+      "quantity": 5,
+      "icon": "K18651_c11",
+      "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "18651",
+      "ldraw_file": "18651.dat"
+    },
+    {
+      "key": "bl-2780-c11",
+      "quantity": 40,
+      "icon": "K2780_c11",
+      "name": "Black Technic, Pin with Short Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "2780",
+      "ldraw_file": "2780.dat"
+    },
+    {
+      "key": "bl-32054-c86",
+      "quantity": 8,
+      "icon": "K32054_c86",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "32054",
+      "ldraw_file": "32054.dat"
+    },
+    {
+      "key": "bl-32062-c5",
+      "quantity": 1,
+      "icon": "K32062_c5",
+      "name": "Red Technic, Axle 2L Notched",
+      "color": "Red",
+      "bricklink_item_id": "32062",
+      "ldraw_file": "32062.dat"
+    },
+    {
+      "key": "bl-32140-c3",
+      "quantity": 3,
+      "icon": "K32140_c3",
+      "name": "Yellow Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4",
+      "color": "Yellow",
+      "bricklink_item_id": "32140",
+      "ldraw_file": "32140.dat"
+    },
+    {
+      "key": "bl-32184-c1",
+      "quantity": 3,
+      "icon": "K32184_c1",
+      "name": "White Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole",
+      "color": "White",
+      "bricklink_item_id": "32184",
+      "ldraw_file": "32184.dat"
+    },
+    {
+      "key": "bl-32271-c3",
+      "quantity": 2,
+      "icon": "K32271_c3",
+      "name": "Yellow Technic, Liftarm, Modified Bent Thick 1 x 9 (7 - 3)",
+      "color": "Yellow",
+      "bricklink_item_id": "32271",
+      "ldraw_file": "32271.dat"
+    },
+    {
+      "key": "bl-32278-c11",
+      "quantity": 6,
+      "icon": "K32278_c11",
+      "name": "Black Technic, Liftarm Thick 1 x 15",
+      "color": "Black",
+      "bricklink_item_id": "32278",
+      "ldraw_file": "32278.dat"
+    },
+    {
+      "key": "bl-32316-c71",
+      "quantity": 4,
+      "icon": "K32316_c71",
+      "name": "Magenta Technic, Liftarm Thick 1 x 5",
+      "color": "Magenta",
+      "bricklink_item_id": "32316",
+      "ldraw_file": "32316.dat"
+    },
+    {
+      "key": "bl-32498-c11",
+      "quantity": 1,
+      "icon": "K32498_c11",
+      "name": "Black Technic, Gear 36 Tooth Double Bevel",
+      "color": "Black",
+      "bricklink_item_id": "32498",
+      "ldraw_file": "32498.dat"
+    },
+    {
+      "key": "bl-32525-c71",
+      "quantity": 2,
+      "icon": "K32525_c71",
+      "name": "Magenta Technic, Liftarm Thick 1 x 11",
+      "color": "Magenta",
+      "bricklink_item_id": "32525",
+      "ldraw_file": "32525.dat"
+    },
+    {
+      "key": "bl-32526-c156",
+      "quantity": 1,
+      "icon": "K32526_c156",
+      "name": "Medium Azure Technic, Liftarm, Modified Bent Thick L-Shape 3 x 5",
+      "color": "Medium Azure",
+      "bricklink_item_id": "32526",
+      "ldraw_file": "32526.dat"
+    },
+    {
+      "key": "bl-3707-c11",
+      "quantity": 1,
+      "icon": "K3707_c11",
+      "name": "Black Technic, Axle 8L",
+      "color": "Black",
+      "bricklink_item_id": "3707",
+      "ldraw_file": "3707.dat"
+    },
+    {
+      "key": "bl-3713-c86",
+      "quantity": 4,
+      "icon": "K3713_c86",
+      "name": "Light Bluish Gray Technic Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "3713",
+      "ldraw_file": "3713.dat"
+    },
+    {
+      "key": "bl-37308c01-c11",
+      "quantity": 1,
+      "icon": "",
+      "name": "Black Electric Sensor, Color - SPIKE Prime",
+      "color": "Black",
+      "bricklink_item_id": "37308c01",
+      "ldraw_file": "37308c01.dat"
+    },
+    {
+      "key": "bl-3749-c2",
+      "quantity": 8,
+      "icon": "K3749_c2",
+      "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+      "color": "Tan",
+      "bricklink_item_id": "3749",
+      "ldraw_file": "3749.dat"
+    },
+    {
+      "key": "bl-39367pb01-c11",
+      "quantity": 4,
+      "icon": "K39367pb01_c11",
+      "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+      "color": "Black",
+      "bricklink_item_id": "39367pb01",
+      "ldraw_file": "39367pb01.dat"
+    },
+    {
+      "key": "bl-39369-c3",
+      "quantity": 2,
+      "icon": "K39369_c3",
+      "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+      "color": "Yellow",
+      "bricklink_item_id": "39369",
+      "ldraw_file": "39369.dat"
+    },
+    {
+      "key": "bl-3941-c1",
+      "quantity": 2,
+      "icon": "K3941_c1",
+      "name": "White Brick, Round 2 x 2 with Axle Hole",
+      "color": "White",
+      "bricklink_item_id": "3941",
+      "ldraw_file": "3941.dat"
+    },
+    {
+      "key": "bl-39789-c3",
+      "quantity": 2,
+      "icon": "",
+      "name": "Yellow Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Yellow",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c5",
+      "quantity": 2,
+      "icon": "",
+      "name": "Red Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Red",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c6",
+      "quantity": 2,
+      "icon": "",
+      "name": "Green Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Green",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c7",
+      "quantity": 2,
+      "icon": "",
+      "name": "Blue Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Blue",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39790-c156",
+      "quantity": 2,
+      "icon": "K39790_c156",
+      "name": "Medium Azure Technic, Liftarm, Modified Frame Thick 11 x 15 Open Center",
+      "color": "Medium Azure",
+      "bricklink_item_id": "39790",
+      "ldraw_file": "39790.dat"
+    },
+    {
+      "key": "bl-39793-c11",
+      "quantity": 3,
+      "icon": "K39793_c11",
+      "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+      "color": "Black",
+      "bricklink_item_id": "39793",
+      "ldraw_file": "39793.dat"
+    },
+    {
+      "key": "bl-39793-c71",
+      "quantity": 3,
+      "icon": "K39793_c71",
+      "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+      "color": "Magenta",
+      "bricklink_item_id": "39793",
+      "ldraw_file": "39793.dat"
+    },
+    {
+      "key": "bl-39794-c71",
+      "quantity": 1,
+      "icon": "K39794_c71",
+      "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+      "color": "Magenta",
+      "bricklink_item_id": "39794",
+      "ldraw_file": "39794.dat"
+    },
+    {
+      "key": "bl-40490-c11",
+      "quantity": 2,
+      "icon": "K40490_c11",
+      "name": "Black Technic, Liftarm Thick 1 x 9",
+      "color": "Black",
+      "bricklink_item_id": "40490",
+      "ldraw_file": "40490.dat"
+    },
+    {
+      "key": "bl-41239-c156",
+      "quantity": 2,
+      "icon": "K41239_c156",
+      "name": "Medium Azure Technic, Liftarm Thick 1 x 13",
+      "color": "Medium Azure",
+      "bricklink_item_id": "41239",
+      "ldraw_file": "41239.dat"
+    },
+    {
+      "key": "bl-4519-c3",
+      "quantity": 3,
+      "icon": "K4519_c3",
+      "name": "Yellow Technic, Axle 3L",
+      "color": "Yellow",
+      "bricklink_item_id": "4519",
+      "ldraw_file": "4519.dat"
+    },
+    {
+      "key": "bl-45590-c11",
+      "quantity": 4,
+      "icon": "K45590_c11",
+      "name": "Black Technic, Axle Connector Double - Flexible Rubber",
+      "color": "Black",
+      "bricklink_item_id": "45590",
+      "ldraw_file": "45590.dat"
+    },
+    {
+      "key": "bl-48989-c86",
+      "quantity": 10,
+      "icon": "K48989_c86",
+      "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "48989",
+      "ldraw_file": "48989.dat"
+    },
+    {
+      "key": "bl-49283-c71",
+      "quantity": 1,
+      "icon": "",
+      "name": "Magenta Technic, Axle and Wire Connector",
+      "color": "Magenta",
+      "bricklink_item_id": "49283",
+      "ldraw_file": "49283.dat"
+    },
+    {
+      "key": "bl-53444c01-c3",
+      "quantity": 1,
+      "icon": "K53444c01_c3",
+      "name": "Yellow Electric, Hub Large - SPIKE Prime",
+      "color": "Yellow",
+      "bricklink_item_id": "53444c01",
+      "ldraw_file": "bb1142c01.dat"
+    },
+    {
+      "key": "bl-54675c01-c156",
+      "quantity": 1,
+      "icon": "K54675c01_c156",
+      "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Large Angular with White Top Housing and Cable",
+      "color": "Medium Azure",
+      "bricklink_item_id": "54675c01",
+      "ldraw_file": "54675.dat"
+    },
+    {
+      "key": "bl-54696c01-c156",
+      "quantity": 2,
+      "icon": "K54696c01_c156",
+      "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+      "color": "Medium Azure",
+      "bricklink_item_id": "54696c01",
+      "ldraw_file": "54696.dat"
+    },
+    {
+      "key": "bl-64179-c11",
+      "quantity": 2,
+      "icon": "K64179_c11",
+      "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+      "color": "Black",
+      "bricklink_item_id": "64179",
+      "ldraw_file": "64179.dat"
+    },
+    {
+      "key": "bl-6558-c7",
+      "quantity": 10,
+      "icon": "K6558_c7",
+      "name": "Blue Technic, Pin 3L with Friction Ridges",
+      "color": "Blue",
+      "bricklink_item_id": "6558",
+      "ldraw_file": "6558.dat"
+    },
+    {
+      "key": "bl-87082-c86",
+      "quantity": 2,
+      "icon": "",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "87082",
+      "ldraw_file": "87082.dat"
+    }
+  ],
+  "assets": {
+    "K14720_c86": {
+      "id": "K14720_c86",
+      "source_sha256": "3e8cc329eccab025657fcd3b895eca2d4542df8e3c5d5b3fc6f34c426988a234",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K14720_c86-240.webp",
+          "width": 240,
+          "height": 166,
+          "sha256": "b4edbbb5fa74905a16e009054477b4fab9ba59d263549152dab14eadac2fcee7"
+        }
+      ]
+    },
+    "K18651_c11": {
+      "id": "K18651_c11",
+      "source_sha256": "246984555bb1e16999e21f8fc873c3e990d938210c5df3a4fefdebfca23b60ca",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K18651_c11-240.webp",
+          "width": 240,
+          "height": 165,
+          "sha256": "1022c1409a71313c997889ca5a795d4c9ae1d9244e79d7f35833fde018222a60"
+        }
+      ]
+    },
+    "K2780_c11": {
+      "id": "K2780_c11",
+      "source_sha256": "dd21a8e855f9f8fc491d5ebf970668c994aeb14d6c345ea91b03d422a39b383b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K2780_c11-240.webp",
+          "width": 240,
+          "height": 183,
+          "sha256": "b3b052d21c308503cf36cbb5d7923df234f9d48022d9bbe13a729ab3b75dccc0"
+        }
+      ]
+    },
+    "K32054_c86": {
+      "id": "K32054_c86",
+      "source_sha256": "11079360a573bb3c2922674c23993dba48198e5334b91695ef9ebc144fb71939",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32054_c86-240.webp",
+          "width": 240,
+          "height": 172,
+          "sha256": "bd336de84b7fb7762b79a94bdae78598b884198102f2ea2629b31d9fcacb4d79"
+        }
+      ]
+    },
+    "K32062_c5": {
+      "id": "K32062_c5",
+      "source_sha256": "b1349882ca26fec76b03f26c3c08e5ac841cd214dae48e341259aff7b359ca75",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32062_c5-240.webp",
+          "width": 240,
+          "height": 179,
+          "sha256": "a2fa0deec89969470875fdfa0ca9d9351bc109812dbf66804c1243c88cbabed8"
+        }
+      ]
+    },
+    "K32140_c3": {
+      "id": "K32140_c3",
+      "source_sha256": "9d95aa4791c50217e3bbc54430b43dcb52843cce3bc3d76d13e82022575a421b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32140_c3-240.webp",
+          "width": 240,
+          "height": 174,
+          "sha256": "9e8c764ff2a618c114417b560a5d4993d7a03d93639484812d67167067eeeaf8"
+        }
+      ]
+    },
+    "K32184_c1": {
+      "id": "K32184_c1",
+      "source_sha256": "bdad0a16eb0e29a964b0c7348c37d792c63fa50fb8e6173b8b2ef251e8963c09",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32184_c1-240.webp",
+          "width": 122,
+          "height": 240,
+          "sha256": "057d85360a7ebbcadd668546a29e89b898265b5b572c84f8aa81c9b2701262c4"
+        }
+      ]
+    },
+    "K32271_c3": {
+      "id": "K32271_c3",
+      "source_sha256": "d7f9f5ee4bbf9aab545d719dfe2fa5bc05a3396fa6ed5e8c9e78c5eb5473735f",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32271_c3-240.webp",
+          "width": 240,
+          "height": 122,
+          "sha256": "d0460b8c83dd76351b4bb1e9cf876fcba1b25d1ecbd52884e6e022dfef637a15"
+        }
+      ]
+    },
+    "K32278_c11": {
+      "id": "K32278_c11",
+      "source_sha256": "02accdc35816eb3c47c5816add1e70032a97e6d59614ee840aa19e0a248dc59c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32278_c11-240.webp",
+          "width": 240,
+          "height": 143,
+          "sha256": "e19b99f181a44a8204f278d171f3afdfc49fb04dfc7276dee8f7d79e8c7a83ac"
+        }
+      ]
+    },
+    "K32316_c71": {
+      "id": "K32316_c71",
+      "source_sha256": "06926e6b255aea2ca563338b6458209defb37623fde834be1e62c7a8d73942d6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32316_c71-240.webp",
+          "width": 240,
+          "height": 182,
+          "sha256": "8254039ee3fdad3da206f88c498bec7d05f92ecb517046f94963e9a0e1133736"
+        }
+      ]
+    },
+    "K32498_c11": {
+      "id": "K32498_c11",
+      "source_sha256": "152fe24541f067263cdb555255a5e173b6addb6e0c749b893d34ecb443de0ef6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32498_c11-240.webp",
+          "width": 202,
+          "height": 240,
+          "sha256": "729c21c64a7339f739ae9002630fe4fde8c54b3963236be0277cd14673765a77"
+        }
+      ]
+    },
+    "K32525_c71": {
+      "id": "K32525_c71",
+      "source_sha256": "523cc2d4011fc30f24e64348c5d9cfbefff421368bc192aed81873d70caa135e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32525_c71-240.webp",
+          "width": 240,
+          "height": 150,
+          "sha256": "a1d337ff259083498690b44a635168bdb2c34926fd1c6d729e62ab07528edde5"
+        }
+      ]
+    },
+    "K32526_c156": {
+      "id": "K32526_c156",
+      "source_sha256": "bd0bd14f7b5ba1d771932b4e7f1ed87daa0860a09062e68cbc2ae9aca39b9df5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32526_c156-240.webp",
+          "width": 240,
+          "height": 135,
+          "sha256": "96726b6c2bf4f42d6a6d0013ebe0fd49a5e69ad2872d9f723eb22371b0a64f8e"
+        }
+      ]
+    },
+    "K3707_c11": {
+      "id": "K3707_c11",
+      "source_sha256": "9e136e826df8aef80d52742c12a793cd43daa3d07a904dc21567afd2fa7ea870",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3707_c11-240.webp",
+          "width": 27,
+          "height": 240,
+          "sha256": "d47606073466cd0a8ee9a0bc3d5a580292a7dacad3ef83e138beb4d038296d0d"
+        }
+      ]
+    },
+    "K3713_c86": {
+      "id": "K3713_c86",
+      "source_sha256": "308a86e80a50dffb2307eb98c04c1df3a5d3164d7d478390a1aaba912b08ef7b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3713_c86-240.webp",
+          "width": 200,
+          "height": 184,
+          "sha256": "82192a8ecd8cd179c45cc7706bd70014f964a1f6cb21d48f2bf61890fbc83753"
+        }
+      ]
+    },
+    "K3749_c2": {
+      "id": "K3749_c2",
+      "source_sha256": "2e48bab1a66cf2f694533a7a56441a6dd02e745265de21341a4f7bc397b43739",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3749_c2-240.webp",
+          "width": 240,
+          "height": 181,
+          "sha256": "67b2d743a218d9ee8b1fe35caf7a81384a67318c7684455665b8232b7a21fdf0"
+        }
+      ]
+    },
+    "K39367pb01_c11": {
+      "id": "K39367pb01_c11",
+      "source_sha256": "84019ef77144737d342498847a95012a81d9cdf90f7624ddbe53612c19bd7b1c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39367pb01_c11-240.webp",
+          "width": 208,
+          "height": 240,
+          "sha256": "eac10eae6965eaf59d93dbfa30d5ba893aa5f150a4c3e7c1bbcaa469dc18ea3a"
+        }
+      ]
+    },
+    "K39369_c3": {
+      "id": "K39369_c3",
+      "source_sha256": "878a6ec57567e7cc554d91fd5a8616a671c93c26a7d08509e2401a7bfb799030",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39369_c3-240.webp",
+          "width": 240,
+          "height": 132,
+          "sha256": "f139c2236a6f0b2d507e1c4fd3b38faf46d4570335cc74c2dd20c0799fd372e1"
+        }
+      ]
+    },
+    "K3941_c1": {
+      "id": "K3941_c1",
+      "source_sha256": "a5a2cbd31db871d5da0332ffa482eae14210500a9797c9b1b2305fc7482c2a9e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3941_c1-240.webp",
+          "width": 222,
+          "height": 240,
+          "sha256": "ac7a364d12b6123a5e0f7eb80d270e7f586a1c868682c042c36773512d0220a5"
+        }
+      ]
+    },
+    "K39790_c156": {
+      "id": "K39790_c156",
+      "source_sha256": "320670289b4ec1f03c1eb45e91d44605d26845e45e9b0e37b053327a968fc5f8",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39790_c156-240.webp",
+          "width": 240,
+          "height": 134,
+          "sha256": "31a3c35c817c785bd3810e348607f37635773e56d430bca2a1e2bbec728fed63"
+        }
+      ]
+    },
+    "K39793_c11": {
+      "id": "K39793_c11",
+      "source_sha256": "d1335c08aa388f3ae40e5bc6a2d3af64777a42a42cc1ea16f1b9fbc0d1b32aef",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39793_c11-240.webp",
+          "width": 240,
+          "height": 158,
+          "sha256": "c81425a316b0cfdc5f6a402fff9034830766557a8dbd2ba993e572bac1b21489"
+        }
+      ]
+    },
+    "K39793_c71": {
+      "id": "K39793_c71",
+      "source_sha256": "e8b748f73c2af0f783b4a87dd7bd8bff098793242daee61bab049f64522c3b49",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39793_c71-240.webp",
+          "width": 180,
+          "height": 240,
+          "sha256": "26f95117fb63304471d6fbc7af23ac37c572abd8bfede9bab37d5d2944d290c9"
+        }
+      ]
+    },
+    "K39794_c71": {
+      "id": "K39794_c71",
+      "source_sha256": "418f38ff09f524741a75ae0ba44affb7e986a005bdd6461afbb1a95cdc4f9df5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39794_c71-240.webp",
+          "width": 240,
+          "height": 140,
+          "sha256": "1fd2e13857a3114c10ffb4d1be43d22399cd0d33fe2b0be8faae46790a812092"
+        }
+      ]
+    },
+    "K40490_c11": {
+      "id": "K40490_c11",
+      "source_sha256": "37afb050752dd9ce4c9f3540b50a81ddc74ef47da1bad26eff486a3e0354a65d",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K40490_c11-240.webp",
+          "width": 240,
+          "height": 156,
+          "sha256": "8f0cc360c497a256b23fe5cb827527fe32a3f5243e4c9c3dce247ef2f6d9e38d"
+        }
+      ]
+    },
+    "K41239_c156": {
+      "id": "K41239_c156",
+      "source_sha256": "b51ab56b9114ebd57fd1dc875fe9c6423a4295519165b2c25f0bb9bde242d24d",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K41239_c156-240.webp",
+          "width": 240,
+          "height": 146,
+          "sha256": "d1b9c93eaa157c0770e70d19ddf64b491fcb17a568f3449b41e59bde26631af0"
+        }
+      ]
+    },
+    "K4519_c3": {
+      "id": "K4519_c3",
+      "source_sha256": "39bf3d049fb96a758ba1b118d9e084e3858424b500d5c654010edf20cdff0c90",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K4519_c3-240.webp",
+          "width": 240,
+          "height": 163,
+          "sha256": "6a000ab3f8f5f8e731fef57913d7f625172bbde005af0fa9180352719390bcfa"
+        }
+      ]
+    },
+    "K45590_c11": {
+      "id": "K45590_c11",
+      "source_sha256": "9b60d722ece2deefcd8c619435419f98ba2b8fa06a9ca123d6cafcfbf45210b3",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K45590_c11-240.webp",
+          "width": 240,
+          "height": 190,
+          "sha256": "d63268622855044b6d231dc8ee50b5a9620d20223775c266a35a4e45c1c6afae"
+        }
+      ]
+    },
+    "K48989_c86": {
+      "id": "K48989_c86",
+      "source_sha256": "6635d32247996714ea973e2c48a91ea0c7f25f3ffc85bde380bb174ea5052b49",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K48989_c86-240.webp",
+          "width": 187,
+          "height": 240,
+          "sha256": "40586070966086be79d6b5633be2d0ff66e253431bd98a899fddb9ecc4910aa2"
+        }
+      ]
+    },
+    "K53444c01_c3": {
+      "id": "K53444c01_c3",
+      "source_sha256": "f3c77540fbe4c049c588eb2a7ff2478a208f18f05efffb247fbbe064f27602ae",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K53444c01_c3-240.webp",
+          "width": 240,
+          "height": 190,
+          "sha256": "f46e18721362316fa4553beb96b5b8423bdf1f3dc4529c1d00d560a8af71a79a"
+        }
+      ]
+    },
+    "K54675c01_c156": {
+      "id": "K54675c01_c156",
+      "source_sha256": "44e9ad2189342e40c98ba47de1249b58293fc0cc81b72f7a13a2d33b8ec5bad2",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K54675c01_c156-240.webp",
+          "width": 240,
+          "height": 177,
+          "sha256": "585ab9a77572d21cfa5ab657939fffcf845b73dac9aaa9342a06ef644ecde67a"
+        }
+      ]
+    },
+    "K54696c01_c156": {
+      "id": "K54696c01_c156",
+      "source_sha256": "b018f8a269c2bbaaf3dabd03393fe10fc7a5d5ca6a703caf2318488def1ff857",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K54696c01_c156-240.webp",
+          "width": 240,
+          "height": 187,
+          "sha256": "686ad376b23a81671fa7b18502165617a10f4889bd82056efae6f0afc2dd8d8b"
+        }
+      ]
+    },
+    "K64179_c11": {
+      "id": "K64179_c11",
+      "source_sha256": "c12e7f37f1f2531e28680b818c51601d114a8d77b975a8ca302cb2f4b329fd1f",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K64179_c11-240.webp",
+          "width": 240,
+          "height": 150,
+          "sha256": "7e6b637cc86d1a13e088c3d265493c064ae7dbd082f4b6cdba67109a8416e99b"
+        }
+      ]
+    },
+    "K6558_c7": {
+      "id": "K6558_c7",
+      "source_sha256": "cf65e01fd75e34eaba350b5e84198a1292b332c9d0e2b51bf92ba0e6a63d3f22",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K6558_c7-240.webp",
+          "width": 240,
+          "height": 167,
+          "sha256": "1de4df92d514595fc6cb92b4efa422c6fd3d97668af6f65c1f9854edb6dfd402"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "source_actions": 56,
+    "new_parts_total": 158,
+    "inventory_lots": 40,
+    "digital_scenes_covered": true,
+    "manual_visual_review": "not_run"
+  },
+  "object_map": [
+    {
+      "page": "scene-10",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-20",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-30",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-40",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-50",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-60",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-70",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-80",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-90",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-100",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-110",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-120",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-130",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-140",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-150",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-160",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-170",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-180",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-190",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-200",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-210",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-220",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-230",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-240",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-250",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-260",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-270",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-280",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-290",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-300",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-310",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-320",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-330",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-340",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-350",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-360",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-370",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-380",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-390",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-400",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-410",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-420",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-430",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-440",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-450",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-460",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-470",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-480",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-490",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-500",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-510",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-520",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-530",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-540",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-550",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-560",
+      "object": "action-0",
+      "destination": "text"
+    }
+  ],
+  "sources": {
+    "specs/instructions/roboriseit-2078-r01-e01-source.json": "71e905733a3c9b70c2cc4807b236ca9554f0f304ea737939a3940dfa1665a81e",
+    "builds/powerarm-2078-snapshots-r01/asset-plan.json": "4a042d80b16b713c7aab1f9e5ce91e1a228aa3ca15599fc5a603b4f69468b2c8",
+    "specs/roboriseit-2078-r01.json": "3489e5976e9a6aa00960e8f299ddce393b7a6bc7c06db42d56293ea1016abc8e",
+    "data/spike-prime-45678.lock.json": "ec5f7e8f6b5eeaa355a7088e26d941028472c3552b2145827ce6c233bf74c281",
+    "builds/forklift-2074-r04-assets-e01/studio-assets.json": "32b3f9d89cf2675b7454bbb37c6fc428059307a9032eab65faf23eec9dd396cf",
+    "builds/jamie-2072-r11-instructions-e03/studio-assets.json": "2f4a796aed5e073b3b3cfc365e992bb816b981112e3a898efa17363a4dfa7d26",
+    "builds/delivery-2073-r06-assets-e01/studio-assets-s02.json": "2f083af339d574f52a43d113b8f1dedbaf89c00604150cdae288a03adc9face0"
+  },
+  "studio_reference_available": false,
+  "review_status": "deferred",
+  "cover_view": "FINAL",
+  "missing_part_icons": [
+    "bl-37308c01-c11",
+    "bl-39789-c3",
+    "bl-39789-c5",
+    "bl-39789-c6",
+    "bl-39789-c7",
+    "bl-49283-c71",
+    "bl-87082-c86"
+  ],
+  "physical_build": "not_run",
+  "release_ready": false
+}

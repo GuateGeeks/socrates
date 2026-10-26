@@ -1,0 +1,1938 @@
+{
+  "schema_version": "gglego.insertion-plan/v1",
+  "revision": "f756b975a226086eca7b716aa16bbd8fb8f4f2a1f9b34a659b7d8d1368e671f0",
+  "sequence_sha256": "4652f4ce7e4e65c10727f36b9e2cd304708640c2c233552da1f94e71dc46e67d",
+  "geometry_manifest_sha256": "f80caa5c35752095aabcd70d8573f59266e7523065b280aee53aa65539f41774",
+  "steps": [
+    {
+      "step": 1,
+      "routes": [
+        {
+          "ids": [
+            "CH-MOTOR-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-MOTOR-R"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-CROSS"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "routes": [
+        {
+          "ids": [
+            "CH-CASTER"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-BALL"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-CASTER-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-CASTER-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "routes": [
+        {
+          "ids": [
+            "CH-RAIL-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-03"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-04"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-05"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-RAIL-PIN-06"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "routes": [
+        {
+          "ids": [
+            "CH-FRONT-PIN-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-FRONT-PIN-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "routes": [
+        {
+          "ids": [
+            "CH-WHEEL-PIN-L-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-PIN-L-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-PIN-R-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-PIN-R-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "routes": [
+        {
+          "ids": [
+            "CH-WHEEL-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-R"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "routes": [
+        {
+          "ids": [
+            "LM-MOTOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-FOOT"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-FOOT-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-FOOT-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "routes": [
+        {
+          "ids": [
+            "LM-AXLE-3"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-GEAR-12"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-LOWER-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-LOWER-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "routes": []
+    },
+    {
+      "step": 10,
+      "routes": [
+        {
+          "ids": [
+            "CA-L-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-L-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-L-03"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-UP-01"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-UP-02"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-BASE-01"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-BASE-02"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "routes": [
+        {
+          "ids": [
+            "CA-CROSS-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-CROSS-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-FORK-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLUE-FORK-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLACK-UP-01"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-BLACK-UP-02"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "routes": [
+        {
+          "ids": [
+            "CA-FORK-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-FORK-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "routes": [
+        {
+          "ids": [
+            "CA-GUIDE-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-RACK"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-RACK-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-RACK-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "routes": [
+        {
+          "ids": [
+            "CA-GUIDE-R"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-GUIDE-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-GUIDE-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "routes": [
+        {
+          "ids": [
+            "CA-STOP-AXLE"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-STOP"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "routes": [
+        {
+          "ids": [
+            "MA-PANEL-R"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-BLOCK"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-BLOCK-R-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-BLOCK-R-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "routes": [
+        {
+          "ids": [
+            "MA-PANEL-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-BLOCK-L-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-BLOCK-L-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "routes": [
+        {
+          "ids": [
+            "MA-CROSS-LOW"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-CROSS-LOW-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-CROSS-LOW-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "routes": [
+        {
+          "ids": [
+            "MA-CROSS-TOP"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-CROSS-TOP-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-CROSS-TOP-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "routes": [
+        {
+          "ids": [
+            "MA-CROSS-ANCHOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-ANCHOR-TAN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-ANCHOR-TAN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "routes": [
+        {
+          "ids": [
+            "CA-L-01",
+            "CA-L-02",
+            "CA-L-03",
+            "CA-BLUE-UP-01",
+            "CA-BLUE-UP-02",
+            "CA-BLUE-BASE-01",
+            "CA-BLUE-BASE-02",
+            "CA-CROSS-01",
+            "CA-CROSS-02",
+            "CA-BLUE-FORK-01",
+            "CA-BLUE-FORK-02",
+            "CA-BLACK-UP-01",
+            "CA-BLACK-UP-02",
+            "CA-FORK-01",
+            "CA-FORK-02",
+            "CA-GUIDE-L",
+            "CA-RACK",
+            "CA-RACK-PIN-01",
+            "CA-RACK-PIN-02",
+            "CA-GUIDE-R",
+            "CA-GUIDE-PIN-01",
+            "CA-GUIDE-PIN-02",
+            "CA-STOP-AXLE",
+            "CA-STOP"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "routes": [
+        {
+          "ids": [
+            "LM-MOTOR",
+            "LM-FOOT",
+            "LM-FOOT-PIN-01",
+            "LM-FOOT-PIN-02",
+            "LM-AXLE-3",
+            "LM-GEAR-12",
+            "LM-LOWER-PIN-01",
+            "LM-LOWER-PIN-02"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "routes": [
+        {
+          "ids": [
+            "MA-SIDE-PIN-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-SIDE-PIN-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-SIDE-PIN-03"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MA-SIDE-PIN-04"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "routes": [
+        {
+          "ids": [
+            "CA-FRAME"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-FRAME-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CA-FRAME-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "routes": [
+        {
+          "ids": [
+            "LM-OUTPUT-AXLE"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LM-GEAR-20"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "routes": [
+        {
+          "ids": [
+            "HUB"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-FRONT-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-FRONT-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "routes": [
+        {
+          "ids": [
+            "HUB-RAIL-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-RAIL-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-RAIL-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-RAIL-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-RAIL-PIN-03"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-RAIL-PIN-04"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "routes": [
+        {
+          "ids": [
+            "HUB-CHASSIS-PIN-02"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-CHASSIS-PIN-04"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "routes": []
+    },
+    {
+      "step": 30,
+      "routes": []
+    },
+    {
+      "step": 31,
+      "routes": [
+        {
+          "ids": [
+            "CH-MOTOR-L",
+            "CH-MOTOR-R",
+            "CH-CROSS",
+            "CH-CASTER",
+            "CH-BALL",
+            "CH-CASTER-PIN-01",
+            "CH-CASTER-PIN-02",
+            "CH-RAIL-01",
+            "CH-RAIL-02",
+            "CH-RAIL-PIN-01",
+            "CH-RAIL-PIN-02",
+            "CH-RAIL-PIN-03",
+            "CH-RAIL-PIN-04",
+            "CH-RAIL-PIN-05",
+            "CH-RAIL-PIN-06",
+            "CH-FRONT-PIN-01",
+            "CH-FRONT-PIN-02",
+            "CH-WHEEL-PIN-L-01",
+            "CH-WHEEL-PIN-L-02",
+            "CH-WHEEL-PIN-R-01",
+            "CH-WHEEL-PIN-R-02",
+            "CH-WHEEL-L",
+            "CH-WHEEL-R"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "routes": []
+    },
+    {
+      "step": 33,
+      "routes": []
+    },
+    {
+      "step": 34,
+      "routes": [
+        {
+          "ids": [
+            "CR-LOW-PANEL"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-LOW-RAIL-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-LOW-RAIL-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-BLUE-01"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-BLUE-02"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-BLUE-03"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-BLUE-04"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "routes": [
+        {
+          "ids": [
+            "CR-BELT-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-BELT-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 36,
+      "routes": [
+        {
+          "ids": [
+            "CR-H-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-CROSS-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-TOP5-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-H-3"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-CROSS-3"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-TOP5-3"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 37,
+      "routes": [
+        {
+          "ids": [
+            "CR-UNION-PIN-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UNION-PIN-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UNION-PIN-03"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UNION-PIN-04"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-H-1",
+            "CR-CROSS-1",
+            "CR-TOP5-1"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-H-3",
+            "CR-CROSS-3",
+            "CR-TOP5-3"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 38,
+      "routes": [
+        {
+          "ids": [
+            "CR-FRAME-BACK"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-11-BACK"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-FRAME-BACK-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-FRAME-BACK-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 39,
+      "routes": [
+        {
+          "ids": [
+            "CR-UPPER-PANEL"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UPPER-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UPPER-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 40,
+      "routes": [
+        {
+          "ids": [
+            "CR-11-FRONT"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UPPER-FRONT-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-UPPER-FRONT-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 41,
+      "routes": [
+        {
+          "ids": [
+            "CR-FRAME-FRONT"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-FRAME-FRONT-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CR-FRAME-FRONT-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 42,
+      "routes": [
+        {
+          "ids": [
+            "CR-LOW-PANEL",
+            "CR-LOW-RAIL-01",
+            "CR-LOW-RAIL-02",
+            "CR-BLUE-01",
+            "CR-BLUE-02",
+            "CR-BLUE-03",
+            "CR-BLUE-04",
+            "CR-BELT-01",
+            "CR-BELT-02",
+            "CR-H-1",
+            "CR-CROSS-1",
+            "CR-TOP5-1",
+            "CR-H-3",
+            "CR-CROSS-3",
+            "CR-TOP5-3",
+            "CR-UNION-PIN-01",
+            "CR-UNION-PIN-02",
+            "CR-UNION-PIN-03",
+            "CR-UNION-PIN-04",
+            "CR-FRAME-BACK",
+            "CR-11-BACK",
+            "CR-FRAME-BACK-PIN-01",
+            "CR-FRAME-BACK-PIN-02",
+            "CR-UPPER-PANEL",
+            "CR-UPPER-PIN-01",
+            "CR-UPPER-PIN-02",
+            "CR-11-FRONT",
+            "CR-UPPER-FRONT-PIN-01",
+            "CR-UPPER-FRONT-PIN-02",
+            "CR-FRAME-FRONT",
+            "CR-FRAME-FRONT-PIN-01",
+            "CR-FRAME-FRONT-PIN-02"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 43,
+      "routes": [
+        {
+          "ids": [
+            "ST-PLATE"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-11-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-11-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-PLATE-PIN-01"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-PLATE-PIN-02"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-PLATE-PIN-03"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-PLATE-PIN-04"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 44,
+      "routes": [
+        {
+          "ids": [
+            "ST-FRAME-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-FRAME-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-FRAME-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-FRAME-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-FRAME-PIN-03"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ST-FRAME-PIN-04"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 45,
+      "routes": []
+    },
+    {
+      "step": 46,
+      "routes": [
+        {
+          "ids": [
+            "CB-YELLOW-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-REAR-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-HUB-PIN-1-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-HUB-PIN-1-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-AXLEPIN-1-01"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-AXLEPIN-1-02"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 47,
+      "routes": [
+        {
+          "ids": [
+            "CB-ROOF"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-AXLEPIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-AXLEPIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-AXLEPIN-03"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-AXLEPIN-04"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-BUSH-01"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-ROOF-BUSH-02"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 48,
+      "routes": [
+        {
+          "ids": [
+            "CB-FRONT-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 49,
+      "routes": [
+        {
+          "ids": [
+            "CH-WHEEL-OUT-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-JOIN-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 50,
+      "routes": [
+        {
+          "ids": [
+            "CH-AXLE5-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-GEAR28-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 51,
+      "routes": [
+        {
+          "ids": [
+            "CB-YELLOW-3"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-REAR-3"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-HUB-PIN-3-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-HUB-PIN-3-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-AXLEPIN-3-01"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-AXLEPIN-3-02"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 52,
+      "routes": [
+        {
+          "ids": [
+            "CB-FRONT-R"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-BEACON-PIN"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-BEACON-LOW"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-BEACON-WHITE"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CB-BEACON-TOP"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 53,
+      "routes": [
+        {
+          "ids": [
+            "CH-WHEEL-OUT-3"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-WHEEL-JOIN-3"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 54,
+      "routes": [
+        {
+          "ids": [
+            "CH-AXLE5-3"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CH-GEAR28-3"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    }
+  ],
+  "scope": "editorial_only",
+  "axial_review": "not_run",
+  "collision_sweep": "not_run",
+  "release_ready": false
+}

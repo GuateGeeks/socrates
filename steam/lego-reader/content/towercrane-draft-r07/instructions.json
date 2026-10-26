@@ -1,0 +1,4900 @@
+{
+  "schema_version": "gglego.web-instructions/v1",
+  "id": "TOWERCRANE-2076-R06-E01-DRAFT",
+  "title": "TowerCrane 2076 - borrador parcial R06; eje5L sin pose",
+  "revision": "TOWERCRANE-2076-R06-E01 · BORRADOR",
+  "revision_key": "e62926abc44ab4fbac2018ac341dca53ecfb893cb3f4c25b6fb52399f8ac55ab",
+  "language": "es",
+  "scenes": [
+    {
+      "id": 1,
+      "kind": "scene",
+      "title": "Prepara la placa amarilla, los cuatro conectores grises y las cuatro ruedas usadas como pies",
+      "actions": [
+        "Prepara la placa amarilla, los cuatro conectores grises y las cuatro ruedas usadas como pies."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "BASE-PLATE",
+        "BASE-JOIN-1",
+        "BASE-FOOT-1",
+        "BASE-JOIN-2",
+        "BASE-FOOT-2",
+        "BASE-JOIN-3",
+        "BASE-FOOT-3",
+        "BASE-JOIN-4",
+        "BASE-FOOT-4"
+      ],
+      "parts": [
+        {
+          "key": "bl-39369-c3",
+          "quantity": 1,
+          "icon": "K39369_c3",
+          "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+          "color": "Yellow",
+          "bricklink_item_id": "39369",
+          "ldraw_file": "39369.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 4,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 4,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-1",
+      "details": []
+    },
+    {
+      "id": 2,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-2",
+      "details": []
+    },
+    {
+      "id": 3,
+      "kind": "scene",
+      "title": "Prepara el primer marco azul, dos marcos negros y cuatro pines",
+      "actions": [
+        "Prepara el primer marco azul, dos marcos negros y cuatro pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "TOWER-AZURE-L",
+        "TOWER-BLACK-FRONT",
+        "TOWER-BLACK-BACK",
+        "TOWER-BLACK-LOW-PIN-01",
+        "TOWER-BLACK-LOW-PIN-02",
+        "TOWER-BLACK-LOW-PIN-03",
+        "TOWER-BLACK-LOW-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-39790-c156",
+          "quantity": 1,
+          "icon": "K39790_c156",
+          "name": "Medium Azure Technic, Liftarm, Modified Frame Thick 11 x 15 Open Center",
+          "color": "Medium Azure",
+          "bricklink_item_id": "39790",
+          "ldraw_file": "39790.dat"
+        },
+        {
+          "key": "bl-64179-c11",
+          "quantity": 2,
+          "icon": "K64179_c11",
+          "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+          "color": "Black",
+          "bricklink_item_id": "64179",
+          "ldraw_file": "64179.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-3",
+      "details": []
+    },
+    {
+      "id": 4,
+      "kind": "scene",
+      "title": "Cierra el bastidor inferior con el segundo marco azul y cuatro pines",
+      "actions": [
+        "Cierra el bastidor inferior con el segundo marco azul y cuatro pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "TOWER-AZURE-R",
+        "TOWER-BLACK-HIGH-PIN-01",
+        "TOWER-BLACK-HIGH-PIN-02",
+        "TOWER-BLACK-HIGH-PIN-03",
+        "TOWER-BLACK-HIGH-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-39790-c156",
+          "quantity": 1,
+          "icon": "K39790_c156",
+          "name": "Medium Azure Technic, Liftarm, Modified Frame Thick 11 x 15 Open Center",
+          "color": "Medium Azure",
+          "bricklink_item_id": "39790",
+          "ldraw_file": "39790.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-4",
+      "details": []
+    },
+    {
+      "id": 5,
+      "kind": "scene",
+      "title": "Añade cuatro conectores grises acodados 55615 y cuatro pasadores con casquillo",
+      "actions": [
+        "Añade cuatro conectores grises acodados 55615 y cuatro pasadores con casquillo; no confundirlos con 48989."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-BENT-JOIN-1",
+        "TOWER-BENT-JOIN-2",
+        "TOWER-BENT-JOIN-3",
+        "TOWER-BENT-JOIN-4",
+        "TOWER-BUSH-PIN-01",
+        "TOWER-BUSH-PIN-02",
+        "TOWER-BUSH-PIN-03",
+        "TOWER-BUSH-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-55615-c86",
+          "quantity": 4,
+          "icon": "K55615_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "55615",
+          "ldraw_file": "55615.dat"
+        },
+        {
+          "key": "bl-32054-c86",
+          "quantity": 4,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-5",
+      "details": []
+    },
+    {
+      "id": 6,
+      "kind": "scene",
+      "title": "Prepara cuatro pines para unir el bastidor a la base",
+      "actions": [
+        "Prepara cuatro pines para unir el bastidor a la base."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-BASE-PIN-01",
+        "TOWER-BASE-PIN-02",
+        "TOWER-BASE-PIN-03",
+        "TOWER-BASE-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-6",
+      "details": []
+    },
+    {
+      "id": 7,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-7",
+      "details": []
+    },
+    {
+      "id": 8,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-8",
+      "details": []
+    },
+    {
+      "id": 9,
+      "kind": "scene",
+      "title": "Prepara el primer marco magenta, la viga azul y sus pines",
+      "actions": [
+        "Prepara el primer marco magenta, la viga azul y sus pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-MAGENTA-L",
+        "TOWER-CROSS-LOW",
+        "TOWER-CROSS-BLUE-LOW-01",
+        "TOWER-CROSS-BLUE-LOW-02",
+        "TOWER-CROSS-PIN-LOW-01",
+        "TOWER-CROSS-PIN-LOW-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-39794-c71",
+          "quantity": 1,
+          "icon": "K39794_c71",
+          "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+          "color": "Magenta",
+          "bricklink_item_id": "39794",
+          "ldraw_file": "39794.dat"
+        },
+        {
+          "key": "bl-32524-c156",
+          "quantity": 1,
+          "icon": "K32524_c156",
+          "name": "Medium Azure Technic, Liftarm Thick 1 x 7",
+          "color": "Medium Azure",
+          "bricklink_item_id": "32524",
+          "ldraw_file": "32524.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 2,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-9",
+      "details": []
+    },
+    {
+      "id": 10,
+      "kind": "scene",
+      "title": "Construye el bloque central con dos biscuits magenta, dos engranajes grises de 28 dientes y cuatro pines azules",
+      "actions": [
+        "Construye el bloque central con dos biscuits magenta, dos engranajes grises de 28 dientes y cuatro pines azules."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-CENTER-BLOCK-1",
+        "TOWER-CENTER-BLOCK-2",
+        "TOWER-CENTER-GEAR-1",
+        "TOWER-CENTER-GEAR-2",
+        "TOWER-CENTER-BLUE-01",
+        "TOWER-CENTER-BLUE-02",
+        "TOWER-CENTER-BLUE-03",
+        "TOWER-CENTER-BLUE-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c71",
+          "quantity": 2,
+          "icon": "K39793_c71",
+          "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Magenta",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-46372-c86",
+          "quantity": 2,
+          "icon": "K46372_c86",
+          "name": "Light Bluish Gray Technic, Gear 28 Tooth Double Bevel",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "46372",
+          "ldraw_file": "46372.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 4,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-10",
+      "details": []
+    },
+    {
+      "id": 11,
+      "kind": "scene",
+      "title": "Añade la segunda viga azul con dos pines azules",
+      "actions": [
+        "Añade la segunda viga azul con dos pines azules."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-CROSS-HIGH",
+        "TOWER-CROSS-BLUE-HIGH-01",
+        "TOWER-CROSS-BLUE-HIGH-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32524-c156",
+          "quantity": 1,
+          "icon": "K32524_c156",
+          "name": "Medium Azure Technic, Liftarm Thick 1 x 7",
+          "color": "Medium Azure",
+          "bricklink_item_id": "32524",
+          "ldraw_file": "32524.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 2,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-11",
+      "details": []
+    },
+    {
+      "id": 12,
+      "kind": "scene",
+      "title": "Cierra con el segundo marco magenta",
+      "actions": [
+        "Cierra con el segundo marco magenta."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-MAGENTA-R",
+        "TOWER-MAGENTA-PIN-01",
+        "TOWER-MAGENTA-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-39794-c71",
+          "quantity": 1,
+          "icon": "K39794_c71",
+          "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+          "color": "Magenta",
+          "bricklink_item_id": "39794",
+          "ldraw_file": "39794.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-12",
+      "details": []
+    },
+    {
+      "id": 13,
+      "kind": "scene",
+      "title": "Añade las dos riostras magenta de 11 módulos",
+      "actions": [
+        "Añade las dos riostras magenta de 11 módulos."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-BRACE--1",
+        "TOWER-BRACE-1",
+        "TOWER-BRACE-PIN-01",
+        "TOWER-BRACE-PIN-02",
+        "TOWER-BRACE-PIN-03",
+        "TOWER-BRACE-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-32525-c71",
+          "quantity": 2,
+          "icon": "K32525_c71",
+          "name": "Magenta Technic, Liftarm Thick 1 x 11",
+          "color": "Magenta",
+          "bricklink_item_id": "32525",
+          "ldraw_file": "32525.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-13",
+      "details": []
+    },
+    {
+      "id": 14,
+      "kind": "scene",
+      "title": "Prepara los cuatro montantes negros de 15 módulos con ocho pines",
+      "actions": [
+        "Prepara los cuatro montantes negros de 15 módulos con ocho pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-UPRIGHT-1",
+        "TOWER-UPRIGHT-2",
+        "TOWER-UPRIGHT-3",
+        "TOWER-UPRIGHT-4",
+        "TOWER-UPRIGHT-PIN-01",
+        "TOWER-UPRIGHT-PIN-02",
+        "TOWER-UPRIGHT-PIN-03",
+        "TOWER-UPRIGHT-PIN-04",
+        "TOWER-UPRIGHT-PIN-05",
+        "TOWER-UPRIGHT-PIN-06",
+        "TOWER-UPRIGHT-PIN-07",
+        "TOWER-UPRIGHT-PIN-08"
+      ],
+      "parts": [
+        {
+          "key": "bl-32278-c11",
+          "quantity": 4,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 8,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-14",
+      "details": []
+    },
+    {
+      "id": 15,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-15",
+      "details": []
+    },
+    {
+      "id": 16,
+      "kind": "union",
+      "title": "Prepara los cuatro pasadores grises de captura de la torre",
+      "actions": [
+        "Prepara los cuatro pasadores grises de captura de la torre."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOWER-CAPTURE-PIN-01",
+        "TOWER-CAPTURE-PIN-02",
+        "TOWER-CAPTURE-PIN-03",
+        "TOWER-CAPTURE-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-32054-c86",
+          "quantity": 4,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-16",
+      "details": []
+    },
+    {
+      "id": 17,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-17",
+      "details": []
+    },
+    {
+      "id": 18,
+      "kind": "scene",
+      "title": "Une el motor grande y el hub mediante dos pines",
+      "actions": [
+        "Une el motor grande y el hub mediante dos pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-LARGE-MOTOR",
+        "TOP-HUB",
+        "TOP-HUB-MOTOR-PIN-01",
+        "TOP-HUB-MOTOR-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-54675c01-c156",
+          "quantity": 1,
+          "icon": "K54675c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Large Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54675c01",
+          "ldraw_file": "54675.dat"
+        },
+        {
+          "key": "bl-53444c01-c3",
+          "quantity": 1,
+          "icon": "K53444c01_c3",
+          "name": "Yellow Electric, Hub Large - SPIKE Prime",
+          "color": "Yellow",
+          "bricklink_item_id": "53444c01",
+          "ldraw_file": "bb1142c01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-18",
+      "details": []
+    },
+    {
+      "id": 19,
+      "kind": "scene",
+      "title": "Prepara ocho pines para la placa superior",
+      "actions": [
+        "Prepara ocho pines para la placa superior."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-BASE-PIN-01",
+        "TOP-BASE-PIN-02",
+        "TOP-BASE-PIN-03",
+        "TOP-BASE-PIN-04",
+        "TOP-BASE-PIN-05",
+        "TOP-BASE-PIN-06",
+        "TOP-BASE-PIN-07",
+        "TOP-BASE-PIN-08"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 8,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-19",
+      "details": []
+    },
+    {
+      "id": 20,
+      "kind": "connection",
+      "title": "Conecta el motor grande a D",
+      "actions": [
+        "Conecta el motor grande a D; el cable no tiene barrido flexible representado."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-20",
+      "details": []
+    },
+    {
+      "id": 21,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-21",
+      "details": []
+    },
+    {
+      "id": 22,
+      "kind": "union",
+      "title": "Acopla la segunda placa amarilla al conjunto superior",
+      "actions": [
+        "Acopla la segunda placa amarilla al conjunto superior."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-PLATE"
+      ],
+      "parts": [
+        {
+          "key": "bl-39369-c3",
+          "quantity": 1,
+          "icon": "K39369_c3",
+          "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+          "color": "Yellow",
+          "bricklink_item_id": "39369",
+          "ldraw_file": "39369.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-22",
+      "details": []
+    },
+    {
+      "id": 23,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-23",
+      "details": []
+    },
+    {
+      "id": 24,
+      "kind": "scene",
+      "title": "Prepara el motor mediano y el sensor de distancia con cuatro pines",
+      "actions": [
+        "Prepara el motor mediano y el sensor de distancia con cuatro pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-MEDIUM-MOTOR",
+        "TOP-DISTANCE",
+        "TOP-DISTANCE-PIN-01",
+        "TOP-DISTANCE-PIN-02",
+        "TOP-DISTANCE-PIN-03",
+        "TOP-DISTANCE-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-54696c01-c156",
+          "quantity": 1,
+          "icon": "K54696c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54696c01",
+          "ldraw_file": "54696.dat"
+        },
+        {
+          "key": "bl-37316c01-c11",
+          "quantity": 1,
+          "icon": "K37316c01_c11",
+          "name": "Black Electric Sensor, Distance - SPIKE Prime",
+          "color": "Black",
+          "bricklink_item_id": "37316c01",
+          "ldraw_file": "37316c01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-24",
+      "details": []
+    },
+    {
+      "id": 25,
+      "kind": "scene",
+      "title": "Prepara los dos engranajes beige de 20 dientes con ejes rojos y pines negros",
+      "actions": [
+        "Prepara los dos engranajes beige de 20 dientes con ejes rojos y pines negros."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-GEAR-20-VERTICAL",
+        "TOP-GEAR-20-FRONT",
+        "TOP-GEAR-AXLE-V",
+        "TOP-GEAR-AXLE-F",
+        "TOP-MEDIUM-PIN-01",
+        "TOP-MEDIUM-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32269-c2",
+          "quantity": 2,
+          "icon": "K32269_c2",
+          "name": "Tan Technic, Gear 20 Tooth Double Bevel",
+          "color": "Tan",
+          "bricklink_item_id": "32269",
+          "ldraw_file": "32269.dat"
+        },
+        {
+          "key": "bl-32062-c5",
+          "quantity": 2,
+          "icon": "K32062_c5",
+          "name": "Red Technic, Axle 2L Notched",
+          "color": "Red",
+          "bricklink_item_id": "32062",
+          "ldraw_file": "32062.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-25",
+      "details": []
+    },
+    {
+      "id": 26,
+      "kind": "scene",
+      "title": "Añade el conector gris y dos pasadores con casquillo al apoyo del motor",
+      "actions": [
+        "Añade el conector gris y dos pasadores con casquillo al apoyo del motor."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-MEDIUM-JOIN",
+        "TOP-MEDIUM-BUSH-01",
+        "TOP-MEDIUM-BUSH-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-32054-c86",
+          "quantity": 2,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-26",
+      "details": []
+    },
+    {
+      "id": 27,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-27",
+      "details": []
+    },
+    {
+      "id": 28,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-28",
+      "details": []
+    },
+    {
+      "id": 29,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-29",
+      "details": []
+    },
+    {
+      "id": 30,
+      "kind": "connection",
+      "title": "Conecta el motor mediano a F",
+      "actions": [
+        "Conecta el motor mediano a F; comprueba holgura del cable."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-30",
+      "details": []
+    },
+    {
+      "id": 31,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-31",
+      "details": []
+    },
+    {
+      "id": 32,
+      "kind": "connection",
+      "title": "Conecta el sensor de distancia a B",
+      "actions": [
+        "Conecta el sensor de distancia a B."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-32",
+      "details": []
+    },
+    {
+      "id": 33,
+      "kind": "scene",
+      "title": "Añade la viga amarilla corta con dos pines azules",
+      "actions": [
+        "Añade la viga amarilla corta con dos pines azules."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "TOP-KEEPER",
+        "TOP-KEEPER-BLUE-01",
+        "TOP-KEEPER-BLUE-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32523-c3",
+          "quantity": 1,
+          "icon": "K32523_c3",
+          "name": "Yellow Technic, Liftarm Thick 1 x 3",
+          "color": "Yellow",
+          "bricklink_item_id": "32523",
+          "ldraw_file": "32523.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 2,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-33",
+      "details": []
+    },
+    {
+      "id": 34,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-34",
+      "details": []
+    },
+    {
+      "id": 35,
+      "kind": "scene",
+      "title": "Prepara la bobina con el eje gris 9L, una polea y el primer ladrillo redondo. La cuerda es un elemento externo no modelado",
+      "actions": [
+        "Prepara la bobina con el eje gris 9L, una polea y el primer ladrillo redondo. La cuerda es un elemento externo no modelado."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-AXLE",
+        "SPOOL-PULLEY-L",
+        "SPOOL-ROUND-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-60485-c86",
+          "quantity": 1,
+          "icon": "",
+          "name": "Light Bluish Gray Technic, Axle 9L",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "60485",
+          "ldraw_file": "60485.dat"
+        },
+        {
+          "key": "bl-4185-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic Wedge Belt Wheel (Pulley)",
+          "color": "Black",
+          "bricklink_item_id": "4185",
+          "ldraw_file": "4185.dat"
+        },
+        {
+          "key": "bl-3941-c1",
+          "quantity": 1,
+          "icon": "K3941_c1",
+          "name": "White Brick, Round 2 x 2 with Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "3941",
+          "ldraw_file": "3941.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-35",
+      "details": []
+    },
+    {
+      "id": 36,
+      "kind": "scene",
+      "title": "Añade dos ladrillos redondos blancos y un disco negro",
+      "actions": [
+        "Añade dos ladrillos redondos blancos y un disco negro."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-ROUND-2",
+        "SPOOL-ROUND-3",
+        "SPOOL-END-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-3941-c1",
+          "quantity": 2,
+          "icon": "K3941_c1",
+          "name": "White Brick, Round 2 x 2 with Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "3941",
+          "ldraw_file": "3941.dat"
+        },
+        {
+          "key": "bl-15535-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Tile, Round 2 x 2 with Hole",
+          "color": "Black",
+          "bricklink_item_id": "15535",
+          "ldraw_file": "15535.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-36",
+      "details": []
+    },
+    {
+      "id": 37,
+      "kind": "scene",
+      "title": "Añade el segundo disco negro",
+      "actions": [
+        "Añade el segundo disco negro."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-END-2"
+      ],
+      "parts": [
+        {
+          "key": "bl-15535-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Tile, Round 2 x 2 with Hole",
+          "color": "Black",
+          "bricklink_item_id": "15535",
+          "ldraw_file": "15535.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-37",
+      "details": []
+    },
+    {
+      "id": 38,
+      "kind": "scene",
+      "title": "Cierra la bobina con la segunda polea y el casquillo",
+      "actions": [
+        "Cierra la bobina con la segunda polea y el casquillo."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-PULLEY-R",
+        "SPOOL-BUSH"
+      ],
+      "parts": [
+        {
+          "key": "bl-4185-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic Wedge Belt Wheel (Pulley)",
+          "color": "Black",
+          "bricklink_item_id": "4185",
+          "ldraw_file": "4185.dat"
+        },
+        {
+          "key": "bl-3713-c86",
+          "quantity": 1,
+          "icon": "K3713_c86",
+          "name": "Light Bluish Gray Technic Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "3713",
+          "ldraw_file": "3713.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-38",
+      "details": []
+    },
+    {
+      "id": 39,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-39",
+      "details": []
+    },
+    {
+      "id": 40,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-40",
+      "details": []
+    },
+    {
+      "id": 41,
+      "kind": "scene",
+      "title": "Añade el soporte negro en T",
+      "actions": [
+        "Añade el soporte negro en T."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-SUPPORT-T",
+        "SPOOL-SUPPORT-PIN-01",
+        "SPOOL-SUPPORT-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-60484-c11",
+          "quantity": 1,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-41",
+      "details": []
+    },
+    {
+      "id": 42,
+      "kind": "scene",
+      "title": "Añade la viga acodada negra del soporte de bobina",
+      "actions": [
+        "Añade la viga acodada negra del soporte de bobina."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-SUPPORT-BENT",
+        "SPOOL-SUPPORT-BENT-PIN-01",
+        "SPOOL-SUPPORT-BENT-PIN-02",
+        "SPOOL-SUPPORT-BENT-PIN-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-32348-c11",
+          "quantity": 1,
+          "icon": "K32348_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4)",
+          "color": "Black",
+          "bricklink_item_id": "32348",
+          "ldraw_file": "32348.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-42",
+      "details": []
+    },
+    {
+      "id": 43,
+      "kind": "scene",
+      "title": "Prepara el ladrillo blanco del mando",
+      "actions": [
+        "Prepara el ladrillo blanco del mando; la tapa impresa no está modelada."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "SPOOL-KNOB"
+      ],
+      "parts": [
+        {
+          "key": "bl-3941-c1",
+          "quantity": 1,
+          "icon": "K3941_c1",
+          "name": "White Brick, Round 2 x 2 with Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "3941",
+          "ldraw_file": "3941.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-43",
+      "details": []
+    },
+    {
+      "id": 44,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-44",
+      "details": []
+    },
+    {
+      "id": 45,
+      "kind": "scene",
+      "title": "Prepara un panel azul, una viga negra de 15 módulos y su conector gris",
+      "actions": [
+        "Prepara el panel azul, la viga15L, un conector gris48989 y un pasador negro2780. La pose nominal de esta unión necesita revisión."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "BOOM-PANEL-L",
+        "BOOM-BAR-L",
+        "BOOM-JOIN-BACK",
+        "BOOM-PANEL-PIN-01"
+      ],
+      "parts": [
+        {
+          "key": "bl-11954-c156",
+          "quantity": 1,
+          "icon": "K11954_c156",
+          "name": "Medium Azure Technic, Panel Curved 11 x 3 with 10 Pin Holes through Panel Surface",
+          "color": "Medium Azure",
+          "bricklink_item_id": "11954",
+          "ldraw_file": "11954.dat"
+        },
+        {
+          "key": "bl-32278-c11",
+          "quantity": 1,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 1,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-45",
+      "details": []
+    },
+    {
+      "id": 46,
+      "kind": "scene",
+      "title": "Añade la riostra negra y sus conectores",
+      "actions": [
+        "Añade la riostra negra y sus conectores."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "BOOM-AXLEPIN",
+        "BOOM-BLUE-1",
+        "BOOM-BENT"
+      ],
+      "parts": [
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 1,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-32009-c11",
+          "quantity": 1,
+          "icon": "K32009_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+          "color": "Black",
+          "bricklink_item_id": "32009",
+          "ldraw_file": "32009.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-46",
+      "details": []
+    },
+    {
+      "id": 47,
+      "kind": "scene",
+      "title": "Prepara los dos conectores grises, el pin azul y la polea blanca del extremo",
+      "actions": [
+        "Añade dos conectores grises48989, la rueda blanca56903 y un eje amarillo3L4519. El pasador azul ya viene deBI46; no se añade otro."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "BOOM-JOIN-1",
+        "BOOM-JOIN-2",
+        "BOOM-TIP-PULLEY",
+        "BOOM-TIP-AXLEPIN"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 2,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-56903-c1",
+          "quantity": 1,
+          "icon": "",
+          "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "56903",
+          "ldraw_file": "56903.dat"
+        },
+        {
+          "key": "bl-4519-c3",
+          "quantity": 1,
+          "icon": "K4519_c3",
+          "name": "Yellow Technic, Axle 3L",
+          "color": "Yellow",
+          "bricklink_item_id": "4519",
+          "ldraw_file": "4519.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-47",
+      "details": []
+    },
+    {
+      "id": 48,
+      "kind": "scene",
+      "title": "Cierra la pluma con el segundo panel y la segunda viga de 15 módulos",
+      "actions": [
+        "Cierra con el segundo panel azul, la segunda viga15L y un solo pasador negro2780. Comprobar orientación y cierre en Studio."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [
+        "BOOM-PANEL-R",
+        "BOOM-BAR-R",
+        "BOOM-CLOSE-PIN-01"
+      ],
+      "parts": [
+        {
+          "key": "bl-11954-c156",
+          "quantity": 1,
+          "icon": "K11954_c156",
+          "name": "Medium Azure Technic, Panel Curved 11 x 3 with 10 Pin Holes through Panel Surface",
+          "color": "Medium Azure",
+          "bricklink_item_id": "11954",
+          "ldraw_file": "11954.dat"
+        },
+        {
+          "key": "bl-32278-c11",
+          "quantity": 1,
+          "icon": "K32278_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 15",
+          "color": "Black",
+          "bricklink_item_id": "32278",
+          "ldraw_file": "32278.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 1,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-48",
+      "details": []
+    },
+    {
+      "id": 49,
+      "kind": "scene",
+      "title": "Prepara los seis pines de unión de la pluma",
+      "actions": [
+        "Prepara los seis pines de unión de la pluma."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "BOOM-BASE-PIN-01",
+        "BOOM-BASE-PIN-02",
+        "BOOM-BASE-PIN-03",
+        "BOOM-BASE-PIN-04",
+        "BOOM-BASE-PIN-05",
+        "BOOM-BASE-PIN-06"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 6,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-49",
+      "details": []
+    },
+    {
+      "id": 50,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-50",
+      "details": []
+    },
+    {
+      "id": 51,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-51",
+      "details": []
+    },
+    {
+      "id": 52,
+      "kind": "scene",
+      "title": "Prepara el conector de suspensión y su eje con pin. No inferir una cuerda rígida",
+      "actions": [
+        "Prepara el conector de suspensión y su eje con pin. No inferir una cuerda rígida."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "HOOK-HANGER",
+        "HOOK-HANGER-PIN"
+      ],
+      "parts": [
+        {
+          "key": "bl-87082-c86",
+          "quantity": 1,
+          "icon": "",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "87082",
+          "ldraw_file": "87082.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-52",
+      "details": []
+    },
+    {
+      "id": 53,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-53",
+      "details": []
+    },
+    {
+      "id": 54,
+      "kind": "scene",
+      "title": "Eje5L observado: sin pose y sin representación",
+      "actions": [
+        "La referencia BI54 incorpora un eje gris5L32073 a la transmisión vertical del plato. Se ha identificado la pieza, pero no una pose coherente con motor, placa y engranajes. Esta escena no añade geometría. La BOM observada sí conserva el eje; resolverlo antes de usar estas instrucciones para un montaje físico."
+      ],
+      "check": "Pendiente: reconstruir conjuntamente salida del motor grande54675, placa39369 y engranajes46372. La pose de R05 se solapaba con4519 en la punta; la prueba R04 atravesaba una tapa plana del motor. No adoptar ninguna ni inferir una unión corregida por ocultar esta geometría.",
+      "source_check": "Pendiente: reconstruir conjuntamente salida del motor grande54675, placa39369 y engranajes46372. La pose de R05 se solapaba con4519 en la punta; la prueba R04 atravesaba una tapa plana del motor. No adoptar ninguna ni inferir una unión corregida por ocultar esta geometría.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-54",
+      "details": []
+    },
+    {
+      "id": 55,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-55",
+      "details": []
+    },
+    {
+      "id": 56,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico. Incidencias geométricas abiertas: consultar expedienteR05 ligado al hash del modelo antes de usar como instrucciones físicas.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-56",
+      "details": []
+    },
+    {
+      "id": 57,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-57",
+      "details": []
+    },
+    {
+      "id": 58,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-58",
+      "details": []
+    },
+    {
+      "id": 59,
+      "kind": "scene",
+      "title": "Construye el aparejo con dos soportes en T, polea, conector y pasadores",
+      "actions": [
+        "Construye el aparejo con dos soportes en T, polea, conector y pasadores."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "HOOK-T-1",
+        "HOOK-T-2",
+        "HOOK-PULLEY",
+        "HOOK-BLUE",
+        "HOOK-AXLEPIN",
+        "HOOK-JOIN"
+      ],
+      "parts": [
+        {
+          "key": "bl-60484-c11",
+          "quantity": 2,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-56903-c1",
+          "quantity": 1,
+          "icon": "",
+          "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "56903",
+          "ldraw_file": "56903.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 1,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-87082-c86",
+          "quantity": 1,
+          "icon": "",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "87082",
+          "ldraw_file": "87082.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-59",
+      "details": []
+    },
+    {
+      "id": 60,
+      "kind": "union",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-60",
+      "details": []
+    },
+    {
+      "id": 61,
+      "kind": "scene",
+      "title": "Construye el primer lado de la carga con el par de soportes repetidos 2x",
+      "actions": [
+        "Construye el primer lado de la carga con el par de soportes repetidos 2x."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "LOAD-PANEL-L",
+        "LOAD-BLOCK--1",
+        "LOAD-AXLE-JOIN--1",
+        "LOAD-RED-AXLE--1",
+        "LOAD-BLOCK-1",
+        "LOAD-AXLE-JOIN-1",
+        "LOAD-RED-AXLE-1",
+        "LOAD-PIN-01",
+        "LOAD-PIN-02",
+        "LOAD-PIN-03",
+        "LOAD-PIN-04",
+        "LOAD-PIN-05"
+      ],
+      "parts": [
+        {
+          "key": "bl-15458-c11",
+          "quantity": 1,
+          "icon": "K15458_c11",
+          "name": "Black Technic, Panel Plate 3 x 11 x 1",
+          "color": "Black",
+          "bricklink_item_id": "15458",
+          "ldraw_file": "15458.dat"
+        },
+        {
+          "key": "bl-39793-c71",
+          "quantity": 2,
+          "icon": "K39793_c71",
+          "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Magenta",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-32013-c86",
+          "quantity": 2,
+          "icon": "K32013_c86",
+          "name": "Light Bluish Gray Technic, Axle and Pin Connector Angled #1",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32013",
+          "ldraw_file": "32013.dat"
+        },
+        {
+          "key": "bl-32062-c5",
+          "quantity": 2,
+          "icon": "K32062_c5",
+          "name": "Red Technic, Axle 2L Notched",
+          "color": "Red",
+          "bricklink_item_id": "32062",
+          "ldraw_file": "32062.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 5,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-61",
+      "details": []
+    },
+    {
+      "id": 62,
+      "kind": "scene",
+      "title": "Cierra la carga con el segundo panel",
+      "actions": [
+        "Cierra la carga con el segundo panel."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "LOAD-PANEL-R"
+      ],
+      "parts": [
+        {
+          "key": "bl-15458-c11",
+          "quantity": 1,
+          "icon": "K15458_c11",
+          "name": "Black Technic, Panel Plate 3 x 11 x 1",
+          "color": "Black",
+          "bricklink_item_id": "15458",
+          "ldraw_file": "15458.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-62",
+      "details": []
+    },
+    {
+      "id": 63,
+      "kind": "scene",
+      "title": "Añade la viga magenta y dos pines",
+      "actions": [
+        "Añade la viga magenta y dos pines."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "LOAD-CROSS",
+        "LOAD-CROSS-PIN-01",
+        "LOAD-CROSS-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32316-c71",
+          "quantity": 1,
+          "icon": "K32316_c71",
+          "name": "Magenta Technic, Liftarm Thick 1 x 5",
+          "color": "Magenta",
+          "bricklink_item_id": "32316",
+          "ldraw_file": "32316.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-63",
+      "details": []
+    },
+    {
+      "id": 64,
+      "kind": "scene",
+      "title": "Añade dos engranajes negros de 36 dientes a la carga",
+      "actions": [
+        "Añade dos engranajes negros de 36 dientes a la carga."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "LOAD-GEAR-1",
+        "LOAD-GEAR-2"
+      ],
+      "parts": [
+        {
+          "key": "bl-32498-c11",
+          "quantity": 2,
+          "icon": "K32498_c11",
+          "name": "Black Technic, Gear 36 Tooth Double Bevel",
+          "color": "Black",
+          "bricklink_item_id": "32498",
+          "ldraw_file": "32498.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-64",
+      "details": []
+    },
+    {
+      "id": 65,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-65",
+      "details": []
+    },
+    {
+      "id": 66,
+      "kind": "scene",
+      "title": "Construye dos objetos iguales",
+      "actions": [
+        "Construye dos objetos iguales; cada uno usa cinco ladrillos y una placa negra."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "OBJ-1-BRICK-7",
+        "OBJ-1-BRICK-71",
+        "OBJ-1-BRICK-6",
+        "OBJ-1-BRICK-3",
+        "OBJ-1-BRICK-5",
+        "OBJ-1-PLATE-LOW",
+        "OBJ-2-BRICK-7",
+        "OBJ-2-BRICK-71",
+        "OBJ-2-BRICK-6",
+        "OBJ-2-BRICK-3",
+        "OBJ-2-BRICK-5",
+        "OBJ-2-PLATE-LOW"
+      ],
+      "parts": [
+        {
+          "key": "bl-39789-c7",
+          "quantity": 2,
+          "icon": "",
+          "name": "Blue Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Blue",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c71",
+          "quantity": 2,
+          "icon": "",
+          "name": "Magenta Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Magenta",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c6",
+          "quantity": 2,
+          "icon": "",
+          "name": "Green Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Green",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c3",
+          "quantity": 2,
+          "icon": "",
+          "name": "Yellow Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Yellow",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-39789-c5",
+          "quantity": 2,
+          "icon": "",
+          "name": "Red Technic, Brick 2 x 4 with 3 Axle Holes",
+          "color": "Red",
+          "bricklink_item_id": "39789",
+          "ldraw_file": "39789.dat"
+        },
+        {
+          "key": "bl-3738-c11",
+          "quantity": 2,
+          "icon": "",
+          "name": "Black Technic, Plate 2 x 8 with 7 Holes",
+          "color": "Black",
+          "bricklink_item_id": "3738",
+          "ldraw_file": "3738.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-66",
+      "details": []
+    },
+    {
+      "id": 67,
+      "kind": "scene",
+      "title": "Añade por objeto una placa negra, una pendiente curva y dos pendientes pequeñas",
+      "actions": [
+        "Añade por objeto una placa negra, una pendiente curva y dos pendientes pequeñas."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "OBJ-1-PLATE-HIGH",
+        "OBJ-1-CURVED",
+        "OBJ-1-SLOPE-1",
+        "OBJ-1-SLOPE-2",
+        "OBJ-2-PLATE-HIGH",
+        "OBJ-2-CURVED",
+        "OBJ-2-SLOPE-1",
+        "OBJ-2-SLOPE-2"
+      ],
+      "parts": [
+        {
+          "key": "bl-3738-c11",
+          "quantity": 2,
+          "icon": "",
+          "name": "Black Technic, Plate 2 x 8 with 7 Holes",
+          "color": "Black",
+          "bricklink_item_id": "3738",
+          "ldraw_file": "3738.dat"
+        },
+        {
+          "key": "bl-24309-c3",
+          "quantity": 2,
+          "icon": "",
+          "name": "Yellow Slope, Curved 3 x 2",
+          "color": "Yellow",
+          "bricklink_item_id": "24309",
+          "ldraw_file": "24309.dat"
+        },
+        {
+          "key": "bl-85984-c3",
+          "quantity": 4,
+          "icon": "",
+          "name": "Yellow Slope 30 1 x 2 x 2/3",
+          "color": "Yellow",
+          "bricklink_item_id": "85984",
+          "ldraw_file": "85984.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-67",
+      "details": []
+    },
+    {
+      "id": 68,
+      "kind": "scene",
+      "title": "Añade por objeto un disco azul y uno negro",
+      "actions": [
+        "Añade por objeto un disco azul y uno negro."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [
+        "OBJ-1-DISC-AZURE",
+        "OBJ-1-DISC-BLACK",
+        "OBJ-2-DISC-AZURE",
+        "OBJ-2-DISC-BLACK"
+      ],
+      "parts": [
+        {
+          "key": "bl-4032-c156",
+          "quantity": 2,
+          "icon": "K4032_c156",
+          "name": "Medium Azure Plate, Round 2 x 2 with Axle Hole",
+          "color": "Medium Azure",
+          "bricklink_item_id": "4032",
+          "ldraw_file": "4032a.dat"
+        },
+        {
+          "key": "bl-15535-c11",
+          "quantity": 2,
+          "icon": "",
+          "name": "Black Tile, Round 2 x 2 with Hole",
+          "color": "Black",
+          "bricklink_item_id": "15535",
+          "ldraw_file": "15535.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-68",
+      "details": []
+    },
+    {
+      "id": 69,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-69",
+      "details": []
+    },
+    {
+      "id": 70,
+      "kind": "turn",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "actions": [
+        "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente."
+      ],
+      "check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "source_check": "Candidato nominal: comprobar orientación, cara de inserción, retención y recorrido. No se ejecutaron diagnósticos nativos ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-70",
+      "details": []
+    }
+  ],
+  "pages": {
+    "scene-1": {
+      "id": "scene-1",
+      "title": "Prepara la placa amarilla, los cuatro conectores grises y las cuatro ruedas usadas como pies",
+      "kind": "scene",
+      "scene": 1,
+      "texts": [],
+      "view_ids": [
+        "V01"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-2": {
+      "id": "scene-2",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 2,
+      "texts": [],
+      "view_ids": [
+        "V02"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-3": {
+      "id": "scene-3",
+      "title": "Prepara el primer marco azul, dos marcos negros y cuatro pines",
+      "kind": "scene",
+      "scene": 3,
+      "texts": [],
+      "view_ids": [
+        "V03"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-4": {
+      "id": "scene-4",
+      "title": "Cierra el bastidor inferior con el segundo marco azul y cuatro pines",
+      "kind": "scene",
+      "scene": 4,
+      "texts": [],
+      "view_ids": [
+        "V04"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-5": {
+      "id": "scene-5",
+      "title": "Añade cuatro conectores grises acodados 55615 y cuatro pasadores con casquillo",
+      "kind": "scene",
+      "scene": 5,
+      "texts": [],
+      "view_ids": [
+        "V05"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-6": {
+      "id": "scene-6",
+      "title": "Prepara cuatro pines para unir el bastidor a la base",
+      "kind": "scene",
+      "scene": 6,
+      "texts": [],
+      "view_ids": [
+        "V06"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-7": {
+      "id": "scene-7",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 7,
+      "texts": [],
+      "view_ids": [
+        "V07"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-8": {
+      "id": "scene-8",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 8,
+      "texts": [],
+      "view_ids": [
+        "V08"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-9": {
+      "id": "scene-9",
+      "title": "Prepara el primer marco magenta, la viga azul y sus pines",
+      "kind": "scene",
+      "scene": 9,
+      "texts": [],
+      "view_ids": [
+        "V09"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-10": {
+      "id": "scene-10",
+      "title": "Construye el bloque central con dos biscuits magenta, dos engranajes grises de 28 dientes y cuatro pines azules",
+      "kind": "scene",
+      "scene": 10,
+      "texts": [],
+      "view_ids": [
+        "V10"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-11": {
+      "id": "scene-11",
+      "title": "Añade la segunda viga azul con dos pines azules",
+      "kind": "scene",
+      "scene": 11,
+      "texts": [],
+      "view_ids": [
+        "V11"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-12": {
+      "id": "scene-12",
+      "title": "Cierra con el segundo marco magenta",
+      "kind": "scene",
+      "scene": 12,
+      "texts": [],
+      "view_ids": [
+        "V12"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-13": {
+      "id": "scene-13",
+      "title": "Añade las dos riostras magenta de 11 módulos",
+      "kind": "scene",
+      "scene": 13,
+      "texts": [],
+      "view_ids": [
+        "V13"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-14": {
+      "id": "scene-14",
+      "title": "Prepara los cuatro montantes negros de 15 módulos con ocho pines",
+      "kind": "scene",
+      "scene": 14,
+      "texts": [],
+      "view_ids": [
+        "V14"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-15": {
+      "id": "scene-15",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 15,
+      "texts": [],
+      "view_ids": [
+        "V15"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-16": {
+      "id": "scene-16",
+      "title": "Prepara los cuatro pasadores grises de captura de la torre",
+      "kind": "union",
+      "scene": 16,
+      "texts": [],
+      "view_ids": [
+        "V16"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-17": {
+      "id": "scene-17",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 17,
+      "texts": [],
+      "view_ids": [
+        "V17"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-18": {
+      "id": "scene-18",
+      "title": "Une el motor grande y el hub mediante dos pines",
+      "kind": "scene",
+      "scene": 18,
+      "texts": [],
+      "view_ids": [
+        "V18"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-19": {
+      "id": "scene-19",
+      "title": "Prepara ocho pines para la placa superior",
+      "kind": "scene",
+      "scene": 19,
+      "texts": [],
+      "view_ids": [
+        "V19"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-20": {
+      "id": "scene-20",
+      "title": "Conecta el motor grande a D",
+      "kind": "connection",
+      "scene": 20,
+      "texts": [],
+      "view_ids": [
+        "V20"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-21": {
+      "id": "scene-21",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 21,
+      "texts": [],
+      "view_ids": [
+        "V21"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-22": {
+      "id": "scene-22",
+      "title": "Acopla la segunda placa amarilla al conjunto superior",
+      "kind": "union",
+      "scene": 22,
+      "texts": [],
+      "view_ids": [
+        "V22"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-23": {
+      "id": "scene-23",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 23,
+      "texts": [],
+      "view_ids": [
+        "V23"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-24": {
+      "id": "scene-24",
+      "title": "Prepara el motor mediano y el sensor de distancia con cuatro pines",
+      "kind": "scene",
+      "scene": 24,
+      "texts": [],
+      "view_ids": [
+        "V24"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-25": {
+      "id": "scene-25",
+      "title": "Prepara los dos engranajes beige de 20 dientes con ejes rojos y pines negros",
+      "kind": "scene",
+      "scene": 25,
+      "texts": [],
+      "view_ids": [
+        "V25"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-26": {
+      "id": "scene-26",
+      "title": "Añade el conector gris y dos pasadores con casquillo al apoyo del motor",
+      "kind": "scene",
+      "scene": 26,
+      "texts": [],
+      "view_ids": [
+        "V26"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-27": {
+      "id": "scene-27",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 27,
+      "texts": [],
+      "view_ids": [
+        "V27"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-28": {
+      "id": "scene-28",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 28,
+      "texts": [],
+      "view_ids": [
+        "V28"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-29": {
+      "id": "scene-29",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 29,
+      "texts": [],
+      "view_ids": [
+        "V29"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-30": {
+      "id": "scene-30",
+      "title": "Conecta el motor mediano a F",
+      "kind": "connection",
+      "scene": 30,
+      "texts": [],
+      "view_ids": [
+        "V30"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-31": {
+      "id": "scene-31",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 31,
+      "texts": [],
+      "view_ids": [
+        "V31"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-32": {
+      "id": "scene-32",
+      "title": "Conecta el sensor de distancia a B",
+      "kind": "connection",
+      "scene": 32,
+      "texts": [],
+      "view_ids": [
+        "V32"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-33": {
+      "id": "scene-33",
+      "title": "Añade la viga amarilla corta con dos pines azules",
+      "kind": "scene",
+      "scene": 33,
+      "texts": [],
+      "view_ids": [
+        "V33"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-34": {
+      "id": "scene-34",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 34,
+      "texts": [],
+      "view_ids": [
+        "V34"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-35": {
+      "id": "scene-35",
+      "title": "Prepara la bobina con el eje gris 9L, una polea y el primer ladrillo redondo. La cuerda es un elemento externo no modelado",
+      "kind": "scene",
+      "scene": 35,
+      "texts": [],
+      "view_ids": [
+        "V35"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-36": {
+      "id": "scene-36",
+      "title": "Añade dos ladrillos redondos blancos y un disco negro",
+      "kind": "scene",
+      "scene": 36,
+      "texts": [],
+      "view_ids": [
+        "V36"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-37": {
+      "id": "scene-37",
+      "title": "Añade el segundo disco negro",
+      "kind": "scene",
+      "scene": 37,
+      "texts": [],
+      "view_ids": [
+        "V37"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-38": {
+      "id": "scene-38",
+      "title": "Cierra la bobina con la segunda polea y el casquillo",
+      "kind": "scene",
+      "scene": 38,
+      "texts": [],
+      "view_ids": [
+        "V38"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-39": {
+      "id": "scene-39",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 39,
+      "texts": [],
+      "view_ids": [
+        "V39"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-40": {
+      "id": "scene-40",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 40,
+      "texts": [],
+      "view_ids": [
+        "V40"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-41": {
+      "id": "scene-41",
+      "title": "Añade el soporte negro en T",
+      "kind": "scene",
+      "scene": 41,
+      "texts": [],
+      "view_ids": [
+        "V41"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-42": {
+      "id": "scene-42",
+      "title": "Añade la viga acodada negra del soporte de bobina",
+      "kind": "scene",
+      "scene": 42,
+      "texts": [],
+      "view_ids": [
+        "V42"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-43": {
+      "id": "scene-43",
+      "title": "Prepara el ladrillo blanco del mando",
+      "kind": "scene",
+      "scene": 43,
+      "texts": [],
+      "view_ids": [
+        "V43"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-44": {
+      "id": "scene-44",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 44,
+      "texts": [],
+      "view_ids": [
+        "V44"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-45": {
+      "id": "scene-45",
+      "title": "Prepara un panel azul, una viga negra de 15 módulos y su conector gris",
+      "kind": "scene",
+      "scene": 45,
+      "texts": [],
+      "view_ids": [
+        "V45"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-46": {
+      "id": "scene-46",
+      "title": "Añade la riostra negra y sus conectores",
+      "kind": "scene",
+      "scene": 46,
+      "texts": [],
+      "view_ids": [
+        "V46"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-47": {
+      "id": "scene-47",
+      "title": "Prepara los dos conectores grises, el pin azul y la polea blanca del extremo",
+      "kind": "scene",
+      "scene": 47,
+      "texts": [],
+      "view_ids": [
+        "V47"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-48": {
+      "id": "scene-48",
+      "title": "Cierra la pluma con el segundo panel y la segunda viga de 15 módulos",
+      "kind": "scene",
+      "scene": 48,
+      "texts": [],
+      "view_ids": [
+        "V48"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-49": {
+      "id": "scene-49",
+      "title": "Prepara los seis pines de unión de la pluma",
+      "kind": "scene",
+      "scene": 49,
+      "texts": [],
+      "view_ids": [
+        "V49"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-50": {
+      "id": "scene-50",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 50,
+      "texts": [],
+      "view_ids": [
+        "V50"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-51": {
+      "id": "scene-51",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 51,
+      "texts": [],
+      "view_ids": [
+        "V51"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-52": {
+      "id": "scene-52",
+      "title": "Prepara el conector de suspensión y su eje con pin. No inferir una cuerda rígida",
+      "kind": "scene",
+      "scene": 52,
+      "texts": [],
+      "view_ids": [
+        "V52"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-53": {
+      "id": "scene-53",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 53,
+      "texts": [],
+      "view_ids": [
+        "V53"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-54": {
+      "id": "scene-54",
+      "title": "Eje5L observado: sin pose y sin representación",
+      "kind": "scene",
+      "scene": 54,
+      "texts": [],
+      "view_ids": [
+        "V54"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-55": {
+      "id": "scene-55",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 55,
+      "texts": [],
+      "view_ids": [
+        "V55"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-56": {
+      "id": "scene-56",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 56,
+      "texts": [],
+      "view_ids": [
+        "V56"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-57": {
+      "id": "scene-57",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 57,
+      "texts": [],
+      "view_ids": [
+        "V57"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-58": {
+      "id": "scene-58",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 58,
+      "texts": [],
+      "view_ids": [
+        "V58"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-59": {
+      "id": "scene-59",
+      "title": "Construye el aparejo con dos soportes en T, polea, conector y pasadores",
+      "kind": "scene",
+      "scene": 59,
+      "texts": [],
+      "view_ids": [
+        "V59"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-60": {
+      "id": "scene-60",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "union",
+      "scene": 60,
+      "texts": [],
+      "view_ids": [
+        "V60"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-61": {
+      "id": "scene-61",
+      "title": "Construye el primer lado de la carga con el par de soportes repetidos 2x",
+      "kind": "scene",
+      "scene": 61,
+      "texts": [],
+      "view_ids": [
+        "V61"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-62": {
+      "id": "scene-62",
+      "title": "Cierra la carga con el segundo panel",
+      "kind": "scene",
+      "scene": 62,
+      "texts": [],
+      "view_ids": [
+        "V62"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-63": {
+      "id": "scene-63",
+      "title": "Añade la viga magenta y dos pines",
+      "kind": "scene",
+      "scene": 63,
+      "texts": [],
+      "view_ids": [
+        "V63"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-64": {
+      "id": "scene-64",
+      "title": "Añade dos engranajes negros de 36 dientes a la carga",
+      "kind": "scene",
+      "scene": 64,
+      "texts": [],
+      "view_ids": [
+        "V64"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-65": {
+      "id": "scene-65",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 65,
+      "texts": [],
+      "view_ids": [
+        "V65"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-66": {
+      "id": "scene-66",
+      "title": "Construye dos objetos iguales",
+      "kind": "scene",
+      "scene": 66,
+      "texts": [],
+      "view_ids": [
+        "V66"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-67": {
+      "id": "scene-67",
+      "title": "Añade por objeto una placa negra, una pendiente curva y dos pendientes pequeñas",
+      "kind": "scene",
+      "scene": 67,
+      "texts": [],
+      "view_ids": [
+        "V67"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-68": {
+      "id": "scene-68",
+      "title": "Añade por objeto un disco azul y uno negro",
+      "kind": "scene",
+      "scene": 68,
+      "texts": [],
+      "view_ids": [
+        "V68"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-69": {
+      "id": "scene-69",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 69,
+      "texts": [],
+      "view_ids": [
+        "V69"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-70": {
+      "id": "scene-70",
+      "title": "Conserva las piezas incorporadas y contrasta la unión o cambio de orientación con la referencia. El recorrido físico sigue pendiente",
+      "kind": "turn",
+      "scene": 70,
+      "texts": [],
+      "view_ids": [
+        "V70"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "cover": {
+      "id": "cover",
+      "title": "TowerCrane 2076 - borrador parcial R06; eje5L sin pose",
+      "kind": "cover",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "guide": {
+      "id": "guide",
+      "title": "Antes de empezar",
+      "kind": "guide",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado. Usa cada modelo por separado dentro del catálogo del kit. Las llegadas son ilustrativas, sin barrido de colisiones comprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "inventory": {
+      "id": "inventory",
+      "title": "Inventario",
+      "kind": "inventory",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Sólo las piezas del modelo digital; disponibilidad física pendiente de recuento.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "checklist": {
+      "id": "checklist",
+      "title": "Comprobación final",
+      "kind": "checklist",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Geometría PARCIAL: no representa todo el modelo. Consultar exclusiones e incertidumbres en el expediente. Poses y mecanismo pendientes; revisión Studio diferida.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    }
+  },
+  "inventory": [
+    {
+      "key": "bl-11954-c156",
+      "quantity": 2,
+      "icon": "K11954_c156",
+      "name": "Medium Azure Technic, Panel Curved 11 x 3 with 10 Pin Holes through Panel Surface",
+      "color": "Medium Azure",
+      "bricklink_item_id": "11954",
+      "ldraw_file": "11954.dat"
+    },
+    {
+      "key": "bl-15458-c11",
+      "quantity": 2,
+      "icon": "K15458_c11",
+      "name": "Black Technic, Panel Plate 3 x 11 x 1",
+      "color": "Black",
+      "bricklink_item_id": "15458",
+      "ldraw_file": "15458.dat"
+    },
+    {
+      "key": "bl-15535-c11",
+      "quantity": 4,
+      "icon": "",
+      "name": "Black Tile, Round 2 x 2 with Hole",
+      "color": "Black",
+      "bricklink_item_id": "15535",
+      "ldraw_file": "15535.dat"
+    },
+    {
+      "key": "bl-18651-c11",
+      "quantity": 3,
+      "icon": "K18651_c11",
+      "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "18651",
+      "ldraw_file": "18651.dat"
+    },
+    {
+      "key": "bl-24309-c3",
+      "quantity": 2,
+      "icon": "",
+      "name": "Yellow Slope, Curved 3 x 2",
+      "color": "Yellow",
+      "bricklink_item_id": "24309",
+      "ldraw_file": "24309.dat"
+    },
+    {
+      "key": "bl-2780-c11",
+      "quantity": 64,
+      "icon": "K2780_c11",
+      "name": "Black Technic, Pin with Short Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "2780",
+      "ldraw_file": "2780.dat"
+    },
+    {
+      "key": "bl-32009-c11",
+      "quantity": 1,
+      "icon": "K32009_c11",
+      "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+      "color": "Black",
+      "bricklink_item_id": "32009",
+      "ldraw_file": "32009.dat"
+    },
+    {
+      "key": "bl-32013-c86",
+      "quantity": 2,
+      "icon": "K32013_c86",
+      "name": "Light Bluish Gray Technic, Axle and Pin Connector Angled #1",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "32013",
+      "ldraw_file": "32013.dat"
+    },
+    {
+      "key": "bl-32054-c86",
+      "quantity": 10,
+      "icon": "K32054_c86",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "32054",
+      "ldraw_file": "32054.dat"
+    },
+    {
+      "key": "bl-32062-c5",
+      "quantity": 4,
+      "icon": "K32062_c5",
+      "name": "Red Technic, Axle 2L Notched",
+      "color": "Red",
+      "bricklink_item_id": "32062",
+      "ldraw_file": "32062.dat"
+    },
+    {
+      "key": "bl-32269-c2",
+      "quantity": 2,
+      "icon": "K32269_c2",
+      "name": "Tan Technic, Gear 20 Tooth Double Bevel",
+      "color": "Tan",
+      "bricklink_item_id": "32269",
+      "ldraw_file": "32269.dat"
+    },
+    {
+      "key": "bl-32278-c11",
+      "quantity": 6,
+      "icon": "K32278_c11",
+      "name": "Black Technic, Liftarm Thick 1 x 15",
+      "color": "Black",
+      "bricklink_item_id": "32278",
+      "ldraw_file": "32278.dat"
+    },
+    {
+      "key": "bl-32316-c71",
+      "quantity": 1,
+      "icon": "K32316_c71",
+      "name": "Magenta Technic, Liftarm Thick 1 x 5",
+      "color": "Magenta",
+      "bricklink_item_id": "32316",
+      "ldraw_file": "32316.dat"
+    },
+    {
+      "key": "bl-32348-c11",
+      "quantity": 1,
+      "icon": "K32348_c11",
+      "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4)",
+      "color": "Black",
+      "bricklink_item_id": "32348",
+      "ldraw_file": "32348.dat"
+    },
+    {
+      "key": "bl-32498-c11",
+      "quantity": 2,
+      "icon": "K32498_c11",
+      "name": "Black Technic, Gear 36 Tooth Double Bevel",
+      "color": "Black",
+      "bricklink_item_id": "32498",
+      "ldraw_file": "32498.dat"
+    },
+    {
+      "key": "bl-32523-c3",
+      "quantity": 1,
+      "icon": "K32523_c3",
+      "name": "Yellow Technic, Liftarm Thick 1 x 3",
+      "color": "Yellow",
+      "bricklink_item_id": "32523",
+      "ldraw_file": "32523.dat"
+    },
+    {
+      "key": "bl-32524-c156",
+      "quantity": 2,
+      "icon": "K32524_c156",
+      "name": "Medium Azure Technic, Liftarm Thick 1 x 7",
+      "color": "Medium Azure",
+      "bricklink_item_id": "32524",
+      "ldraw_file": "32524.dat"
+    },
+    {
+      "key": "bl-32525-c71",
+      "quantity": 2,
+      "icon": "K32525_c71",
+      "name": "Magenta Technic, Liftarm Thick 1 x 11",
+      "color": "Magenta",
+      "bricklink_item_id": "32525",
+      "ldraw_file": "32525.dat"
+    },
+    {
+      "key": "bl-3713-c86",
+      "quantity": 1,
+      "icon": "K3713_c86",
+      "name": "Light Bluish Gray Technic Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "3713",
+      "ldraw_file": "3713.dat"
+    },
+    {
+      "key": "bl-37316c01-c11",
+      "quantity": 1,
+      "icon": "K37316c01_c11",
+      "name": "Black Electric Sensor, Distance - SPIKE Prime",
+      "color": "Black",
+      "bricklink_item_id": "37316c01",
+      "ldraw_file": "37316c01.dat"
+    },
+    {
+      "key": "bl-3738-c11",
+      "quantity": 4,
+      "icon": "",
+      "name": "Black Technic, Plate 2 x 8 with 7 Holes",
+      "color": "Black",
+      "bricklink_item_id": "3738",
+      "ldraw_file": "3738.dat"
+    },
+    {
+      "key": "bl-39367pb01-c11",
+      "quantity": 4,
+      "icon": "K39367pb01_c11",
+      "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+      "color": "Black",
+      "bricklink_item_id": "39367pb01",
+      "ldraw_file": "39367pb01.dat"
+    },
+    {
+      "key": "bl-39369-c3",
+      "quantity": 2,
+      "icon": "K39369_c3",
+      "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+      "color": "Yellow",
+      "bricklink_item_id": "39369",
+      "ldraw_file": "39369.dat"
+    },
+    {
+      "key": "bl-3941-c1",
+      "quantity": 4,
+      "icon": "K3941_c1",
+      "name": "White Brick, Round 2 x 2 with Axle Hole",
+      "color": "White",
+      "bricklink_item_id": "3941",
+      "ldraw_file": "3941.dat"
+    },
+    {
+      "key": "bl-39789-c3",
+      "quantity": 2,
+      "icon": "",
+      "name": "Yellow Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Yellow",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c5",
+      "quantity": 2,
+      "icon": "",
+      "name": "Red Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Red",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c6",
+      "quantity": 2,
+      "icon": "",
+      "name": "Green Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Green",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c7",
+      "quantity": 2,
+      "icon": "",
+      "name": "Blue Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Blue",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39789-c71",
+      "quantity": 2,
+      "icon": "",
+      "name": "Magenta Technic, Brick 2 x 4 with 3 Axle Holes",
+      "color": "Magenta",
+      "bricklink_item_id": "39789",
+      "ldraw_file": "39789.dat"
+    },
+    {
+      "key": "bl-39790-c156",
+      "quantity": 2,
+      "icon": "K39790_c156",
+      "name": "Medium Azure Technic, Liftarm, Modified Frame Thick 11 x 15 Open Center",
+      "color": "Medium Azure",
+      "bricklink_item_id": "39790",
+      "ldraw_file": "39790.dat"
+    },
+    {
+      "key": "bl-39793-c71",
+      "quantity": 4,
+      "icon": "K39793_c71",
+      "name": "Magenta Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+      "color": "Magenta",
+      "bricklink_item_id": "39793",
+      "ldraw_file": "39793.dat"
+    },
+    {
+      "key": "bl-39794-c71",
+      "quantity": 2,
+      "icon": "K39794_c71",
+      "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+      "color": "Magenta",
+      "bricklink_item_id": "39794",
+      "ldraw_file": "39794.dat"
+    },
+    {
+      "key": "bl-4032-c156",
+      "quantity": 2,
+      "icon": "K4032_c156",
+      "name": "Medium Azure Plate, Round 2 x 2 with Axle Hole",
+      "color": "Medium Azure",
+      "bricklink_item_id": "4032",
+      "ldraw_file": "4032a.dat"
+    },
+    {
+      "key": "bl-4185-c11",
+      "quantity": 2,
+      "icon": "",
+      "name": "Black Technic Wedge Belt Wheel (Pulley)",
+      "color": "Black",
+      "bricklink_item_id": "4185",
+      "ldraw_file": "4185.dat"
+    },
+    {
+      "key": "bl-4519-c3",
+      "quantity": 1,
+      "icon": "K4519_c3",
+      "name": "Yellow Technic, Axle 3L",
+      "color": "Yellow",
+      "bricklink_item_id": "4519",
+      "ldraw_file": "4519.dat"
+    },
+    {
+      "key": "bl-46372-c86",
+      "quantity": 2,
+      "icon": "K46372_c86",
+      "name": "Light Bluish Gray Technic, Gear 28 Tooth Double Bevel",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "46372",
+      "ldraw_file": "46372.dat"
+    },
+    {
+      "key": "bl-48989-c86",
+      "quantity": 8,
+      "icon": "K48989_c86",
+      "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "48989",
+      "ldraw_file": "48989.dat"
+    },
+    {
+      "key": "bl-53444c01-c3",
+      "quantity": 1,
+      "icon": "K53444c01_c3",
+      "name": "Yellow Electric, Hub Large - SPIKE Prime",
+      "color": "Yellow",
+      "bricklink_item_id": "53444c01",
+      "ldraw_file": "bb1142c01.dat"
+    },
+    {
+      "key": "bl-54675c01-c156",
+      "quantity": 1,
+      "icon": "K54675c01_c156",
+      "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Large Angular with White Top Housing and Cable",
+      "color": "Medium Azure",
+      "bricklink_item_id": "54675c01",
+      "ldraw_file": "54675.dat"
+    },
+    {
+      "key": "bl-54696c01-c156",
+      "quantity": 1,
+      "icon": "K54696c01_c156",
+      "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+      "color": "Medium Azure",
+      "bricklink_item_id": "54696c01",
+      "ldraw_file": "54696.dat"
+    },
+    {
+      "key": "bl-55615-c86",
+      "quantity": 4,
+      "icon": "K55615_c86",
+      "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "55615",
+      "ldraw_file": "55615.dat"
+    },
+    {
+      "key": "bl-56903-c1",
+      "quantity": 2,
+      "icon": "",
+      "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+      "color": "White",
+      "bricklink_item_id": "56903",
+      "ldraw_file": "56903.dat"
+    },
+    {
+      "key": "bl-60484-c11",
+      "quantity": 3,
+      "icon": "K60484_c11",
+      "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+      "color": "Black",
+      "bricklink_item_id": "60484",
+      "ldraw_file": "60484.dat"
+    },
+    {
+      "key": "bl-60485-c86",
+      "quantity": 1,
+      "icon": "",
+      "name": "Light Bluish Gray Technic, Axle 9L",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "60485",
+      "ldraw_file": "60485.dat"
+    },
+    {
+      "key": "bl-64179-c11",
+      "quantity": 2,
+      "icon": "K64179_c11",
+      "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+      "color": "Black",
+      "bricklink_item_id": "64179",
+      "ldraw_file": "64179.dat"
+    },
+    {
+      "key": "bl-6558-c7",
+      "quantity": 12,
+      "icon": "K6558_c7",
+      "name": "Blue Technic, Pin 3L with Friction Ridges",
+      "color": "Blue",
+      "bricklink_item_id": "6558",
+      "ldraw_file": "6558.dat"
+    },
+    {
+      "key": "bl-85984-c3",
+      "quantity": 4,
+      "icon": "",
+      "name": "Yellow Slope 30 1 x 2 x 2/3",
+      "color": "Yellow",
+      "bricklink_item_id": "85984",
+      "ldraw_file": "85984.dat"
+    },
+    {
+      "key": "bl-87082-c86",
+      "quantity": 2,
+      "icon": "",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "87082",
+      "ldraw_file": "87082.dat"
+    }
+  ],
+  "assets": {
+    "K11954_c156": {
+      "id": "K11954_c156",
+      "source_sha256": "0b32d1d6440d403117ac87d5f9a4102c028285252ffdfe3faad8adb90ead09a5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K11954_c156-240.webp",
+          "width": 240,
+          "height": 182,
+          "sha256": "333a45badf95b05d36117181d5fa2f73ad2a364af5d3915f1d3b7751655768fb"
+        }
+      ]
+    },
+    "K15458_c11": {
+      "id": "K15458_c11",
+      "source_sha256": "d991effacb2c40afa7ba75d37a79de3b7d1f2c6aefba04a1b6807ba1d012aefd",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K15458_c11-240.webp",
+          "width": 240,
+          "height": 137,
+          "sha256": "2c1eed28a4f02708005b9f1afb49f28245b8defd36509a06e6258fdb7a6e90c0"
+        }
+      ]
+    },
+    "K18651_c11": {
+      "id": "K18651_c11",
+      "source_sha256": "246984555bb1e16999e21f8fc873c3e990d938210c5df3a4fefdebfca23b60ca",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K18651_c11-240.webp",
+          "width": 240,
+          "height": 165,
+          "sha256": "1022c1409a71313c997889ca5a795d4c9ae1d9244e79d7f35833fde018222a60"
+        }
+      ]
+    },
+    "K2780_c11": {
+      "id": "K2780_c11",
+      "source_sha256": "dd21a8e855f9f8fc491d5ebf970668c994aeb14d6c345ea91b03d422a39b383b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K2780_c11-240.webp",
+          "width": 240,
+          "height": 183,
+          "sha256": "b3b052d21c308503cf36cbb5d7923df234f9d48022d9bbe13a729ab3b75dccc0"
+        }
+      ]
+    },
+    "K32009_c11": {
+      "id": "K32009_c11",
+      "source_sha256": "ddfa265033ea940bc074f5fa42cdbf1328e1115e567d1dea80300472d79c3339",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32009_c11-240.webp",
+          "width": 240,
+          "height": 94,
+          "sha256": "02ebabfe842f90bbb206aae12382b9b9b606b51c407bade999045ef21dbddc6d"
+        }
+      ]
+    },
+    "K32013_c86": {
+      "id": "K32013_c86",
+      "source_sha256": "30835cde4365694e98c1caf377b2303be141b608b9977e9c36917388d7134532",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32013_c86-240.webp",
+          "width": 214,
+          "height": 177,
+          "sha256": "01c4c4e4903baf3d11d5eba1f9732a624eea548e6a658c84f49975f9aee5e04f"
+        }
+      ]
+    },
+    "K32054_c86": {
+      "id": "K32054_c86",
+      "source_sha256": "11079360a573bb3c2922674c23993dba48198e5334b91695ef9ebc144fb71939",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32054_c86-240.webp",
+          "width": 240,
+          "height": 172,
+          "sha256": "bd336de84b7fb7762b79a94bdae78598b884198102f2ea2629b31d9fcacb4d79"
+        }
+      ]
+    },
+    "K32062_c5": {
+      "id": "K32062_c5",
+      "source_sha256": "b1349882ca26fec76b03f26c3c08e5ac841cd214dae48e341259aff7b359ca75",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32062_c5-240.webp",
+          "width": 240,
+          "height": 179,
+          "sha256": "a2fa0deec89969470875fdfa0ca9d9351bc109812dbf66804c1243c88cbabed8"
+        }
+      ]
+    },
+    "K32269_c2": {
+      "id": "K32269_c2",
+      "source_sha256": "3ce09bcfe6e6b43de8f40435115ab549f9b237bfa23ad19b8a79ec4f04e3748a",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32269_c2-240.webp",
+          "width": 215,
+          "height": 240,
+          "sha256": "ce31af8500fa0095c8c6f49ec1ac5540eb33d6d6caf21845adfac9780488d295"
+        }
+      ]
+    },
+    "K32278_c11": {
+      "id": "K32278_c11",
+      "source_sha256": "02accdc35816eb3c47c5816add1e70032a97e6d59614ee840aa19e0a248dc59c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32278_c11-240.webp",
+          "width": 240,
+          "height": 143,
+          "sha256": "e19b99f181a44a8204f278d171f3afdfc49fb04dfc7276dee8f7d79e8c7a83ac"
+        }
+      ]
+    },
+    "K32316_c71": {
+      "id": "K32316_c71",
+      "source_sha256": "06926e6b255aea2ca563338b6458209defb37623fde834be1e62c7a8d73942d6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32316_c71-240.webp",
+          "width": 240,
+          "height": 182,
+          "sha256": "8254039ee3fdad3da206f88c498bec7d05f92ecb517046f94963e9a0e1133736"
+        }
+      ]
+    },
+    "K32348_c11": {
+      "id": "K32348_c11",
+      "source_sha256": "897d21583a12f1dcd488ae59afb82fcfaeea6c2d265e5fcd3b3b8b810293efac",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32348_c11-240.webp",
+          "width": 128,
+          "height": 240,
+          "sha256": "2fd32d08b7aa9abd1e50808aaa9e85dd232fcbb573fea64eb348781295093234"
+        }
+      ]
+    },
+    "K32498_c11": {
+      "id": "K32498_c11",
+      "source_sha256": "152fe24541f067263cdb555255a5e173b6addb6e0c749b893d34ecb443de0ef6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32498_c11-240.webp",
+          "width": 202,
+          "height": 240,
+          "sha256": "729c21c64a7339f739ae9002630fe4fde8c54b3963236be0277cd14673765a77"
+        }
+      ]
+    },
+    "K32523_c3": {
+      "id": "K32523_c3",
+      "source_sha256": "905da41de845f9794b2f63d2d24045e7e77c81ee72e99c50ba0e4fe14ffd9d7e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32523_c3-240.webp",
+          "width": 237,
+          "height": 214,
+          "sha256": "9259b87409fab45fe14465fb08847a6eb534c8efa1425173bc5c0002060903c5"
+        }
+      ]
+    },
+    "K32524_c156": {
+      "id": "K32524_c156",
+      "source_sha256": "913c9d0d1f44632e3c4a5b925369a82ccb26d33f7a8d925add3745c7f1d8450d",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32524_c156-240.webp",
+          "width": 240,
+          "height": 166,
+          "sha256": "0966a87ee5b7200ffe5676980a456be11a53fd6116a3c0e8cefcce177db0b429"
+        }
+      ]
+    },
+    "K32525_c71": {
+      "id": "K32525_c71",
+      "source_sha256": "523cc2d4011fc30f24e64348c5d9cfbefff421368bc192aed81873d70caa135e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32525_c71-240.webp",
+          "width": 240,
+          "height": 150,
+          "sha256": "a1d337ff259083498690b44a635168bdb2c34926fd1c6d729e62ab07528edde5"
+        }
+      ]
+    },
+    "K3713_c86": {
+      "id": "K3713_c86",
+      "source_sha256": "308a86e80a50dffb2307eb98c04c1df3a5d3164d7d478390a1aaba912b08ef7b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3713_c86-240.webp",
+          "width": 200,
+          "height": 184,
+          "sha256": "82192a8ecd8cd179c45cc7706bd70014f964a1f6cb21d48f2bf61890fbc83753"
+        }
+      ]
+    },
+    "K37316c01_c11": {
+      "id": "K37316c01_c11",
+      "source_sha256": "af1340b342120a93a9f42ef98270d1dac403d05b9739a7b1515558ba088f969f",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K37316c01_c11-240.webp",
+          "width": 240,
+          "height": 193,
+          "sha256": "49edb0fc0d85c470618292ec3822b6a8aa57b688ad551f3b2fe93bd3b9f428e6"
+        }
+      ]
+    },
+    "K39367pb01_c11": {
+      "id": "K39367pb01_c11",
+      "source_sha256": "84019ef77144737d342498847a95012a81d9cdf90f7624ddbe53612c19bd7b1c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39367pb01_c11-240.webp",
+          "width": 208,
+          "height": 240,
+          "sha256": "eac10eae6965eaf59d93dbfa30d5ba893aa5f150a4c3e7c1bbcaa469dc18ea3a"
+        }
+      ]
+    },
+    "K39369_c3": {
+      "id": "K39369_c3",
+      "source_sha256": "878a6ec57567e7cc554d91fd5a8616a671c93c26a7d08509e2401a7bfb799030",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39369_c3-240.webp",
+          "width": 240,
+          "height": 132,
+          "sha256": "f139c2236a6f0b2d507e1c4fd3b38faf46d4570335cc74c2dd20c0799fd372e1"
+        }
+      ]
+    },
+    "K3941_c1": {
+      "id": "K3941_c1",
+      "source_sha256": "a5a2cbd31db871d5da0332ffa482eae14210500a9797c9b1b2305fc7482c2a9e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3941_c1-240.webp",
+          "width": 222,
+          "height": 240,
+          "sha256": "ac7a364d12b6123a5e0f7eb80d270e7f586a1c868682c042c36773512d0220a5"
+        }
+      ]
+    },
+    "K39790_c156": {
+      "id": "K39790_c156",
+      "source_sha256": "320670289b4ec1f03c1eb45e91d44605d26845e45e9b0e37b053327a968fc5f8",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39790_c156-240.webp",
+          "width": 240,
+          "height": 134,
+          "sha256": "31a3c35c817c785bd3810e348607f37635773e56d430bca2a1e2bbec728fed63"
+        }
+      ]
+    },
+    "K39793_c71": {
+      "id": "K39793_c71",
+      "source_sha256": "e8b748f73c2af0f783b4a87dd7bd8bff098793242daee61bab049f64522c3b49",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39793_c71-240.webp",
+          "width": 180,
+          "height": 240,
+          "sha256": "26f95117fb63304471d6fbc7af23ac37c572abd8bfede9bab37d5d2944d290c9"
+        }
+      ]
+    },
+    "K39794_c71": {
+      "id": "K39794_c71",
+      "source_sha256": "418f38ff09f524741a75ae0ba44affb7e986a005bdd6461afbb1a95cdc4f9df5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39794_c71-240.webp",
+          "width": 240,
+          "height": 140,
+          "sha256": "1fd2e13857a3114c10ffb4d1be43d22399cd0d33fe2b0be8faae46790a812092"
+        }
+      ]
+    },
+    "K4032_c156": {
+      "id": "K4032_c156",
+      "source_sha256": "93633fbc84b1c6e19414262383b5b860a97c59c6d12dfc645261ab8284c74630",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K4032_c156-240.webp",
+          "width": 240,
+          "height": 191,
+          "sha256": "d32ed529a8070a1f5e9cbc467c08869a40aac66b26513466b03478c5e386bb7e"
+        }
+      ]
+    },
+    "K4519_c3": {
+      "id": "K4519_c3",
+      "source_sha256": "39bf3d049fb96a758ba1b118d9e084e3858424b500d5c654010edf20cdff0c90",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K4519_c3-240.webp",
+          "width": 240,
+          "height": 163,
+          "sha256": "6a000ab3f8f5f8e731fef57913d7f625172bbde005af0fa9180352719390bcfa"
+        }
+      ]
+    },
+    "K46372_c86": {
+      "id": "K46372_c86",
+      "source_sha256": "9262be61218fa94aaeef813c2e954a1882ed77761215482e6dcb2905b97c4563",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K46372_c86-240.webp",
+          "width": 208,
+          "height": 240,
+          "sha256": "90e8786f0665993e64cfc07b207b66bbeed6dcb126c54fa1b3e1adca190a8d9b"
+        }
+      ]
+    },
+    "K48989_c86": {
+      "id": "K48989_c86",
+      "source_sha256": "6635d32247996714ea973e2c48a91ea0c7f25f3ffc85bde380bb174ea5052b49",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K48989_c86-240.webp",
+          "width": 187,
+          "height": 240,
+          "sha256": "40586070966086be79d6b5633be2d0ff66e253431bd98a899fddb9ecc4910aa2"
+        }
+      ]
+    },
+    "K53444c01_c3": {
+      "id": "K53444c01_c3",
+      "source_sha256": "f3c77540fbe4c049c588eb2a7ff2478a208f18f05efffb247fbbe064f27602ae",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K53444c01_c3-240.webp",
+          "width": 240,
+          "height": 190,
+          "sha256": "f46e18721362316fa4553beb96b5b8423bdf1f3dc4529c1d00d560a8af71a79a"
+        }
+      ]
+    },
+    "K54675c01_c156": {
+      "id": "K54675c01_c156",
+      "source_sha256": "44e9ad2189342e40c98ba47de1249b58293fc0cc81b72f7a13a2d33b8ec5bad2",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K54675c01_c156-240.webp",
+          "width": 240,
+          "height": 177,
+          "sha256": "585ab9a77572d21cfa5ab657939fffcf845b73dac9aaa9342a06ef644ecde67a"
+        }
+      ]
+    },
+    "K54696c01_c156": {
+      "id": "K54696c01_c156",
+      "source_sha256": "b018f8a269c2bbaaf3dabd03393fe10fc7a5d5ca6a703caf2318488def1ff857",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K54696c01_c156-240.webp",
+          "width": 240,
+          "height": 187,
+          "sha256": "686ad376b23a81671fa7b18502165617a10f4889bd82056efae6f0afc2dd8d8b"
+        }
+      ]
+    },
+    "K55615_c86": {
+      "id": "K55615_c86",
+      "source_sha256": "d14ea1c386750434f86db4ad4ca7b646acdee0069c60dc88641352b54946f66c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K55615_c86-240.webp",
+          "width": 144,
+          "height": 240,
+          "sha256": "a542224ad1aac65ed9599cbbf1305d4ed85088c0b9a75d9835ca8429c55f05de"
+        }
+      ]
+    },
+    "K60484_c11": {
+      "id": "K60484_c11",
+      "source_sha256": "136bd0ab275daa8a984415a0c5da29b0dfe34e2079e6bcd235b48fc5a8b562d7",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K60484_c11-240.webp",
+          "width": 227,
+          "height": 240,
+          "sha256": "829ee3b9ccc1dac26d5522e2c342660e887bf8483d1d4d816ed872335f02d251"
+        }
+      ]
+    },
+    "K64179_c11": {
+      "id": "K64179_c11",
+      "source_sha256": "c12e7f37f1f2531e28680b818c51601d114a8d77b975a8ca302cb2f4b329fd1f",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K64179_c11-240.webp",
+          "width": 240,
+          "height": 150,
+          "sha256": "7e6b637cc86d1a13e088c3d265493c064ae7dbd082f4b6cdba67109a8416e99b"
+        }
+      ]
+    },
+    "K6558_c7": {
+      "id": "K6558_c7",
+      "source_sha256": "cf65e01fd75e34eaba350b5e84198a1292b332c9d0e2b51bf92ba0e6a63d3f22",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K6558_c7-240.webp",
+          "width": 240,
+          "height": 167,
+          "sha256": "1de4df92d514595fc6cb92b4efa422c6fd3d97668af6f65c1f9854edb6dfd402"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "source_actions": 70,
+    "new_parts_total": 193,
+    "inventory_lots": 48,
+    "digital_scenes_covered": true,
+    "manual_visual_review": "not_run"
+  },
+  "object_map": [
+    {
+      "page": "scene-1",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-2",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-3",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-4",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-5",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-6",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-7",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-8",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-9",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-10",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-11",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-12",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-13",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-14",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-15",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-16",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-17",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-18",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-19",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-20",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-21",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-22",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-23",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-24",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-25",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-26",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-27",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-28",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-29",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-30",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-31",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-32",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-33",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-34",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-35",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-36",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-37",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-38",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-39",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-40",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-41",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-42",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-43",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-44",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-45",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-46",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-47",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-48",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-49",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-50",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-51",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-52",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-53",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-54",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-55",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-56",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-57",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-58",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-59",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-60",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-61",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-62",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-63",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-64",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-65",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-66",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-67",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-68",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-69",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-70",
+      "object": "action-0",
+      "destination": "text"
+    }
+  ],
+  "sources": {
+    "specs/instructions/roboriseit-2076-r06-e01-source.json": "6b681e32c54088e4fa9871c058b2f83a04f1debc6f99289ab797fa547e996bf8",
+    "builds/towercrane-2076-snapshots-r07/asset-plan.json": "2689725cd1083b2bedd2d898869e0b70ecbd899f508b77b0f8e9991807021b85",
+    "specs/roboriseit-2076-r06.json": "d985df11fbfa7e48eca6270575c8432efb8db25c3a6551bef233e144bbbe9ba9",
+    "data/spike-prime-45678.lock.json": "ec5f7e8f6b5eeaa355a7088e26d941028472c3552b2145827ce6c233bf74c281",
+    "builds/forklift-2074-r04-assets-e01/studio-assets.json": "32b3f9d89cf2675b7454bbb37c6fc428059307a9032eab65faf23eec9dd396cf",
+    "builds/jamie-2072-r11-instructions-e03/studio-assets.json": "2f4a796aed5e073b3b3cfc365e992bb816b981112e3a898efa17363a4dfa7d26",
+    "builds/delivery-2073-r06-assets-e01/studio-assets-s02.json": "2f083af339d574f52a43d113b8f1dedbaf89c00604150cdae288a03adc9face0"
+  },
+  "studio_reference_available": false,
+  "review_status": "deferred",
+  "cover_view": "FINAL",
+  "missing_part_icons": [
+    "bl-15535-c11",
+    "bl-24309-c3",
+    "bl-3738-c11",
+    "bl-39789-c3",
+    "bl-39789-c5",
+    "bl-39789-c6",
+    "bl-39789-c7",
+    "bl-39789-c71",
+    "bl-4185-c11",
+    "bl-56903-c1",
+    "bl-60485-c86",
+    "bl-85984-c3",
+    "bl-87082-c86"
+  ],
+  "physical_build": "not_run",
+  "release_ready": false
+}

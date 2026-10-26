@@ -1,0 +1,1871 @@
+{
+  "schema_version": "gglego.insertion-plan/v1",
+  "revision": "e26c2fd0d923098101210d33ac843078f7da59204790c468df4fc985d3363c5c",
+  "sequence_sha256": "922a0f4149ea31b88e5a06c49091d501d7b8619ffe278ca57b8566f54aa3b9ef",
+  "geometry_manifest_sha256": "8e9d95c574887033d045e5f36b423040f9cc73f3b9ee9384859cc3dc6c6a81dd",
+  "steps": [
+    {
+      "step": 1,
+      "routes": [
+        {
+          "ids": [
+            "BASE-PLATE"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-CONNECTOR-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-WHEEL-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-CONNECTOR-2"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-WHEEL-2"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-CONNECTOR-3"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-WHEEL-3"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-CONNECTOR-4"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "BASE-FOOT-WHEEL-4"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "routes": []
+    },
+    {
+      "step": 3,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-MOTOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-PLATE-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-PLATE-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-PLATE-PIN-03"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-PLATE-PIN-04"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-SIDE-PIN-01"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-SIDE-PIN-02"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "routes": [
+        {
+          "ids": [
+            "BASE-CABLE-BLOCK"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-REAR-AXLEPIN"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-CRANK-AXLE-A"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-CRANK-A"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-CRANK-PIN-A"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "routes": [
+        {
+          "ids": [
+            "WHEEL-MOTOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-PANEL-A"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-MOTOR-PIN-A-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-MOTOR-PIN-A-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-A"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-PIN-A-01"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-PIN-A-02"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "routes": []
+    },
+    {
+      "step": 9,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-LINK-A"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-LINK-PIN-A"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-FRONT-AXLEPIN"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-CRANK-AXLE-B"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-CRANK-B"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-CRANK-PIN-B"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "routes": [
+        {
+          "ids": [
+            "MAST-PANEL-B"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-PIVOT-PIN"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-B"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-PIN-B-01"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-ELBOW-PIN-B-02"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "routes": []
+    },
+    {
+      "step": 13,
+      "routes": [
+        {
+          "ids": [
+            "LIFT-LINK-B"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "LIFT-LINK-PIN-B"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "routes": [
+        {
+          "ids": [
+            "MAST-FRONT-FRAME"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-03"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-04"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-05"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-FRAME-PIN-06"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "MAST-BOTTOM-TIE"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "routes": [
+        {
+          "ids": [
+            "HUB"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-PLATE-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-PLATE-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-PLATE-PIN-03"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "HUB-PLATE-PIN-04"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "routes": []
+    },
+    {
+      "step": 17,
+      "routes": []
+    },
+    {
+      "step": 18,
+      "routes": [
+        {
+          "ids": [
+            "AUX-MOTOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-DISK-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-DISK-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-GEAR28"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-HUB-PIN-01"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-HUB-PIN-02"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-HUB-PIN-03"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-HUB-PIN-04"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-SUPPORT-PIN"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "routes": []
+    },
+    {
+      "step": 20,
+      "routes": [
+        {
+          "ids": [
+            "SENSOR-SUPPORT"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "SENSOR-AXLE8"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "routes": [
+        {
+          "ids": [
+            "FORCE-SENSOR"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "SENSOR-PIN-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "SENSOR-PIN-2"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "routes": []
+    },
+    {
+      "step": 23,
+      "routes": [
+        {
+          "ids": [
+            "AUX-DISH"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-DISH-TILE"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "AUX-DISH-TAN"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "routes": [
+        {
+          "ids": [
+            "WHEEL-AXLE11"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-GEAR28"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-PIN-03"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-PIN-04"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-PLATE-A"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "routes": [
+        {
+          "ids": [
+            "WHEEL-SHAFT-DRUM-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-DRUM-2"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-DRUM-3"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-DRUM-4"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "routes": [
+        {
+          "ids": [
+            "WHEEL-SHAFT-PLATE-B"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-SHAFT-TILE"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "routes": []
+    },
+    {
+      "step": 28,
+      "routes": []
+    },
+    {
+      "step": 29,
+      "routes": [
+        {
+          "ids": [
+            "WHEEL-PULLEY-A"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-PULLEY-B"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "WHEEL-PULLEY-PIN"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "routes": [
+        {
+          "ids": [
+            "ROTOR-RAY-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-1"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-1"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-1"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-RAY-2"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-2"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-2"
+          ],
+          "order": 8,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-2"
+          ],
+          "order": 9,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-2"
+          ],
+          "order": 10,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-2"
+          ],
+          "order": 11,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-RAY-3"
+          ],
+          "order": 12,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-3"
+          ],
+          "order": 13,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-3"
+          ],
+          "order": 14,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-3"
+          ],
+          "order": 15,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-3"
+          ],
+          "order": 16,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-3"
+          ],
+          "order": 17,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-RAY-4"
+          ],
+          "order": 18,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-4"
+          ],
+          "order": 19,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-4"
+          ],
+          "order": 20,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-4"
+          ],
+          "order": 21,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-4"
+          ],
+          "order": 22,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-4"
+          ],
+          "order": 23,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-RAY-5"
+          ],
+          "order": 24,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-5"
+          ],
+          "order": 25,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-5"
+          ],
+          "order": 26,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-5"
+          ],
+          "order": 27,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-5"
+          ],
+          "order": 28,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-5"
+          ],
+          "order": 29,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-RAY-6"
+          ],
+          "order": 30,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-BLUE-PIN-6"
+          ],
+          "order": 31,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-YELLOW-END-6"
+          ],
+          "order": 32,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-END-CONNECTOR-6"
+          ],
+          "order": 33,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-AXLEPIN-6"
+          ],
+          "order": 34,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-PIVOT-BUSH-6"
+          ],
+          "order": 35,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "routes": []
+    },
+    {
+      "step": 32,
+      "routes": [
+        {
+          "ids": [
+            "ROTOR-HEX-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-HEX-3"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-HEX-5"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 33,
+      "routes": [
+        {
+          "ids": [
+            "ROTOR-HEX-2"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-HEX-4"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-HEX-6"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 34,
+      "routes": [
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-2"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-3"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-4"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-5"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-COLOR-CLIP-6"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "routes": [
+        {
+          "ids": [
+            "RED-AXLE5-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-BLOCK-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-ANGLED-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-COUPLER-1"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-AXLE5-2"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-BLOCK-2"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-ANGLED-2"
+          ],
+          "order": 6,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "RED-COUPLER-2"
+          ],
+          "order": 7,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 36,
+      "routes": [
+        {
+          "ids": [
+            "PEND-3-AXLE-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-3-BLOCK-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-3-ANGLE-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-3-AXLE-2"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-3-BLOCK-2"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-3-ANGLE-2"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 37,
+      "routes": [
+        {
+          "ids": [
+            "PEND-6-AXLE-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-6-BLOCK-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-6-ANGLE-1"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-6-AXLE-2"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-6-BLOCK-2"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "PEND-6-ANGLE-2"
+          ],
+          "order": 5,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 38,
+      "routes": []
+    },
+    {
+      "step": 39,
+      "routes": []
+    },
+    {
+      "step": 40,
+      "routes": [
+        {
+          "ids": [
+            "ROTOR-CENTER-PLATE-01"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "ROTOR-CENTER-PLATE-02"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 41,
+      "routes": []
+    },
+    {
+      "step": 42,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-FRAME"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-TOP-BAR"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-FRAME-PIN-01"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-FRAME-PIN-02"
+          ],
+          "order": 3,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-BLUE-PIN"
+          ],
+          "order": 4,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 43,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-BLOCK-1"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-HINGE-PIN-1"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-SECOND-ROOT-PIN"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 44,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-BLOCK-2"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-BLOCK-3"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-HINGE-PIN-3"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 45,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-BLOCK-4"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-BLOCK-5"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-HINGE-PIN-5"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 46,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-BLOCK-6"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-BLOCK-7"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-HINGE-PIN-7"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 47,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-BLOCK-8"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-BLOCK-9"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-HINGE-PIN-9"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 48,
+      "routes": []
+    },
+    {
+      "step": 49,
+      "routes": [
+        {
+          "ids": [
+            "CHAIN-END-L"
+          ],
+          "order": 0,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-END-PIN-01"
+          ],
+          "order": 1,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        },
+        {
+          "ids": [
+            "CHAIN-END-PIN-02"
+          ],
+          "order": 2,
+          "status": "no_axis_evidence",
+          "offset": null,
+          "ordering_reason": "source_editorial_order_pending_connector_review"
+        }
+      ]
+    },
+    {
+      "step": 50,
+      "routes": []
+    },
+    {
+      "step": 51,
+      "routes": []
+    }
+  ],
+  "scope": "editorial_only",
+  "axial_review": "not_run",
+  "collision_sweep": "not_run",
+  "release_ready": false
+}

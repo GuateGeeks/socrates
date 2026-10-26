@@ -1,0 +1,12 @@
+{
+  "schema_version": "gglego.illustrative-clearance/v1",
+  "revision": "a56ba8b43168be6bb62228427b91ea417750b6fe223be44c9329115700b1ee9c",
+  "sequence_sha256": "4d86f4934bd951ac03f06e01180200b58f072b36fbbe680bf12449fc212c3e99",
+  "geometry_manifest_sha256": "c2ea82374bde2be33221268f39cbe0923e0f0b7fb3b7dae8c235b2b7015e7de4",
+  "mechanical_plan_sha256": "6c44c10d24da665ca65a098677a97f985c748242528986550865a8aa40b9fe3f",
+  "overrides": [],
+  "operations": [],
+  "status": "not_run",
+  "collision_sweep": "not_run",
+  "release_ready": false
+}

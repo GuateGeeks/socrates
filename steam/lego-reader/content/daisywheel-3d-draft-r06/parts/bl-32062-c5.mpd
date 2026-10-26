@@ -1,0 +1,314 @@
+0 FILE WEB-bl-32062-c5.ldr
+0 !LDRAW_ORG Model
+1 4 0 0 0 1 0 0 0 1 0 0 0 1 32062.dat
+0 NOFILE
+0 FILE 32062.dat
+0 Technic Axle  2 Notched
+0 Name: 32062.dat
+0 Author: Steve Bliss [sbliss]
+0 !LDRAW_ORG Part UPDATE 2004-04
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+0 !KEYWORDS cross-axle, bar, cut, slot
+
+0 !HISTORY 2000-05-07 [PTadmin] Official Update 2000-01
+0 !HISTORY 2004-07-10 [guyvivan] Made BFC Compliant
+0 !HISTORY 2004-11-06 [PTadmin] Official Update 2004-04
+0 !HISTORY 2007-06-25 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+
+1 16 -8 0 0 0 16 0 -1 0 0 0 0 1 axlehol8.dat
+1 16 11 0 0 0 9 0 -1 0 0 0 0 1 axlehol8.dat
+1 16 -20 0 0 0 9 0 -1 0 0 0 0 1 axlehol8.dat
+1 16 -20 0 0 0 1 0 -1 0 0 0 0 1 axleend.dat
+1 16 -8 0 0 0 1 0 -1 0 0 0 0 1 axleend.dat
+1 16 11 0 0 0 1 0 -1 0 0 0 0 1 axleend.dat
+1 16 -20 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 -11 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 -8 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 8 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 11 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 -20 0 0 0 1 0 -1 0 0 0 0 1 axlehol9.dat
+1 16 20 0 0 0 -1 0 -1 0 0 0 0 1 axleend.dat
+1 16 8 0 0 0 -1 0 -1 0 0 0 0 1 axleend.dat
+1 16 -11 0 0 0 -1 0 -1 0 0 0 0 1 axleend.dat
+1 16 20 0 0 0 1 0 -1 0 0 0 0 1 axlehol2.dat
+1 16 20 0 0 0 1 0 -1 0 0 0 0 1 axlehol9.dat
+2 24 -11 -5.58 2 -11 -3.58 2
+2 24 -11 -3.58 2 -8 -3.58 2
+2 24 -8 -3.58 2 -8 -5.58 2
+2 24 8 -5.58 2 8 -3.58 2
+2 24 8 -3.58 2 11 -3.58 2
+2 24 11 -3.58 2 11 -5.58 2
+2 24 -11 -3.58 2 -11 -4 0
+2 24 -8 -3.58 2 -8 -4 0
+2 24 8 -3.58 2 8 -4 0
+2 24 11 -3.58 2 11 -4 0
+5 24 -11 -4 0 -8 -4 0 -11 -3.58 2 -11 -3.58 -2
+5 24 8 -4 0 11 -4 0 8 -3.58 2 8 -3.58 -2
+2 24 -11 -3.58 -2 -11 -4 0
+2 24 -8 -3.58 -2 -8 -4 0
+2 24 8 -3.58 -2 8 -4 0
+2 24 11 -3.58 -2 11 -4 0
+2 24 -11 -5.58 -2 -11 -3.58 -2
+2 24 -11 -3.58 -2 -8 -3.58 -2
+2 24 -8 -3.58 -2 -8 -5.58 -2
+2 24 8 -5.58 -2 8 -3.58 -2
+2 24 8 -3.58 -2 11 -3.58 -2
+2 24 11 -3.58 -2 11 -5.58 -2
+4 16 -8 -2 2 -11 -2 2 -11 -3.58 2 -8 -3.58 2
+4 16 11 -2 2 8 -2 2 8 -3.58 2 11 -3.58 2
+4 16 -11 -3.58 2 -11 -4 0 -8 -4 0 -8 -3.58 2
+4 16 8 -3.58 2 8 -4 0 11 -4 0 11 -3.58 2
+4 16 -8 -3.58 -2 -8 -4 0 -11 -4 0 -11 -3.58 -2
+4 16 11 -3.58 -2 11 -4 0 8 -4 0 8 -3.58 -2
+4 16 -11 -2 -2 -8 -2 -2 -8 -3.58 -2 -11 -3.58 -2
+4 16 8 -2 -2 11 -2 -2 11 -3.58 -2 8 -3.58 -2
+2 24 -11 -2 -5.58 -11 -2 -3.58
+2 24 -11 -2 -3.58 -8 -2 -3.58
+2 24 -8 -2 -3.58 -8 -2 -5.58
+2 24 8 -2 -5.58 8 -2 -3.58
+2 24 8 -2 -3.58 11 -2 -3.58
+2 24 11 -2 -3.58 11 -2 -5.58
+2 24 -11 -2 -3.58 -11 0 -4
+2 24 -8 -2 -3.58 -8 0 -4
+2 24 8 -2 -3.58 8 0 -4
+2 24 11 -2 -3.58 11 0 -4
+5 24 -11 0 -4 -8 0 -4 -11 -2 -3.58 -11 2 -3.58
+5 24 8 0 -4 11 0 -4 8 -2 -3.58 8 2 -3.58
+2 24 -11 2 -3.58 -11 0 -4
+2 24 -8 2 -3.58 -8 0 -4
+2 24 8 2 -3.58 8 0 -4
+2 24 11 2 -3.58 11 0 -4
+2 24 -11 2 -5.58 -11 2 -3.58
+2 24 -11 2 -3.58 -8 2 -3.58
+2 24 -8 2 -3.58 -8 2 -5.58
+2 24 8 2 -5.58 8 2 -3.58
+2 24 8 2 -3.58 11 2 -3.58
+2 24 11 2 -3.58 11 2 -5.58
+4 16 -8 -2 -2 -11 -2 -2 -11 -2 -3.58 -8 -2 -3.58
+4 16 11 -2 -2 8 -2 -2 8 -2 -3.58 11 -2 -3.58
+4 16 -11 -2 -3.58 -11 0 -4 -8 0 -4 -8 -2 -3.58
+4 16 8 -2 -3.58 8 0 -4 11 0 -4 11 -2 -3.58
+4 16 -8 2 -3.58 -8 0 -4 -11 0 -4 -11 2 -3.58
+4 16 11 2 -3.58 11 0 -4 8 0 -4 8 2 -3.58
+4 16 -11 2 -2 -8 2 -2 -8 2 -3.58 -11 2 -3.58
+4 16 8 2 -2 11 2 -2 11 2 -3.58 8 2 -3.58
+2 24 -11 5.58 -2 -11 3.58 -2
+2 24 -11 3.58 -2 -8 3.58 -2
+2 24 -8 3.58 -2 -8 5.58 -2
+2 24 8 5.58 -2 8 3.58 -2
+2 24 8 3.58 -2 11 3.58 -2
+2 24 11 3.58 -2 11 5.58 -2
+2 24 -11 3.58 -2 -11 4 0
+2 24 -8 3.58 -2 -8 4 0
+2 24 8 3.58 -2 8 4 0
+2 24 11 3.58 -2 11 4 0
+5 24 -11 4 0 -8 4 0 -11 3.58 -2 -11 3.58 2
+5 24 8 4 0 11 4 0 8 3.58 -2 8 3.58 2
+2 24 -11 3.58 2 -11 4 0
+2 24 -8 3.58 2 -8 4 0
+2 24 8 3.58 2 8 4 0
+2 24 11 3.58 2 11 4 0
+2 24 -11 5.58 2 -11 3.58 2
+2 24 -11 3.58 2 -8 3.58 2
+2 24 -8 3.58 2 -8 5.58 2
+2 24 8 5.58 2 8 3.58 2
+2 24 8 3.58 2 11 3.58 2
+2 24 11 3.58 2 11 5.58 2
+4 16 -8 2 -2 -11 2 -2 -11 3.58 -2 -8 3.58 -2
+4 16 11 2 -2 8 2 -2 8 3.58 -2 11 3.58 -2
+4 16 -11 3.58 -2 -11 4 0 -8 4 0 -8 3.58 -2
+4 16 8 3.58 -2 8 4 0 11 4 0 11 3.58 -2
+4 16 -8 3.58 2 -8 4 0 -11 4 0 -11 3.58 2
+4 16 11 3.58 2 11 4 0 8 4 0 8 3.58 2
+4 16 -11 2 2 -8 2 2 -8 3.58 2 -11 3.58 2
+4 16 8 2 2 11 2 2 11 3.58 2 8 3.58 2
+2 24 -11 2 5.58 -11 2 3.58
+2 24 -11 2 3.58 -8 2 3.58
+2 24 -8 2 3.58 -8 2 5.58
+2 24 8 2 5.58 8 2 3.58
+2 24 8 2 3.58 11 2 3.58
+2 24 11 2 3.58 11 2 5.58
+2 24 -11 2 3.58 -11 0 4
+2 24 -8 2 3.58 -8 0 4
+2 24 8 2 3.58 8 0 4
+2 24 11 2 3.58 11 0 4
+5 24 -11 0 4 -8 0 4 -11 2 3.58 -11 -2 3.58
+5 24 8 0 4 11 0 4 8 2 3.58 8 -2 3.58
+2 24 -11 -2 3.58 -11 0 4
+2 24 -8 -2 3.58 -8 0 4
+2 24 8 -2 3.58 8 0 4
+2 24 11 -2 3.58 11 0 4
+2 24 -11 -2 5.58 -11 -2 3.58
+2 24 -11 -2 3.58 -8 -2 3.58
+2 24 -8 -2 3.58 -8 -2 5.58
+2 24 8 -2 5.58 8 -2 3.58
+2 24 8 -2 3.58 11 -2 3.58
+2 24 11 -2 3.58 11 -2 5.58
+4 16 -8 2 2 -11 2 2 -11 2 3.58 -8 2 3.58
+4 16 11 2 2 8 2 2 8 2 3.58 11 2 3.58
+4 16 -11 2 3.58 -11 0 4 -8 0 4 -8 2 3.58
+4 16 8 2 3.58 8 0 4 11 0 4 11 2 3.58
+4 16 -8 -2 3.58 -8 0 4 -11 0 4 -11 -2 3.58
+4 16 11 -2 3.58 11 0 4 8 0 4 8 -2 3.58
+4 16 -11 -2 2 -8 -2 2 -8 -2 3.58 -11 -2 3.58
+4 16 8 -2 2 11 -2 2 11 -2 3.58 8 -2 3.58
+2 24 -11 2 2 -8 2 2
+2 24 -11 2 -2 -8 2 -2
+2 24 -11 -2 2 -8 -2 2
+2 24 -11 -2 -2 -8 -2 -2
+2 24 8 2 2 11 2 2
+2 24 8 2 -2 11 2 -2
+2 24 8 -2 2 11 -2 2
+2 24 8 -2 -2 11 -2 -2
+0
+
+0 NOFILE
+0 FILE axlehol8.dat
+0 Technic Axle Perimeter
+0 Name: axlehol8.dat
+0 Author: Steve Bliss [sbliss]
+0 !LDRAW_ORG Primitive UPDATE 2024-01
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2000-05-07 [PTadmin] Official Update 2000-01
+0 !HISTORY 2002-11-08 [OrionP] Adjusted fit and precision
+0 !HISTORY 2003-03-12 [PTadmin] Official Update 2003-01
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2021-03-25 [Sirio] Rounded to four decimals and added primitives
+0 !HISTORY 2022-03-06 [PTadmin] Official Update 2022-02
+0 !HISTORY 2024-01-24 [MagFors] Update description, to be only used on axles, not holes
+0 !HISTORY 2024-01-29 [OrionP] Official Update 2024-01
+
+0 // Primitives
+0 BFC INVERTNEXT
+1 16 3.80115 .5 3.80115 0 -1.80115 0 .5 0 0 0 0 -1.80115 box2-9p.dat
+0 BFC INVERTNEXT
+1 16 -3.80115 .5 3.80115 0 1.80115 0 .5 0 0 0 0 -1.80115 box2-9p.dat
+0 BFC INVERTNEXT
+1 16 -3.80115 .5 -3.80115 0 1.80115 0 .5 0 0 0 0 1.80115 box2-9p.dat
+0 BFC INVERTNEXT
+1 16 3.80115 .5 -3.80115 0 -1.80115 0 .5 0 0 0 0 1.80115 box2-9p.dat
+0 // Faces
+4 16 5.6023 1 2 5.6023 0 2 6 0 0 6 1 0
+4 16 2 1 5.6023 0 1 6 0 0 6 2 0 5.6023
+4 16 -2 1 5.6023 -2 0 5.6023 0 0 6 0 1 6
+4 16 -5.6023 1 2 -6 1 0 -6 0 0 -5.6023 0 2
+4 16 -5.6023 1 -2 -5.6023 0 -2 -6 0 0 -6 1 0
+4 16 2 1 -5.6023 2 0 -5.6023 0 0 -6 0 1 -6
+4 16 -2 1 -5.6023 0 1 -6 0 0 -6 -2 0 -5.6023
+4 16 5.6023 1 -2 6 1 0 6 0 0 5.6023 0 -2
+0 // Conditional lines
+5 24 0 0 6 0 1 6 -2 0 5.6023 2 0 5.6023
+5 24 -6 0 0 -6 1 0 -5.6023 0 -2 -5.6023 0 2
+5 24 0 0 -6 0 1 -6 -2 0 -5.6023 2 0 -5.6023
+5 24 6 0 0 6 1 0 5.6023 0 2 5.6023 0 -2
+
+0 NOFILE
+0 FILE box2-9p.dat
+0 Box with  2 Faces with  3 Parallel Edges
+0 Name: box2-9p.dat
+0 Author: Willy Tschager [Holly-Wood]
+0 !LDRAW_ORG Primitive UPDATE 2024-01
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2013-12-23 [PTadmin] Official Update 2013-02
+0 !HISTORY 2024-01-04 [Holly-Wood] Complete re-write, original by Duq
+0 !HISTORY 2024-01-29 [OrionP] Official Update 2024-01
+
+2 24 -1 1 1 1 1 1
+2 24 -1 1 -1 1 1 -1
+4 16 -1 1 1 1 1 1 1 1 -1 -1 1 -1
+
+2 24 -1 -1 1 1 -1 1
+4 16 1 -1 1 1 1 1 -1 1 1 -1 -1 1
+
+0 NOFILE
+0 FILE axleend.dat
+0 Axle End Surface
+0 Name: axleend.dat
+0 Author: Steve Bliss [sbliss]
+0 !LDRAW_ORG Primitive UPDATE 2003-01
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2000-05-07 [PTadmin] Official Update 2000-01
+0 !HISTORY 2002-11-08 [OrionP] Adjusted fit and precision
+0 !HISTORY 2003-03-12 [PTadmin] Official Update 2003-01
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+
+ 4 16 6 0 0 5.602 0 2 2 0 2 0 0 0
+ 4 16 -6 0 0 0 0 0 -2 0 2 -5.602 0 2
+ 4 16 6 0 0 0 0 0 2 0 -2 5.602 0 -2
+ 4 16 -6 0 0 -5.602 0 -2 -2 0 -2 0 0 0
+ 4 16 0 0 6 0 0 0 2 0 2 2 0 5.602
+ 4 16 0 0 6 -2 0 5.602 -2 0 2 0 0 0
+ 4 16 0 0 -6 2 0 -5.602 2 0 -2 0 0 0
+ 4 16 0 0 -6 0 0 0 -2 0 -2 -2 0 -5.602
+0
+
+0 NOFILE
+0 FILE axlehol2.dat
+0 Technic Axle Hole Side Edges
+0 Name: axlehol2.dat
+0 Author: James Jessiman
+0 !LDRAW_ORG Primitive UPDATE 2022-02
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2002-11-08 [OrionP] Adjusted fit and precision
+0 !HISTORY 2003-03-12 [PTadmin] Official Update 2003-01
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2021-12-24 [MagFors] rounded to four decimals
+0 !HISTORY 2022-03-06 [PTadmin] Official Update 2022-02
+
+
+2 24 6 0 0 5.6023 0 2
+2 24 2 0 5.6023 0 0 6
+2 24 -6 0 0 -5.6023 0 2
+2 24 -2 0 5.6023 0 0 6
+2 24 6 0 0 5.6023 0 -2
+2 24 2 0 -5.6023 0 0 -6
+2 24 -6 0 0 -5.6023 0 -2
+2 24 -2 0 -5.6023 0 0 -6
+
+0 NOFILE
+0 FILE axlehol9.dat
+0 Technic Axle Inner Edges
+0 Name: axlehol9.dat
+0 Author: Steve Bliss [sbliss]
+0 !LDRAW_ORG Primitive UPDATE 2025-10
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2000-05-07 [PTadmin] Official Update 2000-01
+0 !HISTORY 2002-11-08 [OrionP] Adjusted fit and precision
+0 !HISTORY 2003-03-12 [PTadmin] Official Update 2003-01
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2024-01-24 [MagFors] Update description, to be only used on axles, not holes
+0 !HISTORY 2024-01-29 [OrionP] Official Update 2024-01
+0 !HISTORY 2025-10-11 [MagFors] Increased precision
+0 !HISTORY 2025-10-27 [OrionP] Official Update 2025-10
+
+2 24 5.6023 0 2 2 0 2
+2 24 2 0 2 2 0 5.6023
+2 24 -5.6023 0 2 -2 0 2
+2 24 -2 0 2 -2 0 5.6023
+2 24 5.6023 0 -2 2 0 -2
+2 24 2 0 -2 2 0 -5.6023
+2 24 -5.6023 0 -2 -2 0 -2
+2 24 -2 0 -2 -2 0 -5.6023
+0 NOFILE

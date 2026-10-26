@@ -1,0 +1,4797 @@
+{
+  "schema_version": "gglego.web-instructions/v1",
+  "id": "CITYCAR-2081-R01-E01-DRAFT",
+  "title": "CityCar2081 — candidato nominal R01, cierres y manguera pendientes",
+  "revision": "CITYCAR-2081-R01-E01 · BORRADOR",
+  "revision_key": "57953e42e090f2953928d0461d99c8296e51ab2fa36697472f72c086c993309b",
+  "language": "es",
+  "scenes": [
+    {
+      "id": 10,
+      "kind": "scene",
+      "title": "Une el motor y el sensor de fuerza",
+      "actions": [
+        "Fija el primer motor mediano al sensor de fuerza mediante dos pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FORCE-SENSOR",
+        "DRIVE-MOTOR--1",
+        "FORCE-MOTOR-PIN--1-01",
+        "FORCE-MOTOR-PIN--1-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-37312c01-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Electric Sensor, Force - SPIKE Prime",
+          "color": "Black",
+          "bricklink_item_id": "37312c01",
+          "ldraw_file": "37312c01.dat"
+        },
+        {
+          "key": "bl-54696c01-c156",
+          "quantity": 1,
+          "icon": "K54696c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54696c01",
+          "ldraw_file": "54696.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-10",
+      "details": []
+    },
+    {
+      "id": 20,
+      "kind": "scene",
+      "title": "Añade el segundo motor",
+      "actions": [
+        "Añade el segundo motor con dos pines negros; los discos de salida quedan hacia fuera."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "DRIVE-MOTOR-1",
+        "FORCE-MOTOR-PIN-1-01",
+        "FORCE-MOTOR-PIN-1-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-54696c01-c156",
+          "quantity": 1,
+          "icon": "K54696c01_c156",
+          "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+          "color": "Medium Azure",
+          "bricklink_item_id": "54696c01",
+          "ldraw_file": "54696.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-20",
+      "details": []
+    },
+    {
+      "id": 30,
+      "kind": "scene",
+      "title": "Prepara el sensor de color",
+      "actions": [
+        "Prepara el sensor de color, dos conectores acodados55615, dos conectores48989, cuatro pines azules3L y una viga negra9L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "COLOR-SENSOR",
+        "COLOR-ELBOW-01",
+        "COLOR-ELBOW-02",
+        "COLOR-CONNECTOR-01",
+        "COLOR-CONNECTOR-02",
+        "COLOR-BLUEPIN-01",
+        "COLOR-BLUEPIN-02",
+        "COLOR-BLUEPIN-03",
+        "COLOR-BLUEPIN-04",
+        "COLOR-CROSS9"
+      ],
+      "parts": [
+        {
+          "key": "bl-37308c01-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Electric Sensor, Color - SPIKE Prime",
+          "color": "Black",
+          "bricklink_item_id": "37308c01",
+          "ldraw_file": "37308c01.dat"
+        },
+        {
+          "key": "bl-55615-c86",
+          "quantity": 2,
+          "icon": "K55615_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "55615",
+          "ldraw_file": "55615.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 2,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-6558-c7",
+          "quantity": 4,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-40490-c11",
+          "quantity": 1,
+          "icon": "K40490_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 9",
+          "color": "Black",
+          "bricklink_item_id": "40490",
+          "ldraw_file": "40490.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-30",
+      "details": []
+    },
+    {
+      "id": 40,
+      "kind": "union",
+      "title": "Une el sensor de color",
+      "actions": [
+        "Acopla el subconjunto del sensor a los dos motores."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-40",
+      "details": []
+    },
+    {
+      "id": 50,
+      "kind": "scene",
+      "title": "Prepara el apoyo del hub",
+      "actions": [
+        "Añade dos bloques negros39793 y dos conectores grises acodados55615."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "HUB-REAR-BLOCK-01",
+        "HUB-REAR-BLOCK-02",
+        "HUB-REAR-ELBOW-01",
+        "HUB-REAR-ELBOW-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c11",
+          "quantity": 2,
+          "icon": "K39793_c11",
+          "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-55615-c86",
+          "quantity": 2,
+          "icon": "K55615_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "55615",
+          "ldraw_file": "55615.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-50",
+      "details": []
+    },
+    {
+      "id": 60,
+      "kind": "scene",
+      "title": "Prepara los cables",
+      "actions": [
+        "Identifica los cuatro cables: dos motores, fuerza y color."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-60",
+      "details": []
+    },
+    {
+      "id": 70,
+      "kind": "scene",
+      "title": "Monta el hub",
+      "actions": [
+        "Coloca el hub sobre los apoyos preparados."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "HUB"
+      ],
+      "parts": [
+        {
+          "key": "bl-53444c01-c3",
+          "quantity": 1,
+          "icon": "K53444c01_c3",
+          "name": "Yellow Electric, Hub Large - SPIKE Prime",
+          "color": "Yellow",
+          "bricklink_item_id": "53444c01",
+          "ldraw_file": "bb1142c01.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-70",
+      "details": []
+    },
+    {
+      "id": 80,
+      "kind": "scene",
+      "title": "Retén el hub",
+      "actions": [
+        "Añade los dos pasadores grises3L con casquillo."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "HUB-RETAIN-PIN-01",
+        "HUB-RETAIN-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32054-c86",
+          "quantity": 2,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-80",
+      "details": []
+    },
+    {
+      "id": 90,
+      "kind": "connection",
+      "title": "Conecta un motor",
+      "actions": [
+        "Conecta el primer motor al puerto F indicado en BI9."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-90",
+      "details": []
+    },
+    {
+      "id": 100,
+      "kind": "connection",
+      "title": "Conecta el otro motor",
+      "actions": [
+        "Conecta el otro motor al puerto D indicado en BI10."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-100",
+      "details": []
+    },
+    {
+      "id": 110,
+      "kind": "connection",
+      "title": "Conecta color",
+      "actions": [
+        "Conecta el sensor de color al puerto E indicado en BI11."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-110",
+      "details": []
+    },
+    {
+      "id": 120,
+      "kind": "connection",
+      "title": "Conecta fuerza",
+      "actions": [
+        "Conecta el sensor de fuerza al puerto C indicado en BI12."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-120",
+      "details": []
+    },
+    {
+      "id": 130,
+      "kind": "scene",
+      "title": "Monta una rueda motriz",
+      "actions": [
+        "Usa una rueda grande, dos pines negros y un eje amarillo3L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "DRIVE-WHEEL-1",
+        "DRIVE-WHEEL-PIN-1-01",
+        "DRIVE-WHEEL-PIN-1-02",
+        "DRIVE-AXLE3-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 1,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-4519-c3",
+          "quantity": 1,
+          "icon": "K4519_c3",
+          "name": "Yellow Technic, Axle 3L",
+          "color": "Yellow",
+          "bricklink_item_id": "4519",
+          "ldraw_file": "4519.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-130",
+      "details": []
+    },
+    {
+      "id": 140,
+      "kind": "scene",
+      "title": "Añade el remate blanco",
+      "actions": [
+        "Acopla una rueda blanca pequeña al eje como remate."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "DRIVE-WHITE-CAP"
+      ],
+      "parts": [
+        {
+          "key": "bl-56903-c1",
+          "quantity": 1,
+          "icon": "",
+          "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "56903",
+          "ldraw_file": "56903.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-140",
+      "details": []
+    },
+    {
+      "id": 150,
+      "kind": "scene",
+      "title": "Monta la otra rueda motriz",
+      "actions": [
+        "Añade otra rueda grande, dos pines negros y un eje amarillo3L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "DRIVE-WHEEL--1",
+        "DRIVE-WHEEL-PIN--1-01",
+        "DRIVE-WHEEL-PIN--1-02",
+        "DRIVE-AXLE3--1"
+      ],
+      "parts": [
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 1,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-4519-c3",
+          "quantity": 1,
+          "icon": "K4519_c3",
+          "name": "Yellow Technic, Axle 3L",
+          "color": "Yellow",
+          "bricklink_item_id": "4519",
+          "ldraw_file": "4519.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-150",
+      "details": []
+    },
+    {
+      "id": 160,
+      "kind": "scene",
+      "title": "Prepara el primer portador libre",
+      "actions": [
+        "Prepara un conector gris48989 con tres pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-CARRIER-1",
+        "FREE-CARRIER-PIN-1-01",
+        "FREE-CARRIER-PIN-1-02",
+        "FREE-CARRIER-PIN-1-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-160",
+      "details": []
+    },
+    {
+      "id": 170,
+      "kind": "scene",
+      "title": "Añade T y polea",
+      "actions": [
+        "Usa la T negra60484, la polea4185 y un conector beige."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-T-1",
+        "FREE-PULLEY-1",
+        "FREE-TAN-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-60484-c11",
+          "quantity": 1,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-4185-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic Wedge Belt Wheel (Pulley)",
+          "color": "Black",
+          "bricklink_item_id": "4185",
+          "ldraw_file": "4185.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 1,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-170",
+      "details": []
+    },
+    {
+      "id": 180,
+      "kind": "scene",
+      "title": "Prepara el apoyo azul",
+      "actions": [
+        "Une dos vigas azules1x2 mediante un eje rojo2L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-RED-AXLE-1",
+        "FREE-AZURE-PAIR-1-01",
+        "FREE-AZURE-PAIR-1-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32062-c5",
+          "quantity": 1,
+          "icon": "K32062_c5",
+          "name": "Red Technic, Axle 2L Notched",
+          "color": "Red",
+          "bricklink_item_id": "32062",
+          "ldraw_file": "32062.dat"
+        },
+        {
+          "key": "bl-60483-c156",
+          "quantity": 2,
+          "icon": "K60483_c156",
+          "name": "Medium Azure Technic, Liftarm Thick 1 x 2 - Axle Hole",
+          "color": "Medium Azure",
+          "bricklink_item_id": "60483",
+          "ldraw_file": "60483.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-180",
+      "details": []
+    },
+    {
+      "id": 190,
+      "kind": "scene",
+      "title": "Prepara el eje libre",
+      "actions": [
+        "Inserta un eje negro4L y un casquillo gris; no confundir con un pasador3L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-AXLE4-1",
+        "FREE-BUSH-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-3705-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic, Axle 4L",
+          "color": "Black",
+          "bricklink_item_id": "3705",
+          "ldraw_file": "3705.dat"
+        },
+        {
+          "key": "bl-3713-c86",
+          "quantity": 1,
+          "icon": "K3713_c86",
+          "name": "Light Bluish Gray Technic Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "3713",
+          "ldraw_file": "3713.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-190",
+      "details": []
+    },
+    {
+      "id": 200,
+      "kind": "scene",
+      "title": "Cierra la rueda libre",
+      "actions": [
+        "Añade una rueda grande y un remate blanco."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-WHEEL-1",
+        "FREE-WHITE-CAP-R"
+      ],
+      "parts": [
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 1,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        },
+        {
+          "key": "bl-56903-c1",
+          "quantity": 1,
+          "icon": "",
+          "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "56903",
+          "ldraw_file": "56903.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-200",
+      "details": []
+    },
+    {
+      "id": 210,
+      "kind": "scene",
+      "title": "Comprueba el módulo",
+      "actions": [
+        "Contrasta el módulo libre sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-210",
+      "details": []
+    },
+    {
+      "id": 220,
+      "kind": "union",
+      "title": "Une el módulo",
+      "actions": [
+        "Acopla el módulo a los agujeros del extremo azul del motor."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-220",
+      "details": []
+    },
+    {
+      "id": 230,
+      "kind": "scene",
+      "title": "Comprueba el primer lado",
+      "actions": [
+        "Contrasta ruedas y cableado sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-230",
+      "details": []
+    },
+    {
+      "id": 240,
+      "kind": "scene",
+      "title": "Prepara el segundo portador",
+      "actions": [
+        "Usa otro conector gris48989 con tres pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-CARRIER--1",
+        "FREE-CARRIER-PIN--1-01",
+        "FREE-CARRIER-PIN--1-02",
+        "FREE-CARRIER-PIN--1-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-240",
+      "details": []
+    },
+    {
+      "id": 250,
+      "kind": "scene",
+      "title": "Repite T y polea",
+      "actions": [
+        "Añade otra T60484, otra polea4185 y un conector beige."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-T--1",
+        "FREE-PULLEY--1",
+        "FREE-TAN--1"
+      ],
+      "parts": [
+        {
+          "key": "bl-60484-c11",
+          "quantity": 1,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-4185-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic Wedge Belt Wheel (Pulley)",
+          "color": "Black",
+          "bricklink_item_id": "4185",
+          "ldraw_file": "4185.dat"
+        },
+        {
+          "key": "bl-3749-c2",
+          "quantity": 1,
+          "icon": "K3749_c2",
+          "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+          "color": "Tan",
+          "bricklink_item_id": "3749",
+          "ldraw_file": "3749.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-250",
+      "details": []
+    },
+    {
+      "id": 260,
+      "kind": "scene",
+      "title": "Repite el apoyo azul",
+      "actions": [
+        "Une otras dos vigas azules1x2 mediante un eje rojo2L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-RED-AXLE--1",
+        "FREE-AZURE-PAIR--1-01",
+        "FREE-AZURE-PAIR--1-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32062-c5",
+          "quantity": 1,
+          "icon": "K32062_c5",
+          "name": "Red Technic, Axle 2L Notched",
+          "color": "Red",
+          "bricklink_item_id": "32062",
+          "ldraw_file": "32062.dat"
+        },
+        {
+          "key": "bl-60483-c156",
+          "quantity": 2,
+          "icon": "K60483_c156",
+          "name": "Medium Azure Technic, Liftarm Thick 1 x 2 - Axle Hole",
+          "color": "Medium Azure",
+          "bricklink_item_id": "60483",
+          "ldraw_file": "60483.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-260",
+      "details": []
+    },
+    {
+      "id": 270,
+      "kind": "scene",
+      "title": "Repite el eje libre",
+      "actions": [
+        "Usa otro eje negro4L y otro casquillo gris."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-AXLE4--1",
+        "FREE-BUSH--1"
+      ],
+      "parts": [
+        {
+          "key": "bl-3705-c11",
+          "quantity": 1,
+          "icon": "",
+          "name": "Black Technic, Axle 4L",
+          "color": "Black",
+          "bricklink_item_id": "3705",
+          "ldraw_file": "3705.dat"
+        },
+        {
+          "key": "bl-3713-c86",
+          "quantity": 1,
+          "icon": "K3713_c86",
+          "name": "Light Bluish Gray Technic Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "3713",
+          "ldraw_file": "3713.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-270",
+      "details": []
+    },
+    {
+      "id": 280,
+      "kind": "scene",
+      "title": "Monta la cuarta rueda",
+      "actions": [
+        "Acopla la rueda grande del segundo módulo."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-WHEEL--1"
+      ],
+      "parts": [
+        {
+          "key": "bl-39367pb01-c11",
+          "quantity": 1,
+          "icon": "K39367pb01_c11",
+          "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+          "color": "Black",
+          "bricklink_item_id": "39367pb01",
+          "ldraw_file": "39367pb01.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-280",
+      "details": []
+    },
+    {
+      "id": 290,
+      "kind": "scene",
+      "title": "Añade el tercer remate blanco",
+      "actions": [
+        "Añade el último de los tres remates blancos56903 del modelo."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "FREE-WHITE-CAP-L"
+      ],
+      "parts": [
+        {
+          "key": "bl-56903-c1",
+          "quantity": 1,
+          "icon": "",
+          "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+          "color": "White",
+          "bricklink_item_id": "56903",
+          "ldraw_file": "56903.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-290",
+      "details": []
+    },
+    {
+      "id": 300,
+      "kind": "scene",
+      "title": "Comprueba el chasis",
+      "actions": [
+        "Contrasta el conjunto de cuatro ruedas sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-300",
+      "details": []
+    },
+    {
+      "id": 310,
+      "kind": "scene",
+      "title": "Prepara la carrocería",
+      "actions": [
+        "Identifica la carrocería que se construye por separado."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-310",
+      "details": []
+    },
+    {
+      "id": 320,
+      "kind": "scene",
+      "title": "Empieza un lateral",
+      "actions": [
+        "Prepara una viga negra acodada32009, una T60484 y dos pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-SIDE-A-L",
+        "CAB-LOWER-T-L",
+        "CAB-T-PIN-L-01",
+        "CAB-T-PIN-L-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32009-c11",
+          "quantity": 1,
+          "icon": "K32009_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+          "color": "Black",
+          "bricklink_item_id": "32009",
+          "ldraw_file": "32009.dat"
+        },
+        {
+          "key": "bl-60484-c11",
+          "quantity": 1,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-320",
+      "details": []
+    },
+    {
+      "id": 330,
+      "kind": "scene",
+      "title": "Cierra el primer lateral",
+      "actions": [
+        "Añade otra viga32009 y un eje con pin negro18651."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-SIDE-B-L",
+        "CAB-CORNER-AXLEPIN-L"
+      ],
+      "parts": [
+        {
+          "key": "bl-32009-c11",
+          "quantity": 1,
+          "icon": "K32009_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+          "color": "Black",
+          "bricklink_item_id": "32009",
+          "ldraw_file": "32009.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-330",
+      "details": []
+    },
+    {
+      "id": 340,
+      "kind": "scene",
+      "title": "Prepara el techo",
+      "actions": [
+        "Usa un marco negro5x7 con dos pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-ROOF-FRAME",
+        "CAB-ROOF-PIN-01",
+        "CAB-ROOF-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-64179-c11",
+          "quantity": 1,
+          "icon": "K64179_c11",
+          "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+          "color": "Black",
+          "bricklink_item_id": "64179",
+          "ldraw_file": "64179.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-340",
+      "details": []
+    },
+    {
+      "id": 350,
+      "kind": "union",
+      "title": "Une el techo",
+      "actions": [
+        "Acopla el marco al primer lateral."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-350",
+      "details": []
+    },
+    {
+      "id": 360,
+      "kind": "scene",
+      "title": "Prepara el marco delantero",
+      "actions": [
+        "Usa otro marco5x7, dos pines negros y dos conectores grises32013."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-FRONT-FRAME",
+        "CAB-FRAME-PIN-01",
+        "CAB-FRAME-PIN-02",
+        "CAB-AXLE-ANGLE-01",
+        "CAB-AXLE-ANGLE-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-64179-c11",
+          "quantity": 1,
+          "icon": "K64179_c11",
+          "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+          "color": "Black",
+          "bricklink_item_id": "64179",
+          "ldraw_file": "64179.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        },
+        {
+          "key": "bl-32013-c86",
+          "quantity": 2,
+          "icon": "K32013_c86",
+          "name": "Light Bluish Gray Technic, Axle and Pin Connector Angled #1",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32013",
+          "ldraw_file": "32013.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-360",
+      "details": []
+    },
+    {
+      "id": 370,
+      "kind": "scene",
+      "title": "Prepara los ejes del marco",
+      "actions": [
+        "Inserta dos ejes negros4L en los conectores grises."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-AXLE4-01",
+        "CAB-AXLE4-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-3705-c11",
+          "quantity": 2,
+          "icon": "",
+          "name": "Black Technic, Axle 4L",
+          "color": "Black",
+          "bricklink_item_id": "3705",
+          "ldraw_file": "3705.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-370",
+      "details": []
+    },
+    {
+      "id": 380,
+      "kind": "scene",
+      "title": "Prepara una unión lateral",
+      "actions": [
+        "Añade el pin negro indicado al marco."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-LEFT-JOIN-PIN"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 1,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-380",
+      "details": []
+    },
+    {
+      "id": 390,
+      "kind": "union",
+      "title": "Une los marcos",
+      "actions": [
+        "Acopla el marco delantero a la carrocería."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-390",
+      "details": []
+    },
+    {
+      "id": 400,
+      "kind": "scene",
+      "title": "Prepara los dos pines delanteros",
+      "actions": [
+        "Añade dos pines negros al marco."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-FRAME-FRONT-PIN-01",
+        "CAB-FRAME-FRONT-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-400",
+      "details": []
+    },
+    {
+      "id": 410,
+      "kind": "scene",
+      "title": "Construye el otro lateral",
+      "actions": [
+        "Une dos vigas32009 mediante un eje con pin18651."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-SIDE-A-R",
+        "CAB-SIDE-B-R",
+        "CAB-CORNER-AXLEPIN-R"
+      ],
+      "parts": [
+        {
+          "key": "bl-32009-c11",
+          "quantity": 2,
+          "icon": "K32009_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+          "color": "Black",
+          "bricklink_item_id": "32009",
+          "ldraw_file": "32009.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-410",
+      "details": []
+    },
+    {
+      "id": 420,
+      "kind": "scene",
+      "title": "Prepara la segunda T",
+      "actions": [
+        "Fija la T negra al lateral con dos pines."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-LOWER-T-R",
+        "CAB-T-PIN-R-01",
+        "CAB-T-PIN-R-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-60484-c11",
+          "quantity": 1,
+          "icon": "K60484_c11",
+          "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "60484",
+          "ldraw_file": "60484.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-420",
+      "details": []
+    },
+    {
+      "id": 430,
+      "kind": "scene",
+      "title": "Comprueba el lateral",
+      "actions": [
+        "Contrasta el subensamblaje sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-430",
+      "details": []
+    },
+    {
+      "id": 440,
+      "kind": "union",
+      "title": "Cierra los laterales",
+      "actions": [
+        "Une el lateral opuesto a los dos marcos."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-440",
+      "details": []
+    },
+    {
+      "id": 450,
+      "kind": "scene",
+      "title": "Añade el primer arco delantero",
+      "actions": [
+        "Monta una viga negra acodada7L, un conector gris48989 y un eje con pin18651."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-FRONT-BENT--1",
+        "CAB-FRONT-CONNECTOR--1",
+        "CAB-FRONT-AXLEPIN--1"
+      ],
+      "parts": [
+        {
+          "key": "bl-32348-c11",
+          "quantity": 1,
+          "icon": "K32348_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4)",
+          "color": "Black",
+          "bricklink_item_id": "32348",
+          "ldraw_file": "32348.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-450",
+      "details": []
+    },
+    {
+      "id": 460,
+      "kind": "scene",
+      "title": "Añade el segundo arco delantero",
+      "actions": [
+        "Repite el arco, el conector y el eje con pin en el otro lado."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-FRONT-BENT-1",
+        "CAB-FRONT-CONNECTOR-1",
+        "CAB-FRONT-AXLEPIN-1"
+      ],
+      "parts": [
+        {
+          "key": "bl-32348-c11",
+          "quantity": 1,
+          "icon": "K32348_c11",
+          "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4)",
+          "color": "Black",
+          "bricklink_item_id": "32348",
+          "ldraw_file": "32348.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 1,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-460",
+      "details": []
+    },
+    {
+      "id": 470,
+      "kind": "scene",
+      "title": "Añade las dos marcas amarillas",
+      "actions": [
+        "Coloca dos conectores amarillos de eje/cable49283."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-YELLOW-CLIP-01",
+        "CAB-YELLOW-CLIP-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-49283-c3",
+          "quantity": 2,
+          "icon": "",
+          "name": "Yellow Technic, Axle and Wire Connector",
+          "color": "Yellow",
+          "bricklink_item_id": "49283",
+          "ldraw_file": "49283.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-470",
+      "details": []
+    },
+    {
+      "id": 480,
+      "kind": "scene",
+      "title": "Comprueba la carrocería",
+      "actions": [
+        "Contrasta las marcas y los laterales sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-480",
+      "details": []
+    },
+    {
+      "id": 490,
+      "kind": "scene",
+      "title": "Prepara la parrilla",
+      "actions": [
+        "Une dos bloques negros39793 a un conector gris48989."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "MASK-BLOCK-01",
+        "MASK-BLOCK-02",
+        "MASK-CONNECTOR"
+      ],
+      "parts": [
+        {
+          "key": "bl-39793-c11",
+          "quantity": 2,
+          "icon": "K39793_c11",
+          "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+          "color": "Black",
+          "bricklink_item_id": "39793",
+          "ldraw_file": "39793.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-490",
+      "details": []
+    },
+    {
+      "id": 500,
+      "kind": "scene",
+      "title": "Añade los extremos amarillos",
+      "actions": [
+        "Monta dos vigas amarillas3L mediante cuatro pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "MASK-YELLOW3-01",
+        "MASK-YELLOW3-02",
+        "MASK-YELLOW-PIN-01",
+        "MASK-YELLOW-PIN-02",
+        "MASK-YELLOW-PIN-03",
+        "MASK-YELLOW-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-32523-c3",
+          "quantity": 2,
+          "icon": "K32523_c3",
+          "name": "Yellow Technic, Liftarm Thick 1 x 3",
+          "color": "Yellow",
+          "bricklink_item_id": "32523",
+          "ldraw_file": "32523.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 4,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-500",
+      "details": []
+    },
+    {
+      "id": 510,
+      "kind": "scene",
+      "title": "Añade la H inferior",
+      "actions": [
+        "Monta la H gris14720 con dos pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "MASK-H",
+        "MASK-H-PIN-01",
+        "MASK-H-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-14720-c86",
+          "quantity": 1,
+          "icon": "K14720_c86",
+          "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "14720",
+          "ldraw_file": "14720.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-510",
+      "details": []
+    },
+    {
+      "id": 520,
+      "kind": "scene",
+      "title": "Cierra el paragolpes",
+      "actions": [
+        "Añade una viga negra9L y dos pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "MASK-BOTTOM9",
+        "MASK-BOTTOM-PIN-01",
+        "MASK-BOTTOM-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-40490-c11",
+          "quantity": 1,
+          "icon": "K40490_c11",
+          "name": "Black Technic, Liftarm Thick 1 x 9",
+          "color": "Black",
+          "bricklink_item_id": "40490",
+          "ldraw_file": "40490.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-520",
+      "details": []
+    },
+    {
+      "id": 530,
+      "kind": "scene",
+      "title": "Comprueba la parrilla",
+      "actions": [
+        "Contrasta el subensamblaje sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-530",
+      "details": []
+    },
+    {
+      "id": 540,
+      "kind": "union",
+      "title": "Une la parrilla",
+      "actions": [
+        "Acopla la parrilla a la carrocería."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-540",
+      "details": []
+    },
+    {
+      "id": 550,
+      "kind": "scene",
+      "title": "Comprueba la carrocería completa",
+      "actions": [
+        "Contrasta la carrocería como subconjunto."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-550",
+      "details": []
+    },
+    {
+      "id": 560,
+      "kind": "union",
+      "title": "Une carrocería y chasis",
+      "actions": [
+        "Coloca la carrocería sobre el chasis."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-560",
+      "details": []
+    },
+    {
+      "id": 570,
+      "kind": "scene",
+      "title": "Retén la carrocería",
+      "actions": [
+        "Usa cuatro pasadores grises3L con casquillo."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "CAB-CHASSIS-PIN-01",
+        "CAB-CHASSIS-PIN-02",
+        "CAB-CHASSIS-PIN-03",
+        "CAB-CHASSIS-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-32054-c86",
+          "quantity": 4,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-570",
+      "details": []
+    },
+    {
+      "id": 580,
+      "kind": "scene",
+      "title": "Comprueba el coche",
+      "actions": [
+        "Contrasta el coche sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-580",
+      "details": []
+    },
+    {
+      "id": 590,
+      "kind": "scene",
+      "title": "Empieza el panel accesorio",
+      "actions": [
+        "Prepara un panel amarillo11x19 con cuatro pasadores grises3L de casquillo."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-PANEL-A",
+        "WALL-STOP-PIN-01",
+        "WALL-STOP-PIN-02",
+        "WALL-STOP-PIN-03",
+        "WALL-STOP-PIN-04"
+      ],
+      "parts": [
+        {
+          "key": "bl-39369-c3",
+          "quantity": 1,
+          "icon": "K39369_c3",
+          "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+          "color": "Yellow",
+          "bricklink_item_id": "39369",
+          "ldraw_file": "39369.dat"
+        },
+        {
+          "key": "bl-32054-c86",
+          "quantity": 4,
+          "icon": "K32054_c86",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32054",
+          "ldraw_file": "32054.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-590",
+      "details": []
+    },
+    {
+      "id": 600,
+      "kind": "union",
+      "title": "Une el segundo panel",
+      "actions": [
+        "Acopla el segundo panel mediante tres conectores grises48989."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-PANEL-B",
+        "WALL-PANEL-CONNECTOR-01",
+        "WALL-PANEL-CONNECTOR-02",
+        "WALL-PANEL-CONNECTOR-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-39369-c3",
+          "quantity": 1,
+          "icon": "K39369_c3",
+          "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+          "color": "Yellow",
+          "bricklink_item_id": "39369",
+          "ldraw_file": "39369.dat"
+        },
+        {
+          "key": "bl-48989-c86",
+          "quantity": 3,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-600",
+      "details": []
+    },
+    {
+      "id": 610,
+      "kind": "scene",
+      "title": "Prepara los dos apoyos de manguera",
+      "actions": [
+        "Añade dos pasadores grises87082 de agujero central."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-HOSE-PIN-01",
+        "WALL-HOSE-PIN-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-87082-c86",
+          "quantity": 2,
+          "icon": "",
+          "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "87082",
+          "ldraw_file": "87082.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-610",
+      "details": []
+    },
+    {
+      "id": 620,
+      "kind": "scene",
+      "title": "Prepara el codo gris",
+      "actions": [
+        "Añade el conector gris acodado32013."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-HOSE-ANGLE"
+      ],
+      "parts": [
+        {
+          "key": "bl-32013-c86",
+          "quantity": 1,
+          "icon": "K32013_c86",
+          "name": "Light Bluish Gray Technic, Axle and Pin Connector Angled #1",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "32013",
+          "ldraw_file": "32013.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-620",
+      "details": []
+    },
+    {
+      "id": 630,
+      "kind": "scene",
+      "title": "Añade los topes amarillos",
+      "actions": [
+        "Monta dos vigas amarillas3L."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-YELLOW3-01",
+        "WALL-YELLOW3-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-32523-c3",
+          "quantity": 2,
+          "icon": "K32523_c3",
+          "name": "Yellow Technic, Liftarm Thick 1 x 3",
+          "color": "Yellow",
+          "bricklink_item_id": "32523",
+          "ldraw_file": "32523.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-630",
+      "details": []
+    },
+    {
+      "id": 640,
+      "kind": "scene",
+      "title": "Prepara los dos pines laterales",
+      "actions": [
+        "Inserta un pasador azul3L y un pin negro."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-BLUE-PIN",
+        "WALL-BLACK-PIN"
+      ],
+      "parts": [
+        {
+          "key": "bl-6558-c7",
+          "quantity": 1,
+          "icon": "K6558_c7",
+          "name": "Blue Technic, Pin 3L with Friction Ridges",
+          "color": "Blue",
+          "bricklink_item_id": "6558",
+          "ldraw_file": "6558.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 1,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-640",
+      "details": []
+    },
+    {
+      "id": 650,
+      "kind": "scene",
+      "title": "Construye el portador lateral",
+      "actions": [
+        "Usa un conector gris48989, dos vigas magenta5L, dos ejes con pin18651 y dos clips azules49283."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-CONTROL-CONNECTOR",
+        "WALL-CONTROL-BAR-01",
+        "WALL-CONTROL-BAR-02",
+        "WALL-CONTROL-AXLEPIN-01",
+        "WALL-CONTROL-AXLEPIN-02",
+        "WALL-AZURE-CLIP-01",
+        "WALL-AZURE-CLIP-02"
+      ],
+      "parts": [
+        {
+          "key": "bl-48989-c86",
+          "quantity": 1,
+          "icon": "K48989_c86",
+          "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+          "color": "Light Bluish Gray",
+          "bricklink_item_id": "48989",
+          "ldraw_file": "48989.dat"
+        },
+        {
+          "key": "bl-32316-c71",
+          "quantity": 2,
+          "icon": "K32316_c71",
+          "name": "Magenta Technic, Liftarm Thick 1 x 5",
+          "color": "Magenta",
+          "bricklink_item_id": "32316",
+          "ldraw_file": "32316.dat"
+        },
+        {
+          "key": "bl-18651-c11",
+          "quantity": 2,
+          "icon": "K18651_c11",
+          "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "18651",
+          "ldraw_file": "18651.dat"
+        },
+        {
+          "key": "bl-49283-c156",
+          "quantity": 2,
+          "icon": "",
+          "name": "Medium Azure Technic, Axle and Wire Connector",
+          "color": "Medium Azure",
+          "bricklink_item_id": "49283",
+          "ldraw_file": "49283.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-650",
+      "details": []
+    },
+    {
+      "id": 660,
+      "kind": "scene",
+      "title": "Añade la manguera",
+      "actions": [
+        "La manguera conserva el DAT recto original. Usa el conector blanco135°; el lazo flexible real sigue pendiente."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-HOSE",
+        "WALL-HOSE-WHITE"
+      ],
+      "parts": [
+        {
+          "key": "bl-57539-c95",
+          "quantity": 1,
+          "icon": "",
+          "name": "Flat Silver Hose, Flexible Ribbed with 8mm Ends 19L / 15.2cm",
+          "color": "Flat Silver",
+          "bricklink_item_id": "57539",
+          "ldraw_file": "57539.dat"
+        },
+        {
+          "key": "bl-32192-c1",
+          "quantity": 1,
+          "icon": "K32192_c1",
+          "name": "White Technic, Axle and Pin Connector Angled #4 - 135 degrees",
+          "color": "White",
+          "bricklink_item_id": "32192",
+          "ldraw_file": "32192.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-660",
+      "details": []
+    },
+    {
+      "id": 670,
+      "kind": "scene",
+      "title": "Monta el marco superior",
+      "actions": [
+        "Añade un marco magenta7x11 y tres pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-UPPER-FRAME",
+        "WALL-UPPER-PIN-01",
+        "WALL-UPPER-PIN-02",
+        "WALL-UPPER-PIN-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-39794-c71",
+          "quantity": 1,
+          "icon": "K39794_c71",
+          "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+          "color": "Magenta",
+          "bricklink_item_id": "39794",
+          "ldraw_file": "39794.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-670",
+      "details": []
+    },
+    {
+      "id": 680,
+      "kind": "scene",
+      "title": "Monta el panel curvo",
+      "actions": [
+        "Añade el panel azul curvo11L y tres pines negros."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-AZURE-TOP",
+        "WALL-AZURE-PIN-01",
+        "WALL-AZURE-PIN-02",
+        "WALL-AZURE-PIN-03"
+      ],
+      "parts": [
+        {
+          "key": "bl-11954-c156",
+          "quantity": 1,
+          "icon": "K11954_c156",
+          "name": "Medium Azure Technic, Panel Curved 11 x 3 with 10 Pin Holes through Panel Surface",
+          "color": "Medium Azure",
+          "bricklink_item_id": "11954",
+          "ldraw_file": "11954.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 3,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-680",
+      "details": []
+    },
+    {
+      "id": 690,
+      "kind": "scene",
+      "title": "Comprueba el accesorio",
+      "actions": [
+        "Contrasta el accesorio sin añadir piezas."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-690",
+      "details": []
+    },
+    {
+      "id": 700,
+      "kind": "scene",
+      "title": "Prepara los dos discos",
+      "actions": [
+        "Prepara dos conjuntos de plato transparente6x6, baldosa negra con agujero y un pin negro por conjunto. La repetición2x ya está incluida."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [
+        "WALL-DISH-1",
+        "WALL-DISH-TILE-1",
+        "WALL-DISH-PIN-1",
+        "WALL-DISH-2",
+        "WALL-DISH-TILE-2",
+        "WALL-DISH-PIN-2"
+      ],
+      "parts": [
+        {
+          "key": "bl-44375b-c12",
+          "quantity": 2,
+          "icon": "",
+          "name": "Trans-Clear Dish 6 x 6 Inverted (Radar) - Solid Studs",
+          "color": "Trans-Clear",
+          "bricklink_item_id": "44375b",
+          "ldraw_file": "44375b.dat"
+        },
+        {
+          "key": "bl-15535-c11",
+          "quantity": 2,
+          "icon": "",
+          "name": "Black Tile, Round 2 x 2 with Hole",
+          "color": "Black",
+          "bricklink_item_id": "15535",
+          "ldraw_file": "15535.dat"
+        },
+        {
+          "key": "bl-2780-c11",
+          "quantity": 2,
+          "icon": "K2780_c11",
+          "name": "Black Technic, Pin with Short Friction Ridges",
+          "color": "Black",
+          "bricklink_item_id": "2780",
+          "ldraw_file": "2780.dat"
+        }
+      ],
+      "notes": [],
+      "page": "scene-700",
+      "details": []
+    },
+    {
+      "id": 710,
+      "kind": "union",
+      "title": "Monta los dos discos",
+      "actions": [
+        "Acopla los discos al marco superior."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-710",
+      "details": []
+    },
+    {
+      "id": 720,
+      "kind": "scene",
+      "title": "Reúne coche y panel",
+      "actions": [
+        "Mantén independientes coche y accesorio. Cables, fuerza, color, ruedas libres y estabilidad necesitan comprobación propia."
+      ],
+      "check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "source_check": "Poses nominales de reconstrucción, sin certificación de encajes, cableado, articulación ni montaje físico.",
+      "instance_ids": [],
+      "parts": [],
+      "notes": [],
+      "page": "scene-720",
+      "details": []
+    }
+  ],
+  "pages": {
+    "scene-10": {
+      "id": "scene-10",
+      "title": "Une el motor y el sensor de fuerza",
+      "kind": "scene",
+      "scene": 10,
+      "texts": [],
+      "view_ids": [
+        "V01"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-20": {
+      "id": "scene-20",
+      "title": "Añade el segundo motor",
+      "kind": "scene",
+      "scene": 20,
+      "texts": [],
+      "view_ids": [
+        "V02"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-30": {
+      "id": "scene-30",
+      "title": "Prepara el sensor de color",
+      "kind": "scene",
+      "scene": 30,
+      "texts": [],
+      "view_ids": [
+        "V03"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-40": {
+      "id": "scene-40",
+      "title": "Une el sensor de color",
+      "kind": "union",
+      "scene": 40,
+      "texts": [],
+      "view_ids": [
+        "V04"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-50": {
+      "id": "scene-50",
+      "title": "Prepara el apoyo del hub",
+      "kind": "scene",
+      "scene": 50,
+      "texts": [],
+      "view_ids": [
+        "V05"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-60": {
+      "id": "scene-60",
+      "title": "Prepara los cables",
+      "kind": "scene",
+      "scene": 60,
+      "texts": [],
+      "view_ids": [
+        "V06"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-70": {
+      "id": "scene-70",
+      "title": "Monta el hub",
+      "kind": "scene",
+      "scene": 70,
+      "texts": [],
+      "view_ids": [
+        "V07"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-80": {
+      "id": "scene-80",
+      "title": "Retén el hub",
+      "kind": "scene",
+      "scene": 80,
+      "texts": [],
+      "view_ids": [
+        "V08"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-90": {
+      "id": "scene-90",
+      "title": "Conecta un motor",
+      "kind": "connection",
+      "scene": 90,
+      "texts": [],
+      "view_ids": [
+        "V09"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-100": {
+      "id": "scene-100",
+      "title": "Conecta el otro motor",
+      "kind": "connection",
+      "scene": 100,
+      "texts": [],
+      "view_ids": [
+        "V10"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-110": {
+      "id": "scene-110",
+      "title": "Conecta color",
+      "kind": "connection",
+      "scene": 110,
+      "texts": [],
+      "view_ids": [
+        "V11"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-120": {
+      "id": "scene-120",
+      "title": "Conecta fuerza",
+      "kind": "connection",
+      "scene": 120,
+      "texts": [],
+      "view_ids": [
+        "V12"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-130": {
+      "id": "scene-130",
+      "title": "Monta una rueda motriz",
+      "kind": "scene",
+      "scene": 130,
+      "texts": [],
+      "view_ids": [
+        "V13"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-140": {
+      "id": "scene-140",
+      "title": "Añade el remate blanco",
+      "kind": "scene",
+      "scene": 140,
+      "texts": [],
+      "view_ids": [
+        "V14"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-150": {
+      "id": "scene-150",
+      "title": "Monta la otra rueda motriz",
+      "kind": "scene",
+      "scene": 150,
+      "texts": [],
+      "view_ids": [
+        "V15"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-160": {
+      "id": "scene-160",
+      "title": "Prepara el primer portador libre",
+      "kind": "scene",
+      "scene": 160,
+      "texts": [],
+      "view_ids": [
+        "V16"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-170": {
+      "id": "scene-170",
+      "title": "Añade T y polea",
+      "kind": "scene",
+      "scene": 170,
+      "texts": [],
+      "view_ids": [
+        "V17"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-180": {
+      "id": "scene-180",
+      "title": "Prepara el apoyo azul",
+      "kind": "scene",
+      "scene": 180,
+      "texts": [],
+      "view_ids": [
+        "V18"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-190": {
+      "id": "scene-190",
+      "title": "Prepara el eje libre",
+      "kind": "scene",
+      "scene": 190,
+      "texts": [],
+      "view_ids": [
+        "V19"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-200": {
+      "id": "scene-200",
+      "title": "Cierra la rueda libre",
+      "kind": "scene",
+      "scene": 200,
+      "texts": [],
+      "view_ids": [
+        "V20"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-210": {
+      "id": "scene-210",
+      "title": "Comprueba el módulo",
+      "kind": "scene",
+      "scene": 210,
+      "texts": [],
+      "view_ids": [
+        "V21"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-220": {
+      "id": "scene-220",
+      "title": "Une el módulo",
+      "kind": "union",
+      "scene": 220,
+      "texts": [],
+      "view_ids": [
+        "V22"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-230": {
+      "id": "scene-230",
+      "title": "Comprueba el primer lado",
+      "kind": "scene",
+      "scene": 230,
+      "texts": [],
+      "view_ids": [
+        "V23"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-240": {
+      "id": "scene-240",
+      "title": "Prepara el segundo portador",
+      "kind": "scene",
+      "scene": 240,
+      "texts": [],
+      "view_ids": [
+        "V24"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-250": {
+      "id": "scene-250",
+      "title": "Repite T y polea",
+      "kind": "scene",
+      "scene": 250,
+      "texts": [],
+      "view_ids": [
+        "V25"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-260": {
+      "id": "scene-260",
+      "title": "Repite el apoyo azul",
+      "kind": "scene",
+      "scene": 260,
+      "texts": [],
+      "view_ids": [
+        "V26"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-270": {
+      "id": "scene-270",
+      "title": "Repite el eje libre",
+      "kind": "scene",
+      "scene": 270,
+      "texts": [],
+      "view_ids": [
+        "V27"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-280": {
+      "id": "scene-280",
+      "title": "Monta la cuarta rueda",
+      "kind": "scene",
+      "scene": 280,
+      "texts": [],
+      "view_ids": [
+        "V28"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-290": {
+      "id": "scene-290",
+      "title": "Añade el tercer remate blanco",
+      "kind": "scene",
+      "scene": 290,
+      "texts": [],
+      "view_ids": [
+        "V29"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-300": {
+      "id": "scene-300",
+      "title": "Comprueba el chasis",
+      "kind": "scene",
+      "scene": 300,
+      "texts": [],
+      "view_ids": [
+        "V30"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-310": {
+      "id": "scene-310",
+      "title": "Prepara la carrocería",
+      "kind": "scene",
+      "scene": 310,
+      "texts": [],
+      "view_ids": [
+        "V31"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-320": {
+      "id": "scene-320",
+      "title": "Empieza un lateral",
+      "kind": "scene",
+      "scene": 320,
+      "texts": [],
+      "view_ids": [
+        "V32"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-330": {
+      "id": "scene-330",
+      "title": "Cierra el primer lateral",
+      "kind": "scene",
+      "scene": 330,
+      "texts": [],
+      "view_ids": [
+        "V33"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-340": {
+      "id": "scene-340",
+      "title": "Prepara el techo",
+      "kind": "scene",
+      "scene": 340,
+      "texts": [],
+      "view_ids": [
+        "V34"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-350": {
+      "id": "scene-350",
+      "title": "Une el techo",
+      "kind": "union",
+      "scene": 350,
+      "texts": [],
+      "view_ids": [
+        "V35"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-360": {
+      "id": "scene-360",
+      "title": "Prepara el marco delantero",
+      "kind": "scene",
+      "scene": 360,
+      "texts": [],
+      "view_ids": [
+        "V36"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-370": {
+      "id": "scene-370",
+      "title": "Prepara los ejes del marco",
+      "kind": "scene",
+      "scene": 370,
+      "texts": [],
+      "view_ids": [
+        "V37"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-380": {
+      "id": "scene-380",
+      "title": "Prepara una unión lateral",
+      "kind": "scene",
+      "scene": 380,
+      "texts": [],
+      "view_ids": [
+        "V38"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-390": {
+      "id": "scene-390",
+      "title": "Une los marcos",
+      "kind": "union",
+      "scene": 390,
+      "texts": [],
+      "view_ids": [
+        "V39"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-400": {
+      "id": "scene-400",
+      "title": "Prepara los dos pines delanteros",
+      "kind": "scene",
+      "scene": 400,
+      "texts": [],
+      "view_ids": [
+        "V40"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-410": {
+      "id": "scene-410",
+      "title": "Construye el otro lateral",
+      "kind": "scene",
+      "scene": 410,
+      "texts": [],
+      "view_ids": [
+        "V41"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-420": {
+      "id": "scene-420",
+      "title": "Prepara la segunda T",
+      "kind": "scene",
+      "scene": 420,
+      "texts": [],
+      "view_ids": [
+        "V42"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-430": {
+      "id": "scene-430",
+      "title": "Comprueba el lateral",
+      "kind": "scene",
+      "scene": 430,
+      "texts": [],
+      "view_ids": [
+        "V43"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-440": {
+      "id": "scene-440",
+      "title": "Cierra los laterales",
+      "kind": "union",
+      "scene": 440,
+      "texts": [],
+      "view_ids": [
+        "V44"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-450": {
+      "id": "scene-450",
+      "title": "Añade el primer arco delantero",
+      "kind": "scene",
+      "scene": 450,
+      "texts": [],
+      "view_ids": [
+        "V45"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-460": {
+      "id": "scene-460",
+      "title": "Añade el segundo arco delantero",
+      "kind": "scene",
+      "scene": 460,
+      "texts": [],
+      "view_ids": [
+        "V46"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-470": {
+      "id": "scene-470",
+      "title": "Añade las dos marcas amarillas",
+      "kind": "scene",
+      "scene": 470,
+      "texts": [],
+      "view_ids": [
+        "V47"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-480": {
+      "id": "scene-480",
+      "title": "Comprueba la carrocería",
+      "kind": "scene",
+      "scene": 480,
+      "texts": [],
+      "view_ids": [
+        "V48"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-490": {
+      "id": "scene-490",
+      "title": "Prepara la parrilla",
+      "kind": "scene",
+      "scene": 490,
+      "texts": [],
+      "view_ids": [
+        "V49"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-500": {
+      "id": "scene-500",
+      "title": "Añade los extremos amarillos",
+      "kind": "scene",
+      "scene": 500,
+      "texts": [],
+      "view_ids": [
+        "V50"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-510": {
+      "id": "scene-510",
+      "title": "Añade la H inferior",
+      "kind": "scene",
+      "scene": 510,
+      "texts": [],
+      "view_ids": [
+        "V51"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-520": {
+      "id": "scene-520",
+      "title": "Cierra el paragolpes",
+      "kind": "scene",
+      "scene": 520,
+      "texts": [],
+      "view_ids": [
+        "V52"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-530": {
+      "id": "scene-530",
+      "title": "Comprueba la parrilla",
+      "kind": "scene",
+      "scene": 530,
+      "texts": [],
+      "view_ids": [
+        "V53"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-540": {
+      "id": "scene-540",
+      "title": "Une la parrilla",
+      "kind": "union",
+      "scene": 540,
+      "texts": [],
+      "view_ids": [
+        "V54"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-550": {
+      "id": "scene-550",
+      "title": "Comprueba la carrocería completa",
+      "kind": "scene",
+      "scene": 550,
+      "texts": [],
+      "view_ids": [
+        "V55"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-560": {
+      "id": "scene-560",
+      "title": "Une carrocería y chasis",
+      "kind": "union",
+      "scene": 560,
+      "texts": [],
+      "view_ids": [
+        "V56"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-570": {
+      "id": "scene-570",
+      "title": "Retén la carrocería",
+      "kind": "scene",
+      "scene": 570,
+      "texts": [],
+      "view_ids": [
+        "V57"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-580": {
+      "id": "scene-580",
+      "title": "Comprueba el coche",
+      "kind": "scene",
+      "scene": 580,
+      "texts": [],
+      "view_ids": [
+        "V58"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-590": {
+      "id": "scene-590",
+      "title": "Empieza el panel accesorio",
+      "kind": "scene",
+      "scene": 590,
+      "texts": [],
+      "view_ids": [
+        "V59"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-600": {
+      "id": "scene-600",
+      "title": "Une el segundo panel",
+      "kind": "union",
+      "scene": 600,
+      "texts": [],
+      "view_ids": [
+        "V60"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-610": {
+      "id": "scene-610",
+      "title": "Prepara los dos apoyos de manguera",
+      "kind": "scene",
+      "scene": 610,
+      "texts": [],
+      "view_ids": [
+        "V61"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-620": {
+      "id": "scene-620",
+      "title": "Prepara el codo gris",
+      "kind": "scene",
+      "scene": 620,
+      "texts": [],
+      "view_ids": [
+        "V62"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-630": {
+      "id": "scene-630",
+      "title": "Añade los topes amarillos",
+      "kind": "scene",
+      "scene": 630,
+      "texts": [],
+      "view_ids": [
+        "V63"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-640": {
+      "id": "scene-640",
+      "title": "Prepara los dos pines laterales",
+      "kind": "scene",
+      "scene": 640,
+      "texts": [],
+      "view_ids": [
+        "V64"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-650": {
+      "id": "scene-650",
+      "title": "Construye el portador lateral",
+      "kind": "scene",
+      "scene": 650,
+      "texts": [],
+      "view_ids": [
+        "V65"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-660": {
+      "id": "scene-660",
+      "title": "Añade la manguera",
+      "kind": "scene",
+      "scene": 660,
+      "texts": [],
+      "view_ids": [
+        "V66"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-670": {
+      "id": "scene-670",
+      "title": "Monta el marco superior",
+      "kind": "scene",
+      "scene": 670,
+      "texts": [],
+      "view_ids": [
+        "V67"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-680": {
+      "id": "scene-680",
+      "title": "Monta el panel curvo",
+      "kind": "scene",
+      "scene": 680,
+      "texts": [],
+      "view_ids": [
+        "V68"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-690": {
+      "id": "scene-690",
+      "title": "Comprueba el accesorio",
+      "kind": "scene",
+      "scene": 690,
+      "texts": [],
+      "view_ids": [
+        "V69"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-700": {
+      "id": "scene-700",
+      "title": "Prepara los dos discos",
+      "kind": "scene",
+      "scene": 700,
+      "texts": [],
+      "view_ids": [
+        "V70"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-710": {
+      "id": "scene-710",
+      "title": "Monta los dos discos",
+      "kind": "union",
+      "scene": 710,
+      "texts": [],
+      "view_ids": [
+        "V71"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "scene-720": {
+      "id": "scene-720",
+      "title": "Reúne coche y panel",
+      "kind": "scene",
+      "scene": 720,
+      "texts": [],
+      "view_ids": [
+        "V72"
+      ],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "cover": {
+      "id": "cover",
+      "title": "CityCar2081 — candidato nominal R01, cierres y manguera pendientes",
+      "kind": "cover",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "guide": {
+      "id": "guide",
+      "title": "Antes de empezar",
+      "kind": "guide",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Borrador digital. Verificaciones Studio diferidas a otra sesión; el montaje físico no está aprobado. Usa cada modelo por separado dentro del catálogo del kit. Las llegadas son ilustrativas, sin barrido de colisiones comprobado.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "inventory": {
+      "id": "inventory",
+      "title": "Inventario",
+      "kind": "inventory",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Sólo las piezas del modelo digital; disponibilidad física pendiente de recuento.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    },
+    "checklist": {
+      "id": "checklist",
+      "title": "Comprobación final",
+      "kind": "checklist",
+      "scene": null,
+      "texts": [
+        {
+          "id": "note",
+          "text": "Candidato digital: poses, conectividad, inserciones y mecanismos pendientes. Revisión Studio diferida; animación ilustrativa sin barrido comprobado. Consultar las exclusiones e incidencias en el expediente del modelo.",
+          "heading": false
+        }
+      ],
+      "view_ids": [],
+      "board": {
+        "viewbox": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objects": []
+      }
+    }
+  },
+  "inventory": [
+    {
+      "key": "bl-11954-c156",
+      "quantity": 1,
+      "icon": "K11954_c156",
+      "name": "Medium Azure Technic, Panel Curved 11 x 3 with 10 Pin Holes through Panel Surface",
+      "color": "Medium Azure",
+      "bricklink_item_id": "11954",
+      "ldraw_file": "11954.dat"
+    },
+    {
+      "key": "bl-14720-c86",
+      "quantity": 1,
+      "icon": "K14720_c86",
+      "name": "Light Bluish Gray Technic, Liftarm, Modified H-Shape Thick 3 x 5 Perpendicular",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "14720",
+      "ldraw_file": "14720.dat"
+    },
+    {
+      "key": "bl-15535-c11",
+      "quantity": 2,
+      "icon": "",
+      "name": "Black Tile, Round 2 x 2 with Hole",
+      "color": "Black",
+      "bricklink_item_id": "15535",
+      "ldraw_file": "15535.dat"
+    },
+    {
+      "key": "bl-18651-c11",
+      "quantity": 6,
+      "icon": "K18651_c11",
+      "name": "Black Technic, Axle 2L with Pin with Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "18651",
+      "ldraw_file": "18651.dat"
+    },
+    {
+      "key": "bl-2780-c11",
+      "quantity": 42,
+      "icon": "K2780_c11",
+      "name": "Black Technic, Pin with Short Friction Ridges",
+      "color": "Black",
+      "bricklink_item_id": "2780",
+      "ldraw_file": "2780.dat"
+    },
+    {
+      "key": "bl-32009-c11",
+      "quantity": 4,
+      "icon": "K32009_c11",
+      "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double",
+      "color": "Black",
+      "bricklink_item_id": "32009",
+      "ldraw_file": "32009.dat"
+    },
+    {
+      "key": "bl-32013-c86",
+      "quantity": 3,
+      "icon": "K32013_c86",
+      "name": "Light Bluish Gray Technic, Axle and Pin Connector Angled #1",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "32013",
+      "ldraw_file": "32013.dat"
+    },
+    {
+      "key": "bl-32054-c86",
+      "quantity": 10,
+      "icon": "K32054_c86",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Stop Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "32054",
+      "ldraw_file": "32054.dat"
+    },
+    {
+      "key": "bl-32062-c5",
+      "quantity": 2,
+      "icon": "K32062_c5",
+      "name": "Red Technic, Axle 2L Notched",
+      "color": "Red",
+      "bricklink_item_id": "32062",
+      "ldraw_file": "32062.dat"
+    },
+    {
+      "key": "bl-32192-c1",
+      "quantity": 1,
+      "icon": "K32192_c1",
+      "name": "White Technic, Axle and Pin Connector Angled #4 - 135 degrees",
+      "color": "White",
+      "bricklink_item_id": "32192",
+      "ldraw_file": "32192.dat"
+    },
+    {
+      "key": "bl-32316-c71",
+      "quantity": 2,
+      "icon": "K32316_c71",
+      "name": "Magenta Technic, Liftarm Thick 1 x 5",
+      "color": "Magenta",
+      "bricklink_item_id": "32316",
+      "ldraw_file": "32316.dat"
+    },
+    {
+      "key": "bl-32348-c11",
+      "quantity": 2,
+      "icon": "K32348_c11",
+      "name": "Black Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4)",
+      "color": "Black",
+      "bricklink_item_id": "32348",
+      "ldraw_file": "32348.dat"
+    },
+    {
+      "key": "bl-32523-c3",
+      "quantity": 4,
+      "icon": "K32523_c3",
+      "name": "Yellow Technic, Liftarm Thick 1 x 3",
+      "color": "Yellow",
+      "bricklink_item_id": "32523",
+      "ldraw_file": "32523.dat"
+    },
+    {
+      "key": "bl-3705-c11",
+      "quantity": 4,
+      "icon": "",
+      "name": "Black Technic, Axle 4L",
+      "color": "Black",
+      "bricklink_item_id": "3705",
+      "ldraw_file": "3705.dat"
+    },
+    {
+      "key": "bl-3713-c86",
+      "quantity": 2,
+      "icon": "K3713_c86",
+      "name": "Light Bluish Gray Technic Bush",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "3713",
+      "ldraw_file": "3713.dat"
+    },
+    {
+      "key": "bl-37308c01-c11",
+      "quantity": 1,
+      "icon": "",
+      "name": "Black Electric Sensor, Color - SPIKE Prime",
+      "color": "Black",
+      "bricklink_item_id": "37308c01",
+      "ldraw_file": "37308c01.dat"
+    },
+    {
+      "key": "bl-37312c01-c11",
+      "quantity": 1,
+      "icon": "",
+      "name": "Black Electric Sensor, Force - SPIKE Prime",
+      "color": "Black",
+      "bricklink_item_id": "37312c01",
+      "ldraw_file": "37312c01.dat"
+    },
+    {
+      "key": "bl-3749-c2",
+      "quantity": 2,
+      "icon": "K3749_c2",
+      "name": "Tan Technic, Axle 1L with Pin without Friction Ridges with Round Hole",
+      "color": "Tan",
+      "bricklink_item_id": "3749",
+      "ldraw_file": "3749.dat"
+    },
+    {
+      "key": "bl-39367pb01-c11",
+      "quantity": 4,
+      "icon": "K39367pb01_c11",
+      "name": "Black Wheel 56 x 14 Technic with Axle Hole and 8 Pin Holes with Molded Medium Azure Hard Rubber Tire Pattern",
+      "color": "Black",
+      "bricklink_item_id": "39367pb01",
+      "ldraw_file": "39367pb01.dat"
+    },
+    {
+      "key": "bl-39369-c3",
+      "quantity": 2,
+      "icon": "K39369_c3",
+      "name": "Yellow Technic, Panel Plate 11 x 19 x 1",
+      "color": "Yellow",
+      "bricklink_item_id": "39369",
+      "ldraw_file": "39369.dat"
+    },
+    {
+      "key": "bl-39793-c11",
+      "quantity": 4,
+      "icon": "K39793_c11",
+      "name": "Black Technic, Pin Connector Block, Liftarm 1 x 3 x 3",
+      "color": "Black",
+      "bricklink_item_id": "39793",
+      "ldraw_file": "39793.dat"
+    },
+    {
+      "key": "bl-39794-c71",
+      "quantity": 1,
+      "icon": "K39794_c71",
+      "name": "Magenta Technic, Liftarm, Modified Frame Thick 7 x 11 Open Center",
+      "color": "Magenta",
+      "bricklink_item_id": "39794",
+      "ldraw_file": "39794.dat"
+    },
+    {
+      "key": "bl-40490-c11",
+      "quantity": 2,
+      "icon": "K40490_c11",
+      "name": "Black Technic, Liftarm Thick 1 x 9",
+      "color": "Black",
+      "bricklink_item_id": "40490",
+      "ldraw_file": "40490.dat"
+    },
+    {
+      "key": "bl-4185-c11",
+      "quantity": 2,
+      "icon": "",
+      "name": "Black Technic Wedge Belt Wheel (Pulley)",
+      "color": "Black",
+      "bricklink_item_id": "4185",
+      "ldraw_file": "4185.dat"
+    },
+    {
+      "key": "bl-44375b-c12",
+      "quantity": 2,
+      "icon": "",
+      "name": "Trans-Clear Dish 6 x 6 Inverted (Radar) - Solid Studs",
+      "color": "Trans-Clear",
+      "bricklink_item_id": "44375b",
+      "ldraw_file": "44375b.dat"
+    },
+    {
+      "key": "bl-4519-c3",
+      "quantity": 2,
+      "icon": "K4519_c3",
+      "name": "Yellow Technic, Axle 3L",
+      "color": "Yellow",
+      "bricklink_item_id": "4519",
+      "ldraw_file": "4519.dat"
+    },
+    {
+      "key": "bl-48989-c86",
+      "quantity": 11,
+      "icon": "K48989_c86",
+      "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3L with 4 Pins",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "48989",
+      "ldraw_file": "48989.dat"
+    },
+    {
+      "key": "bl-49283-c156",
+      "quantity": 2,
+      "icon": "",
+      "name": "Medium Azure Technic, Axle and Wire Connector",
+      "color": "Medium Azure",
+      "bricklink_item_id": "49283",
+      "ldraw_file": "49283.dat"
+    },
+    {
+      "key": "bl-49283-c3",
+      "quantity": 2,
+      "icon": "",
+      "name": "Yellow Technic, Axle and Wire Connector",
+      "color": "Yellow",
+      "bricklink_item_id": "49283",
+      "ldraw_file": "49283.dat"
+    },
+    {
+      "key": "bl-53444c01-c3",
+      "quantity": 1,
+      "icon": "K53444c01_c3",
+      "name": "Yellow Electric, Hub Large - SPIKE Prime",
+      "color": "Yellow",
+      "bricklink_item_id": "53444c01",
+      "ldraw_file": "bb1142c01.dat"
+    },
+    {
+      "key": "bl-54696c01-c156",
+      "quantity": 2,
+      "icon": "K54696c01_c156",
+      "name": "Medium Azure Electric, Motor SPIKE Prime / Powered Up, Medium Angular with White Top Housing and Cable",
+      "color": "Medium Azure",
+      "bricklink_item_id": "54696c01",
+      "ldraw_file": "54696.dat"
+    },
+    {
+      "key": "bl-55615-c86",
+      "quantity": 4,
+      "icon": "K55615_c86",
+      "name": "Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "55615",
+      "ldraw_file": "55615.dat"
+    },
+    {
+      "key": "bl-56903-c1",
+      "quantity": 3,
+      "icon": "",
+      "name": "White Wheel 18mm D. x 8mm with Fake Bolts and Shallow Spokes and Axle Hole",
+      "color": "White",
+      "bricklink_item_id": "56903",
+      "ldraw_file": "56903.dat"
+    },
+    {
+      "key": "bl-57539-c95",
+      "quantity": 1,
+      "icon": "",
+      "name": "Flat Silver Hose, Flexible Ribbed with 8mm Ends 19L / 15.2cm",
+      "color": "Flat Silver",
+      "bricklink_item_id": "57539",
+      "ldraw_file": "57539.dat"
+    },
+    {
+      "key": "bl-60483-c156",
+      "quantity": 4,
+      "icon": "K60483_c156",
+      "name": "Medium Azure Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "color": "Medium Azure",
+      "bricklink_item_id": "60483",
+      "ldraw_file": "60483.dat"
+    },
+    {
+      "key": "bl-60484-c11",
+      "quantity": 4,
+      "icon": "K60484_c11",
+      "name": "Black Technic, Liftarm, Modified T-Shape Thick 3 x 3",
+      "color": "Black",
+      "bricklink_item_id": "60484",
+      "ldraw_file": "60484.dat"
+    },
+    {
+      "key": "bl-64179-c11",
+      "quantity": 2,
+      "icon": "K64179_c11",
+      "name": "Black Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center",
+      "color": "Black",
+      "bricklink_item_id": "64179",
+      "ldraw_file": "64179.dat"
+    },
+    {
+      "key": "bl-6558-c7",
+      "quantity": 5,
+      "icon": "K6558_c7",
+      "name": "Blue Technic, Pin 3L with Friction Ridges",
+      "color": "Blue",
+      "bricklink_item_id": "6558",
+      "ldraw_file": "6558.dat"
+    },
+    {
+      "key": "bl-87082-c86",
+      "quantity": 2,
+      "icon": "",
+      "name": "Light Bluish Gray Technic, Pin 3L with Friction Ridges and Center Pin Hole",
+      "color": "Light Bluish Gray",
+      "bricklink_item_id": "87082",
+      "ldraw_file": "87082.dat"
+    }
+  ],
+  "assets": {
+    "K11954_c156": {
+      "id": "K11954_c156",
+      "source_sha256": "0b32d1d6440d403117ac87d5f9a4102c028285252ffdfe3faad8adb90ead09a5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K11954_c156-240.webp",
+          "width": 240,
+          "height": 182,
+          "sha256": "333a45badf95b05d36117181d5fa2f73ad2a364af5d3915f1d3b7751655768fb"
+        }
+      ]
+    },
+    "K14720_c86": {
+      "id": "K14720_c86",
+      "source_sha256": "3e8cc329eccab025657fcd3b895eca2d4542df8e3c5d5b3fc6f34c426988a234",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K14720_c86-240.webp",
+          "width": 240,
+          "height": 166,
+          "sha256": "b4edbbb5fa74905a16e009054477b4fab9ba59d263549152dab14eadac2fcee7"
+        }
+      ]
+    },
+    "K18651_c11": {
+      "id": "K18651_c11",
+      "source_sha256": "246984555bb1e16999e21f8fc873c3e990d938210c5df3a4fefdebfca23b60ca",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K18651_c11-240.webp",
+          "width": 240,
+          "height": 165,
+          "sha256": "1022c1409a71313c997889ca5a795d4c9ae1d9244e79d7f35833fde018222a60"
+        }
+      ]
+    },
+    "K2780_c11": {
+      "id": "K2780_c11",
+      "source_sha256": "dd21a8e855f9f8fc491d5ebf970668c994aeb14d6c345ea91b03d422a39b383b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K2780_c11-240.webp",
+          "width": 240,
+          "height": 183,
+          "sha256": "b3b052d21c308503cf36cbb5d7923df234f9d48022d9bbe13a729ab3b75dccc0"
+        }
+      ]
+    },
+    "K32009_c11": {
+      "id": "K32009_c11",
+      "source_sha256": "ddfa265033ea940bc074f5fa42cdbf1328e1115e567d1dea80300472d79c3339",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32009_c11-240.webp",
+          "width": 240,
+          "height": 94,
+          "sha256": "02ebabfe842f90bbb206aae12382b9b9b606b51c407bade999045ef21dbddc6d"
+        }
+      ]
+    },
+    "K32013_c86": {
+      "id": "K32013_c86",
+      "source_sha256": "30835cde4365694e98c1caf377b2303be141b608b9977e9c36917388d7134532",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32013_c86-240.webp",
+          "width": 214,
+          "height": 177,
+          "sha256": "01c4c4e4903baf3d11d5eba1f9732a624eea548e6a658c84f49975f9aee5e04f"
+        }
+      ]
+    },
+    "K32054_c86": {
+      "id": "K32054_c86",
+      "source_sha256": "11079360a573bb3c2922674c23993dba48198e5334b91695ef9ebc144fb71939",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32054_c86-240.webp",
+          "width": 240,
+          "height": 172,
+          "sha256": "bd336de84b7fb7762b79a94bdae78598b884198102f2ea2629b31d9fcacb4d79"
+        }
+      ]
+    },
+    "K32062_c5": {
+      "id": "K32062_c5",
+      "source_sha256": "b1349882ca26fec76b03f26c3c08e5ac841cd214dae48e341259aff7b359ca75",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32062_c5-240.webp",
+          "width": 240,
+          "height": 179,
+          "sha256": "a2fa0deec89969470875fdfa0ca9d9351bc109812dbf66804c1243c88cbabed8"
+        }
+      ]
+    },
+    "K32192_c1": {
+      "id": "K32192_c1",
+      "source_sha256": "4e82138165f2197de0e54d9e17b31921fe04777b4e6f060224c936765bca0ab6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32192_c1-240.webp",
+          "width": 240,
+          "height": 238,
+          "sha256": "1f2c236773f81c2f88f1be6e167e958d819279fcfcfcc8557ba42d2ff4104157"
+        }
+      ]
+    },
+    "K32316_c71": {
+      "id": "K32316_c71",
+      "source_sha256": "06926e6b255aea2ca563338b6458209defb37623fde834be1e62c7a8d73942d6",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32316_c71-240.webp",
+          "width": 240,
+          "height": 182,
+          "sha256": "8254039ee3fdad3da206f88c498bec7d05f92ecb517046f94963e9a0e1133736"
+        }
+      ]
+    },
+    "K32348_c11": {
+      "id": "K32348_c11",
+      "source_sha256": "897d21583a12f1dcd488ae59afb82fcfaeea6c2d265e5fcd3b3b8b810293efac",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32348_c11-240.webp",
+          "width": 128,
+          "height": 240,
+          "sha256": "2fd32d08b7aa9abd1e50808aaa9e85dd232fcbb573fea64eb348781295093234"
+        }
+      ]
+    },
+    "K32523_c3": {
+      "id": "K32523_c3",
+      "source_sha256": "905da41de845f9794b2f63d2d24045e7e77c81ee72e99c50ba0e4fe14ffd9d7e",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K32523_c3-240.webp",
+          "width": 237,
+          "height": 214,
+          "sha256": "9259b87409fab45fe14465fb08847a6eb534c8efa1425173bc5c0002060903c5"
+        }
+      ]
+    },
+    "K3713_c86": {
+      "id": "K3713_c86",
+      "source_sha256": "308a86e80a50dffb2307eb98c04c1df3a5d3164d7d478390a1aaba912b08ef7b",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3713_c86-240.webp",
+          "width": 200,
+          "height": 184,
+          "sha256": "82192a8ecd8cd179c45cc7706bd70014f964a1f6cb21d48f2bf61890fbc83753"
+        }
+      ]
+    },
+    "K3749_c2": {
+      "id": "K3749_c2",
+      "source_sha256": "2e48bab1a66cf2f694533a7a56441a6dd02e745265de21341a4f7bc397b43739",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K3749_c2-240.webp",
+          "width": 240,
+          "height": 181,
+          "sha256": "67b2d743a218d9ee8b1fe35caf7a81384a67318c7684455665b8232b7a21fdf0"
+        }
+      ]
+    },
+    "K39367pb01_c11": {
+      "id": "K39367pb01_c11",
+      "source_sha256": "84019ef77144737d342498847a95012a81d9cdf90f7624ddbe53612c19bd7b1c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39367pb01_c11-240.webp",
+          "width": 208,
+          "height": 240,
+          "sha256": "eac10eae6965eaf59d93dbfa30d5ba893aa5f150a4c3e7c1bbcaa469dc18ea3a"
+        }
+      ]
+    },
+    "K39369_c3": {
+      "id": "K39369_c3",
+      "source_sha256": "878a6ec57567e7cc554d91fd5a8616a671c93c26a7d08509e2401a7bfb799030",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39369_c3-240.webp",
+          "width": 240,
+          "height": 132,
+          "sha256": "f139c2236a6f0b2d507e1c4fd3b38faf46d4570335cc74c2dd20c0799fd372e1"
+        }
+      ]
+    },
+    "K39793_c11": {
+      "id": "K39793_c11",
+      "source_sha256": "d1335c08aa388f3ae40e5bc6a2d3af64777a42a42cc1ea16f1b9fbc0d1b32aef",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39793_c11-240.webp",
+          "width": 240,
+          "height": 158,
+          "sha256": "c81425a316b0cfdc5f6a402fff9034830766557a8dbd2ba993e572bac1b21489"
+        }
+      ]
+    },
+    "K39794_c71": {
+      "id": "K39794_c71",
+      "source_sha256": "418f38ff09f524741a75ae0ba44affb7e986a005bdd6461afbb1a95cdc4f9df5",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K39794_c71-240.webp",
+          "width": 240,
+          "height": 140,
+          "sha256": "1fd2e13857a3114c10ffb4d1be43d22399cd0d33fe2b0be8faae46790a812092"
+        }
+      ]
+    },
+    "K40490_c11": {
+      "id": "K40490_c11",
+      "source_sha256": "37afb050752dd9ce4c9f3540b50a81ddc74ef47da1bad26eff486a3e0354a65d",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K40490_c11-240.webp",
+          "width": 240,
+          "height": 156,
+          "sha256": "8f0cc360c497a256b23fe5cb827527fe32a3f5243e4c9c3dce247ef2f6d9e38d"
+        }
+      ]
+    },
+    "K4519_c3": {
+      "id": "K4519_c3",
+      "source_sha256": "39bf3d049fb96a758ba1b118d9e084e3858424b500d5c654010edf20cdff0c90",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K4519_c3-240.webp",
+          "width": 240,
+          "height": 163,
+          "sha256": "6a000ab3f8f5f8e731fef57913d7f625172bbde005af0fa9180352719390bcfa"
+        }
+      ]
+    },
+    "K48989_c86": {
+      "id": "K48989_c86",
+      "source_sha256": "6635d32247996714ea973e2c48a91ea0c7f25f3ffc85bde380bb174ea5052b49",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K48989_c86-240.webp",
+          "width": 187,
+          "height": 240,
+          "sha256": "40586070966086be79d6b5633be2d0ff66e253431bd98a899fddb9ecc4910aa2"
+        }
+      ]
+    },
+    "K53444c01_c3": {
+      "id": "K53444c01_c3",
+      "source_sha256": "f3c77540fbe4c049c588eb2a7ff2478a208f18f05efffb247fbbe064f27602ae",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K53444c01_c3-240.webp",
+          "width": 240,
+          "height": 190,
+          "sha256": "f46e18721362316fa4553beb96b5b8423bdf1f3dc4529c1d00d560a8af71a79a"
+        }
+      ]
+    },
+    "K54696c01_c156": {
+      "id": "K54696c01_c156",
+      "source_sha256": "b018f8a269c2bbaaf3dabd03393fe10fc7a5d5ca6a703caf2318488def1ff857",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K54696c01_c156-240.webp",
+          "width": 240,
+          "height": 187,
+          "sha256": "686ad376b23a81671fa7b18502165617a10f4889bd82056efae6f0afc2dd8d8b"
+        }
+      ]
+    },
+    "K55615_c86": {
+      "id": "K55615_c86",
+      "source_sha256": "d14ea1c386750434f86db4ad4ca7b646acdee0069c60dc88641352b54946f66c",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K55615_c86-240.webp",
+          "width": 144,
+          "height": 240,
+          "sha256": "a542224ad1aac65ed9599cbbf1305d4ed85088c0b9a75d9835ca8429c55f05de"
+        }
+      ]
+    },
+    "K60483_c156": {
+      "id": "K60483_c156",
+      "source_sha256": "642a0a0203683f5d87f26766539c48118a87227e36e09d25f8a37783c1648d26",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K60483_c156-240.webp",
+          "width": 231,
+          "height": 239,
+          "sha256": "6fc53f0b0eee30a0a4264d3486cb62907f2831d2152f3008aac253588cf4abd5"
+        }
+      ]
+    },
+    "K60484_c11": {
+      "id": "K60484_c11",
+      "source_sha256": "136bd0ab275daa8a984415a0c5da29b0dfe34e2079e6bcd235b48fc5a8b562d7",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K60484_c11-240.webp",
+          "width": 227,
+          "height": 240,
+          "sha256": "829ee3b9ccc1dac26d5522e2c342660e887bf8483d1d4d816ed872335f02d251"
+        }
+      ]
+    },
+    "K64179_c11": {
+      "id": "K64179_c11",
+      "source_sha256": "c12e7f37f1f2531e28680b818c51601d114a8d77b975a8ca302cb2f4b329fd1f",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K64179_c11-240.webp",
+          "width": 240,
+          "height": 150,
+          "sha256": "7e6b637cc86d1a13e088c3d265493c064ae7dbd082f4b6cdba67109a8416e99b"
+        }
+      ]
+    },
+    "K6558_c7": {
+      "id": "K6558_c7",
+      "source_sha256": "cf65e01fd75e34eaba350b5e84198a1292b332c9d0e2b51bf92ba0e6a63d3f22",
+      "producer": "BrickLink Studio Instruction Maker",
+      "variants": [
+        {
+          "url": "images/K6558_c7-240.webp",
+          "width": 240,
+          "height": 167,
+          "sha256": "1de4df92d514595fc6cb92b4efa422c6fd3d97668af6f65c1f9854edb6dfd402"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "source_actions": 72,
+    "new_parts_total": 152,
+    "inventory_lots": 39,
+    "digital_scenes_covered": true,
+    "manual_visual_review": "not_run"
+  },
+  "object_map": [
+    {
+      "page": "scene-10",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-20",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-30",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-40",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-50",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-60",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-70",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-80",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-90",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-100",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-110",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-120",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-130",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-140",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-150",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-160",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-170",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-180",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-190",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-200",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-210",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-220",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-230",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-240",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-250",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-260",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-270",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-280",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-290",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-300",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-310",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-320",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-330",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-340",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-350",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-360",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-370",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-380",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-390",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-400",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-410",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-420",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-430",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-440",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-450",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-460",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-470",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-480",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-490",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-500",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-510",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-520",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-530",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-540",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-550",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-560",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-570",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-580",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-590",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-600",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-610",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-620",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-630",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-640",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-650",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-660",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-670",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-680",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-690",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-700",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-710",
+      "object": "action-0",
+      "destination": "text"
+    },
+    {
+      "page": "scene-720",
+      "object": "action-0",
+      "destination": "text"
+    }
+  ],
+  "sources": {
+    "specs/instructions/roboriseit-2081-r01-e01-source.json": "5bfa6ee932db60ef6d2958d82584f69b8e752cd1e57abd718e1f76a75221d516",
+    "builds/citycar-2081-snapshots-r04/asset-plan.json": "18c5d7e9b0a1d259e73d2d6fa300e7620194c42ca55f473ed226e486764c999f",
+    "specs/roboriseit-2081-r01.json": "8bb7dda5cc78d2514e10359c9a74a362536446dd8a520ebf37434889e75f748e",
+    "data/spike-prime-45678.lock.json": "ec5f7e8f6b5eeaa355a7088e26d941028472c3552b2145827ce6c233bf74c281",
+    "builds/forklift-2074-r04-assets-e01/studio-assets.json": "32b3f9d89cf2675b7454bbb37c6fc428059307a9032eab65faf23eec9dd396cf",
+    "builds/jamie-2072-r11-instructions-e03/studio-assets.json": "2f4a796aed5e073b3b3cfc365e992bb816b981112e3a898efa17363a4dfa7d26",
+    "builds/delivery-2073-r06-assets-e01/studio-assets-s02.json": "2f083af339d574f52a43d113b8f1dedbaf89c00604150cdae288a03adc9face0"
+  },
+  "studio_reference_available": false,
+  "review_status": "deferred",
+  "cover_view": "FINAL",
+  "missing_part_icons": [
+    "bl-15535-c11",
+    "bl-3705-c11",
+    "bl-37308c01-c11",
+    "bl-37312c01-c11",
+    "bl-4185-c11",
+    "bl-44375b-c12",
+    "bl-49283-c156",
+    "bl-49283-c3",
+    "bl-56903-c1",
+    "bl-57539-c95",
+    "bl-87082-c86"
+  ],
+  "physical_build": "not_run",
+  "release_ready": false
+}
