@@ -1,0 +1,126 @@
+---
+sidebar_position: 0
+sidebar_label: "Cómo usar este material"
+title: "Tiempo Circular"
+description: "Programa de 12 sesiones para segundo básico: construir un reloj sobre una pantalla circular ESP32, de la trigonometría al calendario Cholq'ij."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Tiempo Circular
+
+Programa de **12 sesiones** en el que los equipos construyen un reloj sobre una pantalla circular
+de 1.28 pulgadas. La trigonometría coloca las manecillas, el color se arma bit por bit, y la
+carátula final cuenta los ciclos del **Cholq'ij**.
+
+Se programa en Arduino sobre una placa **ESP32** con un módulo **TFT redondo GC9A01** de 240×240
+conectado por SPI. Sin reloj de tiempo real y sin tarjeta de memoria: la hora sale primero de
+`millis()` y después de la red.
+
+Es el primer programa del hub que construye **una interfaz que muestra** en lugar de una máquina
+que se mueve. Complementa a [CiudadBots](/ciudadbots), que trabaja robótica aplicada con bloques
+visuales, y a [GuateGeeks SMARS](/guategeeks), que construye un robot autónomo con Arduino.
+
+## Diseñado para segundo básico
+
+Está diseñado para **segundo básico**, y no por conveniencia: la malla de ese grado pide
+literalmente lo que una carátula redonda obliga a calcular.
+
+| Lo que el proyecto obliga a hacer | Competencia del CNB |
+|---|---|
+| Colocar una manecilla en un ángulo dado | MAT 1.3 · razones trigonométricas del triángulo rectángulo |
+| Marcar la carátula cada 30° | MAT 1.2 · ángulos notables en la circunferencia |
+| Armar un color desde sus bits | MAT 5.1 · sistemas de numeración posicional |
+| Un anillo de 20 posiciones y un ciclo de 13 | MAT 5.2 y MAT 5.3 · ciclos del Cholq'ij, el 13 y el 20 |
+| Medir cuánto se atrasa el reloj | CN 1.3 · medición y error experimental |
+| Un segundero que gira a 6° por segundo | CN 4.3 · movimiento circular uniforme |
+
+Las citas completas, con su página en la malla del Mineduc, están en
+[Alineación curricular](/tiempo-circular/alineacion-cnb).
+
+<FlagNote tone="info" title="¿Trabaja con otro grado?">
+Si trabaja con **1.º básico**, el programa indicado es [CiudadBots](/ciudadbots), que cubre los tres
+grados del ciclo con programación por bloques. Si trabaja con **3.º básico**,
+[GuateGeeks SMARS](/guategeeks) baja al nivel de la electrónica y el código con un robot autónomo.
+</FlagNote>
+
+## Cómo se usa este material
+
+- **Una página por sesión.** Cada sesión trae su pregunta central, las cuatro fases con tiempos,
+  los conceptos, los materiales, el reto y la evidencia esperada.
+- **Cuatro fases por sesión.** Activar (15 min) → Explorar (25 min) → Crear (60-90 min) →
+  Reflexionar (15 min).
+- **Roles que rotan.** Cuatro responsabilidades por equipo, cambiando cada dos o tres sesiones.
+- **Código incluido.** Seis sketches por capas, comentados en español, para ESP32 y pantalla
+  GC9A01.
+
+<FlagNote tone="info" title="Para docentes">
+Empiece por la [Guía docente](/tiempo-circular/guia-docente) para ver la secuencia completa y los
+materiales por bloque. Antes de energizar cualquier placa, revise
+[Seguridad](/tiempo-circular/seguridad): el checklist debe estar firmado.
+</FlagNote>
+
+## Duración
+
+| Ruta | Formato | Calendario |
+|---|---|---|
+| Intensivo | 12 sesiones de 90-120 min | 2-3 semanas |
+| Escolar | 12 sesiones de 50-60 min | 4-6 semanas |
+| Club maker | 4 jornadas de 3 horas | 1 mes |
+
+## Las cuatro fases del programa
+
+| Fase | Sesiones | Qué se logra |
+|---|---|---|
+| **Activar** | 1-2 | Qué es una pantalla, cómo se comunica y cómo se energiza sin quemarla |
+| **Explorar** | 3-4 | Primer píxel en pantalla y el color entendido como número |
+| **Crear** | 5-11 | Geometría del círculo, manecillas por seno y coseno, reloj, deriva, red y Cholq'ij |
+| **Reflexionar** | 12 | Carátula propia y presentación técnica |
+
+## Progresión del código
+
+Cada sketch prueba un subsistema en aislamiento antes de integrarlo. Si el reloj falla, se vuelve a
+la capa anterior para localizar el problema.
+
+| Sesión | Sketch | Qué prueba |
+|---|---|---|
+| 3 | `01_pantalla_viva` | SPI, alimentación, `begin()`, rotación, un relleno y un texto |
+| 4 | `02_color_y_bits` | RGB565 armado desde sus componentes, en binario, hexadecimal y decimal |
+| 5-7 | `03_geometria_circular` | Centro y radio, marcas en ángulos notables, manecilla por seno y coseno |
+| 8-9 | `04_reloj_millis` | Reloj analógico y digital sobre `millis()`, con redibujo parcial |
+| 10 | `05_reloj_ntp` | WiFi, NTP y huso horario UTC-6 |
+| 11 | `06_cholqij` | Anillo de 20 nawales a 18°, ciclo de 13 a 360/13 |
+
+## Roles del equipo
+
+Equipos de 3 o 4 estudiantes, con rotación cada dos o tres sesiones para que todos pasen por cada
+responsabilidad. Detalle en [Roles](/tiempo-circular/roles).
+
+- **Seguridad y energía** — verifica polaridad y voltaje antes de conectar el USB
+- **Cableado** — arma y revisa las siete conexiones del bus SPI, diagnostica fallas de contacto
+- **Geometría** — calcula ángulos, radios y coordenadas antes de que se escriban en el código
+- **Código y documentación** — carga los sketches, ajusta parámetros, registra resultados
+
+## Marco curricular
+
+Alineado al **CNB de Segundo Básico** —Matemática, Tecnologías del Aprendizaje y la Comunicación,
+Ciencias Naturales y Comunicación y Lenguaje— con citas verificadas contra las mallas del Mineduc,
+incluida su página fuente.
+
+Los estándares internacionales se citan en la banda que corresponde al grado: **CSTA Nivel 2**
+(grados 6-8), **NGSS MS-ETS1** e **ISTE** con sub-indicadores. Ver
+[Alineación curricular](/tiempo-circular/alineacion-cnb).
+
+<FlagNote tone="warn" title="Estado del material">
+El hardware de este programa está **especificado pero no adquirido**: los seis sketches no han sido
+validados en una placa física. Los costos de la página de materiales son estimados. El contenido
+del calendario Cholq'ij está pendiente de revisión por una persona con conocimiento del calendario
+maya antes de considerarse final.
+</FlagNote>
+
+## Atribución
+
+El pinout, el diagrama de cableado, la identificación de la librería `DIYables_TFT_Round` y las
+**fotografías del módulo** provienen del tutorial público de esp32io.com / DIYables sobre el módulo
+GC9A01, y se reproducen aquí con crédito a esa fuente. **El código de este programa es propio** y se
+distribuye bajo licencia MIT. Detalle y tabla de procedencia en [Licencias](/tiempo-circular/licencias).

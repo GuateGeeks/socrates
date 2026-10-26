@@ -1,0 +1,136 @@
+---
+sidebar_position: 22
+sidebar_label: "Licencias y atribución"
+title: "Licencias y atribución"
+description: "Qué es propio, qué es de terceros y bajo qué condiciones se usa cada parte del programa."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Licencias y atribución
+
+Este programa combina material propio con material de terceros bajo condiciones distintas.
+Confundirlas bloquea usos legítimos y habilita usos que no lo son, así que conviene tenerlas
+separadas.
+
+## Resumen
+
+| Componente | Licencia | Qué permite |
+|---|---|---|
+| Sketches de `arduino/tiempo-circular/` | **MIT** | Uso, modificación y redistribución con el aviso |
+| Páginas y material didáctico de este programa | CC BY-SA 4.0 | Derivados con la misma licencia y atribución |
+| Mallas curriculares CNB | CC BY-SA 4.0 + nota del Mineduc | Reproducir citando la fuente, sin uso comercial |
+| Librería `DIYables_TFT_Round` | Su licencia original | Se **cita e instala**, no se copia aquí |
+| Imágenes de esp32io.com / DIYables | **Sin licencia expresa** | Ver la sección de imágenes |
+
+## Código propio
+
+Los seis sketches son **obra propia** de GuateGeeks, escritos para este programa, y se distribuyen
+bajo licencia **MIT**.
+
+No derivan del tutorial de esp32io.com. La copia guardada de esa página había perdido el cuerpo de
+todos sus ejemplos —cada llamada a método, literal de cadena y argumento numérico fue eliminado—, de
+modo que no había código que adaptar aunque se hubiera querido. De esa fuente se tomaron el mapa de
+pines, el cableado, la identificación de la librería y las imágenes.
+
+## Librería de terceros
+
+**DIYables TFT Round**, de DIYables.io, y su dependencia **Adafruit GFX Library**. Se **citan e
+instalan desde su origen**; no se copian ni se redistribuyen en este repositorio, y conservan sus
+licencias respectivas.
+
+## Imágenes
+
+<FlagNote tone="warn" title="Material de terceros sin licencia expresa">
+Las catorce imágenes de este programa provienen del tutorial público de **esp32io.com / DIYables**.
+Se reproducen **con crédito visible** en cada página donde aparecen, pero **no existe una licencia
+expresa de reproducción**, y varias llevan la marca de agua `diyables.io`.
+
+Se usan por decisión editorial de GuateGeeks, con atribución y sin alterarlas. Quien reutilice este
+material debe evaluar esa condición por su cuenta, y no asumir que la licencia CC BY-SA 4.0 del resto
+de las páginas cubre estas imágenes: **no las cubre**.
+</FlagNote>
+
+### Tabla de procedencia
+
+Todas provienen de esp32io.com / DIYables. Los nombres de archivo se conservan sin cambios para que
+cada una sea rastreable hasta la página original.
+
+| Archivo | Dónde se usa | Qué muestra |
+|---|---|---|
+| `1.28inch-round-circular-tft-lcd-pinout.jpg` | Sesiones 1 y 2, Materiales | Los siete pines del módulo con su función |
+| `esp32-round-circular-tft-lcd-display.jpg` | Sesión 1 | Placa ESP32 y módulo, sin conectar |
+| `esp32-round-circular-tft-lcd-display-wiring-diagram.jpg` | Sesión 2, Materiales | Diagrama de cableado completo |
+| `esp32-tft-lcd-round-library.jpg` | Sesión 3 | Gestor de librerías del Arduino IDE |
+| `esp32-tft-lcd-round-dependency-library.jpg` | Sesión 3 | Diálogo de instalación de dependencias |
+| `esp32-round-circular-tft-lcd-screen-display-text-and-number.jpg` | Sesión 4 | Texto y números en pantalla |
+| `esp32-round-circular-tft-lcd-screen-display-external-font.jpg` | Sesión 4 | Varias fuentes tipográficas |
+| `esp32-round-circular-tft-lcd-screen-display-draw-shapes.jpg` | Sesión 5 | Figuras geométricas en pantalla |
+| `esp32-round-circular-tft-lcd-display-screen-clock-watch.jpg` | Sesión 8 | Reloj analógico y digital |
+| `tft-display-image-to-bitmap-array.jpg` | Sesión 12 | Conversor de imagen a arreglo |
+| `arduino-ide-2-adds-file.jpg` | Sesión 12 | Agregar una pestaña al sketch |
+| `arduino-ide-adds-file-bitmap.jpg` | Sesión 12 | Nombrar el archivo `bitmap.h` |
+| `esp32-round-circular-tft-lcd-screen-display-image.jpg` | Sesión 12 | Imagen cargada desde memoria |
+| `esp32-round-circular-tft-lcd-screen-display-image-from-micro-sd-card.jpg` | No se usa | Imagen desde tarjeta SD, fuera del alcance |
+
+### Lo que estas imágenes no muestran
+
+**Ninguna corresponde a la salida de los sketches de este programa.** Fueron hechas para el tutorial
+original, antes de que este código existiera. No hay fotografía de la carátula del Cholq'ij, de los
+anillos, de las marcas de 30° ni de la manecilla calculada con seno y coseno, porque el hardware no
+se ha adquirido. Las sesiones 5, 6, 7 y 11 lo declaran y describen en texto lo que debe verse.
+
+## Marco curricular
+
+Las competencias, indicadores, criterios y contenidos citados provienen de las **mallas curriculares
+del Ciclo Básico** del Ministerio de Educación de Guatemala (Mineduc), Dirección General de Currículo
+(DIGECUR).
+
+La fuente navegable de CNB Guatemala publica el contenido bajo **CC BY-SA 4.0** salvo indicación
+contraria. Los PDF oficiales indican que puede reproducirse total o parcialmente citando al Mineduc
+y **sin usos comerciales**. Cada cita de este programa incluye la página que la propia malla declara
+como fuente, para que pueda verificarse.
+
+## Contenido del calendario Cholq'ij
+
+<FlagNote tone="warn" title="Pendiente de revisión cultural">
+Este contenido **no ha sido revisado** por una persona con conocimiento del calendario maya. Hasta
+que eso ocurra, no debe tratarse como material final.
+</FlagNote>
+
+**Fuente principal:** la malla de **Matemática, Segundo Básico** del Mineduc, contenidos **5.2.1**
+(ciclos en el calendario Cholq'ij y Hab'), **5.2.3** (los cuadrantes y los puntos cardinales) y
+**5.3.1** (el 13 y el 20, ciclos de la vida), página 15. La estructura que el programa enseña —13
+números, 20 posiciones, 260 días— es la que el propio currículo nacional prescribe.
+
+**Alcance declarado.** El programa trabaja la estructura del ciclo, su aritmética y su representación
+sobre una circunferencia. **No** enseña práctica ceremonial, **no** interpreta las energías de un
+día, **no** trabaja el contenido 5.3.2 («Matemática Maya: Espiritual y holística»), y **no habla en
+nombre de comunidades mayas ni de ajq'ijab'**.
+
+**Nombres de los nawales.** El material actual **no los nombra**. Si en una revisión posterior se
+incorporan, deberá indicarse la variante lingüística usada y la fuente de la grafía, porque los
+nombres y sus escrituras varían entre idiomas mayas y entre comunidades.
+
+**Correlación con el calendario gregoriano.** El programa **no codifica una constante de correlación
+propia**. El día de anclaje lo configura el docente a partir de una fuente publicada, contrastada
+contra una segunda fuente independiente. Afirmar una correlación que no se puede sostener sería el
+peor resultado posible: parecer autoritativo sin serlo.
+
+## Marcos internacionales
+
+- **CSTA K-12 Computer Science Standards** — Computer Science Teachers Association
+- **ISTE Standards for Students** — International Society for Technology in Education
+- **NGSS** — Next Generation Science Standards
+
+Se citan por código y sub-indicador, sin reproducir el texto completo de los marcos.
+
+## Si redistribuye este material
+
+1. Mantenga CC BY-SA 4.0 en los derivados de las páginas y del material didáctico.
+2. Conserve el aviso MIT en los sketches.
+3. Cite al Mineduc/DIGECUR en cualquier reproducción de las mallas, y respete la nota de no uso
+   comercial de los PDF oficiales.
+4. **Evalúe por su cuenta la reutilización de las imágenes de esp32io.com / DIYables.** La licencia
+   de este sitio no se las transfiere.
+5. Mantenga las declaraciones de alcance del contenido Cholq'ij y su estado de revisión.

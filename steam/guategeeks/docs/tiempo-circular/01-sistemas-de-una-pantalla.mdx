@@ -1,0 +1,129 @@
+---
+sidebar_position: 1
+sidebar_label: "01 · Sistemas de una pantalla"
+title: "Sistemas de una pantalla"
+description: "Qué es un periférico de salida, cómo se comunica una pantalla con un microcontrolador, y por qué siete cables bastan."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+
+# 01 · Sistemas de una pantalla
+
+<SessionModule id="tc1" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Cómo le dice un microcontrolador a una pantalla qué tiene que mostrar?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Una pantalla no entiende imágenes: entiende una secuencia de números que llegan por unos pocos
+    cables, uno detrás de otro. Esta sesión separa las tres cosas que se confunden al ver un
+    dispositivo terminado —la energía que lo alimenta, la información que lo controla y el
+    resultado que se ve— antes de tocar un solo componente. El módulo que van a usar tiene siete
+    pines, y cada uno pertenece a una de esas categorías.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Periférico de salida frente a periférico de entrada',
+    'Comunicación en serie: un dato después de otro por el mismo cable',
+    'La función de cada uno de los siete pines del módulo',
+    'Diferencia entre flujo de energía y flujo de información',
+    'Controlador GC9A01: el intermediario entre el microcontrolador y el vidrio',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Inventario de pantallas">
+    Listar en la pizarra todas las pantallas que el grupo tocó hoy: teléfono, televisor, microondas,
+    la calculadora, el rótulo de una tienda. Preguntar cuáles muestran solo números y cuáles
+    muestran cualquier cosa, y qué hará que unas puedan más que otras. Nadie tiene que acertar
+    todavía.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Clasificar los siete pines">
+    Con el diagrama de pines a la vista, clasificar cada uno en energía o información: VCC y GND
+    llevan energía; SDA, SCL, DC y CS llevan información; RST es el caso interesante, porque no
+    lleva ni datos ni alimentación, sino una orden de reiniciar. Preguntar por qué el fabricante
+    puso solo un cable de datos —SDA— y no ocho.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Diagrama de bloques del sistema">
+    Cada equipo dibuja en un pliego el sistema completo: computadora, cable USB, placa ESP32, los
+    siete cables y el módulo de pantalla. Debe usar **dos colores distintos** para el flujo de
+    energía y el de información, y rotular cada cable con su nombre y su función. El diagrama tiene
+    que permitir que otro equipo lo lea sin explicación oral.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="¿Dónde está la imagen?">
+    Cerrar con la pregunta difícil: si por SDA pasa un número a la vez, ¿dónde está la imagen
+    mientras viaja? Llevar la discusión hasta la idea de que la imagen **no existe** en el cable:
+    se reconstruye píxel por píxel en el otro extremo. Esa idea sostiene todo el programa.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Pliegos de papel y marcadores de al menos dos colores por equipo',
+    'Diagrama de pines impreso o proyectado',
+    'Módulo GC9A01 y placa ESP32 para mostrar en físico, sin conectar',
+    'Cinta adhesiva para pegar los diagramas en la pared',
+  ]} />
+
+  <SessionModule.Reto>
+    Elaboren el diagrama de bloques del sistema completo, con energía e información en colores
+    distintos y los siete cables rotulados con nombre y función. Al final, intercambien el diagrama
+    con otro equipo: ese equipo debe poder señalar, sin ayuda, cuál cable lleva los datos de la
+    imagen y cuál solo le dice a la pantalla si lo que viene es un dato o una orden.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Diagrama de bloques anotado, con energía e información diferenciadas por color',
+    'Tabla de los siete pines con su nombre, su función y su categoría',
+    'Respuesta escrita a por qué basta un solo cable de datos en lugar de ocho',
+    'Registro de la revisión cruzada con otro equipo',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'TAC 1.1: identifica y distingue el uso de los dispositivos periféricos de entrada, salida y comunicación (p. 15).',
+    'CN 1.1: distingue entre ciencia y tecnología, y explica la relación ciencia-tecnología-sociedad (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-CS-01: recomendar mejoras al diseño de dispositivos computacionales a partir del análisis de cómo interactúan sus usuarios.',
+    'CSTA 2-CS-02: diseñar proyectos que combinan componentes de hardware y software para recolectar e intercambiar datos.',
+    'ISTE Computational Thinker 5c: descomponer un sistema en sus componentes para entender su funcionamiento.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Distingue flujo de energía de flujo de información en su diagrama.',
+    'Explica la función de cada uno de los siete pines sin recitar la lista de memoria.',
+    'Argumenta por qué la comunicación en serie usa pocos cables.',
+    'Produce documentación que otro equipo puede interpretar sin explicación oral.',
+  ]} />
+</SessionModule>
+
+<VisualStepGuide
+  title="Referencia visual del módulo"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/1.28inch-round-circular-tft-lcd-pinout.jpg',
+      alt: 'Módulo TFT redondo GC9A01 visto por delante y por detrás, con sus siete pines rotulados RST, CS, DC, SDA, SCL, GND y VCC',
+      title: 'Los siete pines',
+      body: <>
+        Usen esta imagen para la clasificación de la fase Explorar. Fíjense en el orden físico de
+        los pines en la placa: RST, CS, DC, SDA, SCL, GND, VCC. Ese orden importa al cablear, porque
+        equivocarse de fila es el error más común y el más difícil de ver.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-display.jpg',
+      alt: 'Placa ESP32 junto al módulo de pantalla circular, sin conectar',
+      title: 'Las dos piezas del sistema',
+      body: <>
+        A la izquierda el microcontrolador, que decide qué mostrar; a la derecha la pantalla, que
+        solo obedece. Todo el programa vive en distinguir esos dos papeles: la pantalla nunca sabe
+        qué hora es.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

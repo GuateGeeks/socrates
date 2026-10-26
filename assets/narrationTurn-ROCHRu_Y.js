@@ -1,0 +1,1 @@
+import{r as e}from"./index-DbS8nSfy.js";const t="socrates:narration-play";function c(r){const n=e.useRef({}),s=e.useRef(r);return s.current=r,e.useEffect(()=>{const o=a=>{a.detail!==n.current&&s.current()};return window.addEventListener(t,o),()=>window.removeEventListener(t,o)},[]),e.useCallback(()=>{window.dispatchEvent(new CustomEvent(t,{detail:n.current}))},[])}export{c as u};

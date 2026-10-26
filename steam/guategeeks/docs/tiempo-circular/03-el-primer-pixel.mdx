@@ -1,0 +1,151 @@
+---
+sidebar_position: 3
+sidebar_label: "03 · El primer píxel"
+title: "El primer píxel"
+description: "Instalar la librería, cargar el primer sketch y encender la pantalla. El círculo del borde y la cruz del centro que se usarán todo el programa."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import FlagNote from '@site/src/components/FlagNote';
+import sketchCode from '@site/arduino/tiempo-circular/01_pantalla_viva/01_pantalla_viva.ino';
+
+# 03 · El primer píxel
+
+:::note La pantalla es cuadrada, el vidrio es redondo
+El controlador maneja una matriz de **240 × 240 píxeles cuadrada**, pero el vidrio solo deja ver el
+**círculo inscrito**. Lo que se dibuje en las esquinas se calcula, se envía por SPI y se pierde.
+Esa diferencia entre lo que existe y lo que se ve reaparece en cada sesión.
+:::
+
+<SessionModule id="tc3" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Qué tiene que pasar para que aparezca algo, lo que sea, en la pantalla?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Entre el cableado correcto y la primera imagen hay una cadena de pasos que puede fallar en
+    cualquier eslabón: el entorno de desarrollo, la librería, la selección de placa, el puerto, el
+    cable. Esta sesión recorre esa cadena entera y termina con una pantalla encendida. El sketch es
+    deliberadamente mínimo —un fondo, un círculo, una cruz y dos palabras— porque su función no es
+    lucirse, sino demostrar que el sistema completo responde.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Librería: código de terceros que traduce órdenes simples en señales SPI',
+    'Dependencia: una librería que necesita otra para funcionar',
+    'Sistema de coordenadas de pantalla: el origen está arriba a la izquierda',
+    'Área visible frente a área direccionable',
+    'Ciclo cargar, observar, corregir',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="La cadena de la que depende">
+    Antes de tocar la computadora, listar en la pizarra todos los eslabones entre el código escrito
+    y la luz en la pantalla: editor, compilador, cable, placa, bus SPI, controlador, vidrio. Anotar
+    junto a cada uno qué síntoma daría si fallara. Esa lista es la herramienta de diagnóstico del
+    resto de la sesión.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Instalar la librería y sus dependencias">
+    Instalar el core de ESP32 y la librería **DIYables TFT Round**. Cuando el gestor pregunte por
+    las dependencias, aceptar **Install All**: instalar solo la primera y rechazar Adafruit GFX es
+    el error que produce el mensaje de compilación más confuso de toda la unidad. Discutir qué
+    significa que una librería dependa de otra.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Cargar y observar">
+    Cargar `01_pantalla_viva` y observar. Abrir el Monitor Serie a 115200 baudios y verificar que
+    reporta 240 de ancho y 240 de alto. Luego probar los cuatro valores de `setRotation()`, de 0 a
+    3, y anotar hacia dónde queda el texto en cada uno. Elegir uno y justificar la elección.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="¿Qué probamos exactamente?">
+    Volver a la lista de eslabones de la fase Activar y marcar cuáles quedaron verificados con esta
+    pantalla encendida. La respuesta es: todos. Una imagen simple que aparece prueba más que un
+    programa complejo que no compila. Introducir la idea de prueba de humo.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="01_pantalla_viva.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo cableado y con checklist firmado en la sesión 2',
+    'Computadora con Arduino IDE 2.x y permisos para instalar el driver USB-serie',
+    'Cable USB de datos, verificado',
+    'Conexión a internet para descargar el core de ESP32 y la librería',
+    'Hoja de registro para los cuatro valores de rotación',
+  ]} />
+
+  <SessionModule.Reto>
+    Enciendan la pantalla y documenten la cadena completa: qué instalaron, qué placa y puerto
+    seleccionaron, y qué apareció. Prueben los cuatro valores de `setRotation()` y registren con un
+    dibujo hacia dónde queda el texto en cada uno. Elijan el valor que usará el equipo durante todo
+    el programa y expliquen por qué. Si algo falló en el camino, anoten el síntoma y qué eslabón
+    resultó ser.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Fotografía de la pantalla encendida con el círculo, la cruz y el texto',
+    'Bitácora de cableado y de instalación: core, librería y dependencias',
+    'Dibujo de las cuatro rotaciones con la orientación del texto en cada una',
+    'Valor de rotación elegido, con justificación',
+    'Registro de cualquier falla encontrada y del eslabón responsable',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'TAC 1.1: utiliza dispositivos periféricos de entrada, salida y comunicación (p. 15).',
+    'CN 1.2: aplica con propiedad el método científico en la indagación, y comunica el procedimiento desarrollado (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-CS-03: aplicar sistemáticamente una estrategia de resolución de problemas para identificar y corregir fallas de hardware y software.',
+    'CSTA 2-AP-17: probar y refinar sistemáticamente programas usando un rango de casos.',
+    'ISTE Empowered Learner 1d: comprender los fundamentos de las operaciones tecnológicas y resolver problemas rutinarios de hardware y software.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Instala la librería con sus dependencias y explica qué es una dependencia.',
+    'Diagnostica una falla ubicándola en un eslabón concreto de la cadena.',
+    'Distingue el área visible del área direccionable de la pantalla.',
+    'Justifica la elección de rotación con una observación, no por preferencia.',
+  ]} />
+</SessionModule>
+
+<FlagNote tone="warn" title="Este sketch no ha sido probado en hardware">
+Ninguno de los seis sketches del programa ha sido cargado en una placa física: el hardware está
+especificado pero no adquirido. El código se escribió contra la API de Adafruit GFX, de la que
+`DIYables TFT Round` depende. Si aparece un error de compilación por un método que no existe,
+consulten los ejemplos que trae la librería instalada y ajusten la llamada.
+</FlagNote>
+
+<VisualStepGuide
+  title="Instalación de la librería"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/esp32-tft-lcd-round-library.jpg',
+      alt: 'Gestor de librerías del Arduino IDE mostrando el resultado de buscar DIYables TFT Round',
+      title: 'Buscar e instalar',
+      body: <>
+        En el ícono de Librerías de la barra lateral, buscar <strong>DIYables TFT Round</strong> y
+        elegir la de DIYables.io. Es la única que sirve para este módulo: existen otras librerías
+        para pantallas redondas con controladores distintos.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/esp32-tft-lcd-round-dependency-library.jpg',
+      alt: 'Diálogo del Arduino IDE preguntando si instalar también las dependencias de la librería',
+      title: 'Aceptar las dependencias',
+      body: <>
+        Cuando aparezca este diálogo, elegir <strong>Install All</strong>. La dependencia es
+        Adafruit GFX Library, que aporta el dibujo de figuras y el texto. Rechazarla deja la
+        instalación a medias y produce errores de compilación difíciles de interpretar.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

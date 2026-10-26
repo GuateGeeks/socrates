@@ -1,0 +1,24 @@
+{
+  "entry": "assets/app-Yl_HzbtJ.js",
+  "entryBytes": 611990,
+  "entryBudgetBytes": 1200000,
+  "historicalChunks": 48,
+  "historicalChunkBudgetBytes": 1000000,
+  "largestHistoricalChunk": {
+    "name": "chunk-40ba25ddfe4dad6b-7dwibvPy.js",
+    "bytes": 1006797
+  },
+  "appliedExceptions": [
+    {
+      "file": "chunk-40ba25ddfe4dad6b-7dwibvPy.js",
+      "bytes": 1006797,
+      "maxBytes": 1006797,
+      "sha256": "cf2802ee59578009fe0fa8468bb28d3bc044565858000999b0ded496a4d2436f",
+      "excessBytes": 6797,
+      "missionId": "s15",
+      "reason": "Excepción autorizada para las 93 versiones históricas de «Alimento y memoria que nos fortalecen». Conserva el contenido publicado y exige el mismo archivo, tamaño máximo y SHA-256.",
+      "approvedOn": "2026-10-25"
+    }
+  ],
+  "note": "Local uncompressed files; not Core Web Vitals or total service-worker installation transfer."
+}

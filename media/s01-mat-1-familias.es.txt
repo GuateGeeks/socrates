@@ -1,0 +1,24 @@
+TRES FAMILIAS DE TRIÁNGULOS
+Sexto Primaria · Video de 40 segundos · Español
+Los subtítulos se ofrecen como pista independiente y pueden desactivarse.
+
+TRANSCRIPCIÓN AUDIOVISUAL
+
+00:00:00.000–00:00:09.250 · Geeky accompanies a visible moving triangle, introducing the largest-angle comparison.
+Narración: ¡Mira cómo cambia este triángulo! Para conocer su familia, buscamos su ángulo más grande y lo comparamos con noventa grados.
+
+00:00:09.250–00:00:22.700 · Actual apex moves through60°,90°and120°,with correct colored arcs and an orthogonal square only at90°.
+Narración: Si los tres ángulos son menores de noventa, es acutángulo. Si uno mide exactamente noventa, es rectángulo: lo marcamos con un cuadradito. Si uno supera noventa, es obtusángulo.
+
+00:00:22.700–00:00:28.700 · Equilateral triangular traffic sign, right carpenter set square and wide obtuse roof side by side.
+Narración: Una señal triangular, una escuadra y un techo muy abierto nos ayudan a reconocerlos.
+
+00:00:28.700–00:00:40.000 · Triangle outlines rotate without changing angles or family, followed by a final largest-angle reminder.
+Narración: Aunque giremos el triángulo, su familia no cambia. Recuerda: hoy los clasificamos por sus ángulos. ¡Ahora busca el ángulo mayor!
+
+CRITERIO MATEMÁTICO
+Se clasifican los triángulos por sus ángulos interiores: acutángulo, sus tres ángulos menores de 90°; rectángulo, uno de exactamente 90°; obtusángulo, uno mayor de 90°. El tamaño, la orientación y la longitud de los lados no sustituyen esta comparación.
+Los ejemplos ilustrados son una señal triangular, una escuadra y un techo muy abierto.
+Fuente: lección s01-mat-1, indicador CNB mat:1.1.1; descripción y validación documentadas en el manifiesto de producción.
+
+Narración: Magnific / ElevenLabs. Ilustraciones y animación originales de GuateGeeks con el modelo 3D original de Geeky.

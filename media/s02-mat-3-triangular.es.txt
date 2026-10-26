@@ -1,0 +1,4 @@
+Divide y vencerás: triángulos dentro de polígonos
+Semana 2 · Español
+
+Un polígono convexo puede dividirse en triángulos trazando diagonales desde un mismo vértice. Elegimos el vértice rojo. Las diagonales quedan dentro de la figura y no se cruzan. El cuadrilátero tiene cuatro lados y se divide en dos triángulos. Dos por ciento ochenta grados son trescientos sesenta grados. El pentágono tiene cinco lados y tres triángulos: suman quinientos cuarenta grados. El hexágono tiene seis lados y cuatro triángulos: suman setecientos veinte grados. El número de triángulos es siempre dos menos que los lados. Cambia los lados y comprueba la regla: lados menos dos, multiplicado por ciento ochenta.

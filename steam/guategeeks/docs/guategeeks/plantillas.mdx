@@ -1,0 +1,196 @@
+---
+sidebar_position: 21
+sidebar_label: "Plantillas"
+title: "Plantillas de registro"
+description: "Formatos para evidencia del estudiante, reporte de equipo, preparación de sesión y seguimiento de rúbrica."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Plantillas de registro
+
+Formatos listos para imprimir o copiar. Están pensados para que la evidencia se produzca **durante**
+el programa, no al final: la evaluación de las experiencias 12 y 13 consiste en revisar lo que el equipo ya
+generó.
+
+<FlagNote tone="info" title="Cómo usarlas">
+Imprima desde el navegador con Ctrl/Cmd + P, o cópielas a una hoja de cálculo compartida. No hacen
+falta descargas: el contenido es el mismo aquí que en papel.
+</FlagNote>
+
+## Preparación de sesión · docente
+
+Antes de cada clase.
+
+```
+Sesión n.º ____    Fecha ____    Docente ____
+
+MATERIALES
+[ ] Kits completos por equipo, según la sesión
+[ ] Baterías cargadas y medidas (sobre 6.5 V)
+[ ] Computadoras con Arduino IDE y permiso de puerto serie
+[ ] Cables USB verificados
+[ ] Material impreso de la sesión
+
+ESPACIO
+[ ] Mesas despejadas, suelo seco
+[ ] Soporte para levantar el robot (sesiones 7 y 10)
+[ ] Espacio de pruebas despejado (sesiones 10 a 12)
+
+ROLES
+[ ] Rotación anunciada y escrita a la vista
+
+RIESGOS DE ESTA SESIÓN
+_____________________________________________
+```
+
+## Verificación de hardware · por equipo
+
+Al inicio del bloque técnico, sesiones 5 en adelante.
+
+```
+Equipo ____    Fecha ____
+
+COMPONENTE                        PRESENTE  FUNCIONA  NOTA
+Arduino Uno                         [ ]       [ ]     ______
+Shield L293D                        [ ]       [ ]     ______
+Motorreductor N20 izquierdo         [ ]       [ ]     ______
+Motorreductor N20 derecho           [ ]       [ ]     ______
+Sensor HC-SR04                      [ ]       [ ]     ______
+Pulsador MODO                       [ ]       [ ]     ______
+Pulsador INICIO                     [ ]       [ ]     ______
+Buzzer pasivo                       [ ]       [ ]     ______
+Portapilas + 6 AAA                  [ ]       [ ]     ______
+Capacitor 470 µF                    [ ]       [ ]     ______
+Capacitores 100 nF (×2)             [ ]       [ ]     ______
+Cable USB                           [ ]       [ ]     ______
+
+Voltaje de batería medido: ______ V
+Shield: [ ] M1 izquierdo  [ ] M2 derecho  [ ] potencia verificada
+Faltantes reportados a: __________
+```
+
+## Evidencia del estudiante · por sketch
+
+Para las sesiones 6 a 11.
+
+```
+Sketch ____________    Sesión ____    Equipo ____
+Responsable de código: ____________
+
+¿CARGÓ CORRECTAMENTE?   [ ] sí   [ ] no
+Si no: mensaje de error exacto
+_____________________________________________
+
+¿QUÉ OBSERVARON?
+_____________________________________________
+_____________________________________________
+
+MEDICIONES
+Qué se midió: _______________________________
+Valores:      _______________________________
+Instrumento:  _______________________________
+
+MODIFICACIÓN DEL RETO
+Qué cambiaron: ______________________________
+Qué esperaban que pasara: ___________________
+Qué pasó realmente: _________________________
+
+SI ALGO FALLÓ
+¿En qué capa estuvo? [ ] mecánica  [ ] eléctrica  [ ] sensor  [ ] código
+¿Cómo lo descubrieron? ______________________
+```
+
+## Reporte de sesión · por equipo
+
+Al cerrar cada sesión, cinco minutos.
+
+```
+Sesión ____    Equipo ____    Fecha ____
+
+Roles de hoy
+Constructor ______  Diseñador 3D ______
+Programador ______
+
+¿Qué lograron?
+_____________________________________________
+
+¿Qué quedó pendiente?
+_____________________________________________
+
+¿Qué les costó más y por qué?
+_____________________________________________
+
+Dato que registraron hoy y para qué servirá después
+_____________________________________________
+
+Para la próxima sesión necesitamos
+_____________________________________________
+```
+
+## Seguimiento de rúbrica · por equipo
+
+Acumulativo. Ver los descriptores completos en [Rúbrica](/guategeeks/rubrica).
+
+```
+Equipo ____________              Nivel: 4 3 2 1
+
+CRITERIO                          PESO  NIVEL  PUNTOS  EVIDENCIA
+Seguridad y orden                  15    ___    ___    ________
+Calidad mecánica                   15    ___    ___    ________
+Cableado y documentación           20    ___    ___    ________
+Programación y comprensión         20    ___    ___    ________
+Pruebas y uso de evidencia         15    ___    ___    ________
+Reto autónomo                      10    ___    ___    ________
+Comunicación del proyecto           5    ___    ___    ________
+                                        TOTAL   ___ / 100
+
+Puntos = nivel × peso ÷ 4
+```
+
+## Registro del reto final · experiencias 12 y 13
+
+```
+Equipo ____________    Fecha ____    Cronometra: ________
+
+CRITERIO                                  RESULTADO
+Duración de operación autónoma            ______ min ______ s
+¿Salió de la arena?                       [ ] sí  [ ] no
+Obstáculos evitados con éxito             ______
+Veces que quedó atrapado                  ______
+Atrapamiento más largo                    ______ s   (límite: 10 s)
+
+INCIDENTES
+Momento    Qué pasó                        Duración
+______     ______________________________  ______
+______     ______________________________  ______
+
+AJUSTE FINAL ANTES DEL RETO
+Qué se cambió: ______________________________
+Por qué:       ______________________________
+
+¿SE ALCANZÓ EL CRITERIO?  [ ] sí   [ ] no
+Si no, ¿dónde estuvo el límite?
+[ ] mecánica  [ ] eléctrica  [ ] sensado  [ ] lógica
+Evidencia que lo respalda: __________________
+```
+
+## Mapeo de evidencia a competencias
+
+Para reportar avance curricular. Detalle completo en
+[Alineación curricular](/guategeeks/alineacion-cnb).
+
+| Evidencia | Sesión | Respalda |
+|---|:--:|---|
+| Diagrama de subsistemas | 1 | Ciencias y tecnología; computación; comunicación técnica |
+| Checklist de seguridad firmado | 2 | Ciencias y tecnología; diseño y productividad |
+| Tabla de tolerancias con rango | 3 | Matemática aplicada; tecnología; comunicación técnica |
+| Reporte de control de calidad | 4 | Diseño y productividad; matemática aplicada |
+| Conteo de vueltas por oruga | 5 | Ciencias y tecnología; matemática aplicada |
+| Umbral de antirrebote hallado | 6 | Computación; tecnología; comunicación técnica |
+| PWM mínimo por oruga | 7 | Computación; matemática aplicada; ciencias y tecnología |
+| Caracterización del sensor | 8 | Ciencias y tecnología; matemática aplicada; tecnología |
+| Predicción escrita del firmware | 9 | Computación; comunicación técnica; pensamiento científico |
+| Video del robot autónomo | 10 | Computación; tecnología; comunicación técnica |
+| Offsets y tres ensayos | 11 | Diseño y productividad; matemática aplicada; ciencias y tecnología |
+| Reporte técnico y presentación | 12-13 | Comunicación técnica; tecnología; diseño y productividad |

@@ -1,0 +1,4 @@
+De 20 en 20 y de 100 en 100
+Semana 8 · Español
+
+Observa una serie maya que crece de veinte en veinte: veinte, cuarenta, sesenta, ochenta, cien y ciento veinte. Cada paso añade un punto en el segundo nivel. Cinco puntos se cambian por una barra. El nivel de unidades permanece en cero. Ahora avanzamos de cien en cien: cien, doscientos, trescientos, cuatrocientos, quinientos. Cuatro barras del segundo nivel se cambian por un punto en el tercero. En cuatrocientos quedan ceros en los dos niveles inferiores. Elige el salto y avanza para ver cómo cada posición cambia su valor.

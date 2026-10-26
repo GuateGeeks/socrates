@@ -1,0 +1,101 @@
+---
+sidebar_position: 3
+sidebar_label: "03 · Del Diseño a la Pieza"
+title: "Del Diseño a la Pieza"
+description: "De archivo STL a pieza física: parámetros de impresión y por qué lo impreso nunca mide exactamente lo diseñado."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+
+# 03 · Del Diseño a la Pieza
+
+:::note Para el docente
+Si el centro no tiene impresora 3D, esta sesión y la siguiente funcionan igual con piezas impresas
+por encargo: lo que se aprende es a medir, interpretar el error y decidir si una pieza sirve. Ver la
+página de materiales para alternativas de fabricación.
+:::
+
+<SessionModule id="s3">
+  <SessionModule.Question>
+    Si el diseño dice 20 milímetros, ¿por qué la pieza impresa mide 20.3?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Entre el modelo digital y la pieza física hay una máquina que deposita plástico caliente capa
+    por capa, y ese proceso tiene límites. Entender la tolerancia no es un detalle técnico: decide
+    si un eje entra o no en su alojamiento, y por lo tanto si las orugas girarán libres o con roce.
+    Esta sesión introduce el slicer y produce el primer dato experimental medido del programa.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Archivo STL como malla de triángulos',
+    'Altura de capa, relleno y velocidad',
+    'Tolerancia y error de fabricación',
+    'Medición con calibrador o regla',
+    'Compromiso entre calidad y tiempo',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="De la pantalla al plástico">
+    Abrir un archivo STL y girarlo en pantalla. Preguntar cómo creen que se convierte eso en un
+    objeto sólido. Pasar de mano en mano una pieza ya impresa y pedir que localicen las capas: la
+    respuesta está a la vista.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Los tres parámetros que deciden">
+    En el slicer, modificar altura de capa, relleno y velocidad, observando cómo cambia el tiempo
+    estimado. Plantear la pregunta que guía la sesión: ¿cuál de los tres afecta más la precisión de
+    una medida, y cuál solo afecta la resistencia de la pieza?
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Preparar, imprimir y medir">
+    Cada equipo carga las piezas del chasis Curiosity, ajusta los parámetros acordados y genera el
+    G-code. Mientras imprime (o con piezas ya disponibles), medir cinco dimensiones críticas con
+    calibrador y compararlas con las del diseño, anotando el error de cada una.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="¿Dónde se concentra el error?">
+    Comparar las tablas entre equipos. ¿El error es parejo o se concentra en cierto tipo de
+    dimensión, como los agujeros? Formular una hipótesis sobre la causa. Se comprobará en la
+    sesión 5, cuando esas piezas tengan que encajar de verdad.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Computadora con slicer instalado: PrusaSlicer, Cura, OrcaSlicer o Bambu Studio',
+    'Archivos STL del chasis Curiosity, basado en el diseño SMARS público',
+    'Impresora FDM con filamento PLA, o piezas impresas por encargo',
+    'Calibrador o regla milimetrada',
+    'Formato de tabla de mediciones impreso',
+  ]} />
+
+  <SessionModule.Reto>
+    Midan cinco dimensiones críticas de una pieza impresa y compárenlas con el diseño. Construyan
+    una tabla con cuatro columnas: dimensión, valor esperado, valor medido y error. Al final,
+    respondan con evidencia: ¿el error es constante o depende del tamaño de la medida?
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Tabla de cinco mediciones con su error calculado',
+    'Captura de los parámetros usados en el slicer',
+    'Hipótesis escrita sobre dónde se concentra el error',
+    'Fotografía de la pieza medida junto al instrumento',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º bachillerato. Laboratorio I · indicadores 1.1–1.2: organiza mediciones en tablas, usa unidades y representa diferencias entre lo esperado y lo obtenido.',
+    'Elaboración y Gestión de Proyectos · indicadores 3.1–3.2: define criterios de aceptación, restricciones y un plan de prueba para la fabricación digital.',
+    'Evidencia CNB: tabla de tolerancias, cálculo de error, hipótesis comprobable y decisión sobre parámetros del slicer.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Data & Analysis · Data Collection & Preparation; práctica 6, definir un problema computacional con datos y criterios medibles.',
+    'ISTE 1.3.d Knowledge Constructor: construir conocimiento explorando un problema real y conectando mediciones con decisiones de diseño.',
+    'NGSS HS-ETS1-3: evaluar una solución frente a criterios y restricciones priorizados.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Mide con el instrumento adecuado y registra unidades correctamente.',
+    'Calcula el error entre lo esperado y lo obtenido.',
+    'Relaciona al menos un parámetro del slicer con la calidad resultante.',
+    'Formula una hipótesis comprobable sobre el origen del error.',
+  ]} />
+</SessionModule>

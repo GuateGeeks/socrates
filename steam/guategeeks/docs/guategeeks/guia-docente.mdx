@@ -1,0 +1,113 @@
+---
+sidebar_position: 13
+sidebar_label: "Guía docente"
+title: "Guía docente"
+description: "Secuencia de experiencias, bloques de 60 minutos, materiales y orientaciones para conducir el programa."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Guía docente
+
+Vista de conjunto para planificar. Cada experiencia tiene su propia página con las cuatro fases, el
+reto y la evidencia esperada. Una experiencia puede ocupar uno o más bloques de 60 minutos.
+
+## Secuencia de experiencias
+
+| # | Etapa | Tema | Bloques sugeridos | Sketch | Entregable |
+|--:|---|---|---|:--:|---|
+| 1 | Comprender y preparar | [Sistemas del robot](/guategeeks/sistemas-del-robot) | 1 | — | Diagrama anotado |
+| 2 | Comprender y preparar | [Seguridad y energía](/guategeeks/seguridad-y-energia) | 1 | — | Checklist firmado |
+| 3 | Diseñar y construir | [Slicer y tolerancias](/guategeeks/slicer-y-tolerancias) | 1-2 | — | Tabla de tolerancias |
+| 4 | Diseñar y construir | [Impresión y control de calidad](/guategeeks/impresion-y-control-de-calidad) | 1 | — | Reporte de calidad |
+| 5 | Diseñar y construir | [Ensamblaje de orugas](/guategeeks/ensamblaje-de-orugas) | 1-2 | — | Robot montado |
+| 6 | Programar y medir | [Botones y buzzer](/guategeeks/botones-y-buzzer) | 1 | `01` | Interfaz verificada |
+| 7 | Programar y medir | [Dos motores y dirección](/guategeeks/dos-motores-y-direccion) | 1-2 | `02` | PWM mínimo por oruga |
+| 8 | Programar y medir | [Sensor ultrasónico](/guategeeks/sensor-ultrasonico) | 1-2 | `03` | Tabla de error |
+| 9 | Integrar y demostrar | [Lectura de código](/guategeeks/lectura-de-codigo) | 1 | `04` | Mapa de estados |
+| 10 | Integrar y demostrar | [Integración autónoma](/guategeeks/integracion-autonoma) | 1-2 | `04` | Robot autónomo |
+| 11 | Integrar y demostrar | [Calibración](/guategeeks/calibracion) | 1-2 | `05` | Offsets y tres ensayos |
+| 12 | Integrar y demostrar | [Reto integrador](/guategeeks/reto-integrador) | 2 | — | Demostración y presentación |
+| 13 | Integrar y demostrar | [Presentación final](/guategeeks/showcase) | 1-2 | — | Defensa técnica |
+
+La ruta estándar requiere aproximadamente 18-24 bloques de 60 minutos. La impresión 3D puede
+continuar fuera del horario de clase, pero las decisiones de diseño, medición y control de calidad
+deben quedar registradas por los estudiantes.
+
+## Los niveles de reto
+
+Suben de forma gradual y nunca retroceden.
+
+| Nivel | Qué pide | Sesiones |
+|:--:|---|---|
+| 0 | Documentar y observar sin intervenir | 1-2 |
+| 1 | Medir y clasificar con criterio propio | 3-5 |
+| 2 | Modificar parámetros y registrar el efecto | 6-8 |
+| 3 | Razonar sobre algoritmos y calibrar con datos | 9-11 |
+| 4 | Integrar todo bajo condiciones no controladas | 12 |
+
+## Materiales por bloque
+
+Lista completa y especificaciones en [Materiales y pines](/guategeeks/materiales).
+
+**Experiencias 1-2** — Arduino, driver y motores para mostrar en físico, portapilas, multímetro,
+pliegos para diagramas y el checklist impreso.
+
+**Experiencias 3-4** — Slicer instalado, impresora o piezas por encargo, calibrador y formato de control
+de calidad. Los archivos STL se descargan del [catálogo de modelos](/guategeeks/materiales); no hace
+falta buscarlos en catálogos externos.
+
+**Experiencias 5-11** — Kit completo por equipo, piezas aprobadas en la experiencia 4, Arduino IDE con
+permisos de puerto serie, cautín para los cables de motor, **soporte para levantar el robot** en la
+sesión 7 y cinta métrica para la sesión 8.
+
+**Experiencias 12-13** — Arena de 2×2 m, tres obstáculos, cronómetro, cámara y baterías de repuesto.
+
+## Qué piezas trabaja cada sesión
+
+Útil para lanzar impresiones con antelación: el eslabón de oruga se imprime **32 veces** y es el que
+más tiempo de impresora consume.
+
+| Sesión | Modelos | Dónde verlos |
+|---|---|---|
+| 1 · Sistemas | Chasis | En la propia página de la sesión |
+| 3 · Slicer | Chasis, rueda motriz | En la propia página de la sesión |
+| 4 · Control de calidad | Eslabón de oruga, soporte de motores | En la propia página de la sesión |
+| 5 · Ensamblaje | Eslabón de oruga, rueda libre | En la propia página de la sesión |
+| — | Los siete, con descarga | [Materiales y pines](/guategeeks/materiales) |
+
+## Tres hilos que atraviesan el programa
+
+Conviene tenerlos presentes porque conectan sesiones distantes:
+
+**La asimetría entre orugas.** Se mide a mano en la sesión 5, reaparece como PWM mínimo por canal
+en la 7 y se corrige por software en la 11. Pida que guarden esos datos: la comparación final es
+parte del reto de calibración.
+
+**La predicción de la sesión 9.** El equipo escribe qué hará el robot **antes** de cargar el
+firmware, y lo contrasta en la sesión 10. Si se carga el código en la 9, el ejercicio se pierde.
+
+**El error del sensor.** Lo que se mide en la sesión 8 justifica el umbral de obstáculo que se
+ajusta en la 10. Sin ese dato, el ajuste es adivinanza.
+
+## Perfiles del equipo
+
+Tres perfiles que rotan cada dos o tres sesiones: Constructor, Diseñador 3D y Programador. Ver
+[Roles](/guategeeks/roles) para el detalle y el esquema de rotación.
+
+<FlagNote tone="info" title="Antes de cada sesión">
+Anuncie el rol de cada estudiante al empezar. La rotación solo funciona si es explícita: si no se
+nombra, el equipo tiende a dejar el código siempre en las mismas manos.
+</FlagNote>
+
+## Evaluación
+
+La rúbrica de 100 puntos está en [Rúbrica](/guategeeks/rubrica). Cada sesión trae además sus propios criterios
+en la pestaña **Evaluación**, pensados para observación durante la clase más que para prueba escrita.
+
+## Recursos de apoyo
+
+- [Preguntas socráticas](/guategeeks/preguntas-socraticas) — para conducir la depuración sin dar la respuesta
+- [Misconcepciones comunes](/guategeeks/misconcepciones) — errores previsibles y cómo corregirlos
+- [Seguridad](/guategeeks/seguridad) — checklist obligatorio
+- [Licencias y atribución](/guategeeks/licencias) — qué se puede redistribuir y bajo qué condiciones

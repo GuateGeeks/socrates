@@ -1,0 +1,142 @@
+---
+sidebar_position: 2
+sidebar_label: "02 · Energía y conexiones seguras"
+title: "Energía y conexiones seguras"
+description: "3.3 V y no 5 V, polaridad, y por qué el orden de conexión importa. El checklist que hay que firmar antes de energizar."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import FlagNote from '@site/src/components/FlagNote';
+
+# 02 · Energía y conexiones seguras
+
+:::danger Antes de conectar el USB
+Ningún equipo conecta el cable USB hasta que el checklist de esta sesión esté firmado. Un módulo
+alimentado con la polaridad invertida se daña en segundos y no avisa antes.
+:::
+
+<SessionModule id="tc2" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Qué puede salir mal al conectar siete cables, y cómo se descarta antes de energizar?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Este programa trabaja con 3.3 voltios, un valor que no representa peligro para las personas
+    pero sí para los componentes. El riesgo no es eléctrico hacia el estudiante: es que un error de
+    un centímetro —una fila corrida en la protoboard— destruya un módulo que costó lo mismo que la
+    placa. La disciplina de verificar antes de energizar no es burocracia; es lo que permite que un
+    kit dure varios ciclos escolares.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Voltaje de alimentación: por qué 3.3 V y no 5 V',
+    'Polaridad: VCC y GND no son intercambiables',
+    'Verificación antes de energizar, no después',
+    'Orden de conexión: primero cablear, después alimentar',
+    'Corriente, voltaje y por qué el USB alcanza para todo el sistema',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="¿Qué pasa si lo conecto al revés?">
+    Preguntar qué creen que ocurre si se invierten VCC y GND. Recoger predicciones sin corregir.
+    Luego mostrar la respuesta: en el mejor caso no enciende, en el peor el módulo se calienta y
+    queda inservible. Nombrar la asimetría: un error de conexión se paga con hardware, un error de
+    código solo con tiempo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="3.3 V contra 5 V">
+    Localizar en la placa ESP32 los pines de 3.3 V y de 5 V, que están cerca y se confunden.
+    Discutir por qué el módulo pide 3.3 V y qué significa que su hoja de datos diga que tolera
+    ambos. Conclusión operativa del curso: **siempre 3.3 V**, porque la tolerancia del módulo no
+    garantiza la de sus señales.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Cablear y verificar sin energizar">
+    Con el cable USB **desconectado**, cada equipo arma las siete conexiones siguiendo el diagrama.
+    Luego se aplica el checklist pin por pin: cada línea la revisa alguien que no la cableó, y se
+    firma. Solo entonces se conecta el USB, y solo para comprobar que la placa enciende su LED. No
+    se carga ningún programa todavía.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="Por qué revisa otro">
+    Discutir por qué el checklist lo firma alguien distinto de quien cableó. Conectar con la idea de
+    revisión por pares: quien armó algo ve lo que quiso armar, no lo que armó. Esa es la razón por
+    la que en ingeniería la verificación es un rol separado, no un momento de buena voluntad.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Placa ESP32, módulo GC9A01, protoboard y siete jumpers por equipo',
+    'Cable USB de datos, que permanece desconectado durante casi toda la sesión',
+    'Checklist de seguridad impreso, uno por equipo',
+    'Diagrama de cableado impreso o proyectado',
+    'Multímetro, si hay disponible, para comprobar los 3.3 V',
+  ]} />
+
+  <SessionModule.Reto>
+    Armen las siete conexiones con el USB desconectado y completen el checklist con firma cruzada:
+    cada línea revisada por alguien que no la cableó. Anoten cuánto tiempo tomó la verificación.
+    Al final, cada equipo debe poder responder qué pasaría si intercambiara SDA y SCL, y por qué ese
+    error no daña nada pero tampoco funciona.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Checklist de seguridad completo y firmado por dos personas distintas por línea',
+    'Fotografía del cableado terminado antes de conectar el USB',
+    'Tiempo registrado de la verificación',
+    'Respuesta escrita sobre el efecto de intercambiar SDA y SCL',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'TAC 1.1: utiliza dispositivos periféricos de entrada, salida y comunicación conforme a su uso y función (p. 15).',
+    'CN 1.2: aplica con propiedad el método científico y utiliza con propiedad los recursos en la indagación realizada (p. 16).',
+    'CN 1.1: refiere avances tecnológicos y su importancia para la realización de actividades humanas (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-CS-03: aplicar sistemáticamente una estrategia de resolución de problemas para identificar y corregir fallas de hardware y software.',
+    'NGSS MS-ETS1-1: definir los criterios y las restricciones de un problema de diseño con precisión suficiente para asegurar una solución exitosa.',
+    'ISTE Empowered Learner 1c: usar la tecnología para buscar retroalimentación que mejore la práctica.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Identifica los pines de 3.3 V y 5 V en la placa sin confundirlos.',
+    'Verifica polaridad antes de energizar, de forma sistemática y no al azar.',
+    'Explica por qué la verificación la hace alguien distinto de quien cableó.',
+    'Distingue un error que daña hardware de uno que solo impide el funcionamiento.',
+  ]} />
+</SessionModule>
+
+<FlagNote tone="warn" title="El cable USB de datos">
+Muchos cables USB baratos solo llevan alimentación. La placa enciende, pero la computadora nunca la
+detecta. Si al final de la sesión la placa enciende y no aparece ningún puerto nuevo, lo primero que
+hay que descartar es el cable, no el cableado del equipo.
+</FlagNote>
+
+<VisualStepGuide
+  title="Referencia visual del cableado"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-display-wiring-diagram.jpg',
+      alt: 'Diagrama de cableado entre ESP32 y módulo TFT redondo, con siete cables de colores hacia RST, CS, DC, SDA, SCL, GND y VCC',
+      title: 'Las siete conexiones',
+      body: <>
+        Sigan este diagrama con el USB desconectado. Fíjense en que SCL va a GPIO18 y SDA a GPIO23:
+        son los pines SPI por defecto del ESP32 y por eso no aparecen declarados en el código. Los
+        tres que sí se declaran son DC, CS y RST.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/1.28inch-round-circular-tft-lcd-pinout.jpg',
+      alt: 'Detalle de los siete pines del módulo con su función: reset, chip select, data/command, SPI MOSI, SPI clock, tierra y alimentación',
+      title: 'Orden físico de los pines',
+      body: <>
+        El orden en la placa es RST, CS, DC, SDA, SCL, GND, VCC. Corrérsele una fila es el error más
+        frecuente. Verifiquen contando desde el extremo, no por el color del cable.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

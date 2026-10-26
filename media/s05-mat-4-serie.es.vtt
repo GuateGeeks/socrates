@@ -1,0 +1,47 @@
+WEBVTT
+
+1
+00:00:00.700 --> 00:00:03.853
+Esta máquina aplica dos
+operaciones en orden:
+
+2
+00:00:03.868 --> 00:00:07.242
+primero multiplica por
+dos y después suma uno.
+
+3
+00:00:07.437 --> 00:00:10.905
+Si entra dos, obtenemos
+cuatro y luego cinco.
+
+4
+00:00:11.058 --> 00:00:13.895
+Al volver a entrar cinco, obtenemos once.
+
+5
+00:00:14.061 --> 00:00:16.117
+La serie continúa:
+
+6
+00:00:16.132 --> 00:00:20.421
+dos, cinco, once,
+veintitrés, cuarenta y siete.
+
+7
+00:00:20.658 --> 00:00:23.367
+Cada resultado se usa como nueva entrada.
+
+8
+00:00:23.437 --> 00:00:26.568
+Otra máquina alterna
+sumar cuatro y restar uno.
+
+9
+00:00:26.665 --> 00:00:29.263
+No hace ambas operaciones en cada paso.
+
+10
+00:00:29.387 --> 00:00:32.800
+Elige una regla y avanza
+para descubrir el patrón.

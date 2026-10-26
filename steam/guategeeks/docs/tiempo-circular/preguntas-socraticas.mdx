@@ -1,0 +1,100 @@
+---
+sidebar_position: 21
+sidebar_label: "Preguntas socráticas"
+title: "Preguntas socráticas para depurar"
+description: "Preguntas organizadas por síntoma observable, para conducir al estudiante hasta la falla sin darle la respuesta."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Preguntas socráticas para depurar
+
+Organizadas por **lo que se ve**, no por lo que está mal. Cuando un equipo se atasca, la tentación
+es decirle dónde está el error; estas preguntas existen para no hacerlo.
+
+## La pantalla está completamente apagada
+
+- ¿Qué tendría que pasar para que la pantalla encendiera aunque el código estuviera mal?
+- Si el problema fuera el código, ¿qué esperarías ver en el Monitor Serie?
+- ¿Qué dos cables son los únicos que importan para que **encienda**, sin importar lo demás?
+- ¿Cómo podrías comprobar que le está llegando voltaje sin adivinar?
+
+## La pantalla enciende pero no dibuja nada
+
+- Si llega la energía y no llega el dibujo, ¿qué grupo de cables queda como sospechoso?
+- ¿Qué hace exactamente el pin DC, y qué pasaría si estuviera en el lugar equivocado?
+- ¿Qué diferencia habría entre tener SDA y SCL intercambiados, y tener uno de los dos suelto?
+
+## Sale ruido, píxeles al azar o una pantalla blanca
+
+- ¿Qué le está llegando a la pantalla: nada, o algo que no entiende?
+- ¿Cuál de los siete pines le dice a la pantalla «lo que viene ahora es una orden, no un dato»?
+- Si el módulo nunca recibió un reinicio, ¿en qué estado arrancó?
+
+## La carátula está de cabeza
+
+- ¿Dónde está el (0,0) de la pantalla, y dónde está el del cuaderno?
+- Si dibujás el punto (120, 20), ¿queda arriba o abajo del centro? ¿Y en tu cuaderno?
+- ¿Qué signo tiene la fórmula de la Y en tu código, y por qué ese?
+
+## La manecilla apunta a las 9 cuando debería apuntar a las 3
+
+- ¿Hacia dónde crece tu ángulo: horario o antihorario?
+- Para 90°, ¿cuánto vale el seno y cuánto el coseno? ¿Qué coordenadas deberían salir?
+- ¿Calculaste el punto a mano antes de mirar la pantalla? ¿Qué te dio?
+
+## Los ángulos dan valores absurdos
+
+- ¿En qué unidad está tu ángulo, y en qué unidad lo espera la función?
+- Si `sin(90)` no da 1, ¿qué está interpretando la función que le pasaste?
+- ¿Cuánto vale π ÷ 180, y dónde debería aparecer ese factor?
+
+## La pantalla parpadea
+
+- ¿Cuánta pantalla estás repintando en cada vuelta del programa?
+- ¿Qué parte de lo que dibujás cambió realmente desde la vuelta anterior?
+- Si repintaras solo lo que cambió, ¿qué tendrías que recordar de la vuelta anterior?
+
+## Las manecillas dejan rastro
+
+- Cuando dibujás la manecilla en su posición nueva, ¿qué pasó con la vieja?
+- ¿Cómo se «borra» algo en una pantalla que no tiene goma?
+- Si borrás la manecilla pintándola del color del fondo, ¿qué más se lleva por delante?
+
+## El reloj se adelanta o se atrasa
+
+- ¿Contra qué estás comparando, y por qué le creés más a ese reloj que al tuyo?
+- ¿El error crece con el tiempo o es siempre el mismo? ¿Qué te dice eso?
+- Si el error fuera del código, ¿todas las placas del aula derivarían igual o distinto?
+- ¿Cuántos segundos por hora son? ¿Y cuánto sería en un mes?
+
+## El reloj vuelve a las 9:00 cada vez que se reinicia
+
+- ¿De dónde saca la hora este programa cuando arranca?
+- ¿Qué cuenta `millis()` exactamente, y desde cuándo?
+- ¿Qué tendría que tener el dispositivo para recordar la hora estando apagado?
+
+## No conecta al WiFi
+
+- ¿La red es de 2.4 GHz o de 5 GHz? ¿Cómo lo comprobás?
+- ¿El síntoma de una clave equivocada y el de una red de 5 GHz se distinguen? ¿En qué?
+- ¿Qué dice el Monitor Serie mientras intenta conectar?
+
+## Conecta pero la hora sigue mal
+
+- ¿Qué hora te está mostrando: la de aquí, o la de otro lado?
+- Si la diferencia es de exactamente seis horas, ¿qué te dice ese número?
+- ¿Dónde está en el código el ajuste de huso horario, y qué valor tiene?
+
+## Los 13 puntos del Cholq'ij se amontonan de un lado
+
+- ¿Cuánto te dio el paso angular? ¿Y cuánto debería dar 360 dividido 13?
+- Si escribís `360/13` en el código, ¿qué tipo de número es el resultado?
+- ¿Qué diferencia hay entre escribir `360` y escribir `360.0`?
+
+<FlagNote tone="info" title="Cómo usar estas preguntas">
+La regla es no pasar a la siguiente pregunta hasta que la anterior tenga respuesta del estudiante,
+aunque sea equivocada. Una respuesta equivocada dicha en voz alta es depurable; el silencio no. Si
+el equipo lleva más de quince minutos atascado en el mismo punto, dé una pista concreta: el objetivo
+es que aprendan a depurar, no que se frustren.
+</FlagNote>

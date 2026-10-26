@@ -1,0 +1,86 @@
+---
+sidebar_position: 8
+sidebar_label: "08 · Constructor de Puentes"
+title: "Constructor de Puentes"
+description: "Infraestructura y precisión"
+---
+
+import Module from '@site/src/components/Module';
+
+# 08 · Constructor de Puentes
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m8">
+  <Module.Question>
+    ¿Cómo puede un robot construir un puente por etapas para conectar dos comunidades?
+  </Module.Question>
+
+  <Module.Context>
+    Los estudiantes colocan secciones de puente inspiradas en la necesidad de conectar territorios
+    separados por ríos, barrancos o caminos difíciles. El módulo trabaja transmisión, color como
+    referencia, posiciones de brazo y construcción incremental.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Construcción por etapas',
+    'Sensor de color',
+    'Transmisión con engranajes cónicos',
+    'Posiciones de manipulador',
+    'Medición de avance',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 12 min" title="Puentes en la comunidad">
+    Conversar sobre ríos, barrancos, tráfico y conexión entre lugares. Cada equipo divide el puente
+    en secciones y decide qué referencia indicará inicio, punto de colocación y regreso por otra
+    pieza. Evidencia inicial: secuencia dibujada de construcción por etapas con un criterio de
+    alineación para aceptar una sección.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Tracción y brazo">
+    Observar transmisión 4x4, motor de avance, sensor de color y brazo. Probar posiciones baja,
+    media y alta con una sección liviana, manteniendo el camino despejado antes de mover el robot.
+    Punto de control: el equipo explica cómo la marca de color detiene o inicia una etapa y qué
+    altura del brazo evita arrastrar la pieza.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 90-120 min" title="Colocar secciones">
+    Construir el Constructor de Puentes y programar una etapa completa: medir avance por rotación,
+    detectar inicio o fin con color, colocar sección y regresar por otra. Registrar foto o croquis de
+    cada colocación con distancia al borde y alineación entre secciones. Si falla, depurar marca de
+    color, tracción en el piso, altura del brazo o distancia de avance antes de sumar más etapas.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Infraestructura y planificación">
+    Discutir por qué construir por etapas requiere referencias claras, medición y repetibilidad. Cada
+    equipo identifica una decisión que hizo el puente más estable o mejor alineado. Para escalar,
+    1.º básico coloca una sección guiada, 2.º básico mide alineación entre secciones y 3.º básico
+    rediseña la secuencia para mejorar repetibilidad o ahorrar movimientos.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Sociales, Formación Ciudadana e Interculturalidad: infraestructura, movilidad y conexión entre comunidades como problema de planificación.',
+    'Matemática: medición de avance, unidades, comparación de secciones y proporcionalidad en la construcción por etapas.',
+    'Ciencias Naturales: mecanismos, transmisión, tracción y estabilidad al colocar piezas.',
+    'Tecnologías del Aprendizaje y la Comunicación: uso de sensor de color como referencia, programación de etapas y registro colaborativo de pruebas.',
+    'Comunicación y Lenguaje, Idioma Español: explicación del proceso técnico por etapas y justificación de la secuencia de construcción.',
+    'Emprendimiento para la Productividad: planificación de procesos técnicos con control de calidad, recursos y mejora continua.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.7: prototipa por etapas, colabora por roles y conecta la solución con una necesidad comunitaria.',
+    '2026 CSTA PK-12 · Secundaria: programación con sensores, diseño centrado en personas y refinamiento por pruebas.',
+    'NGSS MS-ETS1-1 y MS-ETS1-3: define criterios/restricciones de infraestructura y analiza pruebas para mejorar el método.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Mide distancia por rotación y verifica si cada sección queda dentro de la zona esperada.',
+    'Usa posiciones de brazo para colocar piezas sin perder estabilidad ni referencia.',
+    'Registra al menos una falla de alineación y el ajuste aplicado a ruta, sensor o brazo.',
+    'Explica cómo el color sirve como referencia y por qué construir por etapas reduce riesgo.',
+  ]} />
+</Module>

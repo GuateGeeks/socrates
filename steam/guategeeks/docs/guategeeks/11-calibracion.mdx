@@ -1,0 +1,109 @@
+---
+sidebar_position: 11
+sidebar_label: "11 · Afinar el Movimiento"
+title: "Afinar el Movimiento"
+description: "Compensar por software la diferencia física entre orugas, y producir datos que se repitan."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/05_asistente_calibracion/05_asistente_calibracion.ino';
+
+# 11 · Afinar el Movimiento
+
+:::tip Se cierra un círculo
+La asimetría que midieron a mano en la sesión 5, y otra vez como PWM mínimo en la sesión 7, es la
+que se corrige hoy. Tengan esos dos datos a la vista: la comparación es parte del reto.
+:::
+
+<SessionModule id="s11">
+  <SessionModule.Question>
+    Si las dos orugas nunca serán idénticas, ¿cómo logramos que el robot avance recto?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Dos motores del mismo modelo no giran igual: lo comprobaron con la mano en la sesión 5 y con el
+    PWM mínimo en la sesión 7. Hay dos caminos: perseguir componentes perfectos, o aceptar la
+    diferencia y compensarla. La ingeniería casi siempre toma el segundo. Este asistente permite
+    encontrar la compensación desde el Monitor Serie, sin recompilar entre intento e intento.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Calibración como compensación de una asimetría física',
+    'Offset independiente por canal',
+    'Ajuste iterativo guiado por observación',
+    'Repetibilidad: tres ensayos en lugar de uno',
+    'Trasladar un parámetro hallado a otro programa',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Traer la evidencia previa">
+    Recuperar los dos datos de asimetría: el conteo de vueltas a mano de la sesión 5 y el PWM
+    mínimo por oruga de la sesión 7. Preguntar si ambos apuntan al mismo lado como el más rápido.
+    Cuando coinciden, la medición se valida sola.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Cinco comandos">
+    Revisar el asistente: `i+` e `i-` ajustan la oruga izquierda, `d+` y `d-` la derecha, y `p`
+    ejecuta una prueba de dos segundos con los valores actuales. Los ajustes se suman a una
+    velocidad base de 150. Discutir la lógica de corrección: si el robot se desvía a la derecha, el
+    lado izquierdo va más rápido, así que se baja el izquierdo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Encontrar los offsets">
+    Marcar una línea recta en el piso y alinear el robot sobre ella. Cargar el asistente, ejecutar
+    `p` y observar la desviación. Ajustar y repetir hasta que recorra los dos segundos sin
+    desviarse apreciablemente. Anotar los valores finales de I y D.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="¿Se repite?">
+    Repetir la prueba tres veces con los mismos offsets y registrar el resultado de cada una. Un
+    ajuste que solo funciona una vez no es una calibración, es una casualidad. Discutir qué otras
+    variables pueden afectar entre ensayos: carga de batería, tipo de piso, tensión de la oruga.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="05_asistente_calibracion.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Robot completo y cable USB',
+    'Superficie plana con una línea recta marcada, al menos 2 metros',
+    'Cinta métrica para medir la desviación lateral',
+    'Batería con carga suficiente y estable',
+    'Formato para registrar los tres ensayos',
+  ]} />
+
+  <SessionModule.Reto>
+    Encuentren los offsets que hacen avanzar recto al robot y verifiquen con tres ensayos que se
+    repiten. Después trasládenlos a `04_smars_autonomo`, sumándolos a las velocidades de la función
+    `mover()`, y comprueben si la trayectoria en modo EXPLORAR mejora. Finalmente, comparen: ¿el
+    lado que la calibración corrigió es el mismo que identificaron en la sesión 5?
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Valores finales de offset izquierdo y derecho',
+    'Registro de tres ensayos con la desviación medida en cada uno',
+    'Comparación con la asimetría detectada en las sesiones 5 y 7',
+    'Video del robot avanzando recto antes y después de calibrar',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 5.º bachillerato. Laboratorio I · indicadores 4.5–4.6: organiza tres ensayos, compara resultados y comunica la repetibilidad de la solución.',
+    'Seminario · Investigación-Acción · indicadores 3.3.3–3.3.8: identifica un error, aplica una corrección, vuelve a probar y reflexiona sobre la siguiente versión.',
+    'Evidencia CNB: offsets registrados, tres ensayos comparables, error antes y después, y justificación del ajuste incorporado al firmware.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Programming · Testing & Refining y Data & Analysis · Data Investigation.',
+    'CSTA PK–12 (2026), práctica 11: usar procesos iterativos de diseño para mejorar la tecnología con evidencia.',
+    'ISTE 1.1.c y 1.4.c: usar retroalimentación para mejorar la práctica y refinar prototipos en un ciclo de diseño.',
+    'NGSS HS-ETS1-3: optimizar una solución priorizando criterios y compensaciones.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Encuentra offsets que corrigen la desviación de forma repetible.',
+    'Distingue un ajuste calibrado de una coincidencia afortunada.',
+    'Traslada correctamente los valores al firmware autónomo.',
+    'Relaciona la corrección por software con la asimetría física medida antes.',
+  ]} />
+</SessionModule>

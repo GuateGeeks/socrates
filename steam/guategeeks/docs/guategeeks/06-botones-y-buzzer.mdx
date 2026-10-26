@@ -1,0 +1,111 @@
+---
+sidebar_position: 6
+sidebar_label: "06 · Botones y Señales"
+title: "Botones y Señales"
+description: "Entradas digitales con INPUT_PULLUP, antirrebote y salida audible. Primer sketch cargado al robot."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/01_botones_y_buzzer/01_botones_y_buzzer.ino';
+
+# 06 · Botones y Señales
+
+:::note Para el docente
+Primera sesión que carga código al robot. No mueve motores, así que el riesgo es bajo: es el momento
+ideal para que el equipo practique el ciclo completo de compilar, cargar y observar. Revise la
+pestaña **Recursos** antes de clase.
+:::
+
+<SessionModule id="s6">
+  <SessionModule.Question>
+    ¿Cómo sabe el robot que alguien presionó un botón, y cómo responde sin tener pantalla?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Curiosity se opera sin teléfono ni Bluetooth: dos botones deciden el modo y el arranque, y un
+    buzzer confirma cada acción. Esta sesión establece esa interfaz local y, de paso, introduce dos
+    ideas que sorprenden: un botón conectado a tierra que se lee como HIGH en reposo, y la necesidad
+    de esperar a que el dedo se levante para no contar una pulsación varias veces.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Entrada digital con INPUT_PULLUP',
+    'Lógica invertida: pulsado = LOW',
+    'Antirrebote por tiempo',
+    'Generación de tono con tone()',
+    'Monitor Serie como herramienta de diagnóstico',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Un robot sin pantalla">
+    Preguntar cómo sabría el equipo que el robot entendió una orden, si no tiene pantalla ni
+    pantalla ni conexión al teléfono. Recoger propuestas: luces, sonidos, movimiento. Presentar la
+    decisión del diseño: dos botones de entrada y un buzzer de salida.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="La resistencia que no se ve">
+    Conectar un botón entre el pin y GND y medir con el multímetro qué lee el pin en reposo.
+    Introducir `INPUT_PULLUP`: el Arduino activa una resistencia interna que mantiene el pin en
+    HIGH, y presionar el botón lo baja a LOW. Discutir por qué el diseño elige esa convención en
+    lugar de la intuitiva.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Cargar y verificar la interfaz">
+    Cablear los dos pulsadores (A1 y A2, cada uno a GND) y el buzzer pasivo (A0). Cargar el sketch.
+    Verificar en el Monitor Serie a 9600 baudios que cada botón imprime su nombre, y de oído que
+    MODO suena más grave que INICIO. Si un botón dispara dos veces por pulsación, ahí está el
+    antirrebote.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="¿Qué falló y en qué capa?">
+    Cuando un botón no responde, el problema puede estar en el cable, en el pin declarado o en el
+    tiempo de antirrebote. Practicar el diagnóstico por capas: primero el Monitor Serie, después el
+    multímetro, al final el código. Registrar qué capa resultó ser la culpable.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="01_botones_y_buzzer.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Arduino Uno con cable USB',
+    'Dos pulsadores momentáneos y cables Dupont',
+    'Buzzer pasivo de 5 V',
+    'Multímetro para verificar continuidad',
+    'Computadora con Arduino IDE 2 y permiso de puerto serie',
+  ]} />
+
+  <SessionModule.Reto>
+    Modifiquen el sketch en dos frentes y documenten el resultado. Primero, cambien las frecuencias
+    de los tonos: busquen dos que se distingan con claridad en un aula con ruido. Segundo, bajen la
+    ventana de antirrebote de 60 ms hasta encontrar el valor donde empiezan a aparecer pulsaciones
+    dobles, y anoten ese umbral. Es el primer dato experimental del programa.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Video corto donde cada botón imprime en Serie y suena distinto',
+    'Tabla con las frecuencias probadas y la elegida, con su justificación',
+    'Valor de antirrebote donde aparecen pulsaciones dobles',
+    'Registro de la capa donde estuvo la falla, si hubo alguna',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º–5.º bachillerato. Computación Aplicada: relaciona entradas, salidas, estados, variables y decisiones de un programa embebido.',
+    'Laboratorio I · indicadores 1.1–1.2: registra pruebas, umbrales y resultados de funcionamiento en una tabla o bitácora.',
+    'Evidencia CNB: sketch comentado, umbral de antirrebote encontrado experimentalmente y diagnóstico de una falla de cableado, pin o código.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): High School Specialty · Physical Computing · Inputs & Outputs; Programming · Testing & Refining.',
+    'CSTA PK–12 (2026), práctica 9: probar y refinar la tecnología mediante una estrategia de depuración basada en evidencia.',
+    'ISTE 1.5.b Computational Thinker: recolectar datos, analizarlos y representarlos para facilitar decisiones.',
+    'NGSS HS-ETS1-3: evaluar una solución frente a criterios cuantificables.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Explica por qué un botón con INPUT_PULLUP lee HIGH en reposo.',
+    'Carga el sketch y verifica su funcionamiento con el Monitor Serie.',
+    'Encuentra experimentalmente el umbral de antirrebote y lo documenta.',
+    'Diagnostica una falla identificando si es de cableado, de pin o de código.',
+  ]} />
+</SessionModule>

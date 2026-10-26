@@ -1,0 +1,56 @@
+WEBVTT
+
+1
+00:00:00.700 --> 00:00:04.503
+Observa una serie maya que
+crece de veinte en veinte:
+
+2
+00:00:04.518 --> 00:00:08.825
+veinte, cuarenta, sesenta,
+ochenta, cien y ciento
+
+3
+00:00:08.840 --> 00:00:09.474
+veinte.
+
+4
+00:00:10.005 --> 00:00:13.443
+Cada paso añade un punto
+en el segundo nivel.
+
+5
+00:00:13.458 --> 00:00:15.789
+Cinco puntos se cambian por una barra.
+
+6
+00:00:15.914 --> 00:00:18.526
+El nivel de unidades permanece en cero.
+
+7
+00:00:18.749 --> 00:00:21.906
+Ahora avanzamos de cien en cien:
+
+8
+00:00:21.921 --> 00:00:26.484
+cien, doscientos, trescientos,
+cuatrocientos, quinientos.
+
+9
+00:00:26.665 --> 00:00:30.947
+Cuatro barras del segundo nivel se
+cambian por un punto en el tercero.
+
+10
+00:00:31.156 --> 00:00:35.158
+En cuatrocientos quedan ceros
+en los dos niveles inferiores.
+
+11
+00:00:35.311 --> 00:00:39.492
+Elige el salto y avanza para
+ver cómo cada posición cambia su
+
+12
+00:00:39.507 --> 00:00:41.389
+valor.

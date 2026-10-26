@@ -1,0 +1,85 @@
+---
+sidebar_position: 4
+sidebar_label: "04 · Brazo Reparador"
+title: "Brazo Reparador"
+description: "Sensor de color y manipulación"
+---
+
+import Module from '@site/src/components/Module';
+
+# 04 · Brazo Reparador
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m4">
+  <Module.Question>
+    ¿Cómo puede un robot ayudar a reparar una tubería de agua sin poner en riesgo a una persona?
+  </Module.Question>
+
+  <Module.Context>
+    La misión simula reparación de infraestructura de agua en una comunidad. Introduce sensor de
+    color, marcas de referencia, brazo manipulador, agarre y reemplazo de piezas.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Sensor de color',
+    'Marca negra como señal',
+    'Manipulador y garra',
+    'Mantenimiento urbano',
+    'Trabajo colaborativo entre robots',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 12 min" title="Infraestructura de agua">
+    Conversar sobre tuberías, agua potable y riesgos de reparación en lugares estrechos o
+    peligrosos. Cada equipo define una zona de inspección, una pieza dañada y una pieza de
+    reemplazo. Evidencia inicial: diagrama simple del problema y una razón técnica para enviar un
+    robot en vez de una persona.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Detección y brazo">
+    Revisar el sensor de color, el motor del brazo y la garra. Tomar lecturas de negro, blanco y
+    colores cercanos antes de programar, y probar el brazo lentamente sin poner dedos dentro de la
+    garra. Punto de control: el equipo elige un umbral o condición de color, explica la posición de
+    agarre y predice qué lectura podría causar una falsa detección.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 70-100 min" title="Retirar y reemplazar">
+    Construir el Brazo Reparador y programar la secuencia como estados: avanzar hasta marca negra,
+    detenerse, bajar brazo, tomar pieza dañada, retroceder y colocar la nueva pieza. Registrar foto
+    o nota de cada intento: detectó marca, tomó pieza, no la soltó y la colocó en posición. Si
+    falla, depurar por separado umbral del sensor, alineación de la garra, tiempo de cierre y
+    distancia de retroceso.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Sensores como decisiones">
+    Comparar mover por tiempo contra mover hasta detectar una marca. Cada grupo justifica cuál
+    solución resiste mejor cambios de distancia o iluminación y entrega una mejora concreta para la
+    siguiente prueba. Para escalar, 1.º básico compara colores, 2.º básico ajusta el umbral con
+    datos y 3.º básico explica por qué la decisión por sensor mejora la seguridad de la reparación.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Naturales: relación entre agua, infraestructura, seguridad, tecnología y prevención de riesgos al automatizar una reparación.',
+    'Matemática: comparación de lecturas, ubicación espacial y uso de una condición para detener o activar el brazo.',
+    'Tecnologías del Aprendizaje y la Comunicación: lectura de sensor de color, depuración del umbral y documentación colaborativa del procedimiento.',
+    'Comunicación y Lenguaje, Idioma Español: reporte ordenado de problema, pasos, evidencia y mejora del procedimiento realizado.',
+    'Emprendimiento para la Productividad: propuesta de solución técnica para una necesidad comunitaria con criterios de seguridad y calidad.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: diseña y prueba una solución automatizada usando sensores como parte del proceso.',
+    '2026 CSTA PK-12 · Secundaria: programación con condicionales, sensores, procedimientos y prueba sistemática.',
+    'NGSS MS-ETS1-1 y MS-ETS1-2: define criterios de seguridad/eficiencia y evalúa alternativas para reparar sin exponer a personas.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Usa el sensor de color como condición verificable de parada o activación.',
+    'Coordina movimiento, agarre y reemplazo sin forzar piezas ni perder referencia.',
+    'Documenta una prueba fallida y el ajuste aplicado al sensor, brazo o ruta.',
+    'Explica el valor de la automatización en tareas riesgosas con conexión comunitaria.',
+  ]} />
+</Module>

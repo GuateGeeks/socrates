@@ -1,0 +1,29 @@
+GUATEMALA DESDE EL CIELO
+Sexto Primaria · Semana 1 · Video de 60 segundos
+Idioma: español. Los subtítulos se ofrecen como pista independiente y pueden desactivarse.
+
+TRANSCRIPCIÓN AUDIOVISUAL
+
+0:00–0:07.5 · Geeky da la bienvenida, con el diseño tridimensional original de Socrates y los colores actuales de la aplicación. Se presenta un recorrido ilustrado de la costa a las montañas de Guatemala.
+Geeky: «¡Hola! Soy Geeky. Acompáñame a mirar Guatemala desde el cielo. De la costa a las montañas».
+
+0:07.5–0:14.7 · Una ilustración de la costa de Monterrico muestra el océano Pacífico, una playa y manglares. La altura se refiere a una posición cercana al nivel del mar.
+Geeky: «Comenzamos en Monterrico, junto al Pacífico, casi al nivel del mar. Mira sus playas y manglares».
+
+0:14.7–0:22 · El recorrido esquemático asciende hacia la bocacosta. Cambian las pendientes, la vegetación y los cultivos. Se usa un punto ilustrativo a unos 800 metros de altura.
+Geeky: «Ascendemos por la bocacosta hasta unos ochocientos metros. Cambian el relieve, la vegetación y los cultivos».
+
+0:22–0:29.1 · Se llega al altiplano de Quetzaltenango. El rótulo indica una altura aproximada de 2,300 metros sobre el nivel del mar. El recorrido es esquemático y no está a escala.
+Geeky: «Llegamos a Quetzaltenango, en el altiplano, a unos dos mil trescientos metros de altura sobre el nivel del mar».
+
+0:29.1–0:50.65 · Una comparación relaciona altura y temperatura usando un modelo educativo: T(h) = 30 − 0.006h, con h en metros. Se parte de una temperatura hipotética de 30 °C al nivel del mar y se resta aproximadamente 6 °C por cada 1,000 metros de ascenso. Se muestran 30 °C a 0 metros, aproximadamente 25 °C a 800 metros y aproximadamente 16 °C a 2,300 metros. Los rótulos aclaran que las temperaturas son estimaciones educativas: no son mediciones, promedios climáticos locales ni un pronóstico.
+Geeky: «Al subir, la temperatura generalmente baja. Usamos una aproximación de seis grados menos por cada mil metros. Imagina treinta grados en la costa, unos veinticinco a ochocientos metros y unos dieciséis en Quetzaltenango. Son estimaciones educativas; la temperatura real cambia con la hora, las nubes y el viento».
+
+0:50.65–1:00 · Geeky invita a observar la propia comunidad. Se muestra la pregunta final: ¿Qué cuentan los mapas sobre el lugar que compartimos?
+Geeky: «Observa tu comunidad. ¿Qué cuentan los mapas sobre el lugar que compartimos?».
+
+AUDIO
+Narración en español y acompañamiento instrumental suave de marimba sintetizada. La música es un motivo original; no se utilizó una grabación externa.
+
+FUENTES Y CRITERIO
+El modelo de aproximadamente 6 °C menos por cada 1,000 metros sigue la lección de Ciencias Sociales de la semana 1. Las alturas están redondeadas; el punto IGN de referencia en el Parque Centroamérica de Quetzaltenango se sitúa a 2,333 metros según el Plan de Desarrollo Municipal de SEGEPLAN. El dibujo ilustra una relación entre relieve y temperatura; no representa una ruta de viaje precisa.

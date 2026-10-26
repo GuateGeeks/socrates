@@ -1,0 +1,4 @@
+Traslación, rotación y reflexión
+Semana 3 · Español
+
+Una traslación desliza una figura sin girarla. Mueve el banderín cuatro cuadritos a la derecha. La sombra muestra dónde empezó. Una rotación gira la figura alrededor de un punto fijo. Un cuarto de vuelta equivale a noventa grados. Una reflexión produce una imagen de espejo al otro lado de una línea. Los puntos correspondientes quedan a igual distancia del eje. Las tres transformaciones conservan la forma y el tamaño: producen figuras congruentes. Elige una transformación y cambia su control.

@@ -1,0 +1,188 @@
+---
+sidebar_position: 12
+sidebar_label: "12 · Reto integrador"
+title: "Reto integrador: carátula propia"
+description: "Diseñar una carátula que muestre algo que le importe al equipo, y defenderla técnicamente. Con extensión opcional de bitmap."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import FlagNote from '@site/src/components/FlagNote';
+
+# 12 · Reto integrador: carátula propia
+
+<SessionModule id="tc12" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Qué vale la pena mostrar en una pantalla que cabe en la palma de la mano?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Las once sesiones anteriores entregaron un repertorio: coordenadas, color, ángulos,
+    trigonometría, tiempo, red y ciclos. Esta sesión lo pone en manos del equipo sin decirle qué
+    construir. La restricción es dura y honesta —240 × 240 píxeles, un círculo, 65 536 colores— y
+    dentro de ella cabe cualquier cosa que el equipo pueda justificar. Lo que se evalúa no es la
+    belleza del resultado, sino si las decisiones de diseño tienen razones y si el equipo puede
+    defenderlas con datos de las sesiones previas.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Diseño bajo restricciones explícitas',
+    'Jerarquía visual: qué se lee primero en una pantalla pequeña',
+    'Legibilidad y contraste sobre fondo oscuro',
+    'Justificación técnica de una decisión estética',
+    'Comunicación de un proceso, no solo de un resultado',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Galería de carátulas">
+    Mostrar carátulas de relojes reales muy distintas entre sí: analógicas, digitales, de una sola
+    aguja, con calendario. Preguntar qué prioriza cada una y qué sacrifica. Nombrar la idea de que
+    toda carátula decide qué es lo importante, y que esa decisión se ve.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Bocetar en papel, a escala">
+    Cada equipo dibuja su carátula en un círculo de papel **antes de tocar el código**, indicando
+    coordenadas y ángulos de los elementos principales. El boceto tiene que ser suficiente para que
+    otro equipo lo programe. Aquí se descubre si una idea cabe o no cabe.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Programar la carátula">
+    Partiendo del sketch que más se acerque —`04`, `05` o `06`—, el equipo construye su carátula.
+    Debe usar al menos una posición calculada con seno y coseno, al menos un color armado con
+    `rgb565()`, y mostrar algo que cambie con el tiempo. Todo lo demás es decisión del equipo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="Defender el diseño">
+    Cada equipo presenta en tres minutos: qué muestra su carátula, por qué eligió eso, y una
+    decisión que tuvo que cambiar durante la construcción y por qué. Esa última parte es la más
+    valiosa: el programa termina pidiendo que se comunique el proceso, no solo el producto.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Equipo completo funcionando',
+    'Círculos de papel de al menos 15 cm para bocetar',
+    'Transportador, regla y compás',
+    'Formato de planificación de carátula',
+    'Proyector o forma de mostrar la pantalla al grupo durante la presentación',
+  ]} />
+
+  <SessionModule.Reto>
+    Diseñen y construyan una carátula propia. Requisitos mínimos: al menos un elemento posicionado
+    con seno y coseno, al menos un color armado con `rgb565()` y justificado, y al menos un elemento
+    que cambie con el tiempo. Entreguen el boceto en papel con sus coordenadas, el código funcionando
+    y una presentación técnica de tres minutos que incluya **una decisión que cambiaron durante la
+    construcción y por qué**. Si su carátula muestra datos, expliquen de dónde salen y con qué
+    precisión.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Boceto en papel a escala, con coordenadas y ángulos anotados',
+    'Código funcionando, con los tres requisitos mínimos identificables',
+    'Justificación escrita de la paleta de colores elegida',
+    'Presentación técnica de tres minutos',
+    'Registro de al menos una decisión de diseño que cambió durante el proceso',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'TAC 3.2: personaliza y presenta un material digital contemplando normas de presentación, contenido y diseño, y se autoevalúa con instrumentos de verificación (p. 17-18).',
+    'TAC 1.3: identifica resolución y tamaño de almacenamiento en bytes de las imágenes digitales (p. 15-16).',
+    'COM 3.1: escribe textos claros y organizados aplicando las fases de la redacción (p. 23-24).',
+    'MAT 1.3: aplica razones trigonométricas para ubicar los elementos de su diseño (p. 13).',
+    'MAT 5.1: aplica el valor posicional al construir los colores de su paleta (p. 15).',
+    'CN 1.2: comunica el procedimiento desarrollado y los resultados obtenidos (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-AP-13: descomponer problemas en subproblemas para facilitar el diseño del programa.',
+    'CSTA 2-AP-15: buscar y usar retroalimentación de usuarios para refinar una solución.',
+    'CSTA 2-AP-19: documentar programas para hacerlos más fáciles de seguir, probar y depurar.',
+    'NGSS MS-ETS1-4: desarrollar un modelo, probarlo e iterar para lograr un diseño óptimo.',
+    'ISTE Innovative Designer 4c: desarrollar tolerancia a la ambigüedad y persistencia ante problemas abiertos.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Produce un boceto que otro equipo podría programar.',
+    'Justifica sus decisiones de diseño con criterios técnicos, no solo de gusto.',
+    'Integra contenidos de al menos tres sesiones anteriores en un solo producto.',
+    'Comunica el proceso, incluyendo lo que cambió y por qué.',
+  ]} />
+</SessionModule>
+
+## Extensión opcional: una imagen en la carátula
+
+Para equipos que terminen antes, o como profundización de **TAC 1.3**. Permite incluir un logo o
+un dibujo propio en la carátula, cargado desde la memoria del programa. **No requiere tarjeta SD.**
+
+### El procedimiento
+
+1. Elegir una imagen en JPG o PNG, cuadrada y sencilla.
+2. Convertirla a un arreglo de bitmap con un conversor de imagen a arreglo RGB565.
+3. Redimensionarla a un **ancho máximo de 240 píxeles**. Si el PNG tiene zonas transparentes, hay
+   que elegir con qué color se rellenan: la pantalla no sabe mostrar transparencia.
+4. Crear una pestaña nueva en el Arduino IDE llamada `bitmap.h` y pegar ahí el arreglo.
+5. Ajustar el ancho y el alto en el sketch para que coincidan con la imagen.
+
+### La cuenta que hay que hacer antes
+
+Una imagen que ocupe toda la pantalla pesa:
+
+```
+   240 × 240 píxeles × 2 bytes por píxel = 115 200 bytes ≈ 112 KB
+```
+
+Eso es mucho para un ESP32 que además tiene que levantar el stack de WiFi. **Antes de convertir una
+imagen, calculen cuánto va a ocupar.** Una de 100 × 100 pesa 20 000 bytes, casi seis veces menos.
+El límite deja de ser una regla arbitraria y pasa a ser una cuenta que el equipo puede hacer.
+
+<FlagNote tone="warn" title="El detalle que hace perder una hora">
+Si modifican `bitmap.h` y vuelven a compilar **sin tocar el `.ino`**, el Arduino IDE no se entera del
+cambio y sigue usando la versión anterior. Basta con agregar y quitar un espacio en el `.ino` para
+que lo note. Es un comportamiento del entorno, no un error del código.
+</FlagNote>
+
+<VisualStepGuide
+  title="De una imagen a un arreglo"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/tft-display-image-to-bitmap-array.jpg',
+      alt: 'Herramienta web que convierte una imagen cargada en un arreglo de bitmap para pantallas TFT',
+      title: 'Convertir la imagen',
+      body: <>
+        La herramienta recibe la imagen, permite fijar el ancho y devuelve el arreglo. Fíjense en el
+        campo del ancho: es donde se decide cuánta memoria va a ocupar el resultado. Calculen el peso
+        antes de convertir.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/arduino-ide-2-adds-file.jpg',
+      alt: 'Arduino IDE mostrando cómo agregar una pestaña nueva al sketch',
+      title: 'Crear la pestaña',
+      body: <>
+        En el Arduino IDE, el botón bajo el ícono del Monitor Serie permite agregar una pestaña
+        nueva al sketch. También funciona con Ctrl+Shift+N.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/arduino-ide-adds-file-bitmap.jpg',
+      alt: 'Diálogo del Arduino IDE para nombrar el archivo nuevo como bitmap.h',
+      title: 'Nombrarla bitmap.h',
+      body: <>
+        El nombre importa: el sketch la incluye por ese nombre exacto. Una vez creada, se pega el
+        arreglo completo dentro.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-screen-display-image.jpg',
+      alt: 'Pantalla circular mostrando una imagen cargada desde la memoria del programa',
+      title: 'El resultado',
+      body: <>
+        Una imagen mostrada desde la memoria del programa. Observen los bordes: en una pantalla
+        redonda, las esquinas de una imagen cuadrada se pierden, así que conviene diseñar pensando
+        en el círculo.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

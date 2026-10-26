@@ -1,0 +1,87 @@
+---
+sidebar_position: 11
+sidebar_label: "11 · Unidad de Rescate"
+title: "Unidad de Rescate"
+description: "Búsqueda, sensor y rescate"
+---
+
+import Module from '@site/src/components/Module';
+
+# 11 · Unidad de Rescate
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m11">
+  <Module.Question>
+    ¿Cómo puede un robot ayudar en una emergencia sin exponer a una persona al peligro?
+  </Module.Question>
+
+  <Module.Context>
+    La Unidad de Rescate entra a una casa, detecta distancia, eleva un brazo con sensor de color
+    para localizar fuego y ejecuta una acción de neutralización o rescate. El módulo conecta
+    tecnología con prevención y cuidado comunitario.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Robótica de emergencia',
+    'Sensor de distancia',
+    'Brazo con paralelogramo',
+    'Detección de color',
+    'Ruta más corta y rescate',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Emergencias y seguridad">
+    Ubicar el extintor más cercano del aula y aclarar que la misión usa una emergencia simulada, sin
+    fuego real ni materiales peligrosos. Cada equipo define entrada, zona de búsqueda y acción de
+    rescate o neutralización. Evidencia inicial: croquis de ruta con distancia segura y una razón
+    para usar robot como apoyo, no reemplazo, de personas capacitadas.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 30 min" title="Entrada, búsqueda y brazo">
+    Revisar sensor ultrasónico, brazo elevador y sensor de color. Probar lecturas de distancia y
+    niveles de altura con el brazo moviéndose lentamente, manteniendo manos fuera del mecanismo.
+    Punto de control: el equipo identifica a qué distancia se detiene, qué altura permite detectar
+    la llama simulada y qué lectura podría ser falsa.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 90-120 min" title="Buscar y neutralizar">
+    Construir la Unidad de Rescate y programar la misión como estados: entrar hasta distancia,
+    elevar brazo, buscar color, detenerse en la llama simulada y ejecutar acción de apagar o
+    rescatar. Registrar distancia detectada, color leído, altura del brazo, acción y punto de fallo.
+    Si falla, depurar distancia mínima, iluminación, altura de sensor, ruta de entrada o momento de
+    neutralización.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Tecnología con propósito humano">
+    Cada grupo identifica una tarea peligrosa de su comunidad donde un robot podría ayudar y explica
+    qué decisiones seguirían siendo humanas. Entregar una evidencia breve: bitácora de rescate y una
+    mejora de seguridad. Para escalar, 1.º básico reconoce sensores, 2.º básico ajusta datos de
+    búsqueda y 3.º básico optimiza ruta y argumenta límites éticos del sistema.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Naturales: prevención de riesgos, fuego, seguridad, sensores y uso de tecnología para reducir exposición humana.',
+    'Ciencias Sociales, Formación Ciudadana e Interculturalidad: cuidado de la vida, respuesta comunitaria y responsabilidad ante emergencias.',
+    'Matemática: altura, distancia, comparación de lecturas y selección de ruta o posición de búsqueda.',
+    'Tecnologías del Aprendizaje y la Comunicación: lectura de distancia/color, programación de procedimientos y registro de evidencia de rescate.',
+    'Comunicación y Lenguaje, Idioma Español: presentación clara de una solución de emergencia con problema, pruebas y mejora.',
+    'Emprendimiento para la Productividad: diseño de una solución segura y viable para una necesidad local de protección.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4, 1.5 y 1.7: diseña tecnología para impacto social, colabora por roles y comunica el valor de la solución.',
+    '2026 CSTA PK-12 · Secundaria: programación con sensores, condiciones, procedimientos y ética/responsabilidad social.',
+    'NGSS MS-ETS1-1 y MS-ETS1-2: define criterios de seguridad y evalúa soluciones para reducir riesgo en emergencias.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Integra distancia y color en una misión con criterios claros de detección.',
+    'Secuencia búsqueda, detección y acción sin perder la referencia de seguridad.',
+    'Registra al menos una prueba de detección fallida o imprecisa y la mejora aplicada.',
+    'Explica el valor social del robot y los límites de usar tecnología en emergencias reales.',
+  ]} />
+</Module>

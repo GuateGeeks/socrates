@@ -1,0 +1,103 @@
+---
+sidebar_position: 20
+sidebar_label: "Misconcepciones comunes"
+title: "Misconcepciones comunes"
+description: "Ideas equivocadas previsibles, por qué aparecen y cómo corregirlas sin desalentar."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Misconcepciones comunes
+
+Errores de comprensión que aparecen de forma predecible. Anticiparlos permite corregirlos en el
+momento en que surgen, que es cuando el estudiante está más receptivo.
+
+## Programación
+
+**«El Arduino entiende Python»**
+Arduino Uno usa C++. Otras placas sí ejecutan MicroPython, de ahí la confusión.
+→ *«Este chip solo entiende C++. Es más estricto que Python, pero es el que hay.»*
+
+**«Mi código está bien aunque no funcione»**
+El software siempre tiene errores; los expertos prueban obsesivamente por eso.
+→ *«Los errores son normales, no un juicio sobre ustedes. Los programadores profesionales pasan la mayor parte del tiempo depurando.»*
+
+**«`delay()` es la única forma de manejar el tiempo»**
+`delay()` detiene todo el programa. Para hacer dos cosas a la vez se usa `millis()`, como hace el
+antirrebote de los botones.
+→ *«Miren cómo el sketch de botones usa `millis()` en lugar de `delay()`. ¿Por qué creen que lo hace así?»*
+
+## Electrónica
+
+**«Más voltaje es más potencia»**
+Cada componente tiene un máximo. Más voltaje quema.
+→ *«El Arduino tolera 5V en sus pines y el motor unos 6V. Pasarse no lo hace más rápido, lo destruye.»*
+
+**«Los cables no importan»**
+Un cable fino y largo tiene resistencia y provoca caída de voltaje.
+→ *«Por eso el cable de los motores es más grueso que un Dupont: por ahí pasa mucha más corriente.»*
+
+**«Un cable cortado hace explotar el circuito»**
+Un corte abre el circuito: simplemente deja de funcionar. El peligro es el cortocircuito, cuando dos
+conductores se tocan.
+→ *«Corte significa que no funciona. Cortocircuito significa daño. Aprendan a distinguirlos.»*
+
+## Mecánica y fabricación
+
+**«La impresora hará exactamente lo que le pido»**
+Un error de ±0.5 mm es normal, y mayor en impresoras económicas.
+→ *«Por eso medimos. La tolerancia no es un defecto de su impresora, es una propiedad del proceso.»*
+
+**«Con medir una vez basta»**
+Una sola medición no permite distinguir una tendencia de una casualidad.
+→ *«Midan cinco puntos. Si los cinco dan lo mismo, tienen un dato. Si varían, también.»*
+
+**«Las orugas deberían quedar perfectas»**
+Pequeñas imperfecciones son tolerables; el software compensa bastante.
+→ *«Ese eslabón un poco áspero probablemente no importe. Lo que sí importa es que ambas orugas giren libres.»*
+
+## Sensores
+
+**«El sensor dice la verdad»**
+El HC-SR04 tiene error, zona muerta y lecturas fallidas.
+→ *«Ustedes mismos midieron su error en la sesión 8. ¿Cuánto era? Eso es lo que le pueden creer.»*
+
+**«Con un sensor el robot sabe qué hay alrededor»**
+Mira solo hacia adelante. No ve a los lados ni atrás.
+→ *«¿Qué pasa si el obstáculo está a 45 grados? El robot no lo sabe hasta que lo tiene enfrente.»*
+
+**«La medición es instantánea»**
+Cada lectura toma tiempo, y el firmware toma tres para sacar la mediana.
+→ *«Si el robot avanza rápido, la distancia que leyó ya es vieja cuando decide. ¿Cómo afecta eso al umbral?»*
+
+## Algoritmos
+
+**«Debería funcionar a la primera»**
+El desarrollo es iterativo: probar, encontrar el error, corregir, volver a probar.
+→ *«Nadie escribe esto bien a la primera. Lo que se aprende aquí es el ciclo, no el acierto.»*
+
+**«Todo se resuelve con `if`»**
+Para comportamientos con memoria, una máquina de estados es más clara.
+→ *«¿Cuántos `if` anidados harían falta para reproducir los tres modos? Por eso existen los estados.»*
+
+**«Si los subsistemas funcionan, el robot funciona»**
+La integración revela problemas que ninguna prueba aislada muestra: vibración, deslizamiento,
+tiempos que no se cumplen.
+→ *«Los sketches 01, 02 y 03 funcionaban. Al juntarlos aparecieron cosas nuevas. Eso se llama integración, y es donde se va la mayor parte del tiempo en ingeniería real.»*
+
+## Actitud frente al error
+
+**«Si no me sale, es que no sirvo para esto»**
+→ *«Los profesionales fallan todo el día. La diferencia es que saben depurar, y eso es exactamente lo que están aprendiendo.»*
+
+**«Tendría que entenderlo todo»**
+→ *«No necesitan entender cada línea hoy. Necesitan entender la parte que están cambiando, y saber dónde buscar el resto.»*
+
+**«Un error en el diagrama arruina todo»**
+→ *«El sistema tolera imprecisiones. Si el voltaje está un poco alto o bajo, probablemente funcione igual. Lo que no tolera es un cortocircuito.»*
+
+<FlagNote tone="info" title="Cómo usar este documento">
+Identifique la misconcepción en lo que dicen los estudiantes y use la corrección sugerida en ese
+momento. Mejor aún: enseñe el concepto correcto **antes** de que la idea equivocada se instale. Al
+cerrar la sesión, pregunte qué idea previa les cambió.
+</FlagNote>

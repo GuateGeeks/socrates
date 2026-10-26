@@ -1,0 +1,87 @@
+---
+sidebar_position: 9
+sidebar_label: "09 · Elevador"
+title: "Elevador"
+description: "Variables, pisos y seguridad"
+---
+
+import Module from '@site/src/components/Module';
+
+# 09 · Elevador
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m9">
+  <Module.Question>
+    ¿Cómo sabe un elevador dónde está, a dónde debe ir y cuándo abrir sus puertas de forma
+    segura?
+  </Module.Question>
+
+  <Module.Context>
+    Este módulo introduce sistemas con estado mediante un elevador GuateGeeks para edificios,
+    centros comerciales o bibliotecas escolares: variables de piso actual, piso seleccionado,
+    máximo de pisos, puertas y sensor para referencia inicial.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Variables',
+    'Eventos y mensajes',
+    'Estado actual vs destino',
+    'Puertas de seguridad',
+    'Calibración de piso inicial',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Elevadores reales">
+    Preguntar qué hace un elevador antes de moverse: cerrar puertas, conocer piso actual y validar
+    destino. Cada equipo dibuja una tabla simple con piso actual, piso solicitado y estado de
+    puertas. Evidencia inicial: una regla de seguridad que indique cuándo el elevador puede moverse y
+    cuándo puede abrir.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 30 min" title="Sistema con memoria">
+    Identificar winch, puertas, sensor de fuerza y pantalla. Presentar variables: piso seleccionado,
+    piso actual y piso máximo; luego probar subir y bajar sin carga y con manos fuera de puertas,
+    cuerda y winch. Punto de control: el equipo calibra el piso inicial y explica qué variable debe
+    cambiar antes, durante y después del movimiento.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 120 min" title="Seleccionar y mover entre pisos">
+    Construir el Elevador y programar selección con botones, visualización de piso, movimiento
+    calculado y apertura/cierre de puertas. Ejecutar pruebas por casos: mismo piso, un piso arriba,
+    varios pisos y destino inválido si aplica. Registrar piso actual, destino, dirección, distancia
+    movida y estado de puertas. Si falla, depurar calibración inicial, fórmula de movimiento,
+    actualización de variable o secuencia de puertas.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 20 min" title="Seguridad y estado">
+    Analizar qué fallaría si el elevador no recordara el piso actual o abriera puertas en movimiento.
+    Cada grupo presenta una tabla de estados y una mejora de seguridad. Para escalar, 1.º básico
+    traza cambios de piso con guía, 2.º básico depura la fórmula entre pisos y 3.º básico agrega
+    validación de destino o límites de operación.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: variables, diferencia entre piso actual y destino, conteo de niveles y operaciones para mover una distancia proporcional.',
+    'Ciencias Naturales: fuerza, polea, movimiento vertical y seguridad en sistemas que transportan personas u objetos.',
+    'Tecnologías del Aprendizaje y la Comunicación: programación de estado, botones, pantalla, eventos y bitácora de pruebas de seguridad.',
+    'Comunicación y Lenguaje, Idioma Español: descripción de un sistema con estados usando diagrama, pseudocódigo o explicación oral.',
+    'Emprendimiento para la Productividad: calidad y seguridad en sistemas automatizados que prestan un servicio.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: modela un sistema con restricciones, variables y decisiones verificables.',
+    '2026 CSTA PK-12 · Secundaria: variables y almacenamiento de datos, eventos, desarrollo de programas y prueba/refinamiento.',
+    'NGSS MS-ETS1-1 y MS-ETS1-2: define seguridad como restricción y evalúa reglas para evitar fallas del elevador.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Usa variables para representar piso actual, destino o máximo de pisos sin perder estado.',
+    'Integra botones, pantalla, motor y puertas en una secuencia verificable.',
+    'Prueba al menos dos escenarios de seguridad: piso incorrecto, puerta abierta o referencia inicial.',
+    'Explica riesgos y medidas de seguridad con apoyo de diagrama, pseudocódigo o bitácora.',
+  ]} />
+</Module>

@@ -1,0 +1,86 @@
+---
+sidebar_position: 1
+sidebar_label: "01 · Robot Cartógrafo"
+title: "Robot Cartógrafo"
+description: "Planos, distancia y giros"
+---
+
+import Module from '@site/src/components/Module';
+
+# 01 · Robot Cartógrafo
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m1">
+  <Module.Question>
+    ¿Cómo puede un robot dibujar el plano de una comunidad siguiendo instrucciones exactas?
+  </Module.Question>
+
+  <Module.Context>
+    Los estudiantes construyen un robot cartógrafo GuateGeeks que dibuja en papel. El reto conecta
+    mapas de barrio, calles, casas, mercados y servicios, con movimiento por distancia, giros de 90
+    y 45 grados, bucles y calibración física del marcador.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Algoritmo secuencial',
+    'Distancia por rotación de rueda',
+    'Giros de 90 y 45 grados',
+    'Bucles para figuras geométricas',
+    'Calibración y prueba',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Planos de ciudad">
+    Mostrar un mapa simple de la comunidad y pedir a cada equipo marcar origen, destino, calles y
+    servicios que sí deben aparecer. El docente ayuda a convertir el dibujo en instrucciones
+    medibles: distancia, giro y repetición. Evidencia inicial: un boceto con escala aproximada y un
+    criterio de éxito para saber si el robot dibujó el plano esperado.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Diseño del robot dibujante">
+    Identificar dos motores, sensor de distancia, ruedas, bola de apoyo y marcador. Probar el giro
+    con el robot levantado y revisar que el marcador quede centrado en el eje; si queda corrido, el
+    plano se desplaza. Punto de control: el equipo explica qué pieza controla la distancia, cuál
+    controla el giro y cómo retirará el marcador antes de manipular motores o ruedas.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 60-90 min" title="Construir, programar y calibrar">
+    Construir el Robot Cartógrafo con la guía visual y descargar el programa base. Primero ejecutar
+    una ruta mínima: avanzar 5 cm y girar 90 grados; registrar distancia real, error y posible
+    causa. Cuando el movimiento sea repetible, usar un ciclo para dibujar un cuadrado y ampliar a
+    una casa con techo. Si el trazo se deforma, distinguir si el error viene de rueda, marcador,
+    superficie o bloque de giro.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Del error a la precisión">
+    Comparar dibujos entre equipos y clasificar cada diferencia como mecánica, matemática o de
+    programación. Cada equipo entrega una evidencia breve: dibujo inicial, dibujo final y ajuste que
+    más redujo el error. Para escalar el reto, 1.º básico traza figuras guiadas, 2.º básico calcula
+    error promedio y 3.º básico rediseña la ruta para representar más elementos de la comunidad.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: medición de distancia, ángulos de giro, figuras geométricas y registro del error entre plano esperado y dibujo real.',
+    'Ciencias Naturales: observación de movimiento, fuerza, fricción y causa-efecto al calibrar ruedas, marcador y superficie.',
+    'Tecnologías del Aprendizaje y la Comunicación: uso del programa base, documentación de pruebas y trabajo colaborativo con datos de calibración.',
+    'Comunicación y Lenguaje, Idioma Español: explicación oral o escrita del algoritmo, los ajustes y la relación entre instrucciones y resultado.',
+    'Emprendimiento para la Productividad: mejora continua de una herramienta tecnológica para representar necesidades del entorno.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4, 1.5 y 1.6: diseña, prueba y comunica una solución robótica con datos de calibración.',
+    '2026 CSTA PK-12 · Secundaria: algoritmos y diseño, programación con secuencias/ciclos, lectura del programa y refinamiento por pruebas.',
+    'NGSS MS-ETS1-1, MS-ETS1-3 y MS-ETS1-4: define criterios, analiza datos de prueba y optimiza el diseño del robot dibujante.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Calcula o ajusta distancia y giro con evidencia de medición antes/después.',
+    'Usa bucles para simplificar el programa y puede explicar qué repite cada ciclo.',
+    'Registra al menos dos pruebas en una tabla con error observado y cambio aplicado.',
+    'Explica cómo la posición del marcador, la rueda o la superficie afecta el resultado del plano.',
+  ]} />
+</Module>

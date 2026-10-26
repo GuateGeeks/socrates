@@ -1,0 +1,125 @@
+---
+sidebar_position: 13
+sidebar_label: "Guía docente"
+title: "Guía docente"
+description: "Secuencia de 12 sesiones, materiales por bloque y orientaciones para conducir el programa."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Guía docente
+
+Vista de conjunto para planificar. Cada sesión tiene su propia página con las cuatro fases, el reto
+y la evidencia esperada; aquí está la secuencia completa y lo que conviene preparar.
+
+## Secuencia de 12 sesiones
+
+| # | Fase | Tema | Sketch | Reto | Entregable |
+|--:|---|---|:--:|:--:|---|
+| 1 | Activar | [Sistemas de una pantalla](/tiempo-circular/sistemas-de-una-pantalla) | — | 0 | Diagrama de bloques anotado |
+| 2 | Activar | [Energía y conexiones seguras](/tiempo-circular/energia-y-conexiones-seguras) | — | 0 | Checklist firmado |
+| 3 | Explorar | [El primer píxel](/tiempo-circular/el-primer-pixel) | `01` | 1 | Pantalla encendida y bitácora |
+| 4 | Explorar | [El color es un número](/tiempo-circular/el-color-es-un-numero) | `02` | 1 | Tabla de colores en tres bases |
+| 5 | Crear | [La pantalla es un plano](/tiempo-circular/la-pantalla-es-un-plano) | `03` | 1 | Centro y radio medidos |
+| 6 | Crear | [Ángulos notables](/tiempo-circular/angulos-notables) | `03` | 2 | 12 marcas y regla de simetría |
+| 7 | Crear | [Seno y coseno](/tiempo-circular/seno-y-coseno) | `03` | 2 | Tres ángulos calculados a mano |
+| 8 | Crear | [El reloj que deriva](/tiempo-circular/el-reloj-que-deriva) | `04` | 2 | Reloj funcionando |
+| 9 | Crear | [Medir la deriva](/tiempo-circular/medir-la-deriva) | `04` | 3 | Tabla de error |
+| 10 | Crear | [La hora de la red](/tiempo-circular/la-hora-de-la-red) | `05` | 3 | Reloj sincronizado o ruta alterna |
+| 11 | Crear | [Cholq'ij](/tiempo-circular/cholqij) | `06` | 3 | Carátula y pasos angulares |
+| 12 | Reflexionar | [Reto integrador](/tiempo-circular/reto-integrador) | — | 4 | Carátula propia y presentación |
+
+Duración por sesión: 90-120 minutos en ruta intensiva, 50-60 en ruta escolar dividiendo las fases
+de Crear en dos bloques.
+
+## Los niveles de reto
+
+Suben de forma gradual y nunca retroceden.
+
+| Nivel | Qué pide | Sesiones |
+|:--:|---|---|
+| 0 | Documentar y observar sin intervenir | 1-2 |
+| 1 | Medir y clasificar con criterio propio | 3-5 |
+| 2 | Modificar parámetros y registrar el efecto | 6-8 |
+| 3 | Razonar con datos y cuantificar el error | 9-11 |
+| 4 | Integrar todo en un diseño propio | 12 |
+
+## Cuándo arrancar en el año escolar
+
+La sesión 7 usa **razones trigonométricas**, que en segundo básico corresponden a MAT 1.3. El
+calendario varía entre establecimientos, así que en lugar de fijar un bimestre conviene hacer una
+verificación simple antes de empezar:
+
+- **Si la clase de matemática ya trabajó seno y coseno**, la sesión 7 funciona tal cual.
+- **Si todavía no**, agregue 20 minutos al inicio de la sesión 7 para introducirlos como razones
+  entre lados de un triángulo rectángulo. Alcanza con eso: aquí se **usa** una razón, no se demuestra
+  el tema.
+
+Las once sesiones restantes no dependen de contenidos que no se hayan visto.
+
+## Materiales por bloque
+
+Lista completa y especificaciones en [Materiales y pines](/tiempo-circular/materiales).
+
+**Sesiones 1-2** — Placa y módulo para mostrar en físico, protoboard, jumpers, pliegos para
+diagramas, checklist impreso y, si hay, un multímetro.
+
+**Sesiones 3-4** — Computadoras con Arduino IDE y permisos para instalar el driver USB-serie.
+Descargue el core de ESP32 y la librería **antes de la clase**: es una descarga grande y con conexión
+lenta consume la sesión entera.
+
+**Sesiones 5-7** — Regla milimetrada, transportador, compás y calculadora con funciones
+trigonométricas por equipo.
+
+**Sesiones 8-10** — Un reloj de referencia confiable por equipo para medir la deriva, y los datos de
+una red WiFi de **2.4 GHz** si va a trabajar la sesión 10 con red.
+
+**Sesiones 11-12** — Compás y transportador otra vez, círculos de papel de al menos 15 cm para
+bocetar, y el dato de anclaje del Cholq'ij con su fuente.
+
+## Antes de iniciar
+
+- Revise el mapa de pines en [Materiales](/tiempo-circular/materiales) y téngalo impreso por equipo.
+- Prepare el [checklist de seguridad](/tiempo-circular/seguridad), uno por equipo.
+- Descargue el core de ESP32 y la librería en todas las computadoras antes de la sesión 3.
+- Confirme que el material sigue marcado como **no validado en físico** mientras no exista prueba
+  real en hardware.
+
+## Si no hay red en la escuela
+
+La sesión 10 tiene **ruta alterna sin conexión** con su propia evidencia: se ajusta la hora a mano y
+se trabaja husos horarios con datos en papel, más un cálculo de cada cuánto habría que reajustar el
+reloj que solo es posible porque la sesión 9 midió la deriva. El programa se completa sin NTP.
+
+## Si un equipo no construye la carátula Cholq'ij
+
+La sesión 11 tiene salida alterna. Un equipo que trabaje solo la carátula de 12 horas sustituye la
+evidencia de esa sesión por:
+
+- El cálculo del paso angular para 12, 24 y 60 divisiones, con la regla general
+- Una comparación escrita entre un divisor exacto y uno que no lo es, usando 360/13 como ejemplo
+  aunque no lo dibuje
+- Una carátula de 24 horas funcionando, que exige recalcular todos los ángulos
+
+El reto integrador de la sesión 12 sigue siendo alcanzable.
+
+<FlagNote tone="warn" title="Estado del material">
+El hardware está **especificado pero no adquirido**, y ninguno de los seis sketches ha sido validado
+en una placa física. Los costos de la página de materiales son estimados. El contenido del calendario
+Cholq'ij está pendiente de revisión por una persona con conocimiento del tema. Conviene decírselo al
+grupo: es material en construcción, y eso también se puede enseñar.
+</FlagNote>
+
+## Rutas de calendario
+
+| Ruta | Formato | Calendario |
+|---|---|---|
+| Intensivo | 12 sesiones de 90-120 min | 2-3 semanas |
+| Escolar | 12 sesiones de 50-60 min | 4-6 semanas |
+| Club maker | 4 jornadas de 3 horas | 1 mes |
+
+En la **ruta escolar**, divida la fase Crear de cada sesión en dos bloques: el primero para montar y
+cargar, el segundo para modificar y registrar. Las fases Activar y Reflexionar no se dividen.
+
+En la **ruta de club maker**, agrupe así: jornada 1 sesiones 1-4, jornada 2 sesiones 5-7, jornada 3
+sesiones 8-10, jornada 4 sesiones 11-12.

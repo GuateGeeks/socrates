@@ -1,0 +1,101 @@
+---
+sidebar_position: 5
+sidebar_label: "05 · Robot en Movimiento"
+title: "Robot en Movimiento"
+description: "Chasis, dos motorreductores y eslabones. La diferencia mecánica entre orugas se mide desde ahora."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+
+# 05 · Robot en Movimiento
+
+:::tip Anticipa la sesión 11
+La diferencia entre las dos orugas que se mide hoy es exactamente lo que se compensará por software
+en la sesión de calibración. Guarden ese dato: se compara al final.
+:::
+
+<SessionModule id="s5">
+  <SessionModule.Question>
+    ¿Por qué un robot con dos motores iguales no avanza en línea recta?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Curiosity se mueve por orugas, no por ruedas: cada lado avanza independientemente y girar
+    consiste en hacer que un lado vaya distinto del otro. Esta sesión arma esa mecánica y, de paso,
+    descubre algo incómodo: dos motorreductores del mismo modelo no se comportan igual. Esa
+    diferencia física es real, se puede medir hoy, y más adelante se corregirá con código.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Tracción por orugas y dirección diferencial',
+    'Motorreductor: relación entre par y velocidad',
+    'Fricción y alineación del eje',
+    'Tolerancia de encaje aplicada al armado',
+    'Variabilidad entre componentes nominalmente iguales',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="¿Cómo gira algo que no tiene volante?">
+    Mostrar una excavadora o un tanque en imagen. Preguntar cómo cambian de dirección sin ruedas
+    orientables. Guiar hasta la idea de dirección diferencial: si un lado va más rápido que el
+    otro, el vehículo gira; si van en sentido opuesto, gira sobre su propio eje.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Anatomía de la transmisión">
+    Identificar el recorrido del movimiento: motor, eje, rueda motriz, eslabones, rueda libre.
+    Localizar dónde puede aparecer fricción. Verificar con las piezas aceptadas en la sesión 4 que
+    los ejes entran sin forzar y sin holgura excesiva.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Armar y medir la diferencia">
+    Montar el chasis, fijar los dos motorreductores y cerrar ambas orugas con sus eslabones. Con el
+    robot levantado y sin energía, dar a cada oruga el mismo impulso manual y contar cuántas
+    vueltas completa antes de detenerse. Repetir tres veces por lado y anotar.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="La asimetría que hay que recordar">
+    Comparar los conteos de ambos lados. Casi siempre difieren. Discutir posibles causas: fricción
+    desigual, tensión distinta de la oruga, variación del propio motor. Registrar el dato: será la
+    referencia contra la que se comparen los offsets de la sesión 11.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Piezas impresas aceptadas en la sesión 4',
+    'Dos motorreductores N20 de 6 V',
+    'Segmentos de filamento para los eslabones de oruga',
+    'Destornilladores pequeños, pinza de punta y pinza de corte',
+    'Cronómetro y formato para anotar los conteos',
+  ]} />
+
+  <SessionModule.Reto>
+    Con el robot levantado, den a cada oruga el mismo impulso manual y cuenten las vueltas hasta que
+    se detenga. Tres intentos por lado. Calculen el promedio de cada lado y la diferencia entre
+    ambos. Anoten también qué lado gira más libre: esa asimetría se compensará por software en la
+    sesión 11, y entonces compararán si el número coincide.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Robot armado con ambas orugas girando sin roce perceptible',
+    'Tabla con tres conteos por lado y sus promedios',
+    'Diferencia calculada entre lado izquierdo y derecho',
+    'Nota sobre qué lado resultó más libre y una hipótesis de por qué',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º bachillerato. Física · competencia 1, aplicación focalizada: interpreta magnitud, sentido y resultante de la velocidad de las dos orugas.',
+    'Elaboración y Gestión de Proyectos · indicadores 3.1–3.2: ensambla un prototipo respetando materiales, tolerancias, roles y restricciones definidos.',
+    'Evidencia CNB: robot ensamblado, conteo de vueltas por oruga, tabla comparativa y explicación de la relación entre tracción y trayectoria.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): High School Specialty · Physical Computing · Hardware & Circuit Design; práctica 8, crear una tecnología computacional funcional.',
+    'ISTE 1.4.c Innovative Designer: desarrollar y probar un prototipo, relacionando ensayo, error y mejora.',
+    'NGSS HS-PS2-1: analizar datos para respaldar la relación entre fuerza, masa y aceleración.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Arma el chasis con ambas orugas girando libremente.',
+    'Explica cómo se logra un giro sin ruedas orientables.',
+    'Mide la diferencia entre orugas con repeticiones, no con una sola prueba.',
+    'Propone una causa plausible para la asimetría observada.',
+  ]} />
+</SessionModule>

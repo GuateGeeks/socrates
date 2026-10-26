@@ -1,0 +1,116 @@
+---
+sidebar_position: 6
+sidebar_label: "06 · Ángulos notables"
+title: "Ángulos notables en la circunferencia"
+description: "Doce marcas cada 30°, cuatro ángulos notables, y la simetría que hace que la figura se vea igual al girarla."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import FlagNote from '@site/src/components/FlagNote';
+import sketchCode from '@site/arduino/tiempo-circular/03_geometria_circular/03_geometria_circular.ino';
+
+# 06 · Ángulos notables en la circunferencia
+
+:::note Dos divisores que sí son exactos
+360 ÷ 12 = **30°** para las horas. 360 ÷ 60 = **6°** para los minutos. Los dos dan entero, y por eso
+una carátula de reloj cierra perfecta. Guarden esa observación: en la sesión 11 aparecerá un divisor
+que **no** da entero, y ahí empieza otra conversación.
+:::
+
+<SessionModule id="tc6" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Por qué las marcas de un reloj están donde están, y no en otro lado?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Una carátula de reloj es una circunferencia dividida en partes iguales. Doce partes para las
+    horas, sesenta para los minutos. Esta sesión convierte esa división en ángulos concretos, ubica
+    los cuatro ángulos notables —0°, 90°, 180° y 270°— y examina la simetría de la figura resultante.
+    Es la sesión donde el grupo modifica parámetros del código y observa el efecto, que es el salto
+    al reto nivel 2.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'División de la circunferencia en partes iguales',
+    'Ángulos notables: 0°, 90°, 180° y 270°',
+    'Simetría de rotación: girar la figura y que quede idéntica',
+    'Simetría axial: cada marca y su opuesta sobre la misma recta',
+    'Parámetro de un programa y efecto observable de cambiarlo',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Repartir la vuelta">
+    Sin computadora: dibujar una circunferencia y repartir doce marcas a ojo. Luego calcular cuántos
+    grados debería haber entre una y otra y comparar con lo dibujado. Casi siempre el dibujo a ojo
+    concentra marcas arriba y las separa abajo, lo que abre la pregunta de por qué necesitamos el
+    cálculo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Ubicar los notables">
+    Marcar dónde caen 0°, 90°, 180° y 270° en la carátula, y ver que corresponden a las 12, 3, 6 y 9.
+    Discutir por qué se les llama notables y qué tienen de especial: son los que caen exactamente
+    sobre los ejes, y por eso sus coordenadas se pueden decir sin calcular nada.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Modificar y observar">
+    Cargar `03_geometria_circular` con `SESION` en **6**. Aparecen las doce marcas, cuatro de ellas
+    más largas. Luego **modificar parámetros y registrar el efecto**: cambiar el 12 por 4, por 8, por
+    60; cambiar el largo de las marcas; cambiar cuáles se dibujan largas. Cada cambio se anota junto
+    con lo que produjo antes de pasar al siguiente.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="¿Cuánto hay que girarla?">
+    Con la carátula de 12 marcas en pantalla, preguntar cuánto habría que girarla para que quedara
+    idéntica. La respuesta es 30°, o cualquier múltiplo. Repetir la pregunta para 4 marcas (90°) y
+    para 60 (6°). Nombrar el patrón: el ángulo de simetría es 360 dividido entre el número de partes.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="03_geometria_circular.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo funcionando desde la sesión 5',
+    'Compás y transportador por equipo',
+    'Hoja de registro de cambios: parámetro modificado, valor, efecto observado',
+  ]} />
+
+  <SessionModule.Reto>
+    Produzcan la carátula de doce marcas y justifiquen por escrito por qué van cada 30°. Luego hagan
+    al menos **cuatro modificaciones** al código —número de marcas, largo, cuáles se destacan— y
+    registren para cada una qué esperaban que pasara y qué pasó. Terminen respondiendo: ¿cuál es el
+    ángulo de simetría de rotación para 12, para 4 y para 60 marcas, y qué regla general lo describe?
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Carátula con doce marcas y las cuatro notables destacadas',
+    'Justificación escrita del paso de 30°',
+    'Registro de al menos cuatro modificaciones con predicción y resultado',
+    'Regla general del ángulo de simetría de rotación, con tres casos verificados',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'MAT 1.2: reconoce los ángulos notables en la circunferencia y usa transformaciones en la elaboración de figuras en un plano (p. 13).',
+    'MAT 5.1: manejo de las potencias y del valor relativo al repartir una cantidad en partes iguales (p. 15).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-AP-12: diseñar y aplicar bucles y estructuras de control en el desarrollo de programas.',
+    'CSTA 2-AP-17: probar y refinar sistemáticamente programas usando un rango de casos.',
+    'ISTE Innovative Designer 4a: seguir un proceso de diseño deliberado para generar ideas y probarlas.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Calcula el paso angular de cualquier división de la circunferencia.',
+    'Identifica los cuatro ángulos notables y explica qué los hace notables.',
+    'Predice el efecto de un cambio de parámetro antes de ejecutarlo.',
+    'Formula la regla general de simetría de rotación a partir de casos observados.',
+  ]} />
+</SessionModule>
+
+<FlagNote tone="info" title="Anticipo de la sesión 11">
+Todos los divisores de esta sesión dan entero: 360/12 = 30, 360/4 = 90, 360/60 = 6. Pregunten al
+grupo qué pasaría con un divisor que **no** diera entero — por ejemplo, repartir la vuelta en 13
+partes. Guarden las respuestas sin corregirlas: en la sesión 11, la carátula del Cholq'ij necesita
+exactamente esa división, y las predicciones de hoy se contrastan entonces.
+</FlagNote>

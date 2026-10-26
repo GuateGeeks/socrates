@@ -1,0 +1,102 @@
+---
+sidebar_position: 2
+sidebar_label: "02 · Energía Segura"
+title: "Energía Segura"
+description: "Voltajes, riesgos reales y el checklist que se firma antes de energizar cualquier robot."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+
+# 02 · Energía Segura
+
+:::warning Requisito del programa
+Ningún equipo energiza un robot antes de completar y firmar el checklist de esta sesión. Es la única
+sesión con carácter de requisito: lo demás se puede reordenar, esto no.
+:::
+
+<SessionModule id="s2">
+  <SessionModule.Question>
+    ¿Qué puede salir mal al conectar la batería, y cómo lo evitamos antes de que ocurra?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Curiosity funciona con 7.2 V y motores que piden bastante corriente. Nada de eso es peligroso
+    para las personas, pero sí lo es para los componentes: un cortocircuito quema el driver en
+    segundos y un capacitor invertido puede reventar. Esta sesión convierte esos riesgos en una
+    lista concreta de verificaciones, y establece la regla que sostiene todo el programa: se revisa
+    antes de energizar, no después de que algo huela raro.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Voltaje, corriente y por qué el motor no va al pin 5V',
+    'Cortocircuito frente a circuito abierto',
+    'Polaridad en capacitores electrolíticos',
+    'Tierra común entre subsistemas',
+    'Verificación previa como práctica de ingeniería',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="¿Qué es lo peor que puede pasar?">
+    Mostrar la batería, el Arduino y el driver sobre la mesa. Preguntar qué creen que ocurriría si
+    se conectaran mal. Recoger las respuestas sin corregir. Luego mostrar (o describir) un driver
+    quemado: la conversación cambia cuando el daño es concreto.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Medir antes de creer">
+    Con la batería desconectada del robot, medir su voltaje con el multímetro: debe rondar 7.2 V.
+    Comparar con lo que tolera cada componente. Introducir la distinción clave: por el pin 5V del
+    Arduino pasa poca corriente, y los motores piden mucha, por eso su energía viene del
+    interruptor directo al driver y nunca del Arduino.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Completar y firmar el checklist">
+    Cada equipo recorre el checklist de seguridad punto por punto sobre su propio kit, anotando los
+    valores medidos donde se piden. Al terminar, el responsable de seguridad y el docente firman.
+    Fotografiar el checklist completado para el expediente.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Reglas propias del equipo">
+    Cada equipo agrega dos reglas de seguridad propias, específicas de su espacio de trabajo: dónde
+    guardan la batería, quién autoriza energizar, qué hacen si huele a quemado. Las reglas que uno
+    mismo escribe se cumplen más que las que le imponen.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Multímetro (uno por cada dos o tres equipos)',
+    'Portapilas 6×AAA con batería NiMH cargada',
+    'Shield L293D y capacitor de 470 µF para inspección',
+    'Checklist de seguridad impreso, uno por equipo',
+    'Cámara para registrar el checklist firmado',
+  ]} />
+
+  <SessionModule.Reto>
+    Escriban dos reglas de seguridad propias del equipo, y para cada una completen la frase «si no
+    cumplimos esta regla, entonces…» con una consecuencia concreta y verificable. Una regla sin
+    consecuencia clara no cambia el comportamiento de nadie.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Checklist completado con los voltajes medidos anotados',
+    'Firma del responsable de seguridad y del docente',
+    'Las dos reglas propias con su consecuencia asociada',
+    'Fotografía del área de trabajo ordenada',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º bachillerato. Física: interpreta energía, alimentación, polaridad y condiciones de operación en un circuito de control y potencia.',
+    'Elaboración y Gestión de Proyectos · indicadores 3.1–3.2: planifica el procedimiento de seguridad, distribuye roles y registra restricciones del montaje.',
+    'Evidencia CNB: medición de batería, checklist firmado, riesgos identificados y decisión documentada sobre cuándo energizar.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Systems & Security · Security; práctica 5, actuar responsablemente en colaboraciones de computación y verificar condiciones antes de usar el sistema.',
+    'ISTE 1.1.c Empowered Learner: usar retroalimentación y evidencia para mejorar la práctica y demostrar lo aprendido.',
+    'NGSS HS-ETS1-1: definir un problema de diseño con criterios y restricciones cuantificables.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Mide el voltaje de la batería correctamente y lo interpreta.',
+    'Explica por qué los motores no se alimentan desde el pin 5V del Arduino.',
+    'Completa el checklist con honestidad, marcando también lo que no cumple.',
+    'Propone reglas propias con una consecuencia concreta.',
+  ]} />
+</SessionModule>

@@ -1,0 +1,4 @@
+Las clases de un número grande
+Semana 7 · Español
+
+Para leer un número grande, agrupamos sus cifras de tres en tres desde la derecha. Cada grupo es una clase. En doscientos cuarenta y cinco millones, trescientos ochenta mil, diecisiete, la clase de unidades se escribe cero, uno, siete. La de millares es trescientos ochenta y la de millones es doscientos cuarenta y cinco. Leemos: doscientos cuarenta y cinco millones… trescientos ochenta mil… diecisiete. Los ceros conservan posiciones aunque no siempre se pronuncien. Cambia el número y observa sus clases. Separa millones, millares y unidades para leer sin saltar ni intercambiar cifras.

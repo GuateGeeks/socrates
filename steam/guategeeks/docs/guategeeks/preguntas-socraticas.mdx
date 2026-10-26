@@ -1,0 +1,121 @@
+---
+sidebar_position: 19
+sidebar_label: "Preguntas socráticas"
+title: "Preguntas socráticas"
+description: "Preguntas para conducir la depuración y la reflexión sin dar la respuesta."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Preguntas socráticas
+
+<FlagNote tone="info" title="La meta no es que contesten bien">
+La meta es que piensen. Un «no sé» es una invitación a investigar juntos, no un fracaso. Si la
+pregunta se responde en dos segundos, probablemente no era la pregunta correcta.
+</FlagNote>
+
+## Experiencias 1-2 · Sistemas y seguridad
+
+**Comprensión**
+- ¿Qué hace cada parte del robot y qué pasaría si le quitáramos una?
+- ¿Por qué el motor no se conecta directo a la batería?
+- ¿Cómo creen que el sensor «sabe» que hay algo enfrente?
+
+**Anticipar el riesgo**
+- Si el motor no gira, ¿por dónde empezarían a buscar el problema?
+- ¿Qué es más peligroso: que se corte el cable de la batería o que dos cables pelados se toquen?
+- ¿Cuánto voltaje tiene su batería ahora mismo? Mídanlo antes de responder.
+
+## Sesiones 3-4 · Fabricación e impresión
+
+**Medición**
+- ¿Cuál dimensión resultó más fácil de medir? ¿Por qué?
+- ¿Cómo saben que su medición es correcta?
+- Si el diseño dice 20 mm y la pieza mide 20.3, ¿está bien? ¿Bien para qué?
+
+**Análisis**
+- ¿Por qué unas piezas tienen más error que otras?
+- ¿Cuál parámetro creen que afecta más la precisión? ¿Cómo lo comprobarían?
+- Rechazaron una pieza. ¿Qué habría pasado si la hubieran aceptado?
+
+## Sesiones 5-6 · Mecánica y entradas locales
+
+**Función**
+- ¿Por qué el robot no avanza perfectamente recto si los dos motores son iguales?
+- ¿Qué papel juega la fricción en lo que acaban de medir?
+- El botón está conectado a tierra y aun así lee HIGH en reposo. ¿Por qué?
+
+**Depuración**
+- Si el buzzer no suena en el patrón que programaron, ¿dónde puede estar el problema: cable, pin o código?
+- ¿Cómo probarían cada uno por separado, sin cambiar dos cosas a la vez?
+
+## Sesiones 7-8 · Motores y sensor
+
+**Causa y efecto**
+- ¿Qué pasa si el PWM es muy bajo? ¿Y si es muy alto?
+- El sensor mide tiempo. ¿Cómo se convierte eso en distancia?
+- ¿Por qué medimos a cuatro distancias y no a una sola?
+
+**Predicción antes de medir**
+- Antes de probar: ¿cuánto error esperan? ¿Qué tan exacto necesita ser para este robot?
+- Si el sensor dice 25 cm y en realidad son 20, ¿afecta el comportamiento del robot?
+- ¿Cómo decidirían si un error es aceptable?
+
+## Sesiones 9-10 · Máquina de estados
+
+**Lógica**
+- ¿Por qué usar estados en lugar de un solo bucle con condiciones?
+- ¿Qué pasaría si el robot se quedara atrapado en un estado para siempre?
+- ¿Cuál de los tres estados es el más importante? Defiendan la respuesta.
+
+**Algoritmo**
+- El robot ve un obstáculo. ¿Debería girar a la derecha o a la izquierda? ¿Cómo lo decide?
+- ¿Qué pasaría si girara siempre al mismo lado? Imaginen una esquina.
+- ¿Cómo sabe el robot que ya terminó de girar?
+
+**Depuración por capas**
+- Si no evita obstáculos, ¿en qué capa está la falla?
+  - ¿El sensor no mide bien? Vuelvan a `03_prueba_ultrasonido`.
+  - ¿Los motores no responden? Vuelvan a `02_prueba_motores`, y revisen potencia del shield,
+    M1/M2 y `AFMotor`.
+  - ¿La lógica es incorrecta? Dibujen el estado que no funciona.
+- ¿Cómo aislarían un subsistema del resto para probarlo?
+
+## Sesiones 11-12 · Calibración y reto final
+
+**Variabilidad**
+- ¿Por qué repetir el ensayo tres veces en lugar de una?
+- ¿Cuánta diferencia hay entre ensayos? ¿A qué se debe?
+- ¿Su calibración funcionaría igual en otro piso? ¿Con la batería a medio cargar?
+
+**Mejora**
+- Si repitieran el reto la próxima semana, ¿esperarían el mismo resultado?
+- ¿Qué ajuste haría que el robot funcione mejor? ¿Cómo lo comprobarían?
+- ¿Qué parte del problema es de software y cuál es física?
+
+**Reflexión crítica**
+- ¿Dónde estuvo el límite: diseño, construcción, cableado o código?
+- Con dos semanas más, ¿qué harían distinto?
+- ¿Cómo replicarían este proyecto con un sensor diferente?
+
+## Preguntas transversales
+
+**Para activar el pensamiento**
+- ¿Por qué lo hacemos así y no de otra forma?
+- ¿Cómo lo verificarían?
+- ¿Qué podría salir mal?
+
+**Para profundizar**
+- Explíquenle esa línea de código a alguien que no sabe Arduino.
+- ¿Qué información les da el Monitor Serie que no ven mirando el robot?
+- ¿Cuál es el propósito de ese comentario en el código?
+
+**Para conectar con la vida real**
+- ¿Dónde han visto robots que evitan obstáculos?
+- ¿Cómo resolvería este problema un robot industrial, con más presupuesto?
+- ¿Qué otras máquinas usan sensores ultrasónicos?
+
+**Para evaluar la metacognición**
+- ¿Qué fue lo más difícil de esta sesión?
+- ¿Cómo lo superaron?
+- ¿Qué harían distinto si empezaran de nuevo?

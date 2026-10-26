@@ -1,0 +1,4 @@
+La máquina de la regla
+Semana 5 · Español
+
+Esta máquina aplica dos operaciones en orden: primero multiplica por dos y después suma uno. Si entra dos, obtenemos cuatro y luego cinco. Al volver a entrar cinco, obtenemos once. La serie continúa: dos, cinco, once, veintitrés, cuarenta y siete. Cada resultado se usa como nueva entrada. Otra máquina alterna sumar cuatro y restar uno. No hace ambas operaciones en cada paso. Elige una regla y avanza para descubrir el patrón.

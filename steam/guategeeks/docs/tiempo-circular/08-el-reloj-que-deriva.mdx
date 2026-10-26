@@ -1,0 +1,146 @@
+---
+sidebar_position: 8
+sidebar_label: "08 · El reloj que deriva"
+title: "El reloj que deriva"
+description: "Un reloj completo sobre millis(). El segundero como movimiento circular uniforme, y por qué el horario avanza medio grado por minuto."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import FlagNote from '@site/src/components/FlagNote';
+import sketchCode from '@site/arduino/tiempo-circular/04_reloj_millis/04_reloj_millis.ino';
+
+# 08 · El reloj que deriva
+
+:::note El segundero es movimiento circular uniforme
+360° en 60 s = **6° por segundo**, constantes. Velocidad angular constante, período de 60 s,
+frecuencia de 1/60 Hz. Es el ejemplo de MCU del libro de Ciencias Naturales, con la diferencia de
+que aquí ustedes escriben la línea que lo mueve.
+:::
+
+<SessionModule id="tc8" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Cómo se convierte el paso del tiempo en el giro de tres manecillas?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Con la geometría resuelta, lo único que falta es alimentarla con el tiempo. El ESP32 no tiene
+    reloj: tiene un contador de milisegundos desde que arrancó, y una hora inicial que hay que
+    escribirle a mano. Esta sesión arma el reloj completo y deja a la vista sus dos debilidades —se
+    reinicia al apagar y se atrasa— que la sesión 9 va a medir y la 10 a corregir. El reloj está mal
+    a propósito, y decirlo en voz alta es parte de la sesión.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Velocidad angular constante: el segundero como MCU',
+    'Período y frecuencia de cada manecilla',
+    'Por qué el horario avanza medio grado por minuto',
+    'Redibujo parcial frente a repintar la pantalla completa',
+    'Estado anterior: guardar dónde estaba algo para poder borrarlo',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Tres velocidades">
+    Preguntar cuántos grados avanza cada manecilla por unidad de tiempo. Llegar juntos a 6°/s para
+    el segundero, 6°/min para el minutero y 30°/h para el horario. Preguntar entonces qué hace el
+    horario **entre** una hora y la siguiente, y dejar la pregunta abierta.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="El medio grado del horario">
+    Retomar la pregunta: si el horario solo avanzara 30° de golpe cada hora, a las 12:59 seguiría
+    apuntando a las 12. Calcular cuánto debe avanzar por minuto para llegar suave a la hora
+    siguiente: 30° ÷ 60 min = **0.5°/min**. Localizar ese término en el código.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Armar el reloj y romperlo">
+    Cargar `04_reloj_millis`. Ajustar `HORA_INICIAL_MS` a la hora real del aula antes de cargar y
+    observar el reloj funcionando. Luego, dos experimentos: **quitar** el término `minutos * 0.5` y
+    ver al horario saltar; y **reemplazar** el redibujo parcial por un `fillScreen()` en cada vuelta
+    y ver el parpadeo. Deshacer ambos.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="Dos defectos que quedan">
+    Listar lo que este reloj no puede hacer: no sobrevive a un reinicio y se atrasa. Preguntar cuál
+    de los dos es más grave y por qué. Anunciar que la próxima sesión no los arregla, los **mide**:
+    antes de corregir algo hay que saber de qué tamaño es el problema.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="04_reloj_millis.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo funcionando desde la sesión 7',
+    'Reloj de referencia confiable para ajustar la hora inicial',
+    'Cronómetro para los experimentos',
+    'Hoja de registro de experimentos',
+  ]} />
+
+  <SessionModule.Reto>
+    Pongan el reloj a funcionar con la hora real del aula. Luego hagan los dos experimentos y
+    documenten cada uno con un dibujo o una descripción precisa de lo que se ve: sin el medio grado
+    por minuto, y con la pantalla repintada completa en cada vuelta. Expliquen por qué el segundo
+    experimento produce parpadeo y el redibujo parcial no. Calculen además el período y la frecuencia
+    de las tres manecillas.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Reloj analógico y digital funcionando con la hora del aula',
+    'Registro del experimento sin el término de 0.5°/min',
+    'Registro del experimento de repintado completo, con descripción del parpadeo',
+    'Tabla de período y frecuencia de las tres manecillas',
+    'Lista de las dos limitaciones del reloj, ordenadas por gravedad y justificadas',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'CN 4.3: describe el movimiento circular uniforme de una partícula conocida y las magnitudes que intervienen (p. 21).',
+    'MAT 1.3: aplica razones trigonométricas para ubicar cada manecilla según su ángulo (p. 13).',
+    'MAT 2.1: determina el valor de verdad de proposiciones compuestas según los conectivos utilizados (p. 13).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-AP-12: diseñar y aplicar estructuras de control, incluidos condicionales y bucles.',
+    'CSTA 2-AP-17: probar y refinar sistemáticamente programas usando un rango de casos.',
+    'NGSS MS-ETS1-3: analizar datos de pruebas para determinar semejanzas y diferencias entre soluciones.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Calcula la velocidad angular de cada manecilla y la relaciona con el MCU.',
+    'Explica el término de 0.5°/min a partir de una necesidad, no como dato.',
+    'Relaciona el parpadeo con la cantidad de pantalla repintada por cuadro.',
+    'Nombra las limitaciones del reloj sin que se las señalen.',
+  ]} />
+</SessionModule>
+
+<FlagNote tone="warn" title="Un defecto que este sketch evita, y el tutorial original no">
+El tutorial del que salió el hardware documenta que sus manecillas «pueden parpadear o dejar
+trazas», porque borra **cada manecilla por separado y solo si su ángulo cambió**. Cuando el segundero
+pasa sobre el minutero, lo borra, y el minutero no se redibuja porque no se movió: queda un hueco.
+
+Este sketch no tiene ese problema porque borra **las tres** y redibuja **las tres** cada segundo, sin
+condicionar nada a una manecilla individual. Cuesta un poco más de trabajo por segundo y a cambio no
+puede fallar. Es un buen caso para discutir en la sesión 9: la versión que hace «solo lo necesario»
+resultó tener un error que la versión «derrochadora» no tiene.
+</FlagNote>
+
+<VisualStepGuide
+  title="Referencia de carátula analógica"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-display-screen-clock-watch.jpg',
+      alt: 'Pantalla circular mostrando un reloj analógico con manecillas y hora digital debajo',
+      title: 'Una carátula sobre pantalla redonda',
+      body: <>
+        Referencia del tutorial original: manecillas, marcas y hora digital conviviendo en 240×240.
+        Fíjense en cómo se resuelve el espacio para el texto digital sin que choque con las
+        manecillas. Es una decisión de diseño que tendrán que tomar en la sesión 12.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imagen: esp32io.com / DIYables, reproducida con atribución. **No es la salida de este sketch**: es
+del reloj del tutorial original, que tiene un diseño de carátula distinto.
+Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

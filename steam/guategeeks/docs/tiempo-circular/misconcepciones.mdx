@@ -1,0 +1,115 @@
+---
+sidebar_position: 20
+sidebar_label: "Misconcepciones"
+title: "Misconcepciones frecuentes"
+description: "Los errores que este contenido produce de forma confiable, y cómo abordarlos cuando aparecen."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Misconcepciones frecuentes
+
+No son errores de estudiantes distraídos: son las conclusiones razonables a las que lleva este
+contenido cuando se lo mira por primera vez. Conviene esperarlas.
+
+## «La Y crece hacia arriba»
+
+**Aparece en:** sesiones 5, 6 y 7.
+
+En el cuaderno sí. En la pantalla no: el origen está en la esquina superior izquierda y la Y crece
+hacia abajo. El síntoma es una carátula espejada de arriba a abajo, con las 12 donde van las 6.
+
+**Cómo abordarlo:** no lo corrija de palabra. Pida que dibujen los dos planos uno al lado del otro y
+ubiquen el mismo punto en ambos. Después, que cambien el signo en el código a propósito y miren la
+pantalla. Un error que se ve no necesita ser explicado dos veces.
+
+## «El 0° es hacia la derecha»
+
+**Aparece en:** sesiones 6 y 7.
+
+En la convención matemática habitual, el ángulo se mide desde el eje horizontal positivo y en
+sentido antihorario. En este programa se mide **desde las 12 y en sentido horario**, porque es lo
+que tiene sentido para un reloj. Ambas son convenciones válidas; lo que no funciona es mezclarlas.
+
+**Cómo abordarlo:** haga explícita la convención cada vez que aparezca un ángulo. Y aproveche: que
+existan dos convenciones igualmente correctas es una idea que vale la pena que se lleven.
+
+## «El seno siempre va con la Y»
+
+**Aparece en:** sesión 7.
+
+Depende de desde dónde se mide el ángulo. Medido desde la vertical, el cateto horizontal es el
+**opuesto** —y le toca el seno— y el vertical es el **adyacente**. La regla que se memorizó en clase
+supone que el ángulo se mide desde la horizontal.
+
+**Cómo abordarlo:** vuelva al triángulo. Dibuje la manecilla, marque el ángulo desde las 12 e
+identifique cuál cateto está enfrente. La razón trigonométrica no cambió; cambió cuál lado es cuál.
+
+## «El verde de RGB565 tiene cinco bits, como los otros»
+
+**Aparece en:** sesión 4.
+
+Tiene **seis**. El reparto es 5 para rojo, 6 para verde y 5 para azul, porque el ojo humano
+distingue más tonos de verde. Es la asimetría que hace que la cuenta cierre en 16 bits.
+
+**Cómo abordarlo:** que cuenten los bits de `0x07E0` en binario. Son seis unos, y no hay discusión
+posible con el número escrito en la pizarra.
+
+## «Un color hexadecimal es un número distinto de su decimal»
+
+**Aparece en:** sesión 4.
+
+`0xF800`, `1111100000000000` y `63488` son **el mismo número** escrito de tres formas. El
+hexadecimal no es «el código del color»: es una notación compacta, cuatro bits por dígito.
+
+**Cómo abordarlo:** conviértalo en las dos direcciones en la pizarra hasta que la equivalencia sea
+aburrida. Es el corazón de MAT 5.1 y merece el tiempo.
+
+## «El reloj se atrasa porque el código está mal»
+
+**Aparece en:** sesiones 8 y 9.
+
+El código está bien. El reloj se atrasa porque el **oscilador** del ESP32 no vibra exactamente a su
+frecuencia nominal: es una propiedad física del componente. Revisar el código buscando al culpable
+es buscar donde no está.
+
+**Cómo abordarlo:** pregunte qué evidencia distinguiría un error de programación de uno de hardware.
+Si fuera del código, todos los equipos derivarían exactamente igual; si es del oscilador, cada placa
+deriva un poco distinto. La comparación entre equipos de la sesión 9 resuelve la pregunta con datos.
+
+## «Si el error es pequeño, no existe»
+
+**Aparece en:** sesión 11.
+
+Redondear 360/13 a 27.7° acumula una décima de grado en trece pasos. A 78 píxeles de radio eso es
+menos de un píxel, así que **no se ve**. No verse y no existir son cosas distintas: con un radio
+mayor, o con cientos de repeticiones, el mismo error sería visible.
+
+**Cómo abordarlo:** que calculen a qué radio la décima de grado alcanza un píxel entero. Convertir
+«pequeño» en un número es exactamente lo que pide CN 1.3.
+
+## «Todas las fuentes tienen todos los caracteres»
+
+**Aparece en:** sesión 4, y sorprende en la 12.
+
+Las fuentes externas de Adafruit GFX pueden **no incluir el símbolo de grado (°)**, aunque la fuente
+por defecto sí lo tenga. Una fuente no es solo la forma de las letras: es también el repertorio de
+caracteres que trae, y ese repertorio puede ser incompleto.
+
+**Cómo abordarlo:** si un equipo quiere mostrar temperatura o grados en su carátula, que pruebe el
+símbolo **antes** de terminar el diseño. Es un buen ejemplo de restricción que aparece tarde si no se
+verifica temprano.
+
+<FlagNote tone="info" title="Caso de estudio: cuando optimizar introduce un error">
+El tutorial del que salió el hardware de este programa borra **cada manecilla por separado y solo si
+su ángulo cambió**. Suena eficiente: no se repinta lo que no se movió. Pero cuando el segundero pasa
+sobre el minutero, lo borra, y el minutero no se redibuja porque no cambió de ángulo. Queda un hueco.
+Sus propias notas documentan el defecto.
+
+El sketch de este programa hace lo «derrochador»: borra las tres y redibuja las tres, cada segundo,
+sin condicionar nada. Cuesta más trabajo por segundo y **no puede fallar** de esa manera.
+
+Vale la pena ponerlo frente al grupo en la sesión 9: la versión que hacía solo lo necesario tenía un
+error que la versión que hace de más no tiene. Optimizar antes de tiempo tiene precio, y aquí el
+precio es visible en pantalla.
+</FlagNote>

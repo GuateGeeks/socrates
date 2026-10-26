@@ -1,0 +1,142 @@
+---
+sidebar_position: 19
+sidebar_label: "Plantillas"
+title: "Plantillas de registro"
+description: "Formatos reutilizables: medición de deriva, ángulos y coordenadas, y planificación de carátula."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Plantillas de registro
+
+Formatos para imprimir o copiar al cuaderno. Cada uno corresponde a la evidencia que pide una
+sesión concreta.
+
+## 1. Tabla de medición de deriva
+
+Para la [sesión 9](/tiempo-circular/medir-la-deriva).
+
+**Equipo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Placa n.º:** \_\_\_\_\_\_ **Fecha:** \_\_\_\_\_\_\_\_\_\_
+
+**Protocolo** *(se escribe antes de medir)*
+
+- Reloj de referencia usado: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Precisión con que se puede leer cada reloj: \_\_\_\_\_\_ segundos
+- Intervalo planeado entre lecturas: \_\_\_\_\_\_\_\_\_\_
+
+| Lectura | Hora del patrón | Hora del dispositivo | Diferencia |
+|:--:|---|---|---|
+| 1 (inicial) | | | |
+| 2 (final) | | | |
+
+**Cálculos**
+
+| Magnitud | Resultado | Unidad |
+|---|---|---|
+| Intervalo transcurrido | | h |
+| Error acumulado | | s |
+| Deriva | | s/h |
+| Error relativo | | ppm |
+| Extrapolación a un día | | s |
+| Extrapolación a un mes | | s |
+
+**Cifras significativas reportadas:** \_\_\_\_ **Por qué esas y no más:**
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Comparación con otros equipos**
+
+| Equipo | Deriva (s/h) | ¿Coincide con la nuestra? |
+|---|---|---|
+| | | |
+| | | |
+
+**Si los valores difieren, ¿a qué lo atribuyen?**
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## 2. Hoja de ángulos y coordenadas
+
+Para las [sesiones 6](/tiempo-circular/angulos-notables) y
+[7](/tiempo-circular/seno-y-coseno).
+
+Recordatorio de las fórmulas, con el ángulo medido **en sentido horario desde las 12**:
+
+```
+x = 120 + radio · sen(θ)
+y = 120 − radio · cos(θ)        θ_rad = θ_grados × π ÷ 180
+```
+
+| θ (grados) | θ (radianes) | sen θ | cos θ | radio | x calculado | y calculado | Distancia al centro (Pitágoras) |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+
+**Verificación:** la última columna debe dar el radio otra vez. Si no lo da, el punto no cayó sobre
+la circunferencia.
+
+| θ | x del Monitor Serie | y del Monitor Serie | ¿Coincide con el cálculo? |
+|---:|---:|---:|---|
+| | | | |
+| | | | |
+| | | | |
+
+## 3. Registro de modificaciones
+
+Para la [sesión 6](/tiempo-circular/angulos-notables) y la
+[sesión 8](/tiempo-circular/el-reloj-que-deriva).
+
+Se llena la columna «qué espero que pase» **antes** de cargar el código.
+
+| # | Qué cambié | Valor anterior | Valor nuevo | Qué espero que pase | Qué pasó |
+|:--:|---|---|---|---|---|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+
+## 4. Hoja de planificación de carátula
+
+Para la [sesión 12](/tiempo-circular/reto-integrador).
+
+**Equipo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Nombre de la carátula:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**¿Qué muestra, y por qué eso?**
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Boceto** — dibujar en un círculo de al menos 15 cm, marcando el centro y anotando coordenadas y
+ángulos de cada elemento.
+
+**Elementos**
+
+| Elemento | Posición (x, y) o ángulo | Radio | Color (hex) | ¿Cambia con el tiempo? |
+|---|---|---|---|:--:|
+| | | | | |
+| | | | | |
+| | | | | |
+
+**Paleta y justificación**
+
+| Color | Hex | Componentes r, g, b | Por qué este color aquí |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+**Requisitos mínimos** *(marcar al cumplir)*
+
+- [ ] Al menos un elemento posicionado con seno y coseno
+- [ ] Al menos un color armado con `rgb565()` y justificado
+- [ ] Al menos un elemento que cambie con el tiempo
+
+**Una decisión que cambiamos durante la construcción, y por qué:**
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+<FlagNote tone="info" title="Por qué la predicción va antes">
+En el registro de modificaciones y en la hoja de ángulos, la columna de predicción se llena antes de
+ejecutar. No es un formalismo: si el estudiante escribe lo que espera y luego compara, cada
+ejecución le enseña algo. Si solo anota el resultado, la pantalla le está dando respuestas sin que
+haya habido pregunta.
+</FlagNote>

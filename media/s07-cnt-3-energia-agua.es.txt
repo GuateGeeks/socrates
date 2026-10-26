@@ -1,0 +1,4 @@
+Transformaciones de energía en el bombeo
+Semana 7 · Español
+
+Este modelo de un sistema de agua empieza con radiación del Sol que llega a un panel solar. El panel transforma parte de la energía recibida en electricidad, que viaja por cables hacia una bomba. La bomba mueve agua hacia un tanque y también libera calor y sonido. Un indicador transforma electricidad en luz. Compara una fuga con una tubería reparada. Evitar fugas y bombeo innecesario permite usar la energía con cuidado sin impedir el servicio necesario. No estamos mostrando cifras de una comunidad real.

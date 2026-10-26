@@ -1,0 +1,1 @@
+import{d as t,e as i}from"./index-DbS8nSfy.js";function u(e){const r=i[e].match(/^cubic-bezier\(([^)]+)\)$/);if(!r)return null;const n=r[1].split(",").map(Number);return n.length===4&&n.every(Number.isFinite)?n:null}function a(e){return t[e]/1e3}export{u as b,a as s};

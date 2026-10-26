@@ -1,0 +1,22 @@
+Bienvenida a Sexto — transcripción audiovisual
+Versión 3. Duración: 50 segundos. Idioma: español.
+
+[00:00–00:08.5] La marca actual de Socrates aparece sobre fondo blanco con los colores coral, cielo y ciruela. Geeky saluda con el mismo modelo 3D de la app.
+¡Hola! Soy Geeky, tu compañero en Socrates. Te doy la bienvenida a sexto. Vamos a aprender con curiosidad.
+
+[00:08.5–00:18] Se muestra la pantalla real «Mi año escolar», con sus cuatro unidades, junto a los rótulos «4 unidades» y «40 semanas».
+Nuestro recorrido tiene cuatro unidades y cuarenta semanas. Paso a paso, descubrirás ideas, practicarás y resolverás desafíos.
+
+[00:18–00:33] Una captura real de una lección de Matemáticas muestra sus objetivos y el recorrido. Se destacan en orden Explorar, Construir, Reto, Comprobar y Reflexionar.
+Cada lección tiene cinco fases: Explorar lo que sabes, Construir nuevas ideas, aceptar un Reto, Comprobar lo aprendido y Reflexionar sobre tu avance. Puedes equivocarte, volver a intentar y pedir ayuda.
+
+[00:33–00:40.8] Se muestran las pantallas reales de Repaso inteligente y Mi cuaderno con ejemplos del contenido curricular, usando datos de demostración.
+El Repaso inteligente te ayuda a practicar lo que te costó. En el Cuaderno encontrarás ideas para volver a consultar.
+
+[00:40.8–00:50] La tarjeta ciruela del inicio muestra «¿Desde dónde empiezo?» y Geeky 3D acompaña la invitación al diagnóstico.
+Empecemos con diez preguntas para conocer cómo piensas. No hay nota para aprobar. ¡Vamos a descubrir juntos!
+
+Producción: Socrates Aprende · 2026-10-18.
+Narración sintética: Magnific / ElevenLabs. Conserva el audio corregido de la versión 2.
+Geeky original: GuateGeeks/geeky-animation; modelo y renderizador 3D actuales de la app.
+Capturas de la interfaz real con datos ficticios locales de demostración. Subtítulos opcionales en archivo WebVTT separado.

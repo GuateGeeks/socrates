@@ -1,0 +1,178 @@
+---
+sidebar_position: 0
+sidebar_label: "Cómo usar este material"
+title: "Curiosity"
+description: "Programa de robótica con Arduino para 4.º y 5.º bachillerato: construir, programar y presentar un robot autónomo."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+import ProgressTracker from '@site/src/components/ProgressTracker';
+import ScopeOptions from '@site/src/components/ScopeOptions';
+import SmarsCnbAlignment from '@site/src/components/SmarsCnbAlignment';
+
+export const curiosityScopeOptions = [
+  {
+    title: 'Ruta compacta · 12 experiencias',
+    text: 'Un bloque de 60 minutos por experiencia. Funciona para laboratorios intensivos o equipos ya familiarizados con Arduino; las impresiones se preparan fuera de clase.',
+  },
+  {
+    title: 'Ruta estándar · 18-24 sesiones',
+    text: 'La ruta recomendada para bachillerato: cada sesión dura 60 minutos y las experiencias de fabricación, programación y calibración reciben bloques adicionales.',
+  },
+  {
+    title: 'Ruta extendida · 30+ sesiones',
+    text: 'Agrega fabricación, documentación técnica, rediseño mecánico, análisis de datos y una presentación final más robusta.',
+  },
+  {
+    title: 'Proyecto institucional',
+    text: 'El robot se convierte en evidencia de feria científica, curso de robótica, emprendimiento tecnológico o proyecto STEAM interdisciplinario.',
+  },
+];
+
+# Curiosity
+
+Programa de robótica con Arduino en el que los equipos construyen un robot de orugas que detecta
+obstáculos, decide una maniobra y opera sin control externo. La experiencia combina fabricación
+digital, electrónica, programación en C/C++, medición, calibración y comunicación técnica.
+
+<figure className="curiosityHero">
+  <img src="/programas-educativos/assets/guategeeks/smars/curiosity-hero.png" alt="Robot Curiosity con orugas, Arduino y sensor ultrasónico" />
+  <figcaption>
+    <strong>Curiosity</strong>
+    <span>Construcción y control de un robot autónomo</span>
+  </figcaption>
+</figure>
+
+## Cómo se usa este material
+
+- **Navegue experiencia por experiencia.** Cada sesión organiza implementación, recursos, marco
+  curricular y evaluación con la misma estructura visual de los demás programas de la plataforma.
+- **Qué incluye.** Sketches Arduino, materiales por sesión, referencias de cableado, modelos 3D,
+  evidencia esperada y criterios de evaluación listos para usar.
+- **Cómo planificar.** Ruta compacta, estándar, extendida o proyecto institucional, según calendario,
+  laboratorio disponible y profundidad esperada.
+
+<FlagNote tone="info" title="Cómo acceder al contenido">
+Use este material como panel de navegación docente. Empiece por esta vista general, elija la
+experiencia que trabajará, revise la pestaña de implementación, prepare los recursos y luego
+consulte CNB, estándares y evaluación para cerrar la planificación.
+</FlagNote>
+
+## Diseñado para 4.º y 5.º bachillerato
+
+El programa usa el mismo robot como eje y aumenta la profundidad entre los dos grados del
+Bachillerato. Las referencias del CNB se seleccionan para cuarto y quinto grado.
+
+### 4.º bachillerato · Comprender y construir
+
+- Reconoce los subsistemas mecánico, eléctrico y lógico.
+- Aplica normas de seguridad y verifica energía, polaridad y conexiones.
+- Interpreta modelos 3D, mide piezas y construye el prototipo con guía.
+- Explica el funcionamiento de un subsistema mediante diagramas y bitácora.
+
+### 5.º bachillerato · Programar, integrar y comunicar
+
+- Relaciona entradas, salidas, sensores, motores y código.
+- Recolecta datos de tolerancias, motores y distancia.
+- Depura, compara ensayos y justifica cambios con evidencia.
+- Calibra el robot y documenta el proceso de mejora.
+
+| Eje | 4.º bachillerato | 5.º bachillerato |
+|---|---|---|---|
+| Pensamiento computacional | Hardware, software, entradas y salidas. | Estados, funciones, parámetros, depuración y autonomía. |
+| Ciencia e ingeniería | Energía, circuitos, movimiento y seguridad. | Sensores, error, repetibilidad, calibración y criterios de desempeño. |
+| Matemática aplicada | Unidades, medidas y comparación de valores. | Variables, tablas, rangos, ensayos y decisiones con datos. |
+| Comunicación técnica | Diagramas, checklist y bitácora. | Código comentado, reporte, video, presentación y defensa. |
+
+## Perfiles de trabajo del equipo
+
+Organice equipos con tres perfiles rotativos:
+
+- **Constructor** — arma el robot, integra la electrónica, verifica conexiones y compara el ensamblaje con la guía visual.
+- **Diseñador 3D** — prepara modelos, revisa tolerancias, coordina la impresión y verifica que las piezas cumplan las medidas antes del ensamblaje.
+- **Programador** — abre el programa base, ajusta parámetros y explica cómo el código se relaciona con el comportamiento del robot.
+
+La recomendación es rotar de perfil durante el módulo para que todos exploren una responsabilidad distinta.
+
+## Acceso para estudiantes
+
+Cuando el centro tenga este material alojado en red, puede compartir las páginas de cada experiencia
+con los equipos. La pestaña **Recursos** concentra lo que necesitan para trabajar: materiales,
+código, cableado, reto y evidencia esperada.
+
+## Rutas de implementación
+
+Elija la ruta que mejor se ajuste a sus sesiones disponibles y a la profundidad que busca:
+
+<ScopeOptions options={curiosityScopeOptions} />
+
+## Cómo se organiza cada sesión
+
+Cada experiencia se puede trabajar en uno o más bloques de 60 minutos. En cada bloque se conserva
+el mismo ciclo de aprendizaje:
+
+| Fase | Tiempo guía | Propósito |
+|---|---:|---|
+| **Activar** | 10 min | Recuperar saberes previos y presentar el reto |
+| **Explorar** | 15 min | Observar, investigar, medir o analizar |
+| **Crear** | 25 min | Construir, programar, probar o producir evidencia |
+| **Reflexionar** | 10 min | Explicar resultados, errores y próximos pasos |
+
+La distribución puede ajustarse según el grupo. Cuando una experiencia requiera más tiempo para
+imprimir, ensamblar, probar o calibrar, el docente debe continuarla en un segundo bloque sin
+eliminar la reflexión de la primera sesión.
+
+## Etapas generales del programa
+
+Las etapas generales no sustituyen las cuatro fases de cada sesión. Sirven para leer la progresión
+completa del proyecto:
+
+| Etapa | Experiencias | Propósito |
+|---|---|---|
+| **Comprender y preparar** | 1-2 | Sistemas del robot, seguridad y energía |
+| **Diseñar y construir** | 3-5 | Diseño 3D, fabricación, calidad y ensamblaje |
+| **Programar y medir** | 6-8 | Entradas, motores, sensores y datos |
+| **Integrar y demostrar** | 9-13 | Código, autonomía, calibración, misión y presentación |
+
+## Seguimiento del programa
+
+<ProgressTracker program="guategeeks" />
+
+## Marco curricular
+
+El programa permite reportar evidencia en áreas afines a tecnología, computación, física aplicada,
+matemática, comunicación técnica, emprendimiento y diseño de soluciones. La evidencia no debe ser
+solo "el robot funcionó"; debe incluir código, datos de prueba, explicación técnica, mejora del
+diseño y comunicación del proceso.
+
+<SmarsCnbAlignment />
+
+<FlagNote tone="info" title="Qué se espera del docente">
+El programa está pensado para que usted conduzca la experiencia, decida el ritmo, organice roles,
+recoja evidencias y use la información de cada sesión para acompañar la mejora técnica y el
+aprendizaje de sus estudiantes.
+</FlagNote>
+
+## Sesiones del programa
+
+1. [01 · Conoce tu Robot](./sistemas-del-robot) — Sistemas, piezas y propósito de Curiosity
+2. [02 · Energía Segura](./seguridad-y-energia) — Voltajes, checklist y prevención
+3. [03 · Del Diseño a la Pieza](./slicer-y-tolerancias) — Modelos 3D, slicer y tolerancias
+4. [04 · Piezas que Encajan](./impresion-y-control-de-calidad) — Inspección y control de calidad
+5. [05 · Robot en Movimiento](./ensamblaje-de-orugas) — Chasis, orugas y transmisión
+6. [06 · Botones y Señales](./botones-y-buzzer) — Interfaz local con botones y buzzer
+7. [07 · Aprender a Girar](./dos-motores-y-direccion) — Motores, dirección y velocidad
+8. [08 · Medir sin Tocar](./sensor-ultrasonico) — Sensor ultrasónico y datos de distancia
+9. [09 · Leer el Cerebro del Robot](./lectura-de-codigo) — Máquina de estados y predicción
+10. [10 · Robot Autónomo](./integracion-autonoma) — Integración y operación autónoma
+11. [11 · Afinar el Movimiento](./calibracion) — Calibración, offsets y repetibilidad
+12. [12 · Misión Autónoma](./reto-integrador) — Prueba final del robot en arena
+13. [★ Showcase](./showcase) — Evidencias, exposición y demostración final
+14. [Evaluación del programa](./rubrica) — Rúbrica, criterios y evidencias acumuladas
+
+## Otro programa de la plataforma
+
+[**CiudadBots Guatemala**](/ciudadbots) trabaja robótica aplicada con LEGO SPIKE y programación por
+bloques, a partir de retos de ingeniería urbana. Los dos programas son complementarios: CiudadBots
+introduce diseño robótico por misiones; Curiosity profundiza en electrónica, código,
+calibración y autonomía.

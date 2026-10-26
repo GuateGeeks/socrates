@@ -1,0 +1,110 @@
+---
+sidebar_position: 7
+sidebar_label: "07 · Aprender a Girar"
+title: "Aprender a Girar"
+description: "Shield L293D, puertos M1/M2 y velocidad con signo. Primera vez que el robot se mueve."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/02_prueba_motores/02_prueba_motores.ino';
+
+# 07 · Aprender a Girar
+
+:::danger Levanten el robot antes de cargar
+El sketch mueve ambas orugas apenas termina de cargar. Con el robot apoyado en la mesa, se cae. El
+propio código lo advierte por el Monitor Serie: «Levanta el robot: inicia prueba de motores».
+:::
+
+<SessionModule id="s7">
+  <SessionModule.Question>
+    ¿Cómo le dice un pin digital a un motor no solo que gire, sino en qué sentido y qué tan rápido?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Un pin del Arduino no puede alimentar un motor: entrega poca corriente. El shield L293D hace de
+    intermediario de potencia y presenta una interfaz simple para el curso: motor izquierdo en M1,
+    motor derecho en M2. El código sigue usando velocidad con signo; el shield se encarga de las
+    señales internas de dirección y potencia.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Shield como intermediario de potencia',
+    'Puertos M1/M2 como contrato de cableado',
+    'Dirección mediante comandos FORWARD/BACKWARD',
+    'Velocidad entre 0 y 255',
+    'Velocidad con signo: un solo número para sentido y magnitud',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Tres cables por motor">
+    Recordar el diagrama de la sesión 1: el motor no se conecta al Arduino sino al shield.
+    Preguntar qué necesita decidir el programa para mover una oruga: sentido, velocidad y qué lado
+    del robot está controlando. Contrastar las propuestas con el contrato de aula: M1 izquierdo y
+    M2 derecho.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Leer la función motor()">
+    Analizar la función `motor()` del sketch antes de cargarlo. Recibe una velocidad con signo: el
+    signo decide FORWARD o BACKWARD, y el valor absoluto se entrega al shield como velocidad.
+    Preguntar qué ocurre cuando la velocidad es exactamente cero.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Cablear, levantar y cargar">
+    Conectar el motor izquierdo en M1 y el derecho en M2. Alimentar la entrada de motores del
+    shield desde el interruptor, nunca desde el pin 5V. Verificar polaridad, LED de potencia si el
+    shield lo incluye y bornes firmes. **Levantar el robot.** Cargar el sketch y verificar la
+    secuencia: adelante, atrás y giro a la izquierda.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Identificar qué motor es cuál">
+    Determinar si M1 quedó efectivamente en la oruga izquierda y M2 en la derecha, y si alguno gira
+    al revés de lo esperado. Anotarlo y corregirlo: importa para interpretar el giro en las
+    sesiones siguientes. Si nada se movió, revisar potencia del shield, M1/M2 y `AFMotor`.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="02_prueba_motores.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Robot armado en la sesión 5, con soporte para levantarlo',
+    'Shield L293D montado; motor izquierdo en M1 y derecho en M2',
+    'Capacitor de 470 µF entre entrada de motor y GND, respetando polaridad',
+    'Portapilas 6×AAA cargado, con interruptor',
+    'Multímetro y cronómetro',
+  ]} />
+
+  <SessionModule.Reto>
+    El sketch usa una velocidad segura de 160. Bajen ese valor progresivamente y encuentren, **para
+    cada oruga por separado**, el PWM mínimo con el que aún empieza a moverse. Anoten ambos
+    valores. Casi nunca coinciden, y esa diferencia es la misma asimetría que midieron a mano en la
+    sesión 5: ahora tienen su equivalente eléctrico.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Video de la secuencia completa con el robot levantado',
+    'PWM mínimo de cada oruga, con el método usado para determinarlo',
+    'Registro de qué motor corresponde a M1 y cuál a M2',
+    'Comparación entre la asimetría medida hoy y la de la sesión 5',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º–5.º bachillerato. Física · competencia 1, aplicación focalizada: interpreta las dos velocidades como vectores y explica avance, giro y trayectoria curva.',
+    'Computación Aplicada: modifica variables y parámetros del sketch, predice su efecto y verifica la relación entre código y movimiento.',
+    'Evidencia CNB: tabla de PWM mínimo por oruga, diagrama de vectores y explicación de una trayectoria observada.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): High School Specialty · Physical Computing · Inputs & Outputs y Hardware & Circuit Design.',
+    'CSTA PK–12 (2026), prácticas 7 y 9: usar una abstracción de variables para explicar el comportamiento y refinarlo con pruebas.',
+    'ISTE 1.5.b Computational Thinker: analizar datos de velocidad y trayectoria para identificar patrones y tomar decisiones.',
+    'NGSS HS-PS2-1: analizar datos para respaldar la relación entre fuerza, masa y aceleración.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Cablea el shield respetando M1, M2 y la alimentación de motores.',
+    'Diagnostica potencia del shield y librería cuando algo no responde.',
+    'Determina el PWM mínimo de cada oruga con un método repetible.',
+    'Interpreta la velocidad con signo en términos de sentido y magnitud.',
+  ]} />
+</SessionModule>

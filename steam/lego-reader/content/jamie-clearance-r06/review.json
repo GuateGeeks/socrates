@@ -1,0 +1,391 @@
+{
+  "schema_version": "gglego.illustrative-clearance/v2",
+  "revision": "9bbe4d65551145da9d92c00cdc694c76317120d41e17b4814c9b9f1ec08dd1a1",
+  "sequence_sha256": "5bf7dd3afc3d5e56d646064557b2b2ef418def8d9e5041f2350a44485bfd0c8b",
+  "geometry_manifest_sha256": "8314513863728ad1384bc2ad6c9ad65d5856810daee394af383236560a9d8eda",
+  "mechanical_plan_sha256": "4b4dc691535921a93392e2368ec4b9e6b98a2a6bad85fd5c62256e54b5653d78",
+  "overrides": [
+    {
+      "step": 6,
+      "ids": [
+        "P025"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        68.0
+      ],
+      "original_offset": [
+        0.0,
+        -80.0,
+        0.0
+      ],
+      "basis": "reviewed_editorial",
+      "removed_pairs": [
+        [
+          "P025",
+          "P023"
+        ]
+      ],
+      "remaining_pairs": []
+    },
+    {
+      "step": 7,
+      "ids": [
+        "P030"
+      ],
+      "offset": [
+        -108.0,
+        -0.0,
+        -0.0
+      ],
+      "original_offset": [
+        0.0,
+        -80.0,
+        0.0
+      ],
+      "basis": "reviewed_editorial",
+      "removed_pairs": [
+        [
+          "P030",
+          "P024"
+        ]
+      ],
+      "remaining_pairs": [
+        [
+          "P030",
+          "P023"
+        ]
+      ]
+    },
+    {
+      "step": 7,
+      "ids": [
+        "P031"
+      ],
+      "offset": [
+        108.0,
+        0.0,
+        0.0
+      ],
+      "original_offset": [
+        0.0,
+        -80.0,
+        0.0
+      ],
+      "basis": "reviewed_editorial",
+      "removed_pairs": [
+        [
+          "P031",
+          "P024"
+        ]
+      ],
+      "remaining_pairs": [
+        [
+          "P031",
+          "P023"
+        ]
+      ]
+    },
+    {
+      "step": 10,
+      "ids": [
+        "P037"
+      ],
+      "offset": [
+        88.0,
+        0.0,
+        0.0
+      ],
+      "original_offset": [
+        0.0,
+        -80.0,
+        0.0
+      ],
+      "basis": "reviewed_editorial",
+      "removed_pairs": [
+        [
+          "P037",
+          "P036"
+        ]
+      ],
+      "remaining_pairs": [
+        [
+          "P037",
+          "P023"
+        ]
+      ]
+    },
+    {
+      "step": 35,
+      "ids": [
+        "P105",
+        "P106",
+        "P107",
+        "P108",
+        "P109"
+      ],
+      "offset": [
+        -100.0,
+        0.0,
+        0.0
+      ],
+      "original_offset": [
+        -100.0,
+        0.0,
+        0.0
+      ],
+      "points": [
+        [
+          -100.0,
+          0.0,
+          0.0
+        ],
+        [
+          -100.0,
+          0.0,
+          160.0
+        ],
+        [
+          108.0,
+          0.0,
+          160.0
+        ],
+        [
+          108.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "basis": "reviewed_rigid_detour",
+      "removed_pairs": [
+        [
+          "P105",
+          "P101"
+        ],
+        [
+          "P108",
+          "P101"
+        ],
+        [
+          "P108",
+          "P103"
+        ]
+      ],
+      "remaining_pairs": [
+        [
+          "P105",
+          "P102"
+        ],
+        [
+          "P108",
+          "P102"
+        ]
+      ]
+    },
+    {
+      "step": 42,
+      "ids": [
+        "P119",
+        "P120",
+        "P121",
+        "P122",
+        "P123"
+      ],
+      "offset": [
+        100.0,
+        0.0,
+        0.0
+      ],
+      "original_offset": [
+        100.0,
+        0.0,
+        0.0
+      ],
+      "points": [
+        [
+          100.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          80.0,
+          0.0
+        ],
+        [
+          -108.0,
+          80.0,
+          0.0
+        ],
+        [
+          -108.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "basis": "reviewed_rigid_detour",
+      "removed_pairs": [
+        [
+          "P119",
+          "P115"
+        ],
+        [
+          "P122",
+          "P115"
+        ],
+        [
+          "P122",
+          "P117"
+        ]
+      ],
+      "remaining_pairs": [
+        [
+          "P119",
+          "P116"
+        ],
+        [
+          "P122",
+          "P116"
+        ]
+      ]
+    }
+  ],
+  "partitions": [
+    {
+      "step": 25,
+      "original_ids": [
+        "P081",
+        "P082",
+        "P083",
+        "P084",
+        "P085",
+        "P086",
+        "P087",
+        "P088",
+        "P089",
+        "P090",
+        "P091",
+        "P092"
+      ],
+      "groups": [
+        {
+          "ids": [
+            "P081",
+            "P082",
+            "P083",
+            "P084",
+            "P085",
+            "P086"
+          ],
+          "points": [
+            [
+              0.0,
+              0.0,
+              -100.0
+            ],
+            [
+              0.0,
+              0.0,
+              -260.0
+            ],
+            [
+              0.0,
+              160.0,
+              -260.0
+            ],
+            [
+              0.0,
+              160.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "prepared_fasteners": [
+            "P077",
+            "P079"
+          ]
+        },
+        {
+          "ids": [
+            "P087",
+            "P088",
+            "P089",
+            "P090",
+            "P091",
+            "P092"
+          ],
+          "points": [
+            [
+              0.0,
+              0.0,
+              -100.0
+            ],
+            [
+              0.0,
+              0.0,
+              -260.0
+            ],
+            [
+              0.0,
+              160.0,
+              -260.0
+            ],
+            [
+              0.0,
+              160.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "prepared_fasteners": [
+            "P078",
+            "P080"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "operations": 144,
+    "changed_operations": 7,
+    "before_crossing_operation_pairs": 267,
+    "after_crossing_operation_pairs": 223,
+    "removed_operation_pairs": 44,
+    "added_operation_pairs": 0,
+    "remaining_operations_with_crossings": 126,
+    "final_crossing_pairs": 178,
+    "animated_groups": 145
+  },
+  "scope": "continuous_piecewise_translation_including_receivers_and_staged_or_seated_other_jaw",
+  "physical_build": "not_run",
+  "release_ready": false
+}

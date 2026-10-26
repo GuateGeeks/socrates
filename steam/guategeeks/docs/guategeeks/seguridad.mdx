@@ -1,0 +1,108 @@
+---
+sidebar_position: 15
+sidebar_label: "Seguridad"
+title: "Checklist de seguridad"
+description: "Verificaciones obligatorias antes de energizar cualquier robot, y qué hacer si algo sale mal."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Checklist de seguridad
+
+<FlagNote tone="warn" title="Requisito del programa">
+Ningún equipo energiza un robot antes de completar y firmar este checklist en la sesión 2. Es la
+única exigencia no negociable del programa.
+</FlagNote>
+
+Los voltajes de Curiosity no son peligrosos para las personas, pero sí para los componentes: un
+cortocircuito quema el driver en segundos y un capacitor invertido puede reventar. Todo lo de aquí
+apunta a revisar **antes** de energizar.
+
+## Antes de cada sesión · responsable: docente
+
+- [ ] Área de trabajo despejada y suelo seco
+- [ ] Todos los componentes presentes y funcionales
+- [ ] Arduino IDE 2 instalado, con permisos de puerto serie
+- [ ] Cables USB sin daños visibles
+- [ ] Multímetro funcionando
+- [ ] Baterías con carga: medir, deben superar 6.5 V
+- [ ] Botiquín accesible
+
+## Orientación a estudiantes · primera sesión
+
+- [ ] Nunca tocar componentes mientras están energizados
+- [ ] Desconectar la batería antes de cambiar cualquier cableado
+- [ ] No forzar conectores ni pines
+- [ ] Reportar de inmediato humo, calor anormal u olor extraño
+- [ ] Limpiar y ordenar el área al terminar
+
+## Checklist por equipo · antes de energizar
+
+**Sesión:** \_\_\_\_ **Equipo:** \_\_\_\_ **Fecha:** \_\_\_\_
+
+### Batería 6×AAA NiMH
+- [ ] Voltaje medido = \_\_\_\_ V (nominal 7.2 V; recargar bajo 6.5 V)
+- [ ] Las seis celdas son de la misma capacidad y lote
+- [ ] Interruptor principal en OFF antes de cablear
+- [ ] Portapilas fijado al chasis, sin tensión sobre los cables
+
+### Arduino Uno
+- [ ] Pines intactos, sin doblados
+- [ ] LED de alimentación encendido al conectar USB
+- [ ] En pruebas sin motores, alimentar solo por USB
+
+### Cableado
+- [ ] Coincide con la [tabla de pines canónica](/guategeeks/materiales)
+- [ ] Sin empalmes desnudos ni hilos sueltos
+- [ ] Multímetro: continuidad de GND común entre Arduino, driver, sensor y batería
+
+### Shield L293D y motores
+- [ ] Shield fijado sobre el Arduino, con todos los pines bien asentados
+- [ ] Motor izquierdo al borne M1, motor derecho al borne M2
+- [ ] Entrada de motor del shield desde el interruptor, **nunca** desde el pin 5V del Arduino
+- [ ] Jumper de potencia del shield configurado según la forma de alimentación usada
+- [ ] Capacitor de 470 µF entre entrada de motor y GND, **polaridad correcta**
+- [ ] LED de potencia del shield encendido, si el modelo lo incluye
+- [ ] Capacitores de 100 nF en los terminales de cada motor
+- [ ] Ambos motores fijos y orugas montadas sin roce
+
+### Sensor y buzzer
+- [ ] HC-SR04: VCC a 5V, GND a GND, TRIG a **A3**, ECHO a **A4**
+- [ ] Sensor al frente, sin cables cruzando su cara
+- [ ] Buzzer **pasivo** en A0
+- [ ] Botón MODO en A1 e INICIO en A2, ambos a GND con `INPUT_PULLUP`
+
+### Energización · autoriza el docente
+- [ ] **Robot levantado del banco o sobre soporte**
+- [ ] Multímetro: 5V en el pin 5V del Arduino
+- [ ] Multímetro: ~7.2 V en la entrada de motor del shield
+- [ ] Motores quietos antes de cargar el sketch
+- [ ] Si los motores deben responder, verificar potencia del shield, M1/M2 y librería `AFMotor`
+
+## Reglas de oro
+
+1. **Nunca alimentar los motores desde el pin 5V del Arduino**
+2. **Levantar el robot antes de probar motores** — en la mesa se cae
+3. **Nunca dejar componentes energizados sin supervisión**
+4. **Desconectar la batería antes de cambiar cableado**
+5. **Nunca puentear 5V directamente a GND**
+6. **Respetar la polaridad del capacitor electrolítico**
+
+## Si algo sale mal
+
+| Síntoma | Causa probable | Acción |
+|---|---|---|
+| Los motores no responden | Sin potencia de motor, shield mal asentado o falta `AFMotor` | Verificar entrada del shield, LED y M1/M2 |
+| Arduino no aparece en el puerto | Cable USB o permisos | Probar otro cable y otro puerto |
+| El sensor devuelve siempre 400 | TRIG y ECHO invertidos | TRIG a A3, ECHO a A4 |
+| El robot gira al revés | M1/M2 intercambiados o motor invertido | Intercambiar bornes o cambiar la constante de inversión |
+| Humo, calor u olor a quemado | Cortocircuito | **Desconectar la batería de inmediato** y reportar |
+| Componente quemado | Voltaje o polaridad incorrectos | **No intentar repararlo.** Aislar y reportar |
+
+## Firmas
+
+**Responsable de seguridad:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Fecha:** \_\_\_\_
+
+**Docente:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Fecha:** \_\_\_\_
+
+*Conservar el checklist firmado de cada sesión como evidencia.*

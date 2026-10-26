@@ -1,0 +1,134 @@
+---
+sidebar_position: 5
+sidebar_label: "05 · La pantalla es un plano"
+title: "La pantalla es un plano"
+description: "240×240, origen arriba a la izquierda, y la Y que crece hacia abajo. El plano de la pantalla contra el plano del cuaderno."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import sketchCode from '@site/arduino/tiempo-circular/03_geometria_circular/03_geometria_circular.ino';
+
+# 05 · La pantalla es un plano
+
+:::warning La Y va al revés
+En el cuaderno, la Y crece hacia **arriba**. En la pantalla, crece hacia **abajo**. Es la fuente de
+error más persistente de todo el programa, y no se resuelve memorizándola: se resuelve dibujando
+los dos planos uno al lado del otro hasta que la diferencia sea obvia.
+:::
+
+<SessionModule id="tc5" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Dónde está el punto (0, 0), y por qué no está donde uno espera?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Para dibujar cualquier cosa en un lugar elegido hace falta un sistema de coordenadas, y el de la
+    pantalla no es el que se usa en clase de matemática: el origen está en la esquina superior
+    izquierda y la Y crece hacia abajo. Esta sesión establece ese sistema, localiza el centro
+    (120, 120) y mide el radio real de la parte visible. Todo lo que se dibuje de aquí en adelante
+    parte de esos tres datos.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Sistema de coordenadas: origen, ejes y sentido de crecimiento',
+    'Centro y radio de la circunferencia inscrita en un cuadrado',
+    'Los cuatro cuadrantes sobre la pantalla',
+    'Diferencia entre unidades de pantalla (píxeles) y de longitud (milímetros)',
+    'Medición directa como verificación de un valor del código',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Dos planos, uno al lado del otro">
+    Dibujar en la pizarra el plano cartesiano de siempre y, junto a él, el de la pantalla. Marcar el
+    origen en cada uno y la dirección de crecimiento de la Y con una flecha grande. Pedir que ubiquen
+    el punto (200, 30) en ambos y comparen dónde cae. La diferencia tiene que sorprender.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Encontrar el centro">
+    Si la matriz es de 240 × 240, ¿cuál es el centro? Llegar a (120, 120) por razonamiento, no por
+    dato. Luego preguntar cuál es el radio del área visible: si el círculo está inscrito en el
+    cuadrado, el radio es la mitad del lado, 120 píxeles. Discutir por qué el sketch usa 118 y no 120.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Trazar y medir">
+    Cargar `03_geometria_circular` con `SESION` en **5**. Aparecen el círculo del borde, el eje
+    horizontal en verde y el vertical en azul. Luego, con una regla sobre el vidrio, medir el
+    diámetro real en milímetros y calcular cuántos milímetros mide un píxel. Ese número convierte
+    las dos unidades y se usará en la sesión 11.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="¿Qué se pierde en las esquinas?">
+    Calcular cuántos píxeles de la matriz quedan fuera del círculo visible: 240² menos el área del
+    círculo de radio 120. Discutir qué significa que el microcontrolador pueda direccionarlos y
+    nadie pueda verlos. Es la primera vez que aparece una diferencia entre lo que el sistema puede
+    y lo que el sistema muestra.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="03_geometria_circular.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo armado y funcionando desde la sesión 3',
+    'Regla milimetrada o calibrador por equipo',
+    'Papel cuadriculado para dibujar los dos planos',
+    'Calculadora para el área del círculo',
+  ]} />
+
+  <SessionModule.Reto>
+    Tracen la carátula base y verifíquenla con medición física: midan el diámetro visible en
+    milímetros y calculen cuántos milímetros mide un píxel. Ubiquen sobre la pantalla, con la regla,
+    dónde caería el punto (200, 30) y comprueben que coincide con lo que predijeron en el cuaderno.
+    Calculen además cuántos píxeles de los 57 600 de la matriz quedan fuera del área visible, y qué
+    porcentaje representan.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Dibujo comparado de los dos planos con el sentido de la Y marcado',
+    'Diámetro visible medido en milímetros y factor de conversión mm por píxel',
+    'Predicción y verificación física de la posición del punto (200, 30)',
+    'Cálculo del área desperdiciada en las esquinas, en píxeles y en porcentaje',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'MAT 1.2: aplica relaciones geométricas en la resolución de problemas; polígonos y círculos, trazo, partes y medidas (p. 13).',
+    'MAT 2.2: establece las características de una función a partir de su gráfica, y ubica puntos en el plano (p. 13-14).',
+    'CN 1.3: expresa datos precisos a partir de mediciones que realiza y aplica factores de conversión (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-AP-11: crear variables con nombres claros que representen distintos tipos de datos.',
+    'NGSS MS-ETS1-2: evaluar soluciones de diseño en competencia usando un proceso sistemático.',
+    'ISTE Computational Thinker 5c: descomponer un problema en partes que se puedan resolver por separado.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Ubica un punto dado en el sistema de coordenadas de la pantalla, sin confundirlo con el del cuaderno.',
+    'Deduce el centro y el radio a partir de las dimensiones, sin que se los den.',
+    'Convierte entre píxeles y milímetros con una medición propia.',
+    'Explica la diferencia entre área direccionable y área visible con un número.',
+  ]} />
+</SessionModule>
+
+<VisualStepGuide
+  title="Figuras sobre el plano de la pantalla"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-screen-display-draw-shapes.jpg',
+      alt: 'Pantalla circular mostrando círculos, triángulos, rectángulos y rombos en distintas posiciones y colores',
+      title: 'Todo se ubica con coordenadas',
+      body: <>
+        Cada figura de esta imagen se dibujó dando coordenadas de pantalla. Observen cuáles quedan
+        cerca del borde y piensen qué pasaría si a alguna se le diera una coordenada mayor que 240:
+        se calcularía y no se vería.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imagen: esp32io.com / DIYables, reproducida con atribución. **No corresponde a este sketch**: es
+del tutorial original. La pantalla de esta sesión muestra el círculo del borde y los dos ejes.
+Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

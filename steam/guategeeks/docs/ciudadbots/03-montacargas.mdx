@@ -1,0 +1,87 @@
+---
+sidebar_position: 3
+sidebar_label: "03 · Montacargas"
+title: "Montacargas"
+description: "Precisión, carga y maniobra"
+---
+
+import Module from '@site/src/components/Module';
+
+# 03 · Montacargas
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m3">
+  <Module.Question>
+    ¿Cómo logra un robot mover carga en un mercado, bodega o taller sin chocar ni perder
+    precisión?
+  </Module.Question>
+
+  <Module.Context>
+    Los estudiantes construyen un montacargas inspirado en bodegas, mercados y talleres locales. El
+    módulo trabaja movimiento por centímetros, giros controlados, elevación con motor y maniobras
+    repetibles.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Maniobrabilidad',
+    'Movimiento por distancia',
+    'Rack y piñón',
+    'Elevación de carga',
+    'Prueba de precisión',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 12 min" title="Almacenes y logística">
+    Mostrar imágenes o describir un supermercado, mercado o bodega y pedir a los equipos dibujar un
+    pasillo con zona de carga y zona de entrega. El docente guía la pregunta: ¿qué pasa si el
+    montacargas se acerca demasiado rápido o levanta la carga a una altura incorrecta? Evidencia
+    inicial: ruta marcada, posición del contenedor y criterio de éxito en centímetros.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Chasis y horquillas">
+    Identificar motores de movimiento y motor del manipulador. Revisar cómo la cremallera convierte
+    giro en movimiento vertical y probar tres alturas de horquilla sin carga. Punto de control: el
+    equipo mueve las horquillas sin tocar la cremallera con los dedos, explica qué altura recoge
+    mejor el contenedor y anota qué podría provocar que la carga se caiga.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 70-100 min" title="Recoger y colocar contenedor">
+    Construir el Montacargas y programar la misión por tramos: acercamiento medido, elevación,
+    retroceso, giro y colocación en una zona marcada. Después de cada intento, medir la distancia
+    entre el contenedor y el objetivo, registrar ajuste y repetir. Si falla, separar el problema:
+    altura de horquillas, distancia de aproximación, ángulo de giro, fricción del piso o velocidad
+    con carga.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Precisión no es suerte">
+    Medir qué tan lejos quedó la carga del objetivo y compartir una tabla de intento, error y ajuste.
+    El equipo explica cuál cambio produjo el mayor avance y cuál dejó igual el resultado. Para
+    escalar, 1.º básico identifica posiciones de horquilla, 2.º básico calcula error promedio y 3.º
+    básico optimiza la secuencia para repetir tres entregas con la menor variación posible.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: medición de distancia, ángulos, error respecto al objetivo y organización de datos de precisión.',
+    'Ciencias Naturales: transferencia de movimiento, fuerza, equilibrio de carga y relación entre mecanismo y función.',
+    'Tecnologías del Aprendizaje y la Comunicación: registro de intentos, depuración del programa y uso de datos para ajustar maniobras.',
+    'Comunicación y Lenguaje, Idioma Español: argumentación de decisiones técnicas usando tabla de prueba y vocabulario de mecanismo.',
+    'Emprendimiento para la Productividad: análisis de logística, eficiencia, seguridad e indicadores de calidad en procesos de trabajo.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: usa diseño iterativo y pensamiento computacional para mejorar una maniobra repetible.',
+    '2026 CSTA PK-12 · Secundaria: prueba y refinamiento, datos de desempeño y documentación del programa.',
+    'NGSS MS-ETS1-3 y MS-ETS1-4: analiza datos de pruebas para combinar mejoras y optimizar la solución.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Programa movimientos medidos y repetibles para recoger y colocar la carga.',
+    'Reconoce cómo el mecanismo de elevación transforma el giro en movimiento vertical.',
+    'Usa una tabla de intentos para medir distancia al objetivo, error y ajuste realizado.',
+    'Explica una mejora de seguridad o eficiencia basada en datos de prueba.',
+  ]} />
+</Module>

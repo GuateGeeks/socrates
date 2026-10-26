@@ -1,0 +1,135 @@
+---
+sidebar_position: 15
+sidebar_label: "Materiales y pines"
+title: "Materiales y pines"
+description: "Lista por equipo, mapa de pines único del programa y preparación del entorno ESP32."
+---
+
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import FlagNote from '@site/src/components/FlagNote';
+
+# Materiales y pines
+
+<FlagNote tone="warn" title="Hardware especificado, no adquirido">
+Esta configuración **no ha sido comprada ni probada en campo**. Los precios son estimados y sirven
+para planificar, no para presupuestar: nadie ha confirmado disponibilidad con proveedores en
+Guatemala. Ninguno de los seis sketches ha sido cargado en una placa física.
+</FlagNote>
+
+## Por equipo
+
+Equipos de 3 o 4 estudiantes.
+
+| Cant. | Componente | Especificación | Requerido | Estimado (Q) |
+|:--:|---|---|:--:|--:|
+| 1 | Placa de desarrollo ESP32 | Con los GPIO 18, 23, 25, 26 y 27 expuestos y salida de 3.3 V | Sí | 90-150 |
+| 1 | Módulo TFT redondo 1.28" | Controlador **GC9A01**, 240×240, IPS, SPI, **sin** táctil | Sí | 90-140 |
+| 1 | Cable USB de datos | Micro-USB o USB-C según la placa. **De datos, no solo de carga** | Sí | 20-40 |
+| 1 | Protoboard | De 400 puntos es suficiente | Sí | 25-40 |
+| 7+ | Jumpers macho-hembra | Siete conexiones, más repuestos | Sí | 20-35 |
+| — | **Total estimado por equipo** | | | **245-405** |
+
+## Deliberadamente ausentes
+
+| Componente | Por qué no está |
+|---|---|
+| Módulo RTC (DS3231) | La hora sale de `millis()` y luego de NTP. Un RTC costaría ~Q25 más por equipo y taparía la lección de la deriva de las sesiones 8 y 9 |
+| Módulo de tarjeta SD | El programa no carga imágenes desde archivo. Sumaría costo, cableado y modos de falla sin contenido curricular que lo justifique |
+| Batería o portapilas | El dispositivo se alimenta por USB durante toda la secuencia |
+| Sensores | Este programa construye una interfaz de salida, no un instrumento de medición |
+
+## Mapa de pines
+
+Este es el **único** mapa de pines del programa. Los seis sketches lo usan sin variaciones.
+
+| Pin del módulo | ESP32 | Función |
+|---|---|---|
+| VCC | **3.3 V** | Alimentación |
+| GND | GND | Tierra |
+| SCL | GPIO18 | Reloj SPI |
+| SDA | GPIO23 | Datos SPI (MOSI) |
+| DC | GPIO25 | Dato o comando |
+| CS | GPIO26 | Selección de chip |
+| RST | GPIO27 | Reinicio |
+
+SCL y SDA **no aparecen declarados en el código**: son los pines SPI por defecto del ESP32 y la
+librería los toma sola. Los tres que sí se declaran son DC, CS y RST.
+
+## Por aula
+
+| Cant. | Recurso | Nota |
+|:--:|---|---|
+| 1 por equipo | Computadora con Arduino IDE 2.x | Con permisos para instalar el driver USB-serie |
+| 1 por equipo | Reloj de referencia confiable | Para la sesión 9. Un teléfono sincronizado sirve |
+| 1 por equipo | Regla milimetrada o calibrador | Para medir el diámetro visible en la sesión 5 |
+| 1 por equipo | Transportador, compás y calculadora | Sesiones 5 a 7 y 11 |
+| — | Acceso a WiFi de **2.4 GHz** | **Opcional.** Solo para la sesión 10; hay ruta alterna |
+
+## Preparación del entorno ESP32
+
+El ESP32 no viene configurado en el Arduino IDE, y su cadena de herramientas es distinta de la del
+Arduino Uno que usa [GuateGeeks SMARS](/guategeeks). Aunque ya haya trabajado ese programa, esto hay
+que hacerlo igual.
+
+1. **Preferencias → URLs adicionales de tarjetas**, agregar:
+   ```
+   https://espressif.github.io/arduino-esp32/package_esp32_index.json
+   ```
+2. **Herramientas → Placa → Gestor de tarjetas**, buscar **esp32** e instalar el paquete de
+   Espressif Systems. Es una descarga grande: hágala antes de la clase.
+3. **Librerías**, buscar **DIYables TFT Round**, instalar y aceptar **Install All** cuando pregunte
+   por las dependencias. La dependencia es Adafruit GFX Library, y sin ella nada compila.
+4. **Herramientas → Placa → esp32 → ESP32 Dev Module**, y seleccionar el puerto.
+
+Si al conectar la placa no aparece ningún puerto, falta el driver USB-serie. Identifique el chip
+junto al conector: **CP2102** necesita el driver VCP de Silicon Labs, **CH340 / CH9102** el driver
+CH34x de WCH. Detalle completo en
+[TROUBLESHOOTING.md](https://github.com/GuateGeeks/programas-educativos/blob/main/arduino/tiempo-circular/TROUBLESHOOTING.md).
+
+## Advertencias de compra
+
+**El controlador importa.** Existen módulos redondos de 1.28" con otros controladores. La librería de
+este programa es para **GC9A01**; con otro controlador estos sketches no funcionan sin cambios.
+
+**Sin táctil.** Las versiones táctiles cuestan más y agregan pines que el programa no usa.
+
+**El ESP32 solo usa 2.4 GHz.** No se conecta a redes de 5 GHz. Confírmelo antes de planificar la
+sesión 10.
+
+**El cable USB debe ser de datos.** Muchos cables baratos solo llevan alimentación: la placa enciende
+pero la computadora no la ve. Es la falla más frecuente al empezar y la más frustrante, porque
+parece un problema de cableado.
+
+## Escala reducida
+
+Si no alcanza para un dispositivo por equipo, el programa funciona con **uno por aula** en modo
+demostración: los cálculos de geometría, color y ciclo se hacen en papel por todos los equipos, y la
+verificación en pantalla se hace por turnos. Se pierde la práctica de cableado de la sesión 3, que
+tendría que convertirse en observación guiada.
+
+<VisualStepGuide
+  title="Pinout y cableado"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/1.28inch-round-circular-tft-lcd-pinout.jpg',
+      alt: 'Módulo TFT redondo GC9A01 con sus siete pines rotulados y su función indicada',
+      title: 'Los siete pines del módulo',
+      body: <>
+        Orden físico en la placa: RST, CS, DC, SDA, SCL, GND, VCC. Verifiquen contando desde el
+        extremo, no por el color del cable.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-display-wiring-diagram.jpg',
+      alt: 'Diagrama de cableado completo entre la placa ESP32 y el módulo TFT redondo',
+      title: 'Cableado completo',
+      body: <>
+        Las siete conexiones sobre protoboard. VCC va a 3.3 V, nunca a 5 V ni a un pin de datos.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

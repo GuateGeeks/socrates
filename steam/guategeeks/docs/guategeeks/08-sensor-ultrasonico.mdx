@@ -1,0 +1,110 @@
+---
+sidebar_position: 8
+sidebar_label: "08 · Medir sin Tocar"
+title: "Medir sin Tocar"
+description: "Medir distancia con tiempo de vuelo. De dónde sale el 58 y por qué dividir otra vez entre dos es un error."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/03_prueba_ultrasonido/03_prueba_ultrasonido.ino';
+
+# 08 · Medir sin Tocar
+
+:::note El número 58 no es magia
+El sonido viaja a unos 343 m/s, o sea 0.0343 cm por microsegundo. El pulso va y vuelve, así que
+recorre el doble de la distancia buscada. Un centímetro de ida y vuelta toma
+2 ÷ 0.0343 ≈ **58 µs**. Ese 58 ya incluye el viaje redondo: volver a dividir entre dos da la mitad
+de la distancia real.
+:::
+
+<SessionModule id="s8">
+  <SessionModule.Question>
+    ¿Cómo mide una distancia un sensor que solo sabe contar tiempo?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    El HC-SR04 no mide distancia: emite un pulso ultrasónico y mide cuánto tarda el eco en volver.
+    La distancia es una inferencia a partir del tiempo y de la velocidad del sonido. Esta sesión
+    hace explícita esa conversión, y luego la somete a prueba: los sensores tienen error, zonas
+    muertas y lecturas fallidas, y el programa debe estar preparado para eso.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Tiempo de vuelo como método de medición indirecta',
+    'Conversión microsegundos a centímetros: el divisor 58',
+    'Valor centinela cuando no llega eco',
+    'Error de medición y zona muerta',
+    'Repetición como forma de estimar confiabilidad',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Medir sin tocar">
+    Preguntar cómo medirían la distancia a una pared sin acercarse. Mencionar el eco y los
+    murciélagos. Presentar el sensor: un emisor y un receptor, y entre ellos un cronómetro muy
+    preciso.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Derivar el 58 en la pizarra">
+    Con la velocidad del sonido, calcular colectivamente cuántos microsegundos tarda el pulso en
+    recorrer un centímetro de ida y vuelta. Llegar a 58 antes de verlo en el código. Discutir qué
+    debería devolver la función cuando el eco nunca llega: el sketch devuelve 400 cm, no cero.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Caracterizar el sensor">
+    Conectar TRIG a A3 y ECHO a A4. Cargar el sketch y abrir el Monitor Serie. Colocar un objeto
+    plano a 10, 20, 30 y 40 cm medidos con cinta métrica, y anotar varias lecturas en cada
+    distancia. Buscar además la distancia mínima a la que el sensor deja de ser confiable.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="¿Cuánto le creemos al sensor?">
+    Calcular el error en cada distancia y ver si crece, se mantiene o es errático. Conectar con la
+    decisión de diseño que viene: el firmware autónomo toma tres lecturas y usa la mediana. Con los
+    datos en la mano, discutir por qué la mediana y no el promedio.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="03_prueba_ultrasonido.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Arduino Uno con sensor HC-SR04 conectado a A3 y A4',
+    'Cinta métrica o regla larga',
+    'Objeto plano y rígido, como un libro o una carpeta',
+    'Cinta adhesiva para marcar distancias en el piso o la mesa',
+    'Formato de tabla para varias lecturas por distancia',
+  ]} />
+
+  <SessionModule.Reto>
+    Caractericen el sensor a 10, 20, 30 y 40 cm, con al menos cinco lecturas por distancia. Calculen
+    el error promedio en cada una y determinen si el error crece con la distancia. Busquen además
+    la zona muerta: la distancia mínima por debajo de la cual las lecturas dejan de tener sentido.
+    Ese dato explica por qué el umbral de obstáculo del firmware está en 24 cm y no en 5.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Tabla con cinco lecturas por cada una de las cuatro distancias',
+    'Error promedio calculado por distancia',
+    'Valor estimado de la zona muerta',
+    'Explicación escrita de por qué el firmware usa mediana de tres lecturas',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º–5.º bachillerato. Laboratorio I · indicadores 1.1–1.2: organiza lecturas del sensor, calcula diferencias y representa datos para interpretar un fenómeno.',
+    'Física: relaciona tiempo de vuelo, distancia y medición; el alcance se limita a la caracterización del sensor y no reclama toda la competencia.',
+    'Evidencia CNB: serie de mediciones repetidas, rango o dispersión, zona muerta, error calculado y umbral de decisión justificado.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Data & Analysis · Data Collection & Preparation y Data Investigation; High School Specialty · Physical Computing.',
+    'CSTA PK–12 (2026), práctica 6: definir el problema de medición y seleccionar los datos necesarios para decidir.',
+    'ISTE 1.5.b Computational Thinker: recolectar datos, analizarlos e identificar patrones para tomar decisiones.',
+    'NGSS HS-ETS1-3: evaluar una solución mediante análisis de datos experimentales.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Explica de dónde sale el divisor 58 sin recitarlo de memoria.',
+    'Toma mediciones repetidas y calcula el error correctamente.',
+    'Identifica la zona muerta del sensor experimentalmente.',
+    'Justifica por qué conviene la mediana frente a una lectura única.',
+  ]} />
+</SessionModule>

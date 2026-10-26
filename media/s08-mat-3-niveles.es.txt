@@ -1,0 +1,4 @@
+Subiendo de nivel
+Semana 8 · Español
+
+Exploramos un sistema de numeración maya posicional de base veinte. Usamos puntos para uno, barras para cinco y un símbolo de concha para cero. El nivel inferior vale unidades. Al reunir veinte unidades, se cambian por un punto en el segundo nivel y queda cero abajo. Cada nivel vale veinte veces el de abajo. De abajo hacia arriba, sus valores son uno, veinte, cuatrocientos, ocho mil y ciento sesenta mil. Este modelo es vigesimal puro; no representa las variaciones del calendario. Cambia el valor y observa los intercambios entre niveles.

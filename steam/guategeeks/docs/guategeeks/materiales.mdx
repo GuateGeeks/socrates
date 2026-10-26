@@ -1,0 +1,196 @@
+---
+sidebar_position: 14
+sidebar_label: "Materiales y pines"
+title: "Materiales y tabla de pines"
+description: "Contrato de hardware canónico: shield L293D, componentes, cableado, alimentación y herramientas."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+import StlViewer from '@site/src/components/StlViewer';
+
+# Materiales y tabla de pines
+
+Este es el **contrato de hardware** del programa. Los cinco sketches asumen exactamente esta
+configuración; cambiarla obliga a recalibrar el firmware.
+
+La variante canónica usa un **shield L293D compatible con Arduino Motor Shield v1** y la librería
+`AFMotor`. Si el shield físico del aula usa otra librería o pinout, no es una sustitución directa:
+hay que adaptar código, cableado y verificación.
+
+## Tabla de pines
+
+No es negociable: los cinco sketches la comparten. Los motores no se conectan a pines sueltos del
+Arduino; se conectan a los bornes del shield.
+
+| Arduino / shield | Destino |
+|---|---|
+| Shield M1 | Motor izquierdo |
+| Shield M2 | Motor derecho |
+| A0 | Buzzer pasivo |
+| A1 | Botón MODO a GND, con `INPUT_PULLUP` |
+| A2 | Botón INICIO a GND, con `INPUT_PULLUP` |
+| A3 | TRIG del HC-SR04 |
+| A4 | ECHO del HC-SR04 |
+| A5 | Sin conectar; fuente de ruido para `randomSeed()` |
+| D3-D12 | Reservados por el shield L293D en la ruta canónica |
+| 5V | VCC del sensor y periféricos de 5 V |
+| GND | Tierra común |
+
+<FlagNote tone="warn" title="Los pines digitales los ocupa el shield">
+En esta variante no se cablean `STBY`, `PWMA`, `PWMB`, `AIN1`, `AIN2`, `BIN1` ni `BIN2`.
+El shield controla internamente los puentes H; el curso solo nombra los motores como M1 y M2.
+</FlagNote>
+
+## Kit electrónico por equipo
+
+| Componente | Cant. | Especificación | Sustitución aceptable |
+|---|---:|---|---|
+| Arduino Uno R3 | 1 | ATmega328P, USB | Arduino Nano, adaptando el montaje |
+| Shield **L293D compatible con Motor Shield v1** | 1 | Bornes M1-M4, entrada de potencia para motores, compatible con `AFMotor` | Otro shield L293D solo si se adapta código y cableado |
+| Motorreductor N20 | **2** | 6 V, 100-200 RPM, eje D de 3 mm | N20 de 9 V si se recalibra la velocidad |
+| Sensor HC-SR04 | 1 | Ultrasónico, 4 pines | US-100 en modo trigger/echo |
+| Pulsador momentáneo | **2** | Normalmente abierto | Interruptor táctil grande |
+| Buzzer piezoeléctrico | 1 | **Pasivo**, 5 V | Activo, usando HIGH/LOW en vez de `tone()` |
+| Portapilas 6×AAA | 1 | Con interruptor y fijación por velcro | Pack NiMH 7.2 V protegido |
+| Batería AAA NiMH | 6 | 1.2 V, misma capacidad y lote | Pack NiMH 7.2 V |
+| Interruptor principal | 1 | SPST, 1 A o más | El del portapilas |
+| Capacitor electrolítico | 1 | 470 µF, 16 V | 220 a 1000 µF |
+| Capacitor cerámico | 2 | 100 nF en terminales de motor | 47 a 220 nF |
+| Cables Dupont | 20 | Macho-macho y macho-hembra | Cable flexible 22-26 AWG |
+| Cable para motores | 40 cm | Flexible, dos colores | Dupont cortado y soldado |
+| Termoencogible | 10 cm | 2 a 3 mm | Cinta aislante de buena calidad |
+
+<FlagNote tone="info" title="El buzzer debe ser pasivo">
+`tone()` genera la frecuencia. Un buzzer activo trae su propio oscilador y solo responde a HIGH y
+LOW, así que no producirá los tonos distinguibles que usan los modos del firmware.
+</FlagNote>
+
+## Consumibles de impresión
+
+| Componente | Cant. | Especificación |
+|---|---:|---|
+| Filamento PLA/PLA+ | 250-400 g | 1.75 mm; PETG con ajuste de temperatura |
+| Segmentos de filamento | 40 | Cortados al ancho del eslabón de oruga |
+| Cinchos pequeños | 6 | 2.5 mm de ancho |
+
+## Alimentación
+
+1. Positivo de batería al interruptor principal.
+2. Salida del interruptor al borne de potencia de motores del shield (`EXT_PWR`, `M+` o equivalente).
+3. En pruebas de banco, alimentar el Arduino por USB y mantener el robot levantado.
+4. Para operación autónoma, alimentar el Arduino por `VIN` o jack DC solo después de verificar la
+   configuración del jumper de potencia del shield.
+5. Negativo de batería a GND común.
+6. Capacitor de 470 µF entre la entrada de motor y GND, cerca del shield, **respetando polaridad**.
+7. Antes del primer movimiento, verificar polaridad, LED de potencia del shield si existe y bornes
+   M1/M2 firmes.
+
+<FlagNote tone="warn" title="Nunca alimentar los motores desde el pin 5V">
+Ese pin entrega poca corriente. Los motores se alimentan desde la entrada de potencia del shield,
+no desde el 5V regulado del Arduino.
+</FlagNote>
+
+<FlagNote tone="warn" title="No usar batería rectangular de 9 V como estándar">
+Algunas fotos de referencia muestran una batería rectangular de 9 V. No es la recomendación de
+GuateGeeks para pruebas de aula: entrega poca corriente para motores y provoca reinicios o torque
+débil. Use 6×AAA NiMH o un pack recargable equivalente verificado por el docente.
+</FlagNote>
+
+## Herramientas
+
+| Herramienta | Uso | Esencial |
+|---|---|---|
+| Multímetro | Verificar voltajes, continuidad, tierra común | Sí |
+| Cautín 25-60 W con estaño | Cables de motor y terminales | Sí |
+| Pinza de corte y de punta | Preparación de cables y orugas | Sí |
+| Destornilladores pequeños | Fijación de motores y chasis | Sí |
+| Regla o calibrador | Medición de tolerancias, sesiones 3 y 4 | Sí |
+| Impresora FDM | Cama mínima 100 × 100 mm | Sí, o servicio externo |
+
+## Software
+
+- **Arduino IDE 2** — https://www.arduino.cc/en/software
+- Slicer: PrusaSlicer, Cura, OrcaSlicer o Bambu Studio
+- Navegador moderno para consultar este material
+
+Los sketches que mueven motores usan la librería **AFMotor / Adafruit Motor Shield V1**. Los
+sketches `01` y `03` no la necesitan, pero el paquete completo del curso sí debe instalarla antes
+de compilar `02`, `04` y `05`.
+
+Verificado con `arduino-cli 1.2.0`, core `arduino:avr 1.8.8` y **Adafruit Motor Shield library
+1.0.1** para los sketches que usan el shield.
+
+## Presupuesto
+
+Los precios cambian por país y proveedor, así que conviene presupuestar por categoría en lugar de
+fijar cifras que envejecen mal:
+
+1. Kit electrónico reutilizable, que dura varios ciclos
+2. Consumibles de impresión y soldadura
+3. Baterías y cargadores
+4. Repuestos
+
+Comprar al menos **10 % de repuestos** en lotes de diez equipos. Los motorreductores N20 y los
+cables de motor son las fallas más frecuentes.
+
+## Referencias visuales del kit
+
+![Robot Curiosity terminado con orugas y sensor ultrasónico](/assets/guategeeks/smars/heroshot.jpg)
+
+El robot final muestra la relación entre chasis, orugas, Arduino, shield y sensor. Las fotos de
+construcción vienen de la exportación local `smars_export/` y se adaptan al contrato de Curiosity:
+cuando una imagen muestre una batería rectangular de 9 V, debe leerse como referencia mecánica, no
+como recomendación de alimentación.
+
+![Piezas impresas del chasis Curiosity antes del ensamblaje](/assets/guategeeks/smars/printed-parts.webp)
+
+## Catálogo de modelos 3D
+
+Los siete modelos del robot, listos para ver y descargar. El archivo que se muestra es el mismo que
+se descarga: el STL original, sin conversión ni simplificación.
+
+<FlagNote tone="info" title="Tiempo de impresora">
+El eslabón de oruga es el archivo más liviano y el que **más tiempo consume**: se imprime 32 veces.
+Conviene lanzarlo primero y dejarlo corriendo mientras se preparan las demás piezas.
+</FlagNote>
+
+<StlViewer file="chassis_sl.stl" name="Chasis" role="Estructura principal; aloja el Arduino y el driver" quantity={1} size="1.8 MB" />
+
+<StlViewer file="powered_wheel.stl" name="Rueda motriz" role="Acoplada al eje del motorreductor N20" quantity={2} size="1.9 MB" />
+
+<StlViewer file="unpowered_wheel_sl.stl" name="Rueda libre" role="Tensa la oruga en el extremo opuesto al motor" quantity={2} size="1.1 MB" />
+
+<StlViewer file="mechanical_track.stl" name="Eslabón de oruga" role="Se encadenan con segmentos de filamento para formar la oruga" quantity={32} size="142 KB" />
+
+<StlViewer file="holding_board_9v.stl" name="Soporte de motores y batería" role="Fija los dos N20 y el portapilas al chasis" quantity={1} size="176 KB" />
+
+<StlViewer file="ultrasonic_1.stl" name="Cubierta del sensor" role="Carcasa frontal del HC-SR04" quantity={1} size="697 KB" />
+
+<StlViewer file="ultrasonic_2b_v2.stl" name="Base del sensor" role="Sujeta el HC-SR04 al frente del chasis" quantity={1} size="30 KB" />
+
+### Procedencia y licencia
+
+Los modelos **no son obra de GuateGeeks**. Son de **Kevin Thomas**, adoptados sin modificación y
+distribuidos bajo **CC BY-NC-SA**.
+
+> SMARS modular robot, diseño de Kevin Thomas. Fuente:
+> https://www.thingiverse.com/thing:2662828. Distribuido bajo CC BY-NC-SA según la página fuente
+> consultada.
+
+<FlagNote tone="warn" title="Condición No Comercial">
+Con estos modelos incluidos, **el paquete completo queda sujeto a la cláusula No Comercial**. Una
+institución que cobre específicamente por copias impresas debe solicitar permiso o confirmar los
+términos con el autor. Ver [Licencias y atribución](/guategeeks/licencias).
+</FlagNote>
+
+Fuentes canónicas, útiles además para comprobar si existe una versión más reciente:
+
+- Modelo original: https://www.thingiverse.com/thing:2662828
+- Biblioteca de partes: https://www.smarsfan.com/learn/parts/index
+- Instrucciones de construcción: https://www.smarsfan.com/build/buildinstructions/wheeled/
+
+## Hojas de datos
+
+- Arduino Uno Rev3 — https://docs.arduino.cc/hardware/uno-rev3/
+- L293D — https://www.ti.com/product/L293D
+- Adafruit Motor Shield v1 / AFMotor — https://learn.adafruit.com/adafruit-motor-shield

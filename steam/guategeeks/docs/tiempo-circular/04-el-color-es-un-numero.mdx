@@ -1,0 +1,143 @@
+---
+sidebar_position: 4
+sidebar_label: "04 · El color es un número"
+title: "El color es un número"
+description: "RGB565: dieciséis bits repartidos en 5+6+5. El mismo color escrito en binario, hexadecimal y decimal."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import VisualStepGuide from '@site/src/components/VisualStepGuide';
+import sketchCode from '@site/arduino/tiempo-circular/02_color_y_bits/02_color_y_bits.ino';
+
+# 04 · El color es un número
+
+:::note Por qué el verde tiene un bit más
+De los 16 bits, el rojo se lleva 5, el **verde 6** y el azul 5. No es un error de diseño: el ojo
+humano distingue más tonos de verde que de rojo o azul, así que se le da más resolución donde más
+se nota. Total: 32 × 64 × 32 = **65 536** colores, que es 2¹⁶.
+:::
+
+<SessionModule id="tc4" program="tiempo-circular">
+  <SessionModule.Question>
+    Si un color es un número, ¿qué número es el rojo?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    La pantalla no sabe qué es «rojo». Recibe un número de dieciséis bits y enciende los subpíxeles
+    según el valor que ocupa cada posición dentro de ese número. Esta sesión desarma ese número: qué
+    bit vale cuánto, por qué el verde tiene uno más, y por qué pedir un azul de 5 y otro de 6 da
+    exactamente el mismo color en pantalla. Es la sesión donde el sistema posicional deja de ser un
+    tema de cuaderno y se vuelve algo que se ve.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Valor posicional: el mismo dígito vale distinto según dónde esté',
+    'Base 2 y base 16 como dos escrituras del mismo número',
+    'Potencias de dos: por qué 5 bits dan 32 valores y 6 dan 64',
+    'Desplazamiento de bits como multiplicación por potencias de dos',
+    'Pérdida de información al recortar de 8 bits a 5',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="¿Cuántos colores hay?">
+    Preguntar cuántos colores distintos creen que puede mostrar la pantalla. Recoger estimaciones.
+    Luego dar el dato: 65 536, ni uno más. Preguntar de dónde podría salir ese número tan
+    específico, y esperar a que alguien reconozca una potencia de dos.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Repartir dieciséis casillas">
+    En la pizarra, dibujar dieciséis casillas numeradas del 15 al 0 y repartirlas: cinco para rojo,
+    seis para verde, cinco para azul. Escribir el rojo puro llenando sus cinco casillas con unos y
+    el resto con ceros. Convertir ese binario a hexadecimal por grupos de cuatro y llegar a `0xF800`
+    **antes** de verlo en el código.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Construir la tabla de colores">
+    Cargar `02_color_y_bits` y abrir el Monitor Serie. Comparar lo que imprime con lo calculado en
+    la pizarra. Luego elegir cinco colores nuevos —un naranja, un morado, el color favorito de
+    alguien— y para cada uno: escribir sus componentes, armar el binario a mano, convertirlo a
+    hexadecimal, y recién entonces verificarlo con el código.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="El azul que no cambia">
+    Revisar la lista final que imprime el sketch: el azul sube de uno en uno de 0 a 32, pero el
+    color solo cambia cada ocho pasos. Preguntar por qué. Llevar la discusión hasta que alguien
+    nombre el recorte: `b >> 3` descarta los tres bits de abajo, así que ocho entradas distintas
+    producen la misma salida. Introducir la idea de pérdida de información.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="02_color_y_bits.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo armado y verificado en las sesiones anteriores',
+    'Cuaderno cuadriculado, útil para alinear los bits en columnas',
+    'Tabla de conversión binario-hexadecimal, para consulta',
+    'Formato de tabla de colores impreso',
+  ]} />
+
+  <SessionModule.Reto>
+    Elijan cinco colores y complétenlos en las tres escrituras: componentes decimales, binario de
+    16 bits con los campos separados, y hexadecimal. Háganlo **a mano primero** y verifiquen después
+    con el Monitor Serie. Luego respondan con datos: ¿cada cuántas unidades de azul cambia el color
+    en pantalla, y por qué ese número y no otro? Finalmente, expliquen qué colores puede mostrar una
+    pantalla de 24 bits que esta no puede.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Tabla de cinco colores en componentes, binario y hexadecimal, calculada a mano',
+    'Verificación de esa tabla contra la salida del Monitor Serie',
+    'Intervalo medido con que cambia el azul, con su explicación en términos de bits',
+    'Respuesta escrita a por qué el verde tiene seis bits',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'MAT 5.1: determina las características de los sistemas de numeración posicional, incluyendo valor absoluto y relativo y el manejo de las potencias (p. 15).',
+    'TAC 1.3: identifica aspectos como resolución y tamaño de almacenamiento en bytes de las imágenes digitales (p. 15-16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-DA-07: representar datos usando múltiples esquemas de codificación.',
+    'CSTA 2-DA-08: recolectar datos usando herramientas computacionales y transformarlos para hacerlos más útiles.',
+    'ISTE Computational Thinker 5b: recolectar datos, identificar patrones y representarlos de distintas formas.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Convierte entre binario y hexadecimal sin depender de una calculadora.',
+    'Explica por qué el verde recibe seis bits en términos de percepción, no de arbitrariedad.',
+    'Relaciona el desplazamiento de bits con la pérdida de información.',
+    'Predice el efecto de un cambio en un componente antes de ejecutarlo.',
+  ]} />
+</SessionModule>
+
+<VisualStepGuide
+  title="Texto, números y fuentes en pantalla"
+  steps={[
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-screen-display-text-and-number.jpg',
+      alt: 'Pantalla circular mostrando texto y valores numéricos en distintos colores',
+      title: 'Texto y números en color',
+      body: <>
+        Cada uno de esos colores es un número de 16 bits. Observen cuáles se ven bien sobre fondo
+        negro y cuáles pierden contraste: esa decisión es la misma que tomarán al diseñar su
+        carátula en la sesión 12.
+      </>,
+    },
+    {
+      image: '/assets/tiempo-circular/esp32-round-circular-tft-lcd-screen-display-external-font.jpg',
+      alt: 'Pantalla circular mostrando el mismo texto con varias fuentes tipográficas distintas',
+      title: 'Fuentes externas',
+      body: <>
+        La librería Adafruit GFX trae fuentes adicionales. Ojo con un detalle: algunas
+        <strong> no incluyen el símbolo de grado (°)</strong>, aunque la fuente por defecto sí lo
+        tenga. Una fuente no es solo la forma de las letras, es también el repertorio de caracteres
+        que trae.
+      </>,
+    },
+  ]}
+/>
+
+<p style={{fontSize: '0.85rem', color: 'var(--gg-ink-2)'}}>
+Imágenes: esp32io.com / DIYables, reproducidas con atribución. Ver <a href="/tiempo-circular/licencias">Licencias</a>.
+</p>

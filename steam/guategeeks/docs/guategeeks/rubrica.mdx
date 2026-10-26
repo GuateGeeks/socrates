@@ -1,0 +1,129 @@
+---
+sidebar_position: 14
+sidebar_label: "Evaluación del programa"
+title: "Evaluación del programa Curiosity"
+description: "Siete criterios con descriptores por nivel, y qué evidencia respalda cada uno."
+---
+
+import RubricTable from '@site/src/components/RubricTable';
+import FlagNote from '@site/src/components/FlagNote';
+
+[Descargar tabla de evaluación en PDF](/downloads/guategeeks/curiosity-evaluacion.pdf)
+
+# Evaluación del programa Curiosity
+
+Evaluación acumulativa del programa completo. Cada sesión trae además sus propios criterios en la
+pestaña **Evaluación**, pensados para observación durante la clase.
+
+## Distribución
+
+| Criterio | Puntos |
+|---|---:|
+| Seguridad y orden de trabajo | 15 |
+| Calidad mecánica | 15 |
+| Cableado y documentación eléctrica | 20 |
+| Programación y comprensión | 20 |
+| Pruebas y uso de evidencia | 15 |
+| Reto autónomo | 10 |
+| Comunicación del proyecto | 5 |
+| **Total** | **100** |
+
+El peso está donde está el aprendizaje: cableado y programación suman 40 puntos, y el reto autónomo
+solo 10. Un robot que funciona sin que el equipo pueda explicar por qué vale menos que uno que falla
+con un diagnóstico bien hecho.
+
+## Descriptores por nivel
+
+<RubricTable rows={[
+  {
+    criterion: 'Seguridad y orden de trabajo',
+    levels: [
+      'Aplica el checklist sin que se lo pidan, ordena el espacio y detiene el trabajo cuando algo no está en condiciones.',
+      'Cumple el checklist y mantiene el espacio en orden durante toda la sesión.',
+      'Cumple con recordatorios; ocasionalmente deja componentes energizados sin supervisión.',
+      'Requiere supervisión constante o incurre en prácticas que ponen en riesgo el equipo.',
+    ],
+  },
+  {
+    criterion: 'Calidad mecánica',
+    levels: [
+      'Ensamblaje preciso; detecta y corrige defectos de encaje antes de que afecten el funcionamiento.',
+      'Robot armado y funcional, con ambas orugas girando libres.',
+      'Funciona con roce o desalineación que degrada el desempeño.',
+      'El armado impide el funcionamiento o se deshace durante las pruebas.',
+    ],
+  },
+  {
+    criterion: 'Cableado y documentación eléctrica',
+    levels: [
+      'Cableado correcto y ordenado, documentado, y diagnostica fallas eléctricas de forma autónoma.',
+      'Cableado correcto según la tabla de pines, con verificación de continuidad.',
+      'Funciona, pero sin documentar ni verificar; depende de ayuda para diagnosticar.',
+      'Errores de cableado que impiden el funcionamiento y no logra localizarlos.',
+    ],
+  },
+  {
+    criterion: 'Programación y comprensión',
+    levels: [
+      'Modifica el código con intención, predice el efecto antes de probar y explica la lógica de la máquina de estados.',
+      'Carga y modifica parámetros correctamente, y explica qué hace cada cambio.',
+      'Carga el código provisto pero no logra explicar qué hace ni por qué.',
+      'No consigue cargar ni modificar el código.',
+    ],
+  },
+  {
+    criterion: 'Pruebas y uso de evidencia',
+    levels: [
+      'Diseña sus mediciones, repite ensayos, analiza el error y usa los datos para decidir.',
+      'Registra datos de forma sistemática y los usa para justificar al menos una decisión.',
+      'Recoge datos de forma informal, sin análisis ni uso posterior.',
+      'No documenta pruebas; las afirmaciones no tienen respaldo.',
+    ],
+  },
+  {
+    criterion: 'Reto autónomo',
+    levels: [
+      'Tres minutos completos sin intervención ni atrapamientos, con registro del desempeño.',
+      'Tres minutos con algún atrapamiento breve dentro del límite de diez segundos.',
+      'Opera de forma autónoma menos de tres minutos o excede el límite de atrapamiento.',
+      'No logra operación autónoma, o no explica con evidencia dónde estuvo el límite.',
+    ],
+  },
+  {
+    criterion: 'Comunicación del proyecto',
+    levels: [
+      'Presenta con claridad, justifica cada decisión con un dato y responde preguntas técnicas con honestidad.',
+      'Presenta el trabajo y responde la mayoría de las preguntas.',
+      'Presenta de forma incompleta y responde con dificultad.',
+      'No logra explicar qué construyó ni cómo.',
+    ],
+  },
+]} />
+
+<FlagNote tone="info" title="Escala">
+4 = Sobresaliente · 3 = Logrado · 2 = En proceso · 1 = Inicial. Convierta a puntos multiplicando el
+nivel por el peso del criterio y dividiendo entre cuatro.
+</FlagNote>
+
+## Qué evidencia respalda cada criterio
+
+| Criterio | Evidencia que la sustenta |
+|---|---|
+| Seguridad | Checklist firmado de cada sesión; fotografía del área ordenada |
+| Calidad mecánica | Reporte de QC de la sesión 4; robot armado con orugas libres |
+| Cableado | Fotografía del cableado; registro de continuidad medida |
+| Programación | Código modificado con registro del cambio; predicción escrita de la sesión 9 |
+| Pruebas | Tablas de las sesiones 3, 7, 8 y 11; tres ensayos de calibración |
+| Reto autónomo | Video completo del reto y registro cronometrado |
+| Comunicación | Presentación de cinco minutos y respuestas a preguntas técnicas |
+
+Casi toda la evidencia se produce durante el programa, así que la evaluación final consiste en
+revisar lo que el equipo ya generó, no en montar una prueba aparte.
+
+## Sobre el nivel esperado
+
+Los descriptores son comunes al programa, pero deben interpretarse según el nivel: en 4.º se valora
+la construcción guiada y la explicación básica; en 5.º, la medición, depuración y mejora con datos;
+y en 5.º, la integración autónoma, la documentación y la defensa de decisiones técnicas.
+
+Ver [Roles y rotación](/guategeeks/roles) para el nivel esperado en cada responsabilidad.

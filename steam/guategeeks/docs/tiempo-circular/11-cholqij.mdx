@@ -1,0 +1,170 @@
+---
+sidebar_position: 11
+sidebar_label: "11 · Cholq'ij"
+title: "Cholq'ij: el 13 y el 20 en la carátula"
+description: "13 × 20 = 260. Un anillo a 18° exactos y otro a 360/13, que no es exacto. Redondeo y error acumulado sobre una circunferencia."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import FlagNote from '@site/src/components/FlagNote';
+import sketchCode from '@site/arduino/tiempo-circular/06_cholqij/06_cholqij.ino';
+
+# 11 · Cholq'ij: el 13 y el 20 en la carátula
+
+<FlagNote tone="warn" title="Qué trabaja esta sesión y qué no">
+Esta sesión trabaja **la estructura del ciclo, su aritmética y su representación sobre una
+circunferencia**: cuántos días dura, por qué dura eso, y qué ángulo le toca a cada posición.
+
+**No** enseña práctica ceremonial, **no** interpreta las energías de un día, y **no** habla en
+nombre de comunidades mayas ni de ajq'ijab'. El criterio de evaluación que la malla asigna a
+MAT 5.2 —«reconoce las energías de un día en particular a partir de la lectura del calendario
+sagrado»— queda **fuera** de este programa, y así está declarado en la
+[alineación curricular](/tiempo-circular/alineacion-cnb).
+
+Este material está **pendiente de revisión** por una persona con conocimiento del calendario maya.
+Hasta que esa revisión ocurra, no debe tratarse como versión final.
+</FlagNote>
+
+:::note El divisor que no cierra
+```
+   20 posiciones →  360 / 20 = 18°           exacto
+   13 números    →  360 / 13 = 27.6923…°     NO exacto   ← aquí está la lección
+```
+En la sesión 6 todos los divisores daban entero. Este no. Lo que pase con esa diferencia es el
+contenido de hoy.
+:::
+
+<SessionModule id="tc11" program="tiempo-circular">
+  <SessionModule.Question>
+    ¿Por qué el ciclo dura 260 días y no 33, si son 13 y 20?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    El Cholq'ij combina dos cuentas que avanzan a la vez: una de 20 posiciones y otra de 13 números.
+    La combinación no se repite hasta que pasan 260 días, y la razón es aritmética. Llevar ese ciclo
+    a una pantalla redonda obliga a repartir 360° entre 20 y entre 13, y ahí aparece algo que las
+    sesiones anteriores no habían dado: un divisor que no cierra exacto. Esta sesión usa esa
+    incomodidad para trabajar redondeo y error acumulado, y de paso vuelve tangible la base 20 que
+    la malla de segundo pide expresamente.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Dos cuentas simultáneas y el ciclo que resulta de combinarlas',
+    'Por qué 13 × 20 = 260 y no menos: no tienen divisores comunes',
+    'Base 20: la posición en el anillo es el valor posicional',
+    'Redondeo y error acumulado al repetir una aproximación',
+    'Los cuadrantes y los puntos cardinales sobre la circunferencia',
+    'Ancla: el dato externo que el modelo necesita y no puede deducir',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="Dos ruedas dentadas">
+    Dibujar dos engranajes, uno de 20 dientes y otro de 13, marcados en un diente cada uno. Preguntar
+    cuántos pasos hay que dar para que las dos marcas vuelvan a coincidir. Dejar que el grupo lo
+    intente contando antes de dar el resultado. La respuesta es 260, y la razón es que 13 y 20 no
+    comparten divisores.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="Repartir 360 entre 20 y entre 13">
+    Calcular los dos pasos angulares. El de 20 da 18° exactos. El de 13 da 27.6923… y no termina.
+    Preguntar qué hacemos con eso. Recoger propuestas: redondear, truncar, usar más decimales.
+    Recuperar las predicciones que el grupo dejó anotadas en la sesión 6 sobre un divisor que no
+    cerrara, y contrastarlas ahora.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Los dos anillos y el error">
+    Cargar `06_cholqij` con el ancla que indique el docente. Aparecen los dos anillos concéntricos,
+    con el día actual destacado. En el Monitor Serie está el cálculo del error: trece pasos de 27.7°
+    suman 360.1°, no 360. Calcular a qué radio esa décima de grado alcanzaría a valer un píxel
+    completo, y comprobar que a 78 píxeles no llega.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="El error que no se ve, pero está">
+    Discutir la diferencia entre un error que no se percibe y un error que no existe. A 78 píxeles la
+    décima de grado es invisible; en una pantalla mucho mayor, o tras cientos de vueltas, no lo
+    sería. Conectar con la sesión 9: allá el error se acumulaba con el tiempo, aquí con las
+    repeticiones. Mismo fenómeno, distinto eje.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="06_cholqij.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo funcionando desde la sesión 10',
+    'Compás, transportador y calculadora',
+    'Dato de anclaje provisto por el docente, con su fuente',
+    'Papel para los dos engranajes de la fase Activar',
+  ]} />
+
+  <SessionModule.Reto>
+    Calculen los dos pasos angulares **a mano** antes de leerlos en pantalla, y expliquen por escrito
+    por qué el ciclo dura 260 días. Calculen el error acumulado de redondear el paso de los números a
+    27.7° y estimen a qué radio ese error valdría un píxel entero. Construyan la carátula con el
+    ancla configurada. Finalmente, expliquen qué relación tiene el anillo de 20 posiciones con contar
+    en base 20.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Los dos pasos angulares calculados a mano, con al menos cuatro decimales en el de 13',
+    'Explicación escrita de por qué el ciclo es de 260 días',
+    'Cálculo del error acumulado por redondeo y del radio al que valdría un píxel',
+    'Carátula funcionando con el ancla configurada y su fuente anotada',
+    'Explicación de la relación entre el anillo de 20 y la base 20',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'MAT 5.2: relaciona la cosmovisión maya en el contexto del tiempo; ciclos en el calendario Cholq´ij y Hab´, y los cuadrantes y puntos cardinales (contenidos 5.2.1 y 5.2.3, p. 15).',
+    'MAT 5.3: relaciona patrones del contexto con el pensamiento ancestral; el 13 y el 20 como ciclos (contenido 5.3.1, p. 15).',
+    'MAT 5.1: opera cantidades aplicando las características de base 20 (p. 15).',
+    'MAT 1.2: reconoce los ángulos notables en la circunferencia (p. 13).',
+    'CN 1.3: expresa datos precisos considerando el error y las cifras significativas (p. 16).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-AP-13: descomponer problemas en subproblemas para facilitar el diseño del programa.',
+    'CSTA 2-AP-15: buscar y usar retroalimentación de usuarios para refinar una solución.',
+    'ISTE Global Collaborator 7b: usar herramientas digitales para trabajar con perspectivas y culturas distintas de la propia.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Explica por qué el ciclo es de 260 días con un argumento aritmético, no de memoria.',
+    'Distingue un divisor exacto de uno que no lo es, y actúa distinto en cada caso.',
+    'Cuantifica el error de redondeo en lugar de calificarlo como pequeño.',
+    'Relaciona el anillo de 20 posiciones con el valor posicional en base 20.',
+  ]} />
+</SessionModule>
+
+## El ancla: el dato que la máquina no puede deducir
+
+Para saber en qué día del ciclo estamos hoy hace falta saber qué día del Cholq'ij corresponde a una
+fecha conocida. **Este programa no trae esa constante.** No está en posición de afirmar una
+correlación que no puede verificar, así que el dato lo aporta el docente:
+
+```c
+const int  POSICION_ANCLA    = 0;   // 0 a 19
+const int  NUMERO_ANCLA      = 1;   // 1 a 13
+const long DIAS_DESDE_ANCLA  = 0;   // días transcurridos hasta hoy
+```
+
+**Cómo obtenerlo y verificarlo:** tomar el dato de una fuente publicada, y **contrastarlo contra una
+segunda fuente independiente** antes de usarlo. Si las dos coinciden en qué día del ciclo cae una
+fecha conocida, el ancla es utilizable. Si no coinciden, ese desacuerdo es en sí mismo material de
+clase: conviene mostrarlo al grupo en lugar de esconderlo.
+
+Que el modelo necesite un dato de afuera no es una falla del programa. Un modelo se ancla en una
+observación; no se deduce de la nada. Vale la pena decirlo así en voz alta.
+
+## Pendientes antes de considerar esta sesión final
+
+- Registrar la fuente usada para el ancla, y la variante lingüística y su fuente si en una revisión
+  posterior se incorporan los nombres de los nawales.
+- Obtener revisión de una persona con conocimiento del calendario maya y documentar qué cambió.
+
+Ver [Licencias](/tiempo-circular/licencias) para la lista de fuentes y la atribución.
+
+## Salida alterna
+
+Un equipo que no construya esta carátula **completa el programa igual**. La
+[guía docente](/tiempo-circular/guia-docente) indica qué evidencia la sustituye, y el reto integrador
+de la sesión 12 sigue siendo alcanzable con la carátula de 12 horas.

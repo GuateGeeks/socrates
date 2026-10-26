@@ -1,0 +1,138 @@
+---
+sidebar_position: 22
+sidebar_label: "Licencias y atribución"
+title: "Licencias y atribución"
+description: "Qué se puede copiar, adaptar y redistribuir, y bajo qué condiciones. Tres regímenes distintos."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Licencias y atribución
+
+Este programa combina material de varias fuentes con **licencias distintas**. Confundirlas bloquea
+usos que sí están permitidos, o incumple los que están restringidos.
+
+## Resumen
+
+| Componente | Licencia | Qué permite |
+|---|---|---|
+| Sketches Arduino de SMARS | **MIT** | Copiar, modificar y usar en cursos, **incluidos comerciales**, conservando el aviso |
+| Documentación de SMARS | CC BY-SA 4.0 | Derivados con la misma licencia y atribución |
+| Modelos 3D de SMARS | **CC BY-NC-SA** | **Solo uso no comercial**, con atribución. **Se distribuyen desde este sitio** |
+| Fotos `img-smars/` y exportación local | Confirmadas por el usuario para este material | Usar con atribución y sin copiar texto extenso |
+| Mallas curriculares CNB | CC BY-SA 4.0 + nota del Mineduc | Reproducir citando la fuente, sin uso comercial |
+| Material propio de GuateGeeks | CC BY-SA 4.0 | Derivados con la misma licencia |
+
+<FlagNote tone="warn" title="La condición No Comercial vincula al paquete completo">
+El **código es MIT** y podría usarse en cursos pagados por sí solo. Pero este sitio **distribuye los
+modelos 3D**, que son **CC BY-NC-SA**, y eso sujeta al conjunto a la cláusula No Comercial.
+
+Si GuateGeeks llegara a ofrecerse como programa pagado, **los modelos tendrían que retirarse** y
+volver a enlazarse desde su fuente. Una institución que cobre específicamente por copias impresas
+del chasis debe solicitar permiso o confirmar los términos con el autor.
+</FlagNote>
+
+## SMARS
+
+SMARS es un proyecto educativo modular creado por **Kevin Thomas** y desarrollado por una comunidad
+de makers. **GuateGeeks no está afiliado oficialmente al proyecto.**
+
+Atribución requerida al redistribuir los modelos:
+
+> SMARS modular robot, diseño de Kevin Thomas. Fuente:
+> https://www.thingiverse.com/thing:2662828. Distribuido bajo CC BY-NC-SA según la página fuente
+> consultada.
+
+Fuentes:
+
+- Modelo original — https://www.thingiverse.com/thing:2662828
+- Biblioteca de partes — https://www.smarsfan.com/learn/parts/index
+- Instrucciones de construcción — https://www.smarsfan.com/build/buildinstructions/wheeled/
+- Repositorio comunitario — https://github.com/kevinmcaleer/smars
+
+### Sobre los modelos 3D
+
+Los siete modelos del robot **se distribuyen desde este sitio**, adoptados sin modificación y
+verificados byte a byte contra el paquete fuente. Están disponibles con visor y descarga en
+[Materiales y pines](/guategeeks/materiales), y su procedencia completa está en el manifiesto que
+acompaña a los archivos.
+
+**No existe ninguna versión convertida, decimada ni miniatura generada a partir de ellos, y no debe
+crearse.** Alojar el archivo original no constituye obra derivada, pero una malla simplificada sí lo
+sería y heredaría la cláusula ShareAlike. Por eso el visor renderiza el mismo STL que se descarga.
+
+<FlagNote tone="info" title="El visor usa una biblioteca externa">
+La visualización 3D carga three.js desde un CDN con versión fijada, así que **el visor no funciona
+en una red aislada sin internet**. La descarga del STL sí, porque se sirve desde este mismo sitio.
+</FlagNote>
+
+### Sobre los sketches
+
+Los cinco sketches se **adoptaron** del paquete SMARS Aula Autónomo conservando su encabezado de
+licencia MIT. En esta variante GuateGeeks se adaptaron al shield L293D confirmado para el curso:
+motores en M1/M2, botones en A1/A2, sensor en A3/A4 y buzzer en A0. Los sketches que mueven
+motores requieren `AFMotor / Adafruit Motor Shield V1`.
+
+La adaptación conserva el comportamiento pedagógico esperado —interfaz local, medición de
+distancia, evasión aleatoria y calibración— pero ya no es una copia pin-a-pin del hardware
+upstream.
+
+### Sobre las fotos y la exportación SMARS
+
+Las fotos usadas en las guías visuales provienen del directorio local `img-smars/`, preparado desde
+la exportación local `smars_export/How to Build SMARS Robot - Arduino Smart Robot Tank Bluetooth`.
+El usuario confirmó su uso para ilustrar GuateGeeks. GuateGeeks no copia el texto largo del
+Instructable: reescribe los pasos como instrucciones propias y excluye el flujo de Bluetooth/app de
+la ruta central del curso.
+
+Archivos usados o publicados como assets estáticos:
+
+- `heroshot.jpg`
+- `printed-parts.webp` desde `3d printed parts.webp`
+- `soldering-motors.webp`
+- `fit-motors.webp`
+- `fit-motor-holders.webp`
+- `attach-wheels-01.webp`
+- `tracks-01.webp`
+- `motordriver.webp`
+- `add-motor-shield-01.webp`
+- `connect-cables.webp`
+
+Si una imagen muestra una batería rectangular de 9 V, se usa solo como referencia visual del montaje
+o del borne, no como recomendación de alimentación del curso.
+
+<FlagNote tone="info" title="Nota sobre catálogos en conflicto">
+Un espejo del proyecto en otro catálogo muestra metadatos de licencia distintos. Por eso se toma
+Thingiverse como referencia canónica, no se copian archivos desde ese espejo y **no se afirma
+permiso comercial** sobre los modelos.
+</FlagNote>
+
+## Currículo Nacional Base
+
+El mapeo de competencias deriva de las mallas curriculares del **Ministerio de Educación de
+Guatemala (Mineduc), Dirección General de Currículo (DIGECUR)**.
+
+La fuente navegable publica bajo CC BY-SA 4.0 salvo indicación contraria; los PDF oficiales indican
+que pueden reproducirse total o parcialmente citando al Mineduc y **sin usos comerciales**.
+
+- CNB Bachillerato en Ciencias y Letras — https://cnbguatemala.org/wiki/Bachillerato_en_Ciencias_y_Letras
+- CNB Bachillerato en Ciencias y Letras con Orientación en Computación — https://cnbguatemala.org/wiki/Bachillerato_en_Ciencias_y_Letras_con_Orientaci%C3%B3n_en_Computaci%C3%B3n
+- Mallas por área y grado — https://cnbguatemala.org/wiki/Mallas_Curriculares_por_%C3%81rea_y_Grado_-_B%C3%A1sico
+
+## Estándares internacionales
+
+Las referencias a ISTE, CSTA y NGSS se citan como marcos de alineación; sus textos completos
+pertenecen a sus organizaciones respectivas y no se reproducen aquí.
+
+- ISTE Standards — https://iste.org/standards/students
+- CSTA PK–12 Standards 2026 — https://csteachers.org/pk12standards/view/
+
+## Si va a redistribuir este programa
+
+1. Conserve el encabezado MIT en cada sketch, incluso si lo reformatea.
+2. Atribuya SMARS a Kevin Thomas y a la comunidad, y aclare la falta de afiliación oficial.
+3. **No incluya los modelos 3D en un paquete comercial.** Este sitio los distribuye porque no es una
+   oferta comercial; en un paquete pagado habría que retirarlos y enlazarlos.
+4. Cite al Mineduc/DIGECUR en el material de alineación curricular.
+5. Atribuya también las fotos/exportación local cuando redistribuya las guías visuales.
+6. Mantenga CC BY-SA 4.0 en los derivados de la documentación.

@@ -1,0 +1,100 @@
+---
+sidebar_position: 4
+sidebar_label: "04 · Piezas que Encajan"
+title: "Piezas que Encajan"
+description: "Inspeccionar, clasificar y decidir qué pieza sirve. El criterio de aceptación como decisión de ingeniería."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+
+# 04 · Piezas que Encajan
+
+:::note Para el docente
+Esta sesión enseña a rechazar. Es tentador aceptar toda pieza que «se ve bien» para no retrasar el
+armado, pero una pieza mala descubierta en la sesión 5 cuesta mucho más que una rechazada aquí.
+:::
+
+<SessionModule id="s4">
+  <SessionModule.Question>
+    ¿Cómo se decide, sin adivinar, si una pieza sirve para el robot?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    En la sesión anterior el equipo midió y encontró error. Ahora tiene que usar esos números para
+    decidir. Aceptar o rechazar no es cuestión de gusto: se define un criterio antes de mirar las
+    piezas, y luego se aplica igual a todas. Esa inversión del orden —criterio primero, inspección
+    después— es lo que distingue un control de calidad de una opinión.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Criterio de aceptación definido antes de inspeccionar',
+    'Defectos típicos: warping, desplazamiento de capa, sobreextrusión',
+    'Clasificación y trazabilidad',
+    'Prueba de encaje como verificación funcional',
+    'Ajuste de parámetros a partir de defectos observados',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Dos piezas, una decisión">
+    Mostrar dos piezas: una correcta y otra con un defecto visible. Preguntar cuál usarían y por
+    qué. Presionar un poco: ¿y si la defectuosa fuera la única disponible? Ahí aparece la necesidad
+    de un criterio explícito en lugar de una impresión personal.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Definir el criterio">
+    El grupo acuerda su criterio de aceptación antes de tocar las piezas: tolerancia dimensional
+    admisible, superficies sin deformación, ejes que giran libres, soportes removibles sin dañar.
+    Se escribe en la pizarra y no se cambia durante la inspección.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Inspeccionar el lote completo">
+    Cada equipo inspecciona todas sus piezas aplicando el criterio acordado. Por cada una registra
+    aceptada o rechazada, y en caso de rechazo, el defecto concreto. Las piezas rechazadas se
+    fotografían: son la evidencia para ajustar la próxima impresión.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Del defecto al parámetro">
+    Para cada tipo de defecto encontrado, proponer qué parámetro del slicer podría corregirlo.
+    Cerrar conectando con lo que viene: las piezas aceptadas son las que se armarán en la sesión 5,
+    y si el criterio fue laxo, se notará entonces.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Todas las piezas impresas del chasis y las orugas',
+    'Calibrador o regla milimetrada',
+    'Formato de control de calidad impreso',
+    'Cámara para documentar piezas rechazadas',
+    'Pinza de corte para retirar soportes',
+  ]} />
+
+  <SessionModule.Reto>
+    Inspeccionen el lote completo y produzcan un reporte de control de calidad con el veredicto de
+    cada pieza. Para cada rechazo, propongan el ajuste de parámetro que lo corregiría y expliquen
+    por qué creen que funcionaría. Un rechazo sin propuesta de mejora es información incompleta.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Criterio de aceptación escrito antes de la inspección',
+    'Reporte con el veredicto de cada pieza y el defecto en los rechazos',
+    'Fotografías de las piezas rechazadas',
+    'Propuesta de ajuste de parámetros para la próxima impresión',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º bachillerato. Elaboración y Gestión de Proyectos · indicador 2.2: aplica una fase de control de calidad y mejora continua al prototipo.',
+    'Laboratorio I · indicadores 4.5–4.6: organiza resultados, compara mediciones y comunica con claridad la aceptación o el rechazo de una pieza.',
+    'Evidencia CNB: criterio de aceptación previo, lote clasificado, defectos registrados y relación entre defecto y parámetro de impresión.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Data & Analysis · Data Investigation; práctica 9, probar y refinar una tecnología a partir de resultados observables.',
+    'ISTE 1.4.c Innovative Designer: desarrollar, probar y refinar prototipos dentro de un proceso de diseño cíclico.',
+    'NGSS HS-ETS1-3: evaluar una solución frente a criterios y restricciones priorizados.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Define un criterio de aceptación antes de inspeccionar y lo respeta.',
+    'Clasifica de forma consistente, sin cambiar el criterio sobre la marcha.',
+    'Documenta cada rechazo con el defecto específico observado.',
+    'Relaciona un defecto con el parámetro de impresión que lo causa.',
+  ]} />
+</SessionModule>

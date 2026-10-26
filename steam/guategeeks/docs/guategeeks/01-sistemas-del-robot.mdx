@@ -1,0 +1,107 @@
+---
+sidebar_position: 1
+sidebar_label: "01 · Conoce tu Robot"
+title: "Conoce tu Robot"
+description: "Subsistemas mecánico, eléctrico y lógico: qué hace cada parte y cómo se comunican."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import ResourceGallery from '@site/src/components/ResourceGallery';
+
+# 01 · Conoce tu Robot
+
+:::note Para el docente
+Revise la pestaña **Implementación** para las fases y el reto, y cierre planificando con **CNB y
+estándares** y **Evaluación**. Esta sesión no energiza nada: es de observación y documentación.
+:::
+
+<SessionModule id="s1">
+  <SessionModule.Question>
+    ¿De qué subsistemas está hecho un robot autónomo y cómo se comunican entre sí?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Antes de armar o programar, el equipo necesita un mapa mental del robot. Esta sesión separa el
+    Curiosity en tres subsistemas —mecánico, eléctrico y lógico— y hace explícito que por unos cables
+    viaja energía y por otros viaja información. Ese diagrama es la referencia que se usará para
+    diagnosticar fallas durante todo el programa.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Subsistema mecánico, eléctrico y lógico',
+    'Flujo de energía frente a flujo de información',
+    'Sensor, actuador y controlador',
+    'Descomposición de un sistema',
+    'Documentación técnica con diagrama',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="¿Qué partes ves?">
+    Mostrar el robot Curiosity armado, o una fotografía si todavía no existe. Preguntar qué partes se
+    distinguen y para qué serviría cada una. Anotar en la pizarra todo lo que el grupo nombre, sin
+    corregir aún: orugas, motores, sensor, placa, batería, botones, buzzer.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Agrupar en tres subsistemas">
+    Clasificar lo anotado en tres grupos: **mecánico** (chasis, orugas, dos motorreductores),
+    **eléctrico** (batería, interruptor, shield L293D, cableado) y **lógico** (Arduino, sensor
+    HC-SR04, dos botones, buzzer). Discutir el caso interesante: los motores aparecen en el grupo
+    mecánico y en el eléctrico. ¿Por qué?
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Diagrama anotado del sistema">
+    Cada equipo dibuja el robot completo con los componentes etiquetados y las conexiones entre
+    ellos. Se piden dos tipos de flecha distintos: uno para energía y otro para información. Al
+    terminar, fotografiar el diagrama para el expediente del equipo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Validar contra el robot real">
+    Intercambiar diagramas entre equipos y buscar diferencias. El docente valida la precisión.
+    Cerrar registrando qué conexión costó más entender y por qué, porque ese punto es el candidato
+    natural a confundir durante el cableado de la sesión 7.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Arduino Uno, shield L293D y los dos motorreductores N20 para mostrar en físico',
+    'Sensor HC-SR04, dos pulsadores y buzzer pasivo',
+    'Portapilas 6×AAA con batería NiMH (sin conectar)',
+    'Pliegos o pizarra y marcadores de dos colores',
+    'Cámara o teléfono para fotografiar el diagrama',
+  ]} />
+
+  <SessionModule.VisualResources>
+    <ResourceGallery />
+  </SessionModule.VisualResources>
+
+  <SessionModule.Reto>
+    El motor no se conecta directamente a la batería ni a un pin del Arduino, sino al puerto M1 o
+    M2 del shield L293D, que a su vez obedece al Arduino. Expliquen por escrito por qué existe ese
+    intermediario. Pista: comparen cuánta corriente necesita un motor con cuánta puede entregar un
+    pin del Arduino.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Diagrama con los tres subsistemas identificados y sus componentes etiquetados',
+    'Flechas que distinguen flujo de energía de flujo de información',
+    'Respuesta escrita del reto sobre el papel del driver',
+    'Registro de la conexión que resultó más difícil de entender',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 4.º bachillerato. Computación Aplicada: reconoce hardware, software, controlador, sensores y actuadores como partes de un sistema tecnológico.',
+    'Elaboración y Gestión de Proyectos · indicador 2.2: identifica las fases y los componentes del proyecto Curiosity antes de intervenirlo.',
+    'Evidencia CNB: diagrama de subsistemas con flujo de energía y de información, explicación del driver y bitácora del equipo.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Systems & Security · Hardware & Software; práctica 7, desarrollar y usar abstracciones para describir el sistema.',
+    'ISTE 1.5.c Computational Thinker: descomponer un sistema complejo, extraer información clave y construir un modelo descriptivo.',
+    'NGSS HS-ETS1-2: descomponer un problema complejo en problemas menores y abordables.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Identifica los tres subsistemas y ubica cada componente en el correcto.',
+    'Distingue flujo de energía de flujo de información en su diagrama.',
+    'Explica por qué el motor necesita un driver y no se conecta directo a la batería.',
+    'Produce documentación legible que otro equipo puede interpretar.',
+  ]} />
+</SessionModule>

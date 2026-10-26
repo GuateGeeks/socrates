@@ -1,0 +1,85 @@
+---
+sidebar_position: 5
+sidebar_label: "05 · Grúa Torre"
+title: "Grúa Torre"
+description: "Poleas, winch y control"
+---
+
+import Module from '@site/src/components/Module';
+
+# 05 · Grúa Torre
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m5">
+  <Module.Question>
+    ¿Cómo mueve una grúa una carga pesada con precisión y equilibrio en una obra de nuestra
+    ciudad?
+  </Module.Question>
+
+  <Module.Context>
+    Los estudiantes construyen una grúa de obra GuateGeeks. El módulo une mecánica de poleas,
+    winch, posiciones de motor, control manual y operación autónoma con sensor.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Polea fija y móvil',
+    'Winch y cuerda',
+    'Posición angular',
+    'Control manual/autónomo',
+    'Equilibrio y carga',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Construcción en altura">
+    Preguntar qué máquinas han visto en construcciones y dibujar una zona segura alrededor de la
+    carga. Cada equipo define punto de origen, punto de destino y límite de velocidad para mover sin
+    balanceo excesivo. Evidencia inicial: croquis de transferencia con área despejada y una regla de
+    seguridad para no tocar la carga mientras está suspendida.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 30 min" title="Poleas y carga">
+    Comparar polea fija y móvil, observar cómo el winch enrolla la cuerda y probar el giro del brazo
+    sin carga. Luego usar una carga liviana para detectar balanceo y revisar que la base no se
+    levante. Punto de control: el equipo identifica qué motor sube, cuál gira y qué haría si la
+    cuerda se cruza o la carga comienza a oscilar.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 90-120 min" title="Mover cargas entre puntos">
+    Construir la Grúa Torre y programar por etapas: subir carga, girar a una posición medida, bajar
+    y soltar o marcar llegada. Registrar altura, ángulo, estabilidad y resultado de cada intento en
+    una bitácora de carga segura. Si falla, depurar cuerda enrollada, peso de la carga, base
+    inestable, velocidad del motor o posición angular antes de repetir.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Fuerza, equilibrio y seguridad">
+    Discutir por qué la velocidad no siempre es el objetivo: la grúa debe ser estable, predecible y
+    segura. Cada grupo explica una decisión que redujo riesgo y una medición que mejoró precisión.
+    Para escalar, 1.º básico observa polea y balanceo, 2.º básico compara ángulos/alturas y 3.º
+    básico propone límites automáticos para operación segura.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Naturales: fuerza, máquinas simples, poleas, equilibrio y seguridad al mover cargas.',
+    'Matemática: grados de motor, medición de altura/giro, proporcionalidad y registro de precisión en la transferencia.',
+    'Tecnologías del Aprendizaje y la Comunicación: uso de variables o posiciones de motor, prueba de secuencias y documentación de carga segura.',
+    'Comunicación y Lenguaje, Idioma Español: explicación técnica oral con vocabulario de polea, winch, equilibrio y restricción.',
+    'Emprendimiento para la Productividad: seguridad, calidad y mejora continua en un proceso de construcción automatizado.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: prueba una solución de ingeniería considerando restricciones de seguridad y control.',
+    '2026 CSTA PK-12 · Secundaria: variables/datos de posición, eventos, lectura del programa y refinamiento por pruebas.',
+    'NGSS MS-ETS1-1 y MS-ETS1-3: define criterios de carga segura y analiza datos de prueba para mejorar la grúa.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Relaciona poleas y winch con reducción de esfuerzo o control de carga usando evidencia observable.',
+    'Usa posiciones de motor para subir, bajar y girar la carga sin movimientos bruscos.',
+    'Registra pruebas de precisión, estabilidad o tiempo y explica qué ajuste mejoró el resultado.',
+    'Prioriza una restricción de seguridad en el programa y justifica cómo la verifica.',
+  ]} />
+</Module>

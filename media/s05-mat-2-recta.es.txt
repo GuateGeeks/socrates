@@ -1,0 +1,4 @@
+Del termómetro a la recta
+Semana 5 · Español
+
+El termómetro y la recta numérica muestran números enteros. El cero es una referencia: los negativos quedan a un lado y los positivos al otro. Al acostar el termómetro, los negativos quedan a la izquierda y los positivos a la derecha. Más a la derecha significa mayor. Menos cuatro y cuatro son opuestos: están a la misma distancia del cero en lados contrarios. Mueve un punto. Observa su opuesto y compara sus distancias al cero. Cero es su propio opuesto.

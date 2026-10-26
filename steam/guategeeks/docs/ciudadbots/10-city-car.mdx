@@ -1,0 +1,86 @@
+---
+sidebar_position: 10
+sidebar_label: "10 · Auto Urbano"
+title: "Auto Urbano"
+description: "Rutas por color y orientación"
+---
+
+import Module from '@site/src/components/Module';
+
+# 10 · Auto Urbano
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m10">
+  <Module.Question>
+    ¿Cómo puede un vehículo decidir su ruta leyendo señales del entorno de una ciudad?
+  </Module.Question>
+
+  <Module.Context>
+    El Auto Urbano usa marcadores de color para girar, avanzar, ir a estación de carga o
+    detenerse. Integra sensor de color, mensajes y orientación para imaginar movilidad urbana más
+    limpia y ordenada.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Navegación autónoma',
+    'Marcadores de color',
+    'Mensajes',
+    'Giros por yaw',
+    'Diseño de rutas urbanas',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Autos y tráfico">
+    Discutir tráfico, vehículos pequeños, energía limpia y señales. Cada equipo diseña un circuito
+    corto con carril, estación de carga, alto y dos giros, dejando espacio para recuperar el robot
+    solo cuando esté detenido. Evidencia inicial: mapa de ruta con colores y criterio para evitar
+    choques.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Marcadores y decisiones">
+    Asignar significado a colores: azul derecha, morado izquierda, verde carga, rojo alto. Tomar
+    lecturas antes de la ruta, revisar distancia entre marcadores y probar una acción por color con
+    un solo robot en el carril. Punto de control: el equipo completa una tabla color-acción y
+    explica qué hará si el sensor lee un color inesperado.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 90-120 min" title="Circuito urbano">
+    Construir el Auto Urbano, crear mensajes para cada color y programar avance continuo, detección
+    y acción correspondiente. Probar primero tramos individuales y luego el circuito completo,
+    registrando marcador leído, mensaje enviado, acción ejecutada y resultado. Si falla, depurar
+    iluminación, separación de marcadores, giro por yaw, mensaje equivocado o velocidad de avance.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Comunicación entre vehículos">
+    Imaginar cómo varios Auto Urbano compartirían información para evitar choques y proponer un
+    protocolo simple: prioridad, alto, estación ocupada o ruta libre. Cada grupo entrega una mejora
+    de señalización basada en su bitácora de ruta. Para escalar, 1.º básico sigue una ruta simple,
+    2.º básico compara dos rutas con datos y 3.º básico diseña reglas para múltiples vehículos.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Sociales, Formación Ciudadana e Interculturalidad: movilidad, seguridad vial, convivencia y uso responsable de señales en la ciudad.',
+    'Matemática: orientación, secuencias, ángulos y comparación de rutas por marcadores.',
+    'Ciencias Naturales: energía, sensores, movimiento y relación entre información del entorno y respuesta del vehículo.',
+    'Tecnologías del Aprendizaje y la Comunicación: lectura de colores, mensajes, condicionales y documentación de decisiones autónomas.',
+    'Comunicación y Lenguaje, Idioma Español: explicación de la ruta, señales, reglas y decisiones del sistema.',
+    'Emprendimiento para la Productividad: propuesta de transporte urbano con criterios de eficiencia, seguridad y necesidad local.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.2, 1.4 y 1.5: diseña una solución de movilidad, razona decisiones automatizadas y considera seguridad/impacto.',
+    '2026 CSTA PK-12 · Secundaria: eventos, mensajes, condicionales, datos de sensores y computación en sociedad.',
+    'NGSS MS-ETS1-1 y MS-ETS1-2: define criterios de ruta segura y compara alternativas de movilidad bajo restricciones.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Mapea colores a acciones correctas y verifica cada señal con una prueba observable.',
+    'Programa una ruta autónoma que pueda repetirse y evaluarse por criterios de seguridad.',
+    'Registra una falla de lectura, mensaje o giro y el ajuste aplicado.',
+    'Explica cómo las señales del entorno cambian decisiones y qué impacto tendría en movilidad real.',
+  ]} />
+</Module>

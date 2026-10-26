@@ -1,0 +1,87 @@
+---
+sidebar_position: 12
+sidebar_label: "12 · Rueda de la Fortuna"
+title: "Rueda de la Fortuna"
+description: "Velocidad, variable y parada"
+---
+
+import Module from '@site/src/components/Module';
+
+# 12 · Rueda de la Fortuna
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m12">
+  <Module.Question>
+    ¿Cómo diseñamos una atracción de feria divertida que también sea segura?
+  </Module.Question>
+
+  <Module.Context>
+    El cierre técnico convierte el carrusel en una atracción de feria. Trabaja control de
+    velocidad, inclinación, aceleración suave, variables, programas paralelos y parada de
+    emergencia.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Aceleración suave',
+    'Variable velocidad',
+    'Control paralelo',
+    'Inclinación por motor',
+    'Parada de emergencia',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 12 min" title="Diversión y seguridad">
+    Preguntar qué hace seguro un juego mecánico y observar qué pasa cuando un objeto gira demasiado
+    rápido o se inclina sin control. Cada equipo define velocidad mínima, velocidad máxima,
+    inclinación permitida y forma de detener la atracción. Evidencia inicial: checklist de seguridad
+    con rango de velocidad, límite de inclinación y botón de emergencia.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Motores y controles">
+    Identificar motor de giro, motor de inclinación, botones del hub y sensor de fuerza. Probar a
+    baja velocidad antes de tocar la rueda y detener el modelo antes de ajustar piezas. Punto de
+    control: el equipo explica qué programa controla velocidad, cuál controla inclinación y cómo la
+    parada de emergencia interrumpe el movimiento.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 70-100 min" title="Modo manual y autónomo">
+    Construir la Rueda de la Fortuna y programar incremento gradual de velocidad, control de
+    inclinación y parada de emergencia. Probar primero modo manual, luego modo autónomo y finalmente
+    programas paralelos, registrando velocidad inicial/final, inclinación máxima y tiempo de
+    respuesta del alto. Si falla, depurar variable de velocidad, conflicto entre programas,
+    inclinación fuera de rango o botón que no detiene a tiempo.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 20 min" title="Showcase de ingeniería">
+    Presentar la máquina explicando qué programa corre en paralelo, qué variable controla y cómo se
+    protege al usuario. Cada equipo muestra su checklist de seguridad y una mejora antes del
+    showcase final. Para escalar, 1.º básico identifica controles, 2.º básico prueba rangos seguros y
+    3.º básico prepara una justificación técnica con evidencia de velocidad, inclinación y parada.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Ciencias Naturales: fuerza, movimiento circular, aceleración, estabilidad y seguridad del usuario.',
+    'Matemática: variables, incremento/decremento, rangos seguros y comparación entre velocidad programada y comportamiento observado.',
+    'Tecnologías del Aprendizaje y la Comunicación: programas paralelos, control de variable, parada de emergencia y documentación de pruebas.',
+    'Comunicación y Lenguaje, Idioma Español: presentación técnica final con explicación de programa, evidencia y decisiones de seguridad.',
+    'Educación Artística: diseño de experiencia, estética, ritmo de operación y presentación de la atracción.',
+    'Emprendimiento para la Productividad: criterios de calidad, mejora continua y experiencia segura para usuarios.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4, 1.5 y 1.6: diseña, prueba y comunica una atracción segura con creatividad y evidencia técnica.',
+    '2026 CSTA PK-12 · Secundaria: variables/datos de almacenamiento, ciclos, programas concurrentes y prueba/refinamiento.',
+    'NGSS MS-ETS1-1 y MS-ETS1-4: define restricciones de seguridad y optimiza la operación con pruebas iterativas.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Usa una variable para controlar velocidad dentro de un rango seguro definido.',
+    'Implementa parada de emergencia y demuestra que funciona durante una prueba.',
+    'Registra cómo cambia el comportamiento con al menos dos valores de velocidad o inclinación.',
+    'Describe programas paralelos y función de cada uno en la seguridad y experiencia del usuario.',
+  ]} />
+</Module>

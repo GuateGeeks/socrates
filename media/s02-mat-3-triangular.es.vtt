@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.700 --> 00:00:05.359
+Un polígono convexo puede dividirse en
+triángulos trazando diagonales desde un
+
+2
+00:00:05.374 --> 00:00:06.358
+mismo vértice.
+
+3
+00:00:06.553 --> 00:00:08.379
+Elegimos el vértice rojo.
+
+4
+00:00:08.468 --> 00:00:12.463
+Las diagonales quedan dentro
+de la figura y no se cruzan.
+
+5
+00:00:12.629 --> 00:00:16.800
+El cuadrilátero tiene cuatro lados
+y se divide en dos triángulos.
+
+6
+00:00:16.847 --> 00:00:20.716
+Dos por ciento ochenta grados
+son trescientos sesenta grados.
+
+7
+00:00:20.826 --> 00:00:24.390
+El pentágono tiene cinco
+lados y tres triángulos:
+
+8
+00:00:24.405 --> 00:00:26.593
+suman quinientos cuarenta grados.
+
+9
+00:00:26.608 --> 00:00:30.117
+El hexágono tiene seis
+lados y cuatro triángulos:
+
+10
+00:00:30.132 --> 00:00:32.168
+suman setecientos veinte grados.
+
+11
+00:00:32.279 --> 00:00:35.986
+El número de triángulos es
+siempre dos menos que los lados.
+
+12
+00:00:36.001 --> 00:00:38.706
+Cambia los lados y comprueba la regla:
+
+13
+00:00:38.721 --> 00:00:41.726
+lados menos dos, multiplicado
+por ciento ochenta.

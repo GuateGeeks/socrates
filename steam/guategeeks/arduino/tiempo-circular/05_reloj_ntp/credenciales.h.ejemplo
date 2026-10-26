@@ -1,0 +1,24 @@
+/*
+  Tiempo Circular · Plantilla de credenciales
+
+  CÓMO USARLO
+  1. Copiar este archivo en la misma carpeta.
+  2. Renombrar la copia como  credenciales.h  (sin el .ejemplo).
+  3. Escribir ahí el nombre y la clave de la red.
+
+  POR QUÉ ESTÁ SEPARADO
+  El archivo credenciales.h NO se versiona ni se comparte. Si las credenciales
+  vivieran dentro del sketch, cualquier equipo que suba su código a internet o
+  lo pase por USB estaría publicando la clave del WiFi de la escuela.
+
+  Separar el secreto del código es una práctica que se explica en la sesión 10,
+  no un trámite: es la razón por la que este archivo existe.
+*/
+
+#ifndef CREDENCIALES_H
+#define CREDENCIALES_H
+
+#define WIFI_SSID  "NombreDeLaRed"
+#define WIFI_CLAVE "ClaveDeLaRed"
+
+#endif

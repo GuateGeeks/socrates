@@ -1,0 +1,87 @@
+---
+sidebar_position: 2
+sidebar_label: "02 · Robot de Entregas"
+title: "Robot de Entregas"
+description: "Carga, ruta y código PIN"
+---
+
+import Module from '@site/src/components/Module';
+
+# 02 · Robot de Entregas
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m2">
+  <Module.Question>
+    ¿Cómo diseñamos un robot que entregue un paquete de forma segura en un barrio, aldea o campus
+    escolar?
+  </Module.Question>
+
+  <Module.Context>
+    El robot simula un servicio de entrega local GuateGeeks: llevar medicina, refacción, libros o
+    materiales a la persona correcta. Trabaja movimiento autónomo, subrutinas, apertura/cierre de
+    compartimento, botones, pantalla del hub y lógica de acceso.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Subrutinas',
+    'Apertura y cierre con motor',
+    'Secuencias de ruta',
+    'Botones y PIN',
+    'Diseño seguro de entrega',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="Robots en servicios de entrega">
+    Conversar sobre pedidos de comida, medicinas, libros y materiales escolares. Cada equipo define
+    quién recibe el paquete, qué ruta seguirá y qué riesgo debe evitar: entrega equivocada,
+    obstáculo o acceso no autorizado. Evidencia inicial: un mini mapa con destino, punto de parada y
+    regla de seguridad para abrir el compartimento.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Compartimento y mecanismo">
+    Analizar motor grande, motores medianos, tapa y mecanismo de manivela. Probar abrir y cerrar a
+    mano antes de programar, usando una carga liviana y sin forzar engranajes. Punto de control: la
+    tapa se mueve libremente, el paquete cabe sin trabarse y el equipo puede explicar qué pasaría si
+    el motor intenta abrir cuando algo bloquea la tapa.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 60-90 min" title="Ruta con acceso">
+    Construir el Robot de Entregas y crear subrutinas para abrir, cerrar, girar izquierda, girar
+    derecha y avanzar. Probar primero cada tramo de ruta y luego integrar una secuencia de PIN con
+    botones antes de abrir. Registrar en una tabla si el robot llegó al punto correcto, si aceptó el
+    PIN esperado y si la tapa abrió/cerró sin atasco. Si falla, depurar por separado ruta, PIN y
+    mecanismo.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Seguridad y experiencia de usuario">
+    Cada grupo demuestra una entrega y explica cómo evitaría entregas equivocadas, qué haría ante un
+    obstáculo y qué información mostraría al usuario en el hub. Para escalar, 1.º básico ejecuta una
+    ruta guiada, 2.º básico compara dos rutas con datos de prueba y 3.º básico diseña una respuesta
+    cuando el PIN, la ruta o el compartimento no funcionan.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: comparación de rutas, secuencias de movimiento y verificación de pasos para entregar en el punto correcto.',
+    'Tecnologías del Aprendizaje y la Comunicación: programación de subrutinas, botones/PIN y documentación digital de pruebas de acceso.',
+    'Comunicación y Lenguaje, Idioma Español: redacción de instrucciones claras, reglas de entrega y explicación del flujo del sistema.',
+    'Ciencias Sociales, Formación Ciudadana e Interculturalidad: seguridad, responsabilidad y análisis de servicios comunitarios de entrega.',
+    'Emprendimiento para la Productividad: diseño de una solución local considerando usuario, calidad, seguridad y mejora del servicio.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4, 1.5 y 1.7: diseña una solución de entrega, descompone el problema y colabora por roles.',
+    '2026 CSTA PK-12 · Secundaria: desarrollo de programas con eventos, procedimientos, pruebas y decisiones sobre impacto de la computación.',
+    'NGSS MS-ETS1-1 y MS-ETS1-2: define criterios de seguridad y compara rutas o reglas de acceso según restricciones.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Divide ruta, apertura, cierre y verificación de PIN en subrutinas claras.',
+    'Integra entrega y acceso sin intervención manual después de iniciar la misión.',
+    'Prueba al menos dos escenarios: PIN correcto, PIN incorrecto u obstáculo en ruta.',
+    'Justifica reglas de seguridad y experiencia de usuario con evidencia de funcionamiento.',
+  ]} />
+</Module>

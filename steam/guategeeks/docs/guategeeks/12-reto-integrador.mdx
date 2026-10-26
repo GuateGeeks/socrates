@@ -1,0 +1,106 @@
+---
+sidebar_position: 12
+sidebar_label: "12 · Misión Autónoma"
+title: "Misión Autónoma"
+description: "Arena de 2×2 metros, tres obstáculos, tres minutos sin intervención. Y explicar cómo se logró."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+
+# 12 · Misión Autónoma
+
+:::note Criterio del reto
+Tres minutos de operación continua, sin control externo, sin salir de la arena y sin quedar atrapado
+más de diez segundos seguidos. El límite de atrapamiento es lo que obliga a que la evasión aleatoria
+funcione de verdad.
+:::
+
+<SessionModule id="s12">
+  <SessionModule.Question>
+    ¿Puede nuestro robot operar solo durante tres minutos en un espacio que no conoce?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Todo lo del programa converge aquí: piezas que encajan porque el control de calidad fue
+    honesto, motores que responden porque el cableado está bien, un sensor cuyo error se conoce, un
+    umbral elegido con datos y una calibración que corrige la asimetría. El reto no mide suerte:
+    mide si cada decisión previa se tomó con evidencia. Y la presentación mide si el equipo puede
+    explicarlo.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Integración completa bajo condiciones no controladas',
+    'Criterio de éxito medible y acordado de antemano',
+    'Evidencia como respaldo de una afirmación técnica',
+    'Comunicación técnica ante una audiencia',
+    'Reflexión sobre el proceso, no solo sobre el resultado',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Preparar la arena y el criterio">
+    Montar la arena de 2×2 metros con tres obstáculos. Repasar el criterio en voz alta antes de
+    empezar, para que nadie lo discuta después. Cada equipo hace una verificación final de
+    seguridad y de carga de batería.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Ensayo de reconocimiento">
+    Cada equipo dispone de un ensayo corto para observar cómo se comporta su robot en esta arena
+    concreta, que no es donde calibró. Se permite un último ajuste de umbral u offsets, y hay que
+    anotar cuál se hizo y por qué.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="El reto y su registro">
+    Cada equipo ejecuta el reto de tres minutos mientras otro cronometra y registra: obstáculos
+    evitados, veces que quedó atrapado y por cuánto tiempo, y si salió de la arena. Se graba en
+    video completo, sin cortes.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Presentación técnica">
+    Presentación de cinco minutos por equipo: qué construyeron, qué decisión tomaron con qué dato,
+    qué falló y cómo lo diagnosticaron, y qué harían distinto con dos semanas más. El público hace
+    preguntas técnicas. Responder «no lo sabemos, habría que medirlo» es una respuesta válida.
+  </SessionModule.Phase>
+
+  <SessionModule.Materials items={[
+    'Arena delimitada de 2×2 metros',
+    'Tres obstáculos simples: cajas o libros',
+    'Cronómetro y formato de registro del reto',
+    'Cámara para el video completo',
+    'Baterías cargadas y un juego de repuesto',
+  ]} />
+
+  <SessionModule.Reto>
+    Operación autónoma de tres minutos en la arena, sin control externo, sin salir del área y sin
+    quedar atrapado más de diez segundos seguidos. Registren obstáculos evitados y cada incidente
+    con su duración. Si no se alcanza el criterio, el reporte debe explicar con evidencia dónde
+    estuvo el límite: mecánico, eléctrico, de sensado o de lógica.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Video completo del reto de tres minutos, sin cortes',
+    'Registro con obstáculos evitados e incidentes cronometrados',
+    'Reporte técnico final con las decisiones tomadas y el dato que las respalda',
+    'Presentación de cinco minutos con preguntas respondidas',
+    'Reflexión individual sobre lo aprendido y lo que falta',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 5.º bachillerato. Seminario · Investigación-Acción · indicadores 3.3.3–3.3.8: ejecuta, evalúa y comunica un proyecto con evidencia.',
+    'Producción de Contenidos Digitales · 5.º: transforma el proceso en reporte, video y presentación ajustados a una audiencia y propósito definidos.',
+    'Elaboración y Gestión de Proyectos · indicadores 3.1–3.2: organiza funciones, recursos, restricciones, responsabilidades y criterios de éxito.',
+    'Evidencia CNB: misión autónoma, datos de desempeño, reporte técnico, video, presentación y reflexión individual sobre la siguiente versión.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): prácticas 3 y 4 de Inclusive Collaboration, comunicar sobre computación y gestionar proyectos de computación.',
+    'CSTA PK–12 (2026): prácticas 8 y 9, crear, probar y refinar una tecnología computacional con criterios de desempeño.',
+    'ISTE 1.6.d Creative Communicator: presentar o publicar contenido ajustado a la audiencia y al propósito.',
+    'NGSS HS-ETS1-3: evaluar la solución final frente a los criterios acordados.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Alcanza operación autónoma sostenida, o explica con evidencia por qué no.',
+    'Registra el reto con datos, no con impresiones.',
+    'Justifica cada decisión de diseño con un dato obtenido durante el programa.',
+    'Presenta con claridad y responde preguntas técnicas con honestidad.',
+  ]} />
+</SessionModule>

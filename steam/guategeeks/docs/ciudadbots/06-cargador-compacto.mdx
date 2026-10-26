@@ -1,0 +1,86 @@
+---
+sidebar_position: 6
+sidebar_label: "06 · Cargador Compacto"
+title: "Cargador Compacto"
+description: "Giroscopio y dirección"
+---
+
+import Module from '@site/src/components/Module';
+
+# 06 · Cargador Compacto
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m6">
+  <Module.Question>
+    ¿Cómo mantiene su dirección un robot cuando el terreno es irregular, como una calle en
+    reparación o una ladera?
+  </Module.Question>
+
+  <Module.Context>
+    El minicargador GuateGeeks introduce control de orientación usando yaw/giroscopio. Permite
+    trabajar movimiento recto corregido, giros de 45 grados y pala frontal para pequeñas tareas
+    urbanas o comunitarias.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Yaw y orientación',
+    'Corrección de trayectoria',
+    'Pala y brazo',
+    'Centro de gravedad',
+    'Movimiento en ciudad',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 12 min" title="Máquinas pequeñas, grandes problemas">
+    Listar tareas urbanas donde una máquina grande estorba: aceras, jardinería, tierra, escombros o
+    reparación menor. Cada equipo marca una ruta corta con un objeto liviano que la pala debe mover
+    y predice dónde podría desviarse el robot. Evidencia inicial: dibujo de trayectoria esperada y
+    criterio de éxito para medir deriva.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 25 min" title="Orientación del hub">
+    Explicar que el hub puede detectar si giró y que el valor de yaw debe reiniciarse antes de una
+    prueba. Ejecutar dos recorridos sin pala: uno por tiempo y otro corrigiendo orientación, y medir
+    cuánto se desvía cada uno. Punto de control: el equipo identifica la orientación correcta del
+    hub, reinicia yaw y mantiene manos fuera de la pala durante el movimiento.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 70-100 min" title="Ruta con pala">
+    Construir el Cargador Compacto y programar mantener dirección, avanzar una distancia, girar 45
+    grados y empujar o transportar un objeto liviano. Registrar trayectoria esperada, trayectoria
+    real, ángulo final y ajuste realizado. Si falla, depurar reinicio de yaw, orientación del hub,
+    fricción del suelo, objeto atascado o velocidad de la pala antes de cambiar todo el programa.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 15 min" title="Control por retroalimentación">
+    Comparar un programa por tiempo contra uno que mira orientación y decidir cuál resiste mejor los
+    errores del terreno. Cada equipo comparte una medida de deriva y una mejora que aplicaría en una
+    calle irregular. Para escalar, 1.º básico observa diferencia entre recorridos, 2.º básico calcula
+    deriva promedio y 3.º básico ajusta la lógica de corrección con datos.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: ángulos, orientación, estimación, medición de desvío y comparación entre trayectoria esperada y real.',
+    'Ciencias Naturales: movimiento, fricción, estabilidad, centro de gravedad y retroalimentación para corregir trayectoria.',
+    'Tecnologías del Aprendizaje y la Comunicación: lectura de yaw/giroscopio, ciclos de control y bitácora digital de ajustes.',
+    'Comunicación y Lenguaje, Idioma Español: interpretación de resultados y explicación de por qué una prueba mejoró o empeoró.',
+    'Emprendimiento para la Productividad: uso de herramientas pequeñas para tareas locales con criterios de eficiencia y seguridad.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: usa retroalimentación para depurar una trayectoria y mejorar el prototipo.',
+    '2026 CSTA PK-12 · Secundaria: algoritmos de control, programación con sensores y prueba/refinamiento sistemático.',
+    'NGSS MS-ETS1-3 y MS-ETS1-4: usa datos de pruebas para generar y optimizar modificaciones.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Usa orientación para corregir movimiento y demuestra la diferencia frente a un programa sin corrección.',
+    'Programa giros medidos con un error máximo definido por el equipo o docente.',
+    'Documenta al menos dos ciclos de prueba, dato observado, ajuste y resultado.',
+    'Explica cómo fricción, peso o superficie afectan la estabilidad de la pala y la ruta.',
+  ]} />
+</Module>

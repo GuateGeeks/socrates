@@ -1,0 +1,68 @@
+---
+sidebar_position: 16
+sidebar_label: "Seguridad"
+title: "Seguridad"
+description: "Checklist eléctrico para trabajar con ESP32 y pantalla circular GC9A01 a 3.3 V. Debe firmarse antes de energizar."
+---
+
+import FlagNote from '@site/src/components/FlagNote';
+
+# Seguridad
+
+:::danger Antes de conectar el USB
+Ningún equipo conecta el cable USB hasta que este checklist esté completo y firmado. Se aplica en la
+[sesión 2](/tiempo-circular/energia-y-conexiones-seguras) y se repite cada vez que se recablea.
+:::
+
+## Qué riesgo hay realmente
+
+Este programa trabaja a **3.3 voltios** alimentados por USB. Ese voltaje **no representa peligro
+para las personas**: no hay riesgo de descarga. El riesgo es para los componentes, y es real: un
+módulo alimentado con la polaridad invertida se daña en segundos, sin aviso previo y sin
+reparación posible.
+
+Conviene decirlo así en clase, porque una advertencia de seguridad que exagera el peligro se deja de
+tomar en serio. Aquí la disciplina no protege al estudiante: protege un kit que tiene que durar
+varios ciclos escolares.
+
+## Checklist antes de energizar
+
+Cada línea la verifica **alguien que no la cableó**, y se firma.
+
+| # | Verificación | Evidencia | Firma |
+|:--:|---|---|:--:|
+| 1 | VCC del módulo conectado a **3.3 V**, no a 5 V ni a un pin de datos | Revisión visual de dos integrantes | |
+| 2 | GND conectado a tierra común | Revisión visual | |
+| 3 | SCL en **GPIO18** y SDA en **GPIO23** | Comparación contra el mapa de pines | |
+| 4 | DC en **GPIO25**, CS en **GPIO26** y RST en **GPIO27** | Comparación contra el mapa de pines | |
+| 5 | Ningún jumper corrido una fila en la protoboard | Conteo desde el extremo, no por color | |
+| 6 | USB desconectado durante todo el cableado | Confirmación del rol de Seguridad | |
+| 7 | La placa se manipula por los bordes | Observación del equipo | |
+| 8 | Nada metálico suelto sobre la protoboard | Revisión visual de la mesa | |
+
+**Equipo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Fecha:** \_\_\_\_\_\_\_\_\_\_\_\_
+**Rol de Seguridad:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Reglas permanentes
+
+- **Desconecte el USB antes de mover cualquier cable.** No se ajustan conexiones con la placa
+  energizada, ni siquiera «un momentito».
+- **Si la pantalla queda en blanco o se comporta raro, desconecte primero.** Diagnostique con la
+  placa apagada.
+- **Si algo se calienta**, desconecte de inmediato y revise polaridad antes de volver a intentar.
+  Un componente tibio es normal; uno que quema al tacto no.
+- **Un cable por vez.** Cablear los siete de un tirón y revisar al final hace que un error se
+  esconda entre otros seis.
+
+## Por qué revisa otra persona
+
+Quien armó algo ve lo que quiso armar, no lo que armó. Por eso el checklist lo firma alguien
+distinto de quien cableó: no es desconfianza, es la razón por la que en ingeniería la verificación
+es un rol separado y no un momento de buena voluntad. Esa idea se trabaja explícitamente en la fase
+Reflexionar de la sesión 2.
+
+<FlagNote tone="info" title="El error que no daña nada">
+Intercambiar **SDA y SCL** no rompe nada: simplemente no funciona. Vale la pena que el grupo
+distinga entre errores que cuestan hardware —polaridad, voltaje— y errores que solo cuestan tiempo.
+Saber en cuál categoría está cada equivocación cambia con qué cuidado se aborda.
+</FlagNote>

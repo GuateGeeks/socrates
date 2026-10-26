@@ -1,0 +1,4 @@
+Las tres esquinas forman una línea
+Semana 1 · Español
+
+Elige un triángulo y observa sus tres esquinas. Cada esquina representa un ángulo interior. Podemos distinguirlas con colores. Imagina que separamos las tres esquinas de un triángulo de papel. Al moverlas, conservamos la abertura de cada ángulo. Ahora juntamos sus vértices en un mismo punto, sin huecos ni superposiciones. Las tres aberturas forman un ángulo llano: media vuelta. Una media vuelta mide ciento ochenta grados. Cambia la forma del triángulo y compruébalo otra vez. Sus tres ángulos interiores siempre suman ciento ochenta grados. Si conoces dos ángulos, súmalos y resta ese resultado de ciento ochenta. Así encuentras el tercero. Usa los controles para separar y reunir las esquinas.

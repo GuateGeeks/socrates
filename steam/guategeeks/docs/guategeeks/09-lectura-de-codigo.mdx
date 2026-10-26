@@ -1,0 +1,107 @@
+---
+sidebar_position: 9
+sidebar_label: "09 · Leer el Cerebro del Robot"
+title: "Leer el Cerebro del Robot"
+description: "Leer un programa ajeno y predecir su comportamiento antes de ejecutarlo. Estados, transiciones y por qué el giro es aleatorio."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/04_smars_autonomo/04_smars_autonomo.ino';
+
+# 09 · Leer el Cerebro del Robot
+
+:::note Sesión sin cargar nada
+Hoy no se sube el firmware. La predicción escrita que produzca el equipo se contrasta con la
+realidad en la sesión 10: si se carga hoy, se pierde el ejercicio.
+:::
+
+<SessionModule id="s9">
+  <SessionModule.Question>
+    ¿Se puede saber qué hará un programa con solo leerlo?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Hasta ahora cada sketch probaba un subsistema. Este los integra todos y añade algo nuevo: el
+    robot mantiene un **estado** y decide según él. Leer código ajeno e inferir su comportamiento es
+    una habilidad profesional concreta, y se practica mejor antes de ejecutarlo, cuando la única
+    fuente de verdad es el propio texto.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Máquina de estados: DETENIDO, EXPLORAR, DEMOSTRACION',
+    'Transición disparada por evento, aquí un botón',
+    'Filtro de mediana sobre tres lecturas',
+    'Aleatoriedad deliberada para escapar de esquinas',
+    'Constantes calibrables frente a lógica fija',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Predecir sin ejecutar">
+    Plantear el reto de la sesión: al final, cada equipo entrega por escrito qué hará el robot ante
+    un obstáculo. No se carga el código. La única herramienta es leerlo.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Localizar las seis piezas">
+    Recorrer el sketch identificando: las constantes de pines, los parámetros calibrables, las
+    funciones de motores, la función de distancia, la función de evasión y las decisiones del
+    `loop`. Marcarlas en una copia impresa. Notar que las tres primeras ya se conocen de las
+    sesiones 6, 7 y 8.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Dibujar la máquina de estados">
+    Cada equipo dibuja el diagrama de estados: los tres estados como nodos, y las transiciones como
+    flechas etiquetadas con lo que las dispara. Añadir aparte la secuencia interna de
+    `evitarObstaculo()`, que no es un estado sino una maniobra completa.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="¿Por qué al azar?">
+    La dirección y la duración del giro son aleatorias. Preguntar qué pasaría si siempre girara al
+    mismo lado el mismo tiempo, y llevar el razonamiento hasta una esquina: repetiría la misma
+    maniobra indefinidamente. La aleatoriedad no es descuido, es la solución a ese problema.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="04_smars_autonomo.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Copia impresa del sketch, una por equipo',
+    'Marcadores de al menos tres colores para señalar secciones',
+    'Pliegos para el diagrama de estados',
+    'Computadora solo para consultar el código, sin cargarlo',
+  ]} />
+
+  <SessionModule.Reto>
+    Escriban, antes de ejecutar nada, la secuencia exacta de lo que hará el robot desde que detecta
+    un obstáculo hasta que reanuda la marcha. Incluyan el orden de las acciones y los tiempos que
+    aparecen en el código. En la sesión 10 compararán su predicción con el comportamiento real, y
+    lo interesante será justamente donde no coincidan.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Sketch impreso con las seis secciones marcadas',
+    'Diagrama de estados con transiciones etiquetadas',
+    'Predicción escrita de la maniobra de evasión, paso por paso',
+    'Explicación de por qué el giro es aleatorio',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 5.º bachillerato. Computación Aplicada: lee un programa embebido, distingue estados, funciones, entradas, salidas y condiciones de transición.',
+    'Seminario · Investigación-Acción · indicadores 3.3.3–3.3.8: formula una predicción, contrasta evidencia y registra aciertos, errores y aprendizajes del proceso.',
+    'Evidencia CNB: mapa de estados, predicción escrita, secuencia de evasión y explicación de la aleatoriedad del giro.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): Programming · Reading & Documenting y Program Development; práctica 7, desarrollar y usar abstracciones mediante estados y funciones.',
+    'CSTA PK–12 (2026), práctica 9: analizar el comportamiento esperado y preparar una estrategia de prueba antes de modificar el código.',
+    'ISTE 1.5.a y 1.5.d Computational Thinker: formular un problema apto para métodos algorítmicos y explicar cómo funciona la automatización.',
+    'NGSS HS-ETS1-2: descomponer un problema complejo en problemas menores.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Identifica los tres estados y qué evento dispara cada transición.',
+    'Distingue un estado de una maniobra ejecutada dentro de un estado.',
+    'Predice la secuencia de evasión leyendo el código, sin ejecutarlo.',
+    'Explica el propósito de la aleatoriedad en el giro.',
+  ]} />
+</SessionModule>

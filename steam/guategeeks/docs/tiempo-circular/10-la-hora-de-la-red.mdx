@@ -1,0 +1,132 @@
+---
+sidebar_position: 10
+sidebar_label: "10 · La hora de la red"
+title: "La hora que viene de la red"
+description: "NTP, UTC-6 y husos horarios. Y la ruta alterna para completar el programa sin conexión."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import FlagNote from '@site/src/components/FlagNote';
+import sketchCode from '@site/arduino/tiempo-circular/05_reloj_ntp/05_reloj_ntp.ino';
+
+# 10 · La hora que viene de la red
+
+:::note El cero que también es contenido
+```c
+const long OFFSET_UTC_SEG    = -6 * 3600;  // Guatemala está en UTC-6
+const int  OFFSET_VERANO_SEG = 0;          // Guatemala no cambia de hora
+```
+Ese segundo cero no es relleno. En un país que sí aplica horario de verano no sería cero, y el
+reloj se adelantaría solo dos veces al año.
+:::
+
+<SessionModule id="tc10" program="tiempo-circular">
+  <SessionModule.Question>
+    Si el reloj de la placa se atrasa, ¿de dónde saca la hora buena alguien que no tiene un reloj mejor?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    La medición de la sesión anterior dejó el problema cuantificado. La solución no es un oscilador
+    más caro: es preguntarle la hora a alguien que la tenga mejor. El ESP32 trae radio WiFi, así que
+    puede consultar un servidor NTP y corregirse solo. Eso introduce dos ideas nuevas: que la hora es
+    un dato que viaja por la red, y que ese dato llega en UTC y hay que traducirlo al huso de
+    Guatemala.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Cliente y servidor: quién pregunta y quién responde',
+    'UTC como referencia única y husos horarios como desplazamientos',
+    'Guatemala en UTC-6, sin horario de verano',
+    'Credenciales separadas del código fuente',
+    'Degradación con aviso: qué hace un programa cuando la red no responde',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 15 min" title="¿Qué hora es en otro lado?">
+    Preguntar qué hora es en este momento en España, en Japón, en Nueva York. Buscar las respuestas.
+    Preguntar entonces cuál es «la» hora, y llegar a que no hay una: hay un instante único y muchas
+    formas locales de nombrarlo. Ese instante único es UTC.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 25 min" title="La clave no va en el código">
+    Antes de conectar nada, tratar el archivo `credenciales.h`. Explicar por qué la clave del WiFi de
+    la escuela va en un archivo aparte que no se comparte: si viviera dentro del sketch, cualquier
+    equipo que subiera su código a internet estaría publicando esa clave. Es la primera vez que el
+    programa toca seguridad de la información, y conviene nombrarlo así.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 60-90 min" title="Sincronizar, o no">
+    Crear `credenciales.h` a partir de la plantilla, cargar `05_reloj_ntp` y observar la secuencia:
+    conectando, pidiendo la hora, hora correcta en pantalla. Comparar contra el patrón de la sesión
+    9 y verificar que ahora coinciden. **Si la red no funciona**, pasar a la ruta alterna descrita
+    abajo, que tiene su propia evidencia.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 15 min" title="¿Y si el servidor miente?">
+    Discutir en qué se apoya ahora la confianza en la hora: en un servidor que nadie del grupo
+    controla. Preguntar qué pasaría si respondiera mal, y cómo se podría detectar. Conectar con la
+    idea de que toda medición se apoya en una cadena de referencias, y que en algún punto hay que
+    confiar en algo.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="05_reloj_ntp.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Equipo funcionando desde la sesión 9',
+    'Datos de la red WiFi de 2.4 GHz, si hay: el ESP32 no se conecta a 5 GHz',
+    'Reloj de referencia de la sesión 9, para comparar',
+    'Tabla de husos horarios de al menos seis ciudades',
+  ]} />
+
+  <SessionModule.Reto>
+    Sincronicen el reloj por NTP y verifiquen contra el patrón que la deriva medida en la sesión 9
+    desapareció. Documenten la dirección IP obtenida y el servidor consultado. Luego, a partir de la
+    hora local, calculen qué hora es en otras tres ciudades de husos distintos y verifíquenlo.
+    Expliquen por escrito por qué el servidor entrega UTC en lugar de la hora de cada país.
+
+    **Ruta alterna sin red:** ajusten la hora a mano en `04_reloj_millis` a partir del patrón,
+    documenten el procedimiento de ajuste, y hagan el mismo ejercicio de husos horarios con datos en
+    papel. Añadan un cálculo: con la deriva medida en la sesión 9, ¿cada cuánto habría que reajustar
+    el reloj a mano para que nunca se pase de un minuto de error?
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Reloj sincronizado y comparado contra el patrón, o reloj ajustado a mano con su procedimiento',
+    'IP obtenida y servidor NTP usado, o registro del fallo de conexión',
+    'Cálculo de la hora en tres ciudades de husos distintos',
+    'Explicación escrita de por qué el servidor entrega UTC',
+    'Solo en la ruta alterna: periodicidad de reajuste calculada a partir de la deriva medida',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'TAC 1.1: identifica y utiliza dispositivos periféricos de comunicación, incluidos los de red (p. 15).',
+    'CN 1.3: distingue magnitudes y unidades de medida de tiempo, y aplica factores de conversión (p. 16).',
+    'MAT 2.1: determina el valor de verdad de proposiciones compuestas según los conectivos utilizados (p. 13).',
+    'TAC 2.3: asume una actitud responsable en el uso de la información y del ciberespacio (p. 17).',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA 2-NI-04: modelar el papel de los protocolos en la transmisión de datos a través de redes.',
+    'CSTA 2-NI-05: explicar cómo el cifrado y las prácticas de seguridad protegen la información.',
+    'ISTE Digital Citizen 2d: gestionar los datos personales y comprender la privacidad de la información.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Explica la diferencia entre UTC y hora local con un ejemplo propio.',
+    'Justifica por qué las credenciales van fuera del código fuente.',
+    'Verifica la corrección comparando contra el patrón, no por confianza.',
+    'Identifica en qué referencia externa se apoya ahora la hora del dispositivo.',
+  ]} />
+</SessionModule>
+
+<FlagNote tone="warn" title="Si la escuela no tiene WiFi utilizable">
+Esta sesión **no** es un requisito para completar el programa. La ruta alterna del reto entrega su
+propia evidencia y trabaja el mismo contenido de husos horarios y de unidades de tiempo, sostenido
+con datos en papel y con el cálculo de reajuste, que solo es posible **porque** la sesión 9 midió la
+deriva. El programa se completa sin conexión.
+
+Un detalle práctico si sí hay red: el ESP32 solo se conecta a **2.4 GHz**. Una red exclusivamente de
+5 GHz no le sirve, y el síntoma es idéntico al de una clave equivocada.
+</FlagNote>

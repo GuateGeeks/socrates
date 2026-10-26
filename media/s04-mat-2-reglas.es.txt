@@ -1,0 +1,4 @@
+Contando por pisos
+Semana 4 · Español
+
+Contemos las aristas de un prisma hexagonal por grupos. Su base inferior tiene seis aristas y la superior tiene otras seis. Seis aristas unen las dos bases. En total: tres por seis son dieciocho aristas. Los vértices son seis abajo y seis arriba: doce. Ahora observa una pirámide hexagonal. Tiene seis aristas en la base y seis que suben a la cúspide: doce en total. Sus vértices son los seis de la base y una cúspide: siete. Cambia el número de lados de la base y compara las reglas de prismas y pirámides.

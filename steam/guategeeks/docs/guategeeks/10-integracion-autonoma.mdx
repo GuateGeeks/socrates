@@ -1,0 +1,109 @@
+---
+sidebar_position: 10
+sidebar_label: "10 · Robot Autónomo"
+title: "Robot Autónomo"
+description: "Cargar el firmware completo y contrastar la predicción con el robot real. Primera operación sin intervención."
+---
+
+import SessionModule from '@site/src/components/SessionModule';
+import SketchBlock from '@site/src/components/SketchBlock';
+import sketchCode from '@site/arduino/guategeeks/04_smars_autonomo/04_smars_autonomo.ino';
+
+# 10 · Robot Autónomo
+
+:::tip El momento del programa
+Es la sesión donde el robot deja de obedecer y empieza a decidir. Dele tiempo a que ocurra: la
+primera vez que un equipo ve a su robot esquivar solo, conviene no interrumpir.
+:::
+
+<SessionModule id="s10">
+  <SessionModule.Question>
+    ¿Coincide lo que predijimos leyendo el código con lo que hace el robot en el piso?
+  </SessionModule.Question>
+
+  <SessionModule.Context>
+    Los subsistemas funcionaban por separado. Al integrarlos aparecen problemas que ninguna prueba
+    aislada mostró: el sensor lee distinto cuando el robot vibra, el giro real no dura lo que dice
+    el código porque las orugas patinan. Eso se llama integración, y es donde se va la mayor parte
+    del tiempo en ingeniería real.
+  </SessionModule.Context>
+
+  <SessionModule.Concepts items={[
+    'Integración de subsistemas ya probados',
+    'Modos de operación seleccionables por botón',
+    'Umbral de decisión y su efecto en el comportamiento',
+    'Diferencia entre comportamiento esperado y observado',
+    'Depuración por capas cuando el sistema completo falla',
+  ]} />
+
+  <SessionModule.Phase kind="act" label="Activar · 10 min" title="Sacar la predicción del cajón">
+    Cada equipo recupera la predicción escrita en la sesión 9 y la deja a la vista. Nadie la
+    modifica. Se anuncia el criterio: no se trata de haber acertado, sino de explicar las
+    diferencias.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="exp" label="Explorar · 15 min" title="Recorrer los tres modos">
+    Cargar el firmware. Con el robot levantado, usar el botón MODO para recorrer DETENIDO,
+    EXPLORAR y DEMOSTRACION, contando los pitidos que anuncian cada uno. Verificar que INICIO
+    arranca y pausa. Solo después bajar el robot al piso.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="cre" label="Crear · 25 min" title="Operación autónoma">
+    En un espacio despejado, poner el robot en EXPLORAR y dejarlo operar. Observar sin intervenir y
+    registrar: ¿avanza con espacio libre?, ¿frena y suena al detectar?, ¿retrocede, gira y reanuda?
+    Después modificar `UMBRAL_CM` a un valor mayor y a uno menor, y documentar cómo cambia el
+    comportamiento.
+  </SessionModule.Phase>
+
+  <SessionModule.Phase kind="ref" label="Reflexionar · 10 min" title="Dónde falló la predicción">
+    Comparar predicción y realidad. Las diferencias suelen estar en los tiempos: el giro no produce
+    el ángulo esperado porque las orugas patinan. Discutir qué de eso se corrige con software y qué
+    es una limitación física. La sesión 11 aborda justamente la parte corregible.
+  </SessionModule.Phase>
+
+  <SessionModule.Code>
+    <SketchBlock code={sketchCode} filename="04_smars_autonomo.ino" />
+  </SessionModule.Code>
+
+  <SessionModule.Materials items={[
+    'Robot completo con todos los subsistemas verificados',
+    'Espacio despejado de al menos 2×2 metros',
+    'Obstáculos simples: cajas o libros',
+    'Cronómetro y cámara para registrar el comportamiento',
+    'La predicción escrita de la sesión 9',
+  ]} />
+
+  <SessionModule.Reto>
+    Modifiquen `UMBRAL_CM` —está en 24— y documenten el efecto. Con un umbral muy bajo el robot
+    reacciona tarde y llega a tocar el obstáculo; con uno muy alto esquiva cosas que no estorban y
+    se queda sin espacio libre. Encuentren el valor que mejor funcione en su espacio y justifíquenlo
+    con lo que midieron en la sesión 8 sobre el error del sensor.
+  </SessionModule.Reto>
+
+  <SessionModule.Evidence items={[
+    'Video del robot operando en modo EXPLORAR sin intervención',
+    'Comparación escrita entre la predicción de la sesión 9 y lo observado',
+    'Tabla con al menos tres valores de umbral probados y su efecto',
+    'Umbral elegido con su justificación',
+  ]} />
+
+  <SessionModule.Cnb items={[
+    'Nivel recomendado: 5.º bachillerato. Seminario · Investigación-Acción · indicadores 3.3.3–3.3.8: ejecuta el reto, analiza resultados y evalúa el proceso con base en evidencia.',
+    'Computación Aplicada: integra entradas, decisiones y actuadores; depura por capas y modifica el umbral con una justificación técnica.',
+    'Evidencia CNB: registro de ensayos autónomos, diferencia entre predicción y observación, umbral ajustado y criterio de éxito.',
+  ]} />
+
+  <SessionModule.Standards items={[
+    'CSTA PK–12 (2026): High School Specialty · Physical Computing · Design & Development; Programming · Testing & Refining.',
+    'CSTA PK–12 (2026), prácticas 8 y 9: crear, probar y refinar una tecnología computacional integrada.',
+    'ISTE 1.5.d Computational Thinker: usar pensamiento algorítmico para desarrollar y probar una solución automatizada.',
+    'NGSS HS-ETS1-3: evaluar la solución frente a criterios y restricciones.',
+  ]} />
+
+  <SessionModule.Evaluation items={[
+    'Verifica los tres modos y el arranque por botón antes de bajar el robot al piso.',
+    'Logra operación autónoma sostenida en modo EXPLORAR.',
+    'Explica al menos una diferencia entre lo predicho y lo observado.',
+    'Ajusta el umbral con criterio y lo justifica con datos propios.',
+  ]} />
+</SessionModule>

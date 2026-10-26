@@ -1,0 +1,85 @@
+---
+sidebar_position: 7
+sidebar_label: "07 · Brazo Clasificador"
+title: "Brazo Clasificador"
+description: "Color, posiciones y subrutinas"
+---
+
+import Module from '@site/src/components/Module';
+
+# 07 · Brazo Clasificador
+
+:::note Para el docente
+Revise primero la pestaña **Implementación** (fases y conceptos), prepare los **Recursos**
+(programa base y guía), y cierre planificando con **CNB y estándares** y **Evaluación**. Puede
+rotar los roles del equipo —Constructor, Organizador, Programador— durante el módulo.
+:::
+
+<Module id="m7">
+  <Module.Question>
+    ¿Cómo decide un robot a dónde llevar productos o paquetes según la información que recibe?
+  </Module.Question>
+
+  <Module.Context>
+    El robot clasifica paquetes por color como si organizara productos en un mercado, bodega o
+    centro de acopio. Es el módulo más fuerte para condicionales, posiciones angulares, subrutinas
+    y sistemas de clasificación.
+  </Module.Context>
+
+  <Module.Concepts items={[
+    'Clasificación por color',
+    'Condicionales',
+    'Subrutinas',
+    'Posiciones angulares',
+    'Corrección de error',
+  ]} />
+
+  <Module.Phase kind="act" label="Activar · 15 min" title="¿Dónde usamos clasificación?">
+    Comparar reciclaje, frutas, paquetes, biblioteca o supermercado y preguntar qué dato usa una
+    persona para clasificar. Cada equipo elige cuatro colores y define el contenedor destino de cada
+    uno antes de tocar el robot. Evidencia inicial: tabla color-destino con una predicción del color
+    que podría confundirse más.
+  </Module.Phase>
+
+  <Module.Phase kind="exp" label="Explorar · 30 min" title="Brazo y sensor">
+    Analizar base fija, garra, motor de elevación, motor de agarre y sensor de color. Calibrar cada
+    color con tres lecturas y probar subir, bajar, agarrar y soltar sin poner dedos en la garra ni
+    en el área de giro. Punto de control: el equipo identifica colores ambiguos y acuerda una
+    posición segura de reposo antes de programar todas las decisiones.
+  </Module.Phase>
+
+  <Module.Phase kind="cre" label="Crear · 120 min" title="Clasificar cuatro colores">
+    Construir el Brazo Clasificador y crear subrutinas pequeñas: subir, bajar, agarrar, soltar y
+    volver a origen. Leer color y mover a posiciones 45, 135, 225 o 315 grados, probando un color a
+    la vez antes de mezclar todos. Registrar intentos, aciertos y errores por color. Si falla,
+    depurar lectura, posición angular, fuerza de agarre o secuencia de subrutinas.
+  </Module.Phase>
+
+  <Module.Phase kind="ref" label="Reflexionar · 20 min" title="Del objeto al dato">
+    Explicar cómo una señal física se convierte en decisión del programa y usar la tabla de aciertos
+    para identificar el color más problemático. Cada equipo propone una mejora de calibración,
+    iluminación o posición. Para escalar, 1.º básico clasifica dos colores guiados, 2.º básico mide
+    precisión por color y 3.º básico agrega una rutina de recuperación para color desconocido.
+  </Module.Phase>
+
+  <Module.Cnb items={[
+    'Matemática: clasificación, patrones, posiciones angulares, conteo de aciertos y tablas de datos por color.',
+    'Ciencias Naturales: sensores, observación sistemática y relación entre señal física y respuesta del sistema.',
+    'Tecnologías del Aprendizaje y la Comunicación: lectura de datos de color, subrutinas reutilizables y registro colaborativo de errores.',
+    'Comunicación y Lenguaje, Idioma Español: explicación de reglas if/then en lenguaje natural y reporte de fallos de clasificación.',
+    'Emprendimiento para la Productividad: automatización de procesos repetitivos con criterios de calidad, eficiencia y reducción de error.',
+  ]} />
+
+  <Module.Standards items={[
+    'ISTE 1.4 y 1.5: automatiza una solución, descompone tareas y evalúa precisión con datos.',
+    '2026 CSTA PK-12 · Secundaria: datos y análisis, programación con condicionales/procedimientos y prueba de exactitud.',
+    'NGSS MS-ETS1-2 y MS-ETS1-3: compara soluciones o ajustes a partir de pruebas de clasificación.',
+  ]} />
+
+  <Module.Evaluation items={[
+    'Integra lectura de color con decisiones correctas y verifica aciertos por categoría.',
+    'Organiza el programa en subrutinas reutilizables para agarrar, mover, soltar y regresar.',
+    'Registra errores por color o posición y propone una causa probable.',
+    'Propone y prueba al menos una mejora para manejar errores de clasificación.',
+  ]} />
+</Module>
