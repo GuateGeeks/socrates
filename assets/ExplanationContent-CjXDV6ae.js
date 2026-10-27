@@ -1,0 +1,1 @@
+import{j as s,G as r,R as n}from"./index-JWF3pGRx.js";function d({icon:a,emoji:e,body:t,children:i}){return s.jsxs("div",{className:"ds-stack activity-journey learning-discover",children:[(a||e)&&s.jsx("div",{className:"act-hero","aria-hidden":!0,children:s.jsx(r,{icon:a,emoji:e,size:56})}),s.jsx("p",{className:"act-body",children:s.jsx(n,{text:t})}),i]})}export{d as E};
