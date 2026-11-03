@@ -1,23 +1,23 @@
 {
-  "entry": "assets/app-DWqyXW3J.js",
-  "entryBytes": 613567,
+  "entry": "assets/app-BvztkFV3.js",
+  "entryBytes": 613853,
   "entryBudgetBytes": 1200000,
   "historicalChunks": 48,
   "historicalChunkBudgetBytes": 1000000,
   "largestHistoricalChunk": {
-    "name": "chunk-40ba25ddfe4dad6b-B6t-9Wpv.js",
-    "bytes": 1012363
+    "name": "chunk-40ba25ddfe4dad6b-RlElly34.js",
+    "bytes": 1019011
   },
   "appliedExceptions": [
     {
-      "file": "chunk-40ba25ddfe4dad6b-B6t-9Wpv.js",
-      "bytes": 1012363,
-      "maxBytes": 1012363,
-      "sha256": "5a42b5cb5b776f97b594a25718157c06ee85de4f0fc56667419bfae914ff3d62",
-      "excessBytes": 12363,
+      "file": "chunk-40ba25ddfe4dad6b-RlElly34.js",
+      "bytes": 1019011,
+      "maxBytes": 1019011,
+      "sha256": "2b7bc13d299b6494e0cdef42085ce14b18d506b7aba3bced36babd74c3ba25c4",
+      "excessBytes": 19011,
       "missionId": "s15",
-      "reason": "Excepción autorizada el 2 de noviembre de 2026 para las versiones históricas de «Alimento y memoria que nos fortalecen», ampliada por las versiones matemáticas conservadas en #18 (sustituye a la del 25 de octubre, 1.006.797 bytes). Conserva el contenido publicado y exige el mismo archivo, tamaño máximo y SHA-256.",
-      "approvedOn": "2026-11-02"
+      "reason": "Excepción autorizada el 3 de noviembre de 2026 para las versiones históricas de «Alimento y memoria que nos fortalecen», ampliada por las versiones matemáticas conservadas en #22 (sustituye a la del 2 de noviembre, 1.012.363 bytes). Conserva el contenido publicado y exige el mismo archivo, tamaño máximo y SHA-256.",
+      "approvedOn": "2026-11-03"
     }
   ],
   "note": "Local uncompressed files; not Core Web Vitals or total service-worker installation transfer."
